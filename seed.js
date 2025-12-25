@@ -9,10 +9,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Parkinson’s Law",
   essence: "Work expands to fill the time available.",
-  explanation: "Parkinson’s Law states that “work expands to fill the time available for its completion.” This means tasks don’t take longer because they are complex, but because we allow them more time than necessary. When deadlines are loose, we subconsciously slow down, overthink, procrastinate, or add unnecessary steps. Tight, well-defined time limits force focus, efficiency, and decision-making, while vague timelines encourage delay and wasted effort.",
-  example: "If you give yourself 7 days to write a 2-page assignment, you’ll likely start late and stretch the work. If you give yourself 2 hours, you’ll focus sharply and still finish it well.",
-  whenToUse: "It matters when you want to stop procrastinating and get more done in less time",
-  warning: "People think Parkinson’s Law means rushing work; it actually means removing unnecessary time, not reducing quality. Tight deadlines can increase clarity, not stress, if chosen intentionally.",
+  explanation: "Parkinson’s Law says that work expands to fill the time you give it. If you have more time, you work slower; less time makes you focus better.",
+  example: "If you give yourself 7 days to finish homework, you’ll use all 7 days—even if it really needs only 2.",
+  whenToUse: "It matters when setting deadlines so you finish faster and stop wasting time.",
+  warning: "People think more time always means better work, but it often just means slower work.",
   tags: ["time", "productivity"]
 },
 
@@ -1718,5 +1718,6 @@ const SEED_VAULT = [
 },
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
