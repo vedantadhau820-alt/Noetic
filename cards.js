@@ -171,7 +171,9 @@ function renderVaultCategories() {
         { key: "MODEL", label: "Mental Models" },
         { key: "PSYCHOLOGY", label: "Psychology" },
         { key: "PHILOSOPHY", label: "Philosophy" },
-        { key: "CONCEPT", label: "Concepts" }
+        { key: "NEUROSCIENCE", label: "Neuroscience" },
+        { key: "PARADOX", label: "Paradox" },
+        { key: "THEORY", label: "Theory" },
     ];
 
     categories.forEach(cat => {
@@ -255,3 +257,4 @@ function showVaultCategories() {
     itemsContainer.classList.add("hidden");
     categoriesContainer.classList.remove("hidden");
 }
+
