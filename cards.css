@@ -63,6 +63,22 @@
    color: var(--accent-theory);
 }
 
+.card-category.mystery {
+   color: var(--accent-mystery);
+}
+
+.card-category.spiritual {
+   color: var(--accent-spirit);
+}
+
+.card-category.power {
+   color: var(--accent-power);
+}
+
+.card-category.thought {
+   color: var(--accent-thought);
+}
+
 .card-title {
   font-size: 1.05rem;
   font-weight: 600;
@@ -149,4 +165,5 @@
 .vault-category:active {
   background: rgba(100, 180, 255, 0.1);
 }
+
 
