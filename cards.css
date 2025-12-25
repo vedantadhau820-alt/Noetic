@@ -2,6 +2,19 @@
    Knowledge Card
 =========================== */
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.knowledge-card:focus {
+  outline: none;
+}
+
+.knowledge-card:active {
+  transform: scale(0.985);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.04);
+}
+
 .knowledge-card {
   background: var(--bg-card);
   padding: 18px;
@@ -36,6 +49,18 @@
 
 .card-category.concept {
   color: var(--accent-concept);
+}
+
+.card-category.neuroscience {
+   color: var(--accent-neuro);
+}
+
+.card-category.paradox {
+   color: var(--accent-para);
+}
+
+.card-category.theory {
+   color: var(--accent-theory);
 }
 
 .card-title {
@@ -124,3 +149,4 @@
 .vault-category:active {
   background: rgba(100, 180, 255, 0.1);
 }
+
