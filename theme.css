@@ -25,6 +25,7 @@
   --accent-power: #A3E635;
   --accent-spirit: #C4B5FD;
   --accent-thought: #FCA5A5;
+  --accent-cognitive: #FACC15;
 
   /* UI */
   --border-radius: 14px;
@@ -101,5 +102,6 @@ body {
 #search-input:focus {
   outline: none;
 }
+
 
 
