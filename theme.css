@@ -21,6 +21,10 @@
   --accent-neuro: #2DD4BF;
   --accent-para: #FB923C;
   --accent-theory: #6366F1;
+  --accent-mystery: #67E8F9;
+  --accent-power: #A3E635;
+  --accent-spirit: #C4B5FD;
+  --accent-thought: #FCA5A5;
 
   /* UI */
   --border-radius: 14px;
@@ -97,4 +101,5 @@ body {
 #search-input:focus {
   outline: none;
 }
+
 
