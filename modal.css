@@ -46,7 +46,8 @@
 
 .modal-explanation,
 .modal-when,
-.modal-warning {
+.modal-warning,
+.modal-example {
   font-size: 0.9rem;
   color: var(--text-secondary);
   margin-bottom: 12px;
@@ -133,3 +134,4 @@
 body {
   scroll-behavior: smooth;
 }
+
