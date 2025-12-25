@@ -36,7 +36,8 @@ function openModal(item) {
   modal.querySelector(".modal-category").textContent = item.category;
   modal.querySelector(".modal-title").textContent = item.title;
   modal.querySelector(".modal-explanation").textContent = item.explanation;
-
+  const example = modal.querySelector(".modal-example");
+  if (example) example.textContent = item.example;
   modal.querySelector(".modal-when").textContent = item.whenToUse;
   modal.querySelector(".modal-warning").textContent = item.warning;
 
@@ -101,5 +102,6 @@ document
 //   // also refresh Discover cards so saved state reflects
 //   renderDiscoverCards();
 // });
+
 
 
