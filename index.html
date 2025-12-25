@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noetic</title>
+    <link rel="shortcut icon" href="favicon.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+
+
+
+</head>
+
+<body>
+    <div id="app">
+        <header class="app-header">
+            <h1 class="app-title">NOETIC</h1><span>&#945;</span>
+            <input type="text" id="search-input" placeholder="Search knowledge..." />
+            <button class="icon-button" aria-label="Notifications">
+                <i class="fa-regular fa-bell"></i>
+            </button>
+        </header>
+        <div id="notification-panel" class="notification-panel hidden">
+            <h3>Reminders</h3>
+            <div id="notification-list"></div>
+        </div>
+
+        <main class="app-main">
+            <section class="today-section">
+                <h2>Today’s Knowledge</h2>
+
+                <div class="card-list" id="daily-cards">
+                    <!-- Cards will render here -->
+                </div>
+            </section>
+
+            <section class="vault-section hidden" id="vault-section">
+                <h2>Vault</h2>
+
+                <div class="vault-categories" id="vault-categories">
+                    <!-- Categories here -->
+                </div>
+                <button id="vault-back-btn" class="vault-back hidden">← Back</button>
+                <div class="card-list hidden" id="vault-items">
+                    <!-- Category items here -->
+                </div>
+            </section>
+
+            <section class="search-section hidden" id="search-section">
+                <h2>Search Results</h2>
+
+                <div class="card-list" id="search-results">
+                    <!-- Results here -->
+                </div>
+            </section>
+
+
+            <section class="saved-section hidden" id="saved-section">
+                <h2>Saved Knowledge</h2>
+
+                <div class="card-list" id="saved-cards">
+                    <!-- Saved cards render here -->
+                </div>
+            </section>
+
+            <section id="discover-section" class="discover-section hidden">
+                <h2>Discover</h2>
+
+                <div class="discover-list" id="discover-cards">
+                    <!-- Discover cards render here -->
+                </div>
+            </section>
+
+
+        </main>
+        <nav class="bottom-nav">
+            <button class="nav-item active">Today</button>
+            <button class="nav-item">Discover</button>
+            <button class="nav-item">Saved</button>
+            <button class="nav-item">Vault</button>
+        </nav>
+
+
+
+    </div>
+    <div id="knowledge-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close">✕</button>
+
+            <span class="modal-category"></span>
+            <h2 class="modal-title"></h2>
+
+            <p class="modal-explanation"></p>
+
+            <div class="modal-section">
+                <h4>When this matters</h4>
+                <p class="modal-when"></p>
+            </div>
+
+            <div class="modal-section">
+                <h4>Common misunderstanding</h4>
+                <p class="modal-warning"></p>
+            </div>
+
+            <button class="save-button">Save</button>
+
+            <div class="reflection-box">
+                <h4>This changed my thinking</h4>
+
+                <textarea id="reflection-input" placeholder="Write your insight..." rows="3"></textarea>
+
+                <button id="save-reflection-btn">Save Reflection</button>
+
+                <div id="reflection-list"></div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <script src="js/data/seed.js"></script>
+    <script src="js/core/storage.js"></script>
+    <script src="js/core/vault.js"></script>
+    <script src="js/core/daily.js"></script>
+    <script src="js/ui/cards.js"></script>
+    <script src="js/ui/modals.js"></script>
+    <!-- <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("./service-worker.js");
+        }
+    </script> -->
+
+</body>
+
+</html>
