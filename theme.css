@@ -18,6 +18,9 @@
   --accent-psych: #60a5fa;     /* blue */
   --accent-philo: #a78bfa;     /* violet */
   --accent-concept: #34d399;   /* green */
+  --accent-neuro: #2DD4BF;
+  --accent-para: #FB923C;
+  --accent-theory: #6366F1;
 
   /* UI */
   --border-radius: 14px;
@@ -94,3 +97,4 @@ body {
 #search-input:focus {
   outline: none;
 }
+
