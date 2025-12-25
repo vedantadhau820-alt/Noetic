@@ -1716,8 +1716,1104 @@ const SEED_VAULT = [
   reflection: "What story are you telling yourself?",
   tags: ["identity", "meaning"]
 },
+   {
+  id: "mystery_db_cooper",
+  category: "MYSTERY",
+  title: "D.B. Cooper Hijacking",
+  essence: "A man vanished after a plane hijacking.",
+  explanation: "In 1971, a hijacker parachuted from a plane with ransom money and was never found.",
+  example: "No confirmed identity to this day.",
+  reflection: "Can someone disappear perfectly?",
+  tags: ["crime", "unsolved"]
+},
+
+{
+  id: "mystery_bermuda_triangle",
+  category: "MYSTERY",
+  title: "Bermuda Triangle",
+  essence: "Ships and planes vanished mysteriously.",
+  explanation: "Several disappearances occurred in the Atlantic with no clear explanation.",
+  example: "Flight 19 disappearance.",
+  reflection: "Pattern or coincidence?",
+  tags: ["ocean", "disappearance"]
+},
+
+{
+  id: "mystery_roanoke",
+  category: "MYSTERY",
+  title: "Lost Colony of Roanoke",
+  essence: "An entire settlement vanished.",
+  explanation: "A 16th-century colony disappeared without trace.",
+  example: "Only the word ‘CROATOAN’ was found.",
+  reflection: "What happened to them?",
+  tags: ["history", "lost"]
+},
+
+{
+  id: "mystery_jack_ripper",
+  category: "MYSTERY",
+  title: "Jack the Ripper",
+  essence: "A serial killer was never identified.",
+  explanation: "A killer terrorized London in 1888 and vanished.",
+  example: "Multiple suspects, no proof.",
+  reflection: "Can truth disappear over time?",
+  tags: ["crime", "history"]
+},
+
+{
+  id: "mystery_taman_shud",
+  category: "MYSTERY",
+  title: "Somerton Man (Tamam Shud)",
+  essence: "An unidentified man found dead.",
+  explanation: "A body with no ID and a mysterious note was found in Australia.",
+  example: "Code still unsolved.",
+  reflection: "How much can remain unknown?",
+  tags: ["identity", "unsolved"]
+},
+
+{
+  id: "mystery_ameli_earhart",
+  category: "MYSTERY",
+  title: "Amelia Earhart",
+  essence: "A pilot disappeared mid-flight.",
+  explanation: "Her plane vanished during a world flight attempt.",
+  example: "No confirmed wreckage.",
+  reflection: "How does someone vanish in open skies?",
+  tags: ["aviation", "disappearance"]
+},
+
+{
+  id: "mystery_voynich",
+  category: "MYSTERY",
+  title: "Voynich Manuscript",
+  essence: "A book no one can read.",
+  explanation: "An ancient manuscript written in an unknown language.",
+  example: "No successful translation.",
+  reflection: "Is it code, language, or fiction?",
+  tags: ["language", "unknown"]
+},
+
+{
+  id: "mystery_dyatlov",
+  category: "MYSTERY",
+  title: "Dyatlov Pass Incident",
+  essence: "Hikers died under strange conditions.",
+  explanation: "Nine hikers died mysteriously in the Ural Mountains.",
+  example: "Tents cut from inside.",
+  reflection: "What caused panic?",
+  tags: ["death", "unexplained"]
+},
+
+{
+  id: "mystery_green_children",
+  category: "MYSTERY",
+  title: "The Green Children of Woolpit",
+  essence: "Children appeared with green skin.",
+  explanation: "Medieval story of children speaking unknown language.",
+  example: "Skin color faded over time.",
+  reflection: "Myth or misunderstood reality?",
+  tags: ["history", "strange"]
+},
+
+{
+  id: "mystery_zodiac",
+  category: "MYSTERY",
+  title: "Zodiac Killer",
+  essence: "A killer who sent coded messages.",
+  explanation: "A serial killer taunted police with letters.",
+  example: "Some ciphers unsolved.",
+  reflection: "Why reveal clues?",
+  tags: ["crime", "codes"]
+},
+
+{
+  id: "mystery_oak_island",
+  category: "MYSTERY",
+  title: "Oak Island Treasure",
+  essence: "A treasure possibly buried underground.",
+  explanation: "Centuries of digging with no clear answer.",
+  example: "Strange flood traps.",
+  reflection: "Is the mystery the treasure?",
+  tags: ["treasure", "history"]
+},
+
+{
+  id: "mystery_mary_celeste",
+  category: "MYSTERY",
+  title: "Mary Celeste",
+  essence: "A ship found abandoned.",
+  explanation: "The crew vanished with no signs of struggle.",
+  example: "Food still on table.",
+  reflection: "What makes people leave safety?",
+  tags: ["ocean", "disappearance"]
+},
+
+{
+  id: "mystery_tunguska",
+  category: "MYSTERY",
+  title: "Tunguska Event",
+  essence: "A massive explosion with no crater.",
+  explanation: "A blast flattened forests in Siberia.",
+  example: "No impact remains.",
+  reflection: "What hit Earth?",
+  tags: ["explosion", "unknown"]
+},
+
+{
+  id: "mystery_black_dahlia",
+  category: "MYSTERY",
+  title: "Black Dahlia Murder",
+  essence: "A brutal murder never solved.",
+  explanation: "A woman was killed under bizarre circumstances.",
+  example: "Many suspects, no conviction.",
+  reflection: "Does justice always arrive?",
+  tags: ["crime", "unsolved"]
+},
+
+{
+  id: "mystery_disappearance_children",
+  category: "MYSTERY",
+  title: "The Sodder Children",
+  essence: "Five children vanished after a fire.",
+  explanation: "No remains found in the ruins.",
+  example: "Sightings reported later.",
+  reflection: "Can official stories be wrong?",
+  tags: ["family", "mystery"]
+},
+
+{
+  id: "mystery_hinterkaifeck",
+  category: "MYSTERY",
+  title: "Hinterkaifeck Murders",
+  essence: "A family killed, killer unknown.",
+  explanation: "Strange clues appeared before the murders.",
+  example: "Footprints to the house.",
+  reflection: "Was the killer watching?",
+  tags: ["crime", "fear"]
+},
+
+{
+  id: "mystery_stonehenge",
+  category: "MYSTERY",
+  title: "Stonehenge",
+  essence: "Purpose unknown.",
+  explanation: "Massive stones arranged with precision.",
+  example: "Aligned with solstices.",
+  reflection: "What knowledge was lost?",
+  tags: ["ancient", "architecture"]
+},
+
+{
+  id: "mystery_taured",
+  category: "MYSTERY",
+  title: "Man from Taured",
+  essence: "A traveler from a non-existent country.",
+  explanation: "A man claimed origin from Taured.",
+  example: "Country didn’t exist.",
+  reflection: "Hoax or misunderstanding?",
+  tags: ["identity", "strange"]
+},
+
+{
+  id: "mystery_flights_vanish",
+  category: "MYSTERY",
+  title: "Vanishing Flights",
+  essence: "Planes lost without trace.",
+  explanation: "Some aircraft disappear despite modern tracking.",
+  example: "MH370.",
+  reflection: "Is total tracking possible?",
+  tags: ["aviation", "technology"]
+},
+
+{
+  id: "mystery_unidentified",
+  category: "MYSTERY",
+  title: "Unidentified Phenomena",
+  essence: "Objects with no clear explanation.",
+  explanation: "Reports of objects defying known physics.",
+  example: "Radar anomalies.",
+  reflection: "Unknown or misunderstood?",
+  tags: ["phenomena", "unknown"]
+},
+   {
+  id: "bias_confirmation",
+  category: "COGNITIVE_BIAS",
+  title: "Confirmation Bias",
+  essence: "We notice what agrees with us.",
+  explanation: "People seek information that confirms existing beliefs and ignore opposing evidence.",
+  example: "Only reading news that supports your views.",
+  reflection: "What evidence do you avoid?",
+  tags: ["belief", "thinking"]
+},
+
+{
+  id: "bias_anchoring",
+  category: "COGNITIVE_BIAS",
+  title: "Anchoring Bias",
+  essence: "First information sticks.",
+  explanation: "Initial information strongly influences later judgments.",
+  example: "First price affects perceived value.",
+  reflection: "What anchors your decisions?",
+  tags: ["decision", "judgment"]
+},
+
+{
+  id: "bias_availability",
+  category: "COGNITIVE_BIAS",
+  title: "Availability Heuristic",
+  essence: "Easy recall feels common.",
+  explanation: "We judge probability based on how easily examples come to mind.",
+  example: "Fear of flying due to news coverage.",
+  reflection: "What feels common but isn’t?",
+  tags: ["risk", "memory"]
+},
+
+{
+  id: "bias_dunning_kruger",
+  category: "COGNITIVE_BIAS",
+  title: "Dunning–Kruger Effect",
+  essence: "Ignorance breeds confidence.",
+  explanation: "People with low skill overestimate ability; experts underestimate.",
+  example: "Beginners feeling overly confident.",
+  reflection: "Where might confidence hide ignorance?",
+  tags: ["skill", "ego"]
+},
+
+{
+  id: "bias_hindsight",
+  category: "COGNITIVE_BIAS",
+  title: "Hindsight Bias",
+  essence: "It seemed obvious later.",
+  explanation: "After outcomes, people believe they predicted them.",
+  example: "“I knew it would happen.”",
+  reflection: "What feels predictable only in hindsight?",
+  tags: ["memory", "judgment"]
+},
+
+{
+  id: "bias_loss_aversion",
+  category: "COGNITIVE_BIAS",
+  title: "Loss Aversion",
+  essence: "Loss hurts more than gain.",
+  explanation: "People fear losses more than equivalent gains.",
+  example: "Holding losing investments.",
+  reflection: "What losses control your choices?",
+  tags: ["emotion", "risk"]
+},
+
+{
+  id: "bias_status_quo",
+  category: "COGNITIVE_BIAS",
+  title: "Status Quo Bias",
+  essence: "Change feels risky.",
+  explanation: "People prefer things to stay the same.",
+  example: "Avoiding new methods.",
+  reflection: "What stays unchanged by habit?",
+  tags: ["change", "comfort"]
+},
+
+{
+  id: "bias_sunk_cost",
+  category: "COGNITIVE_BIAS",
+  title: "Sunk Cost Fallacy",
+  essence: "Past investment traps us.",
+  explanation: "Continuing because of what’s already spent.",
+  example: "Staying in failing projects.",
+  reflection: "What should you let go?",
+  tags: ["decision", "investment"]
+},
+
+{
+  id: "bias_framing",
+  category: "COGNITIVE_BIAS",
+  title: "Framing Effect",
+  essence: "Presentation changes choice.",
+  explanation: "Decisions change based on how options are framed.",
+  example: "“90% success” vs “10% failure.”",
+  reflection: "How does wording influence you?",
+  tags: ["communication", "choice"]
+},
+
+{
+  id: "bias_overconfidence",
+  category: "COGNITIVE_BIAS",
+  title: "Overconfidence Bias",
+  essence: "We overestimate ourselves.",
+  explanation: "Confidence exceeds accuracy.",
+  example: "Underestimating risks.",
+  reflection: "Where could humility help?",
+  tags: ["ego", "judgment"]
+},
+
+{
+  id: "bias_self_serving",
+  category: "COGNITIVE_BIAS",
+  title: "Self-Serving Bias",
+  essence: "We credit success, blame failure.",
+  explanation: "People attribute success to self, failure to outside factors.",
+  example: "Blaming others for mistakes.",
+  reflection: "How do you explain failure?",
+  tags: ["ego", "identity"]
+},
+
+{
+  id: "bias_negativity",
+  category: "COGNITIVE_BIAS",
+  title: "Negativity Bias",
+  essence: "Negative stands out.",
+  explanation: "Negative events have stronger impact than positive ones.",
+  example: "One insult outweighs praise.",
+  reflection: "What positives are you missing?",
+  tags: ["emotion", "attention"]
+},
+
+{
+  id: "bias_representativeness",
+  category: "COGNITIVE_BIAS",
+  title: "Representativeness Heuristic",
+  essence: "Stereotypes replace probability.",
+  explanation: "Judging likelihood by resemblance, not statistics.",
+  example: "Assuming personality by appearance.",
+  reflection: "What shortcuts shape judgment?",
+  tags: ["stereotype", "probability"]
+},
+
+{
+  id: "bias_authority",
+  category: "COGNITIVE_BIAS",
+  title: "Authority Bias",
+  essence: "Authority feels correct.",
+  explanation: "People trust authority figures excessively.",
+  example: "Believing experts without questioning.",
+  reflection: "When should authority be questioned?",
+  tags: ["power", "trust"]
+},
+
+{
+  id: "bias_bandwagon",
+  category: "COGNITIVE_BIAS",
+  title: "Bandwagon Effect",
+  essence: "Popularity becomes truth.",
+  explanation: "People adopt beliefs because many others do.",
+  example: "Trends spreading quickly.",
+  reflection: "Do you choose or follow?",
+  tags: ["social", "influence"]
+},
+
+{
+  id: "bias_illusion_control",
+  category: "COGNITIVE_BIAS",
+  title: "Illusion of Control",
+  essence: "We overestimate influence.",
+  explanation: "People believe they control random events.",
+  example: "Superstitions.",
+  reflection: "What is truly controllable?",
+  tags: ["control", "chance"]
+},
+
+{
+  id: "bias_planning_fallacy",
+  category: "COGNITIVE_BIAS",
+  title: "Planning Fallacy",
+  essence: "We underestimate time.",
+  explanation: "Projects take longer than expected.",
+  example: "Missed deadlines.",
+  reflection: "How can you plan realistically?",
+  tags: ["planning", "time"]
+},
+
+{
+  id: "bias_false_consensus",
+  category: "COGNITIVE_BIAS",
+  title: "False Consensus Effect",
+  essence: "We assume others agree.",
+  explanation: "People overestimate shared beliefs.",
+  example: "Thinking opinions are universal.",
+  reflection: "Who thinks differently?",
+  tags: ["social", "belief"]
+},
+
+{
+  id: "bias_survivorship",
+  category: "COGNITIVE_BIAS",
+  title: "Survivorship Bias",
+  essence: "We see winners only.",
+  explanation: "Ignoring failures skews conclusions.",
+  example: "Studying successful startups only.",
+  reflection: "What failures are hidden?",
+  tags: ["success", "analysis"]
+},
+
+{
+  id: "bias_emotional_reasoning",
+  category: "COGNITIVE_BIAS",
+  title: "Emotional Reasoning",
+  essence: "Feelings feel factual.",
+  explanation: "Emotions are treated as evidence.",
+  example: "Feeling anxious means danger.",
+  reflection: "What emotions distort truth?",
+  tags: ["emotion", "logic"]
+},
+   {
+  id: "te_trolley",
+  category: "THOUGHT_EXPERIMENT",
+  title: "The Trolley Problem",
+  essence: "Is it right to sacrifice one to save many?",
+  explanation: "You must choose between actively causing one death or allowing several deaths to happen.",
+  example: "Pulling a lever to divert a trolley.",
+  reflection: "Is moral responsibility about action or outcome?",
+  tags: ["ethics", "morality"]
+},
+
+{
+  id: "te_schrodinger",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Schrödinger’s Cat",
+  essence: "Is reality defined before observation?",
+  explanation: "A cat is both alive and dead until observed.",
+  example: "Quantum superposition.",
+  reflection: "Does observation create reality?",
+  tags: ["quantum", "reality"]
+},
+
+{
+  id: "te_brain_vat",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Brain in a Vat",
+  essence: "How do you know reality is real?",
+  explanation: "Your brain could be fed fake experiences.",
+  example: "Living in a simulation unknowingly.",
+  reflection: "What grounds certainty?",
+  tags: ["reality", "knowledge"]
+},
+
+{
+  id: "te_ship_theseus",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Ship of Theseus",
+  essence: "Does identity survive total change?",
+  explanation: "If all parts are replaced, is it the same object?",
+  example: "A person changing over years.",
+  reflection: "What defines identity?",
+  tags: ["identity", "change"]
+},
+
+{
+  id: "te_prisoners",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Prisoner’s Dilemma",
+  essence: "Is cooperation rational?",
+  explanation: "Self-interest can lead to worse outcomes.",
+  example: "Betrayal vs cooperation.",
+  reflection: "When should you trust?",
+  tags: ["strategy", "decision"]
+},
+
+{
+  id: "te_mary_room",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Mary’s Room",
+  essence: "Is all knowledge physical?",
+  explanation: "Mary knows all facts but not experience.",
+  example: "Seeing color for the first time.",
+  reflection: "Can facts replace experience?",
+  tags: ["consciousness", "knowledge"]
+},
+
+{
+  id: "te_chinese_room",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Chinese Room",
+  essence: "Can machines truly understand?",
+  explanation: "Following rules isn’t understanding.",
+  example: "AI responding without comprehension.",
+  reflection: "What is understanding?",
+  tags: ["ai", "mind"]
+},
+
+{
+  id: "te_experience_machine",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Experience Machine",
+  essence: "Would you plug into perfect happiness?",
+  explanation: "A machine can simulate any pleasure.",
+  example: "Living an artificial life.",
+  reflection: "Is happiness enough?",
+  tags: ["happiness", "reality"]
+},
+
+{
+  id: "te_laplace_demon",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Laplace’s Demon",
+  essence: "Is the universe deterministic?",
+  explanation: "Perfect knowledge predicts all future events.",
+  example: "Complete predictability.",
+  reflection: "Is free will an illusion?",
+  tags: ["determinism", "freewill"]
+},
+
+{
+  id: "te_grandfather",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Grandfather Paradox",
+  essence: "Can you change the past?",
+  explanation: "Killing your ancestor prevents your existence.",
+  example: "Time travel contradiction.",
+  reflection: "Is time fixed?",
+  tags: ["time", "causality"]
+},
+
+{
+  id: "te_vampire",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Vampire Problem",
+  essence: "Can future values override current ones?",
+  explanation: "Would you choose to become someone else?",
+  example: "Permanent transformation.",
+  reflection: "Who decides your future self?",
+  tags: ["identity", "choice"]
+},
+
+{
+  id: "te_surprise_exam",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Surprise Exam Paradox",
+  essence: "Can surprise be predicted?",
+  explanation: "Logical reasoning removes surprise.",
+  example: "Unexpected exams.",
+  reflection: "Can logic defeat intuition?",
+  tags: ["logic", "paradox"]
+},
+
+{
+  id: "te_buridan",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Buridan’s Ass",
+  essence: "Can indecision be fatal?",
+  explanation: "Perfect balance leads to paralysis.",
+  example: "Unable to choose between equal options.",
+  reflection: "Is randomness better than no choice?",
+  tags: ["decision", "choice"]
+},
+
+{
+  id: "te_newcomb",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Newcomb’s Problem",
+  essence: "Prediction vs free will.",
+  explanation: "A predictor challenges rational choice.",
+  example: "One box or two?",
+  reflection: "Can choice exist with prediction?",
+  tags: ["freewill", "rationality"]
+},
+
+{
+  id: "te_ring_gyges",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Ring of Gyges",
+  essence: "Would you act morally if unseen?",
+  explanation: "Invisibility removes consequences.",
+  example: "Power without accountability.",
+  reflection: "Is morality internal or external?",
+  tags: ["ethics", "power"]
+},
+
+{
+  id: "te_sleeping_beauty",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Sleeping Beauty",
+  essence: "How should belief update?",
+  explanation: "Probability changes with information.",
+  example: "Waking with uncertainty.",
+  reflection: "How do beliefs adapt?",
+  tags: ["probability", "belief"]
+},
+
+{
+  id: "te_boat_leak",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Leaky Boat",
+  essence: "Is partial truth worse than ignorance?",
+  explanation: "Fixing leaks reveals deeper problems.",
+  example: "Policy interventions.",
+  reflection: "Do solutions create new issues?",
+  tags: ["systems", "complexity"]
+},
+
+{
+  id: "te_exploding_trolley",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Fat Man Variant",
+  essence: "Does physical action change morality?",
+  explanation: "Pushing someone feels worse than pulling a lever.",
+  example: "Direct vs indirect harm.",
+  reflection: "Why does intent matter?",
+  tags: ["ethics", "emotion"]
+},
+
+{
+  id: "te_last_man",
+  category: "THOUGHT_EXPERIMENT",
+  title: "The Last Man",
+  essence: "Does nature have value without humans?",
+  explanation: "If no one exists, does harm matter?",
+  example: "Destroying the last forest.",
+  reflection: "Is value observer-dependent?",
+  tags: ["ethics", "nature"]
+},
+
+{
+  id: "te_person_split",
+  category: "THOUGHT_EXPERIMENT",
+  title: "Teletransportation",
+  essence: "Is continuity required for identity?",
+  explanation: "You are copied and destroyed.",
+  example: "Teleporters.",
+  reflection: "Is the copy you?",
+  tags: ["identity", "self"]
+},
+   {
+  id: "spirit_presence",
+  category: "SPIRITUAL",
+  title: "Presence",
+  essence: "Being fully here.",
+  explanation: "Presence means attention is rooted in the current moment, not past or future.",
+  example: "Listening without thinking of a reply.",
+  reflection: "Where is your attention right now?",
+  tags: ["awareness", "mindfulness"]
+},
+
+{
+  id: "spirit_non_attachment",
+  category: "SPIRITUAL",
+  title: "Non-Attachment",
+  essence: "Letting go without losing care.",
+  explanation: "Caring deeply without clinging to outcomes.",
+  example: "Doing your best without obsessing over results.",
+  reflection: "What are you gripping too tightly?",
+  tags: ["freedom", "balance"]
+},
+
+{
+  id: "spirit_observer_self",
+  category: "SPIRITUAL",
+  title: "Observer Self",
+  essence: "You are not your thoughts.",
+  explanation: "Thoughts arise, but awareness watches them.",
+  example: "Noticing anxiety instead of becoming it.",
+  reflection: "Who is noticing this thought?",
+  tags: ["identity", "awareness"]
+},
+
+{
+  id: "spirit_equanimity",
+  category: "SPIRITUAL",
+  title: "Equanimity",
+  essence: "Inner balance amid change.",
+  explanation: "Staying steady regardless of gain or loss.",
+  example: "Calm during praise or criticism.",
+  reflection: "What disturbs your inner balance?",
+  tags: ["calm", "resilience"]
+},
+
+{
+  id: "spirit_impermanence",
+  category: "SPIRITUAL",
+  title: "Impermanence",
+  essence: "Everything changes.",
+  explanation: "Nothing stays fixed — emotions, situations, identities.",
+  example: "Feelings passing naturally.",
+  reflection: "What are you expecting to stay?",
+  tags: ["change", "acceptance"]
+},
+
+{
+  id: "spirit_interbeing",
+  category: "SPIRITUAL",
+  title: "Interbeing",
+  essence: "Nothing exists alone.",
+  explanation: "All things arise through relationships and conditions.",
+  example: "Food depends on countless unseen processes.",
+  reflection: "What are you connected to right now?",
+  tags: ["connection", "systems"]
+},
+
+{
+  id: "spirit_silence",
+  category: "SPIRITUAL",
+  title: "Inner Silence",
+  essence: "Stillness beneath thought.",
+  explanation: "Beyond mental noise, awareness remains calm.",
+  example: "Quiet moments without stimulation.",
+  reflection: "When do you feel inner quiet?",
+  tags: ["stillness", "peace"]
+},
+
+{
+  id: "spirit_compassion",
+  category: "SPIRITUAL",
+  title: "Compassion",
+  essence: "Understanding suffering.",
+  explanation: "Seeing others’ pain without judgment.",
+  example: "Responding gently to mistakes.",
+  reflection: "How do you treat suffering?",
+  tags: ["empathy", "humanity"]
+},
+
+{
+  id: "spirit_authenticity",
+  category: "SPIRITUAL",
+  title: "Authenticity",
+  essence: "Living without masks.",
+  explanation: "Aligning actions with inner values.",
+  example: "Speaking honestly without cruelty.",
+  reflection: "Where are you pretending?",
+  tags: ["truth", "identity"]
+},
+
+{
+  id: "spirit_acceptance",
+  category: "SPIRITUAL",
+  title: "Acceptance",
+  essence: "Allowing what is.",
+  explanation: "Acknowledging reality without resistance.",
+  example: "Accepting difficult emotions.",
+  reflection: "What are you resisting?",
+  tags: ["peace", "reality"]
+},
+
+{
+  id: "spirit_gratitude",
+  category: "SPIRITUAL",
+  title: "Gratitude",
+  essence: "Recognizing what already exists.",
+  explanation: "Appreciation shifts attention from lack to abundance.",
+  example: "Noticing simple comforts.",
+  reflection: "What is quietly supporting you?",
+  tags: ["contentment", "awareness"]
+},
+
+{
+  id: "spirit_inner_alignment",
+  category: "SPIRITUAL",
+  title: "Inner Alignment",
+  essence: "Thought, emotion, and action aligned.",
+  explanation: "Inner conflict reduces clarity and energy.",
+  example: "Saying yes when you mean yes.",
+  reflection: "Where are you divided?",
+  tags: ["clarity", "integrity"]
+},
+
+{
+  id: "spirit_non_duality",
+  category: "SPIRITUAL",
+  title: "Non-Dual Awareness",
+  essence: "Subject and object dissolve.",
+  explanation: "The sense of separation softens.",
+  example: "Feeling part of nature.",
+  reflection: "Where does separation begin?",
+  tags: ["unity", "awareness"]
+},
+
+{
+  id: "spirit_detachment_identity",
+  category: "SPIRITUAL",
+  title: "Detachment from Identity",
+  essence: "You are more than roles.",
+  explanation: "Identities are useful but not absolute.",
+  example: "Letting go of labels.",
+  reflection: "Who are you without roles?",
+  tags: ["self", "freedom"]
+},
+
+{
+  id: "spirit_intuition",
+  category: "SPIRITUAL",
+  title: "Intuition",
+  essence: "Knowing without reasoning.",
+  explanation: "Subtle understanding emerges before logic.",
+  example: "A quiet inner nudge.",
+  reflection: "When do you trust intuition?",
+  tags: ["inner-knowing", "awareness"]
+},
+
+{
+  id: "spirit_surrender",
+  category: "SPIRITUAL",
+  title: "Surrender",
+  essence: "Letting go of control.",
+  explanation: "Allowing life to unfold without force.",
+  example: "Trusting processes.",
+  reflection: "What are you trying to control?",
+  tags: ["trust", "flow"]
+},
+
+{
+  id: "spirit_wholeness",
+  category: "SPIRITUAL",
+  title: "Wholeness",
+  essence: "Nothing is missing.",
+  explanation: "Completeness exists beneath striving.",
+  example: "Feeling enough without achievement.",
+  reflection: "What makes you feel incomplete?",
+  tags: ["self", "contentment"]
+},
+
+{
+  id: "spirit_attention_energy",
+  category: "SPIRITUAL",
+  title: "Attention as Energy",
+  essence: "Where attention goes, energy flows.",
+  explanation: "Focus shapes experience.",
+  example: "Growth through mindful focus.",
+  reflection: "What receives your energy?",
+  tags: ["focus", "growth"]
+},
+
+{
+  id: "spirit_inner_freedom",
+  category: "SPIRITUAL",
+  title: "Inner Freedom",
+  essence: "Freedom regardless of circumstance.",
+  explanation: "Freedom comes from inner relationship to events.",
+  example: "Peace despite chaos.",
+  reflection: "What would freedom feel like now?",
+  tags: ["freedom", "resilience"]
+},
+
+{
+  id: "spirit_becoming",
+  category: "SPIRITUAL",
+  title: "Becoming",
+  essence: "Life is unfolding.",
+  explanation: "Growth is continuous, not final.",
+  example: "Evolving values.",
+  reflection: "Who are you becoming?",
+  tags: ["growth", "change"]
+},
+   {
+  id: "power_visibility",
+  category: "POWER",
+  title: "Visibility Creates Influence",
+  essence: "What is seen is remembered.",
+  explanation: "People notice and trust what is visible more than what is hidden.",
+  example: "Consistent presence builds authority.",
+  reflection: "Where are you invisible?",
+  tags: ["influence", "presence"]
+},
+
+{
+  id: "power_scarcity",
+  category: "POWER",
+  title: "Scarcity Increases Value",
+  essence: "What is rare feels important.",
+  explanation: "Limited access increases perceived worth.",
+  example: "Exclusive opportunities feel more powerful.",
+  reflection: "What do you overexpose?",
+  tags: ["value", "perception"]
+},
+
+{
+  id: "power_control_emotion",
+  category: "POWER",
+  title: "Control Emotion, Not Just Action",
+  essence: "Emotional control signals strength.",
+  explanation: "Calm behavior under pressure earns trust.",
+  example: "Remaining composed during conflict.",
+  reflection: "What triggers your reactions?",
+  tags: ["emotion", "self-control"]
+},
+
+{
+  id: "power_reputation",
+  category: "POWER",
+  title: "Reputation Precedes You",
+  essence: "People judge before interaction.",
+  explanation: "Perception shapes opportunity.",
+  example: "Strong reputation opens doors.",
+  reflection: "What story follows your name?",
+  tags: ["reputation", "trust"]
+},
+
+{
+  id: "power_leverage",
+  category: "POWER",
+  title: "Leverage Multiplies Effort",
+  essence: "Small inputs can yield large results.",
+  explanation: "Using systems, people, or timing increases impact.",
+  example: "Delegation or automation.",
+  reflection: "Where can effort be multiplied?",
+  tags: ["leverage", "strategy"]
+},
+
+{
+  id: "power_information",
+  category: "POWER",
+  title: "Information Is Power",
+  essence: "Understanding beats force.",
+  explanation: "Knowing more allows better positioning.",
+  example: "Preparation before negotiation.",
+  reflection: "What do you need to understand better?",
+  tags: ["knowledge", "strategy"]
+},
+
+{
+  id: "power_silence",
+  category: "POWER",
+  title: "Silence Creates Authority",
+  essence: "Not speaking can speak loudly.",
+  explanation: "Silence creates space and focus.",
+  example: "Pausing before responding.",
+  reflection: "When is silence stronger than words?",
+  tags: ["communication", "presence"]
+},
+
+{
+  id: "power_timing",
+  category: "POWER",
+  title: "Timing Shapes Outcomes",
+  essence: "When matters as much as what.",
+  explanation: "Right action at the wrong time fails.",
+  example: "Waiting for the right moment.",
+  reflection: "Are you early, late, or aligned?",
+  tags: ["timing", "decision"]
+},
+
+{
+  id: "power_boundary",
+  category: "POWER",
+  title: "Boundaries Create Respect",
+  essence: "Limits signal self-worth.",
+  explanation: "Clear boundaries reduce exploitation.",
+  example: "Saying no when necessary.",
+  reflection: "Where are your limits unclear?",
+  tags: ["respect", "self-worth"]
+},
+
+{
+  id: "power_focus",
+  category: "POWER",
+  title: "Focus Beats Force",
+  essence: "Concentrated effort dominates scattered effort.",
+  explanation: "Depth outperforms breadth.",
+  example: "Mastery in one area.",
+  reflection: "What deserves your full focus?",
+  tags: ["focus", "mastery"]
+},
+
+{
+  id: "power_network",
+  category: "POWER",
+  title: "Networks Amplify Power",
+  essence: "Connections extend influence.",
+  explanation: "Relationships open paths effort alone cannot.",
+  example: "Strong professional networks.",
+  reflection: "Who supports your growth?",
+  tags: ["relationships", "influence"]
+},
+
+{
+  id: "power_adaptability",
+  category: "POWER",
+  title: "Adaptability Sustains Power",
+  essence: "Rigidity breaks under pressure.",
+  explanation: "Flexible strategies survive change.",
+  example: "Adjusting plans mid-course.",
+  reflection: "Where are you resisting change?",
+  tags: ["adaptability", "resilience"]
+},
+
+{
+  id: "power_perception",
+  category: "POWER",
+  title: "Perception Often Matters More Than Reality",
+  essence: "Belief shapes response.",
+  explanation: "People act on what they perceive.",
+  example: "Confidence influencing trust.",
+  reflection: "How are you perceived?",
+  tags: ["perception", "influence"]
+},
+
+{
+  id: "power_self_mastery",
+  category: "POWER",
+  title: "Self-Mastery Precedes External Power",
+  essence: "Inner control enables outer control.",
+  explanation: "Discipline builds reliable strength.",
+  example: "Consistency in habits.",
+  reflection: "What weakens your discipline?",
+  tags: ["discipline", "growth"]
+},
+
+{
+  id: "power_alignment",
+  category: "POWER",
+  title: "Alignment Builds Sustainable Power",
+  essence: "Power lasts when values align.",
+  explanation: "Internal conflict erodes influence.",
+  example: "Integrity building trust.",
+  reflection: "Are actions aligned with values?",
+  tags: ["integrity", "trust"]
+},
+
+{
+  id: "power_observation",
+  category: "POWER",
+  title: "Observation Before Action",
+  essence: "Understanding precedes control.",
+  explanation: "Watching reveals hidden dynamics.",
+  example: "Listening before deciding.",
+  reflection: "What are you overlooking?",
+  tags: ["awareness", "strategy"]
+},
+
+{
+  id: "power_energy",
+  category: "POWER",
+  title: "Energy Attracts Attention",
+  essence: "Vitality draws influence.",
+  explanation: "People follow enthusiasm and clarity.",
+  example: "Clear vision energizing teams.",
+  reflection: "What energizes you?",
+  tags: ["energy", "leadership"]
+},
+
+{
+  id: "power_consistency",
+  category: "POWER",
+  title: "Consistency Builds Authority",
+  essence: "Reliability earns trust.",
+  explanation: "Predictable behavior creates confidence.",
+  example: "Showing up consistently.",
+  reflection: "Where do you break consistency?",
+  tags: ["trust", "authority"]
+},
+
+{
+  id: "power_detachment",
+  category: "POWER",
+  title: "Detachment Increases Leverage",
+  essence: "Needing less gives strength.",
+  explanation: "Desperation weakens position.",
+  example: "Walking away from bad deals.",
+  reflection: "What are you attached to?",
+  tags: ["leverage", "freedom"]
+},
+
+{
+  id: "power_long_term",
+  category: "POWER",
+  title: "Long-Term Thinking Outlasts Short-Term Wins",
+  essence: "Endurance beats intensity.",
+  explanation: "Sustainable strategies compound.",
+  example: "Building skills over quick gains.",
+  reflection: "What are you building for the long run?",
+  tags: ["strategy", "growth"]
+},
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
 
