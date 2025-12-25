@@ -22,10 +22,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Pareto Principle (80/20 Rule)",
   essence: "Most results come from a small portion of effort.",
-  explanation: "A small number of causes usually produce most of the effects.",
-  example: "20% of habits create 80% of success.",
-  whenToUse: "Prioritizing tasks and goals.",
-  warning: "The ratio is not always exact.",
+  explanation: "The Pareto Principle says that 80% of results come from 20% of efforts. A small part of what you do creates most of your success.",
+  example: "In studies, a few important topics give most exam marks, while many topics add very little.",
+  whenToUse: "It matters when you want maximum results with limited time or energy.",
+  warning: "People think the numbers must be exactly 80 and 20, but it’s only a general idea.",
   tags: ["focus", "priority"]
 },
 
@@ -35,10 +35,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Law of Diminishing Returns",
   essence: "More effort gives less benefit after a point.",
-  explanation: "After optimal effort, extra input produces smaller or negative results.",
-  example: "Studying too long reduces understanding.",
-  whenToUse: "Balancing effort and rest.",
-  warning: "Stopping too early also causes loss.",
+  explanation: "The Law of Diminishing Returns says that after a certain point, putting in more effort gives smaller results, and sometimes performance even gets worse.",
+  example: "Studying 2 hours helps a lot, but studying 10 hours straight makes you tired and learn less.",
+  whenToUse: "It matters when deciding when to stop and rest to stay effective.",
+  warning: "People think more effort always means better results, which is not true.",
   tags: ["effort", "balance"]
 },
 
@@ -48,10 +48,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Murphy’s Law",
   essence: "Anything that can go wrong might go wrong.",
-  explanation: "If risks are ignored, failures will appear at the worst time.",
-  example: "Forgetting to save work before a power cut.",
-  whenToUse: "Planning and risk management.",
-  warning: "Not an excuse for negativity.",
+  explanation: "Murphy’s Law says that if something can go wrong, it probably will—especially at the worst time. It reminds us that problems are a normal part of life.",
+  example: "Your phone battery dies exactly when you urgently need to make a call.",
+  whenToUse: "It matters when planning, so you prepare backups and stay calm when things fail.",
+  warning: "People think it means life is unlucky, but it actually encourages better preparation.",
   tags: ["risk", "planning"]
 },
 
@@ -61,10 +61,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Hofstadter’s Law",
   essence: "Tasks take longer than expected, even when you plan for it.",
-  explanation: "People underestimate complexity, even with experience.",
-  example: "A one-week project takes three weeks.",
-  whenToUse: "Project estimation.",
-  warning: "Avoid over-buffering time.",
+  explanation: "Hofstadter’s Law says that tasks always take longer than you expect, even when you plan carefully and know this rule. Reality usually adds delays you didn’t predict.",
+  example: "You think a project will take 2 hours, but it ends up taking the whole day.",
+  whenToUse: "It matters when planning work, so you add buffer time and avoid stress.",
+  warning: "People think better planning removes delays, but some delays are unavoidable.",
   tags: ["time", "projects"]
 },
 
@@ -74,10 +74,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Law of Least Effort",
   essence: "People choose the easiest path.",
-  explanation: "Humans naturally prefer options that require less effort.",
-  example: "Scrolling instead of studying.",
-  whenToUse: "Designing habits and systems.",
-  warning: "Easy paths may limit growth.",
+  explanation: "The Law of Least Effort says people naturally choose the easiest and fastest way to do something, even if it is not the best or most meaningful option.",
+  example: "You scroll social media instead of reading a book because it needs less mental effort.",
+  whenToUse: "It matters when building habits, so you design your environment to make good actions easier.",
+  warning: "People think it means laziness, but it is actually normal human behavior.",
   tags: ["behavior", "habits"]
 },
 
@@ -87,10 +87,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Goodhart’s Law",
   essence: "When a measure becomes a target, it stops being useful.",
-  explanation: "People manipulate metrics once they become goals.",
-  example: "Studying for marks instead of learning.",
-  whenToUse: "Using metrics and KPIs.",
-  warning: "Do not worship numbers.",
+  explanation: "Goodhart’s Law says when a measure becomes a target, it stops being a good measure. People focus on the number, not the real goal.",
+  example: "Students study only to increase marks, not to actually understand the subject.",
+  whenToUse: "It matters when setting goals, so you don’t chase numbers and forget real improvement.",
+  warning: "People think metrics always show progress, but they can be misleading.",
   tags: ["metrics", "systems"]
 },
 
@@ -100,10 +100,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Broken Windows Theory",
   essence: "Small problems invite bigger problems.",
-  explanation: "Visible neglect encourages further disorder.",
-  example: "Ignoring small bugs causes system collapse.",
-  whenToUse: "Maintaining standards.",
-  warning: "Do not confuse strictness with control.",
+  explanation: "Broken Window Theory says small signs of neglect, like broken windows or mess, encourage more bad behavior because people feel rules are not enforced.",
+  example: "If one window in a building stays broken, people start littering and damaging more things nearby.",
+  whenToUse: "It matters when maintaining habits or spaces, because small neglect leads to bigger problems.",
+  warning: "People think it’s only about crime, but it also applies to habits, discipline, and environments.",
   tags: ["discipline", "order"]
 },
 
@@ -113,10 +113,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Power Law",
   essence: "A few things dominate most outcomes.",
-  explanation: "Results are unevenly distributed.",
-  example: "Few creators get most attention.",
-  whenToUse: "Understanding inequality.",
-  warning: "Do not expect fairness.",
+  explanation: "The Power Law says a few things create most of the results, while most things create very little. Success, wealth, and impact are unevenly distributed.",
+  example: "A few YouTube videos get millions of views, while most videos get very few.",
+  whenToUse: "It matters when choosing focus, so you invest energy where big results are possible.",
+  warning: "People think effort always gives equal results, but real-world outcomes are uneven.",
   tags: ["distribution", "reality"]
 },
 
@@ -126,10 +126,10 @@ const SEED_VAULT = [
   category: "LAW",
   title: "Anchoring Effect",
   essence: "First information strongly influences decisions.",
-  explanation: "Initial numbers or ideas act as mental anchors.",
-  example: "High original price makes discounts attractive.",
-  whenToUse: "Negotiations and pricing.",
-  warning: "Anchors can mislead.",
+  explanation: "Anchoring Law says the first information you see strongly affects your decisions. Your mind sticks to that first number or idea, even if it is wrong.",
+  example: "If a shirt is first shown as ₹5000, a ₹2500 price later feels cheap, even if it’s still expensive.",
+  whenToUse: "It matters when making decisions, so you don’t blindly trust first impressions.",
+  warning: "People think they are fully logical, but anchors influence everyone subconsciously.",
   tags: ["decision", "bias"]
 },
 
@@ -1718,6 +1718,7 @@ const SEED_VAULT = [
 },
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
 
