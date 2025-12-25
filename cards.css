@@ -75,9 +75,15 @@
    color: var(--accent-power);
 }
 
-.card-category.thought {
+.card-category.thought_experiments {
    color: var(--accent-thought);
 }
+
+.card-category.cognitive_bias {
+   color: var(--accent-cognitive);
+}
+
+
 
 .card-title {
   font-size: 1.05rem;
@@ -165,5 +171,6 @@
 .vault-category:active {
   background: rgba(100, 180, 255, 0.1);
 }
+
 
 
