@@ -1,0 +1,126 @@
+/* ===========================
+   Knowledge Card
+=========================== */
+
+.knowledge-card {
+  background: var(--bg-card);
+  padding: 18px;
+  border-radius: var(--border-radius);
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.card-category {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}
+
+.card-category.law {
+  color: var(--accent-law);
+}
+
+.card-category.psychology {
+  color: var(--accent-psych);
+}
+
+.card-category.philosophy {
+  color: var(--accent-philo);
+}
+
+.card-category.concept {
+  color: var(--accent-concept);
+}
+
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.card-essence {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+
+
+@media (hover: hover) {
+  .knowledge-card:hover {
+    background: var(--bg-elevated);
+  }
+}
+
+.vault-categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.vault-category {
+  background: var(--bg-card);
+  padding: 18px;
+  border-radius: var(--border-radius);
+  text-align: center;
+  cursor: pointer;
+  color: var(--text-primary);
+}
+
+.vault-category span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.vault-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 2rem;
+}
+
+#vault-items {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.vault-back {
+  margin-bottom: 12px;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.knowledge-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.knowledge-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.knowledge-card:active {
+  transform: scale(0.98);
+}
+
+.vault-category {
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vault-category:hover {
+  box-shadow: 0 0 0 1px rgba(100, 180, 255, 0.4);
+}
+
+.vault-category:active {
+  background: rgba(100, 180, 255, 0.1);
+}
