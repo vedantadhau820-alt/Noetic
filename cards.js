@@ -174,10 +174,11 @@ function renderVaultCategories() {
         { key: "NEUROSCIENCE", label: "Neuroscience" },
         { key: "PARADOX", label: "Paradox" },
         { key: "THEORY", label: "Theory" },
-       { key: "MYSTERY", label: "mystery" },
-       { key: "THOUGHT_EXPERIMENT", label: "thought" },
-       { key: "POWER", label: "power" },
-       { key: "SPIRITUAL", label: "spiritual" },
+       { key: "MYSTERY", label: "Mystery" },
+       { key: "THOUGHT_EXPERIMENT", label: "Thought" },
+       { key: "POWER", label: "Power" },
+       { key: "SPIRITUAL", label: "Spiritual" },
+       { key: "COGNITIVE_BIAS", label: "Cognitive Bias" },
     ];
 
     categories.forEach(cat => {
@@ -261,5 +262,6 @@ function showVaultCategories() {
     itemsContainer.classList.add("hidden");
     categoriesContainer.classList.remove("hidden");
 }
+
 
 
