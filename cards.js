@@ -1,6 +1,6 @@
 /* ===========================
    Card Renderer
-=========================== */
+========================== */
 
 
 
@@ -278,3 +278,4 @@ function showVaultCategories() {
 // const btn = document.getElementById("save-reflection-btn");
 // btn.textContent = "Saved";
 // setTimeout(() => btn.textContent = "Add Reflection", 1200);
+
