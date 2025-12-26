@@ -139,6 +139,14 @@ navItems.forEach((btn, index) => {
     });
 });
 
+function shuffleArray(arr) {
+  return [...arr]
+    .map(item => ({ item, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ item }) => item);
+}
+
+
 function renderDiscoverCards() {
     const container = document.getElementById("discover-cards");
     if (!container) return;
@@ -147,7 +155,9 @@ function renderDiscoverCards() {
 
     const items = Vault.getAllItems();
 
-    items.forEach(item => {
+    const shuffledItems = shuffleArray(items);
+
+    shuffledItems.forEach(item => {
         const card = createKnowledgeCard(item);
         container.appendChild(card);
     });
@@ -265,3 +275,6 @@ function showVaultCategories() {
 
 
 
+// const btn = document.getElementById("save-reflection-btn");
+// btn.textContent = "Saved";
+// setTimeout(() => btn.textContent = "Add Reflection", 1200);
