@@ -5,6 +5,7 @@ let currentItemId = null;
 
 const modal = document.getElementById("knowledge-modal");
 
+
 /* ===========================
    Knowledge Modal
 =========================== */
@@ -36,15 +37,12 @@ function openModal(item) {
   modal.querySelector(".modal-category").textContent = item.category;
   modal.querySelector(".modal-title").textContent = item.title;
   modal.querySelector(".modal-explanation").textContent = item.explanation;
-  modal.querySelector(".modal-example").textContent = item.example;
-  modal.querySelector(".modal-when").textContent = item.whenToUse;
-  modal.querySelector(".modal-warning").textContent = item.warning;
 
   const saveBtn = modal.querySelector(".save-button");
   saveBtn.textContent = item.saved ? "Saved" : "Save";
 
-  document.getElementById("reflection-input").value = "";
-  renderReflections(item);
+  // document.getElementById("reflection-input").value = "";
+  // renderReflections(item);
 
   modal.classList.remove("hidden");
 }
@@ -71,21 +69,21 @@ modal.querySelector(".save-button").addEventListener("click", () => {
     updatedItem.saved ? "Saved" : "Save";
 });
 
-document
-  .getElementById("save-reflection-btn")
-  .addEventListener("click", () => {
-    const input = document.getElementById("reflection-input");
-    const text = input.value.trim();
+// document
+//   .getElementById("save-reflection-btn")
+//   .addEventListener("click", () => {
+//     const input = document.getElementById("reflection-input");
+//     const text = input.value.trim();
 
-    if (!text || !currentItemId) return;
+//     if (!text || !currentItemId) return;
 
-    Vault.addReflection(currentItemId, text);
+//     Vault.addReflection(currentItemId, text);
 
-    const updatedItem = Vault.getItemById(currentItemId);
-    renderReflections(updatedItem);
+//     const updatedItem = Vault.getItemById(currentItemId);
+//     renderReflections(updatedItem);
 
-    input.value = "";
-  });
+//     input.value = "";
+//   });
 
 //   saveBtn.addEventListener("click", () => {
 //   if (!currentItemId) return;
