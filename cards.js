@@ -1,85 +1,151 @@
-/* =========================================
-   DAILY KNOWLEDGE ENGINE
-   - Picks a fixed set of knowledge per day
-   - Ensures same content for the entire day
-========================================= */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =====================================
+       META & APP IDENTITY
+  ====================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noetic</title>
 
-const DAILY_KEY = "BUDDHIKOSH_DAILY";
+  <!-- PWA / Theme -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
 
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.jpeg" type="image/jpeg">
 
-/* -----------------------------------------
-   DATE HELPERS
------------------------------------------ */
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 
-/* Returns YYYY-MM-DD (local date) */
-function getTodayKey() {
-  return new Date().toISOString().split("T")[0];
-}
+  <!-- Core Styles -->
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="theme.css" />
+  <link rel="stylesheet" href="cards.css" />
+  <link rel="stylesheet" href="navbar.css" />
+  <link rel="stylesheet" href="modal.css" />
+</head>
 
+<body>
+  <!-- =====================================
+       APP ROOT
+  ====================================== -->
+  <div id="app">
 
-/* -----------------------------------------
-   RANDOM UTILITIES
------------------------------------------ */
+    <!-- HEADER -->
+    <header class="app-header">
+      <h1 class="app-title">NOETIC</h1>
+      <span aria-hidden="true">&#945;</span>
 
-/* Picks a random item from a non-empty array */
-function pickRandom(items) {
-  if (!items || !items.length) return null;
-  return items[Math.floor(Math.random() * items.length)];
-}
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search knowledge..."
+        aria-label="Search knowledge"
+      />
 
+      <button class="icon-button" aria-label="Notifications">
+        <i class="fa-regular fa-bell"></i>
+      </button>
+    </header>
 
-/* -----------------------------------------
-   DAILY GENERATION LOGIC
------------------------------------------ */
+    <!-- MAIN CONTENT -->
+    <main class="app-main">
 
-function generateDailyKnowledge() {
-  const todayKey = getTodayKey();
-  const stored = localStorage.getItem(DAILY_KEY);
+      <!-- STREAK -->
+      <div class="streak-block">
+        <div class="streak-text" id="streak-count"></div>
+      </div>
 
-  /* Return cached daily knowledge if still valid */
-  if (stored) {
-    const parsed = JSON.parse(stored);
-    if (parsed.date === todayKey) {
-      return parsed.items;
-    }
-  }
+      <!-- TODAY -->
+      <section class="today-section">
+        <h2>Today’s Knowledge</h2>
+        <div class="card-list" id="daily-cards"></div>
+      </section>
 
-  /* Fetch category pools */
-  const laws = Vault.getItemsByCategory("LAW");
-  const models = Vault.getItemsByCategory("MODEL");
-  const psychology = Vault.getItemsByCategory("PSYCHOLOGY");
-  const philosophy = Vault.getItemsByCategory("PHILOSOPHY");
-  const concepts = Vault.getItemsByCategory("CONCEPT");
+      <!-- VAULT -->
+      <section class="vault-section hidden" id="vault-section">
+        <h2>Vault</h2>
 
-  /*
-    Daily mix logic:
-    1. One law (core rule)
-    2. One thinking model (fallback to psychology)
-    3. One worldview idea (fallback to concepts)
-  */
-  const dailyItems = [
-    pickRandom(laws),
-    pickRandom(models.length ? models : psychology),
-    pickRandom(philosophy.length ? philosophy : concepts)
-  ].filter(Boolean); // Remove nulls safely
+        <div class="vault-categories" id="vault-categories"></div>
 
-  /* Persist for the rest of the day */
-  localStorage.setItem(
-    DAILY_KEY,
-    JSON.stringify({
-      date: todayKey,
-      items: dailyItems
-    })
-  );
+        <button id="vault-back-btn" class="vault-back hidden">
+          ← Back
+        </button>
 
-  return dailyItems;
-}
+        <div class="card-list hidden" id="vault-items"></div>
+      </section>
 
+      <!-- SEARCH -->
+      <section class="search-section hidden" id="search-section">
+        <h2>Search Results</h2>
+        <div class="card-list" id="search-results"></div>
+      </section>
 
-/* -----------------------------------------
-   PUBLIC API
------------------------------------------ */
+      <!-- SAVED -->
+      <section class="saved-section hidden" id="saved-section">
+        <h2>Saved Knowledge</h2>
+        <div class="card-list" id="saved-cards"></div>
+      </section>
 
-window.DailyEngine = {
-  getDailyKnowledge: generateDailyKnowledge
-};
+      <!-- DISCOVER -->
+      <section id="discover-section" class="discover-section hidden">
+        <h2>Discover</h2>
+        <div class="discover-list" id="discover-cards"></div>
+      </section>
+
+    </main>
+
+    <!-- BOTTOM NAVIGATION -->
+    <nav class="bottom-nav">
+      <button class="nav-item active">Today</button>
+      <button class="nav-item">Discover</button>
+      <button class="nav-item">Saved</button>
+      <button class="nav-item">Vault</button>
+    </nav>
+
+  </div>
+
+  <!-- =====================================
+       KNOWLEDGE MODAL
+  ====================================== -->
+  <div id="knowledge-modal" class="modal hidden">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">✕</button>
+
+      <span class="modal-category"></span>
+      <h2 class="modal-title"></h2>
+      <p class="modal-explanation"></p>
+
+      <button class="save-button">Save</button>
+    </div>
+  </div>
+
+  <!-- =====================================
+       SCRIPTS (ORDER MATTERS)
+  ====================================== -->
+  <script src="seed.js"></script>
+  <script src="storage.js"></script>
+  <script src="vault.js"></script>
+  <script src="streak.js"></script>
+  <script src="daily.js"></script>
+  <script src="cards.js"></script>
+  <script src="modals.js"></script>
+
+  <!--
+    Service Worker (optional – enable for PWA)
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./service-worker.js");
+      }
+    </script>
+  -->
+
+</body>
+</html>
