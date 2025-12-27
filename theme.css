@@ -1,9 +1,10 @@
-/* ===========================
-   Theme Variables
-=========================== */
+/* =========================================
+   THEME VARIABLES
+   Global design tokens
+========================================= */
 
 :root {
-  /* Core colors */
+  /* Backgrounds */
   --bg-main: #0a0a0a;
   --bg-card: #111827;
   --bg-elevated: #1f2933;
@@ -13,32 +14,47 @@
   --text-secondary: #9ca3af;
   --text-muted: #6b7280;
 
-  /* Accents */
-  --accent-law: #f5c542;       /* gold */
-  --accent-psych: #60a5fa;     /* blue */
-  --accent-philo: #a78bfa;     /* violet */
-  --accent-concept: #34d399;   /* green */
-  --accent-neuro: #2DD4BF;
-  --accent-para: #FB923C;
-  --accent-theory: #6366F1;
-  --accent-mystery: #67E8F9;
-  --accent-power: #A3E635;
-  --accent-spirit: #C4B5FD;
-  --accent-thought: #FCA5A5;
-  --accent-cognitive: #FACC15;
+  /* Accent Colors (by category) */
+
+  --cat-one: #60a5fa;     /* Calm Blue */
+  --cat-two: #3b82f6;    /* Deep Blue */
+  --cat-three: #818cf8;  /* Soft Indigo */
+  --cat-four: #a78bfa;   /* Violet */
+  --cat-five: #7c3aed;   /* Deep Purple */
+  --cat-six: #34d399;    /* Mint Green */
+  --cat-seven: #10b981;  /* Emerald */
+  --cat-eight: #2dd4bf;  /* Teal */
+  --cat-nine: #14b8a6;   /* Deep Teal */
+  --cat-ten: #fbbf24;    /* Soft Amber */
+  --cat-eleven: #f59e0b; /* Golden */
+  --cat-twelve: #eab308; /* Muted Gold */
+  --cat-thirteen: #fb7185; /* Soft Rose */
+  --cat-fourteen: #f97316; /* Burnt Orange */
+  --cat-fifteen: #ef4444;  /* Calm Red */
+  --cat-sixteen: #9ca3af;  /* Soft Gray */
+  --cat-seventeen: #64748b;/* Slate */
+  --cat-eighteen: #94a3b8; /* Blue Gray */
+  --cat-nineteen: #22d3ee; /* Cyan Accent */
+  --cat-twenty: #c084fc;  /* Lavender Glow */
 
   /* UI */
   --border-radius: 14px;
 }
 
-/* ===========================
-   Global Theme
-=========================== */
+
+/* =========================================
+   GLOBAL APP THEME
+========================================= */
 
 body {
   background-color: var(--bg-main);
   color: var(--text-primary);
 }
+
+
+/* =========================================
+   APP LAYOUT
+========================================= */
 
 #app {
   min-height: 100vh;
@@ -46,13 +62,24 @@ body {
   flex-direction: column;
 }
 
+.app-main {
+  flex: 1;
+  padding: 16px;
+  padding-bottom: 70px; /* space for bottom nav */
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
 .app-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 
   padding: 14px 16px;
-  gap: 12px;
 
   position: sticky;
   top: 0;
@@ -69,27 +96,25 @@ body {
 .icon-button {
   background: none;
   border: none;
+
   color: var(--text-primary);
   font-size: 1.2rem;
   cursor: pointer;
 }
 
-.app-main {
-  flex: 1;
-  padding: 16px;
-  padding-bottom: 70px;
-}
 
-.hidden {
-  display: none!important;
-}
+/* =========================================
+   SEARCH INPUT
+========================================= */
 
 #search-input {
   margin-top: 8px;
   width: 100%;
+
   padding: 8px 10px;
   border-radius: 10px;
   border: none;
+
   background: var(--bg-card);
   color: var(--text-primary);
   font-size: 0.85rem;
@@ -104,4 +129,31 @@ body {
 }
 
 
+/* =========================================
+   STREAK DISPLAY
+========================================= */
 
+.streak-block {
+  margin-bottom: 16px;
+}
+
+.streak-text {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 6px;
+}
+
+.streak-indicator {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-bottom: 8px;
+}
+
+
+/* =========================================
+   UTILITIES
+========================================= */
+
+.hidden {
+  display: none !important;
+}
