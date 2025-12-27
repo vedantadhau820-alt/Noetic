@@ -1,151 +1,284 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- =====================================
-       META & APP IDENTITY
-  ====================================== -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Noetic</title>
+/* =========================================
+   CARD RENDERER & NAVIGATION CONTROLLER
+========================================= */
 
-  <!-- PWA / Theme -->
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0a0a0a">
+/* -----------------------------------------
+   SECTION REFERENCES
+----------------------------------------- */
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.jpeg" type="image/jpeg">
+const todaySection = document.querySelector(".today-section");
+const discoverSection = document.getElementById("discover-section");
+const savedSection = document.getElementById("saved-section");
+const vaultSection = document.getElementById("vault-section");
+const searchSection = document.getElementById("search-section");
 
-  <!-- Icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+const searchInput = document.getElementById("search-input");
+const vaultBackBtn = document.getElementById("vault-back-btn");
 
-  <!-- Core Styles -->
-  <link rel="stylesheet" href="base.css" />
-  <link rel="stylesheet" href="theme.css" />
-  <link rel="stylesheet" href="cards.css" />
-  <link rel="stylesheet" href="navbar.css" />
-  <link rel="stylesheet" href="modal.css" />
-</head>
+let lastActiveSection = todaySection;
 
-<body>
-  <!-- =====================================
-       APP ROOT
-  ====================================== -->
-  <div id="app">
 
-    <!-- HEADER -->
-    <header class="app-header">
-      <h1 class="app-title">NOETIC</h1>
-      <span aria-hidden="true">&#945;</span>
+/* =========================================
+   SECTION VISIBILITY HANDLER
+========================================= */
 
-      <input
-        type="text"
-        id="search-input"
-        placeholder="Search knowledge..."
-        aria-label="Search knowledge"
-      />
+function showOnly(section) {
+  if (section !== searchSection) {
+    lastActiveSection = section;
+  }
 
-      <button class="icon-button" aria-label="Notifications">
-        <i class="fa-regular fa-bell"></i>
-      </button>
-    </header>
+  [
+    todaySection,
+    discoverSection,
+    savedSection,
+    vaultSection,
+    searchSection
+  ].forEach(sec => sec.classList.add("hidden"));
 
-    <!-- MAIN CONTENT -->
-    <main class="app-main">
+  section.classList.remove("hidden");
+}
 
-      <!-- STREAK -->
-      <div class="streak-block">
-        <div class="streak-text" id="streak-count"></div>
-      </div>
 
-      <!-- TODAY -->
-      <section class="today-section">
-        <h2>Today’s Knowledge</h2>
-        <div class="card-list" id="daily-cards"></div>
-      </section>
+/* =========================================
+   KNOWLEDGE CARD FACTORY
+========================================= */
 
-      <!-- VAULT -->
-      <section class="vault-section hidden" id="vault-section">
-        <h2>Vault</h2>
+function createKnowledgeCard(item) {
+  const article = document.createElement("article");
+  article.className = "knowledge-card";
 
-        <div class="vault-categories" id="vault-categories"></div>
+  const header = document.createElement("div");
+  header.className = "card-header";
 
-        <button id="vault-back-btn" class="vault-back hidden">
-          ← Back
-        </button>
+  const category = document.createElement("span");
+  category.className = `card-category ${item.category.toLowerCase()}`;
+  category.textContent = item.category;
 
-        <div class="card-list hidden" id="vault-items"></div>
-      </section>
+  const title = document.createElement("h3");
+  title.className = "card-title";
+  title.textContent = item.title;
 
-      <!-- SEARCH -->
-      <section class="search-section hidden" id="search-section">
-        <h2>Search Results</h2>
-        <div class="card-list" id="search-results"></div>
-      </section>
+  const essence = document.createElement("p");
+  essence.className = "card-essence";
+  essence.textContent = item.essence;
 
-      <!-- SAVED -->
-      <section class="saved-section hidden" id="saved-section">
-        <h2>Saved Knowledge</h2>
-        <div class="card-list" id="saved-cards"></div>
-      </section>
+  header.appendChild(category);
+  article.append(header, title, essence);
 
-      <!-- DISCOVER -->
-      <section id="discover-section" class="discover-section hidden">
-        <h2>Discover</h2>
-        <div class="discover-list" id="discover-cards"></div>
-      </section>
+  article.addEventListener("click", () => openModal(item));
 
-    </main>
+  return article;
+}
 
-    <!-- BOTTOM NAVIGATION -->
-    <nav class="bottom-nav">
-      <button class="nav-item active">Today</button>
-      <button class="nav-item">Discover</button>
-      <button class="nav-item">Saved</button>
-      <button class="nav-item">Vault</button>
-    </nav>
 
-  </div>
+/* =========================================
+   DAILY / DISCOVER / SAVED RENDERERS
+========================================= */
 
-  <!-- =====================================
-       KNOWLEDGE MODAL
-  ====================================== -->
-  <div id="knowledge-modal" class="modal hidden">
-    <div class="modal-content">
-      <button class="modal-close" aria-label="Close">✕</button>
+function renderDailyCards() {
+  const container = document.getElementById("daily-cards");
+  if (!container) return;
 
-      <span class="modal-category"></span>
-      <h2 class="modal-title"></h2>
-      <p class="modal-explanation"></p>
+  container.innerHTML = "";
 
-      <button class="save-button">Save</button>
-    </div>
-  </div>
+  DailyEngine.getDailyKnowledge().forEach(item =>
+    container.appendChild(createKnowledgeCard(item))
+  );
 
-  <!-- =====================================
-       SCRIPTS (ORDER MATTERS)
-  ====================================== -->
-  <script src="seed.js"></script>
-  <script src="storage.js"></script>
-  <script src="vault.js"></script>
-  <script src="streak.js"></script>
-  <script src="daily.js"></script>
-  <script src="cards.js"></script>
-  <script src="modals.js"></script>
+  updateStreak();
+  renderStreakUI();
+}
 
-  <!--
-    Service Worker (optional – enable for PWA)
-    <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("./service-worker.js");
-      }
-    </script>
-  -->
+document.addEventListener("DOMContentLoaded", renderDailyCards);
 
-</body>
-</html>
+
+function renderDiscoverCards() {
+  const container = document.getElementById("discover-cards");
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  shuffleArray(Vault.getAllItems()).forEach(item =>
+    container.appendChild(createKnowledgeCard(item))
+  );
+}
+
+
+function renderSavedCards() {
+  const container = document.getElementById("saved-cards");
+  if (!container) return;
+
+  const savedItems = Vault.getSavedItems();
+  container.innerHTML = "";
+
+  if (savedItems.length === 0) {
+    container.innerHTML =
+      "<p style='color: var(--text-muted)'>No saved knowledge yet.</p>";
+    return;
+  }
+
+  savedItems.forEach(item =>
+    container.appendChild(createKnowledgeCard(item))
+  );
+}
+
+
+/* =========================================
+   NAVIGATION HANDLING
+========================================= */
+
+document.querySelectorAll(".nav-item").forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".nav-item")
+      .forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+
+    if (searchInput) searchInput.value = "";
+
+    if (index === 0) showOnly(todaySection);
+    if (index === 1) {
+      showOnly(discoverSection);
+      renderDiscoverCards();
+    }
+    if (index === 2) {
+      showOnly(savedSection);
+      renderSavedCards();
+    }
+    if (index === 3) {
+      showOnly(vaultSection);
+      showVaultCategories();
+      renderVaultCategories();
+    }
+  });
+});
+
+
+/* =========================================
+   VAULT LOGIC
+========================================= */
+
+function renderVaultCategories() {
+  const container = document.getElementById("vault-categories");
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  const categories = [
+    
+  { key: "METAPHYSICS", label: "Metaphysics" },
+  { key: "EPISTEMOLOGY", label: "Epistemology" },
+  { key: "MIND", label: "Mind" },
+  { key: "ETHICS", label: "Ethics" },
+  { key: "LOGIC", label: "Logic" },
+  { key: "EASTERN_PHILOSOPHY", label: "Eastern Philosophy" },
+  { key: "EXISTENTIALISM", label: "Existentialism" },
+  { key: "PSYCHOLOGY", label: "Psychology" },
+  { key: "NEUROSCIENCE", label: "Neuroscience" },
+  { key: "INTELLIGENCE", label: "Intelligence" },
+
+  { key: "MENTAL_MODELS", label: "Mental Models" },
+  { key: "COGNITIVE_BIAS", label: "Cognitive Bias" },
+  { key: "LAWS_AND_PRINCIPLES", label: "Laws And Principles" },
+
+  { key: "THEORIES", label: "Theories" },
+  { key: "PARADOXES", label: "Paradoxes" },
+  { key: "THOUGHT_EXPERIMENTS", label: "Thought Experiments" },
+
+  { key: "POWER", label: "Power" },
+  { key: "SYMBOLISM", label: "Symbolism" },
+  { key: "SPIRITUAL", label: "Spiritual" },
+
+  { key: "UNSOLVED_MYSTRIES", label: "Unsolved Mysteries" },
+  
+  ];
+
+  categories.forEach(cat => {
+    const div = document.createElement("div");
+    div.className = "vault-category";
+    div.textContent = cat.label;
+
+    div.addEventListener("click", () =>
+      renderVaultItems(cat.key)
+    );
+
+    container.appendChild(div);
+  });
+}
+
+
+function renderVaultItems(category) {
+  const itemsContainer = document.getElementById("vault-items");
+  const categoriesContainer = document.getElementById("vault-categories");
+
+  itemsContainer.innerHTML = "";
+  categoriesContainer.classList.add("hidden");
+  itemsContainer.classList.remove("hidden");
+  vaultBackBtn.classList.remove("hidden");
+
+  Vault.getItemsByCategory(category).forEach(item =>
+    itemsContainer.appendChild(createKnowledgeCard(item))
+  );
+}
+
+
+function showVaultCategories() {
+  document.getElementById("vault-items").classList.add("hidden");
+  document.getElementById("vault-categories").classList.remove("hidden");
+  vaultBackBtn.classList.add("hidden");
+}
+
+vaultBackBtn.addEventListener("click", showVaultCategories);
+
+
+/* =========================================
+   SEARCH SYSTEM
+========================================= */
+
+function renderSearchResults(query) {
+  if (!query) {
+    showOnly(lastActiveSection);
+    return;
+  }
+
+  showOnly(searchSection);
+
+  const container = document.getElementById("search-results");
+  container.innerHTML = "";
+
+  const lower = query.toLowerCase();
+  const results = Vault.getAllItems().filter(item =>
+    item.title.toLowerCase().includes(lower) ||
+    item.essence.toLowerCase().includes(lower) ||
+    item.tags.some(tag => tag.toLowerCase().includes(lower))
+  );
+
+  if (!results.length) {
+    container.innerHTML =
+      "<p style='color: var(--text-muted)'>No results found.</p>";
+    return;
+  }
+
+  results.forEach(item =>
+    container.appendChild(createKnowledgeCard(item))
+  );
+}
+
+if (searchSection) searchSection.classList.add("hidden");
+if (searchInput) {
+  searchInput.value = "";
+  searchInput.addEventListener("input", e =>
+    renderSearchResults(e.target.value.trim())
+  );
+}
+
+
+/* =========================================
+   UTILITIES
+========================================= */
+
+function shuffleArray(arr) {
+  return [...arr]
+    .map(item => ({ item, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ item }) => item);
+}
