@@ -1,139 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Noetic</title>
-    <link rel="shortcut icon" href="favicon.jpeg" type="image/jpeg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#0a0a0a">
-    <link rel="stylesheet" href="base.css" />
-    <link rel="stylesheet" href="theme.css" />
-    <link rel="stylesheet" href="cards.css" />
-    <link rel="stylesheet" href="navbar.css" />
-    <link rel="stylesheet" href="modal.css" />
+  <!-- =====================================
+       META & APP IDENTITY
+  ====================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noetic</title>
 
+  <!-- PWA / Theme -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
 
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.jpeg" type="image/jpeg">
 
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Core Styles -->
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="theme.css" />
+  <link rel="stylesheet" href="cards.css" />
+  <link rel="stylesheet" href="navbar.css" />
+  <link rel="stylesheet" href="modal.css" />
 </head>
 
 <body>
-    <div id="app">
-        <header class="app-header">
-            <h1 class="app-title">NOETIC</h1><span>&#945;</span>
-            <input type="text" id="search-input" placeholder="Search knowledge..." />
-            <button class="icon-button" aria-label="Notifications">
-                <i class="fa-regular fa-bell"></i>
-            </button>
-        </header>
-        <div id="notification-panel" class="notification-panel hidden">
-            <h3>Reminders</h3>
-            <div id="notification-list"></div>
-        </div>
+  <!-- =====================================
+       APP ROOT
+  ====================================== -->
+  <div id="app">
 
-        <main class="app-main">
-            <section class="today-section">
-                <h2>Today’s Knowledge</h2>
+    <!-- HEADER -->
+    <header class="app-header">
+      <h1 class="app-title">NOETIC</h1>
+      <span aria-hidden="true">&#945;</span>
 
-                <div class="card-list" id="daily-cards">
-                    <!-- Cards will render here -->
-                </div>
-            </section>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search knowledge..."
+        aria-label="Search knowledge"
+      />
 
-            <section class="vault-section hidden" id="vault-section">
-                <h2>Vault</h2>
+      <button class="icon-button" aria-label="Notifications">
+        <i class="fa-regular fa-bell"></i>
+      </button>
+    </header>
 
-                <div class="vault-categories" id="vault-categories">
-                    <!-- Categories here -->
-                </div>
-                <button id="vault-back-btn" class="vault-back hidden">← Back</button>
-                <div class="card-list hidden" id="vault-items">
-                    <!-- Category items here -->
-                </div>
-            </section>
+    <!-- MAIN CONTENT -->
+    <main class="app-main">
 
-            <section class="search-section hidden" id="search-section">
-                <h2>Search Results</h2>
+      <!-- STREAK -->
+      <div class="streak-block">
+        <div class="streak-text" id="streak-count"></div>
+      </div>
 
-                <div class="card-list" id="search-results">
-                    <!-- Results here -->
-                </div>
-            </section>
+      <!-- TODAY -->
+      <section class="today-section">
+        <h2>Today’s Knowledge</h2>
+        <div class="card-list" id="daily-cards"></div>
+      </section>
 
+      <!-- VAULT -->
+      <section class="vault-section hidden" id="vault-section">
+        <h2>Vault</h2>
 
-            <section class="saved-section hidden" id="saved-section">
-                <h2>Saved Knowledge</h2>
+        <div class="vault-categories" id="vault-categories"></div>
 
-                <div class="card-list" id="saved-cards">
-                    <!-- Saved cards render here -->
-                </div>
-            </section>
+        <button id="vault-back-btn" class="vault-back hidden">
+          ← Back
+        </button>
 
-            <section id="discover-section" class="discover-section hidden">
-                <h2>Discover</h2>
+        <div class="card-list hidden" id="vault-items"></div>
+      </section>
 
-                <div class="discover-list" id="discover-cards">
-                    <!-- Discover cards render here -->
-                </div>
-            </section>
+      <!-- SEARCH -->
+      <section class="search-section hidden" id="search-section">
+        <h2>Search Results</h2>
+        <div class="card-list" id="search-results"></div>
+      </section>
 
+      <!-- SAVED -->
+      <section class="saved-section hidden" id="saved-section">
+        <h2>Saved Knowledge</h2>
+        <div class="card-list" id="saved-cards"></div>
+      </section>
 
-        </main>
-        <nav class="bottom-nav">
-            <button class="nav-item active">Today</button>
-            <button class="nav-item">Discover</button>
-            <button class="nav-item">Saved</button>
-            <button class="nav-item">Vault</button>
-        </nav>
+      <!-- DISCOVER -->
+      <section id="discover-section" class="discover-section hidden">
+        <h2>Discover</h2>
+        <div class="discover-list" id="discover-cards"></div>
+      </section>
 
+    </main>
 
+    <!-- BOTTOM NAVIGATION -->
+    <nav class="bottom-nav">
+      <button class="nav-item active">Today</button>
+      <button class="nav-item">Discover</button>
+      <button class="nav-item">Saved</button>
+      <button class="nav-item">Vault</button>
+    </nav>
 
+  </div>
+
+  <!-- =====================================
+       KNOWLEDGE MODAL
+  ====================================== -->
+  <div id="knowledge-modal" class="modal hidden">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">✕</button>
+
+      <span class="modal-category"></span>
+      <h2 class="modal-title"></h2>
+      <p class="modal-explanation"></p>
+
+      <button class="save-button">Save</button>
     </div>
-    <div id="knowledge-modal" class="modal hidden">
-        <div class="modal-content">
-            <button class="modal-close" aria-label="Close">✕</button>
+  </div>
 
-            <span class="modal-category"></span>
-            <h2 class="modal-title"></h2>
+  <!-- =====================================
+       SCRIPTS (ORDER MATTERS)
+  ====================================== -->
+  <script src="seed.js"></script>
+  <script src="storage.js"></script>
+  <script src="vault.js"></script>
+  <script src="streak.js"></script>
+  <script src="daily.js"></script>
+  <script src="cards.js"></script>
+  <script src="modals.js"></script>
 
-            <p class="modal-explanation"></p>
-            
-
-            <button class="save-button">Save</button>
-
-            <!-- <div class="reflection-box">
-                <h4>This changed my thinking</h4>
-
-                <textarea id="reflection-input" placeholder="Write your insight..." rows="3"></textarea>
-
-                <button id="save-reflection-btn">Save Reflection</button>
-
-                <div id="reflection-list"></div>
-            </div> -->
-
-        </div>
-    </div>
-
-    </div>
-    <script src="seed.js"></script>
-    <script src="storage.js"></script>
-    <script src="vault.js"></script>
-    <script src="daily.js"></script>
-    <script src="cards.js"></script>
-    <script src="modals.js"></script>
+  <!--
+    Service Worker (optional – enable for PWA)
     <script>
-        if ("serviceWorker" in navigator) {
-            navigator.serviceWorker.register("./service-worker.js");
-        }
-    </script> 
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./service-worker.js");
+      }
+    </script>
+  -->
 
 </body>
-
-
 </html>
-
-
