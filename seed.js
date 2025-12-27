@@ -3,2818 +3,762 @@
 =========================== */
 
 const SEED_VAULT = [
-  /* 1 */
+
+// {
+//   id: "",
+//   category: "",
+//   title: "",
+//   essence: "",
+//   explanation: ``,
+//   tags: ["", ""]
+// },
+
 {
-  id: "law_parkinsons",
-  category: "LAW",
-  title: "Parkinson’s Law",
-  essence: "Work expands to fill the time available.",
-  explanation: "Parkinson’s Law says that work expands to fill the time you give it. If you have more time, you work slower; less time makes you focus better.",
-  example: "If you give yourself 7 days to finish homework, you’ll use all 7 days—even if it really needs only 2.",
-  whenToUse: "It matters when setting deadlines so you finish faster and stop wasting time.",
-  warning: "People think more time always means better work, but it often just means slower work.",
-  tags: ["time", "productivity"]
+  id: "existence",
+  category: "METAPHYSICS",
+  title: "What Is Existence?",
+  essence: "Why anything exists at all.",
+  explanation: `Existence means being real or being there. If something exists, it is not imaginary—it has some form of reality. You exist. Other people exist. Trees, air, sound, thoughts, and even time exist in different ways. Existence simply answers one basic question: “Is this real in any way?”
+
+Think of a chair in front of you. You can see it, touch it, sit on it. So the chair exists physically. Now think of a dream you had last night. The dream felt real, but when you woke up, it disappeared. The dream still existed, but only in your mind. This shows that existence is not just about physical objects. Things can exist physically, mentally, or emotionally.
+
+You also exist even when no one is looking at you. You don’t stop existing when you sleep or when you are alone. This means existence does not depend on attention. It simply is. Your thoughts exist when you think them. Your feelings exist when you feel them, even if you never say them out loud.
+
+Another way to understand existence is through change. If something can affect you or be affected by something else, it exists. Fire exists because it can burn. Love exists because it can change how people act. Fear exists because it can stop you from moving.
+
+So, existence is the state of being something rather than nothing. It is the basic fact that something is happening at all. Everything else—life, meaning, choices—comes after existence.`,
+  tags: ["being", "reality"]
+},
+{
+  id: "reality_illusion",
+  category: "METAPHYSICS",
+  title: "Reality vs Illusion",
+  essence: "What is real and what only appears real.",
+  explanation: `Reality is what truly exists, whether we like it or not. It stays the same even if we ignore it or misunderstand it. For example, fire is real. If you touch it, it will burn you every time. Your belief does not change that. Gravity is real. Even if you don’t believe in it, you will still fall if you jump. Reality does not depend on opinions, wishes, or feelings. It simply is.
+
+Illusion, on the other hand, is something that appears real but is not fully true. It tricks our senses or our mind. For example, a mirage in a desert looks like water, but when you reach it, there is nothing. Social media can also create illusions. Someone may look happy and successful online, but in real life they might be struggling. The image looks real, but it hides the truth.
+
+Illusions often come from limited information, emotions, or desire. When we want something badly, our mind fills gaps and creates a false picture. Reality is often uncomfortable, while illusion feels safe and pleasant. That’s why people sometimes prefer illusion.
+
+The key difference is this:
+
+Reality remains even when tested
+
+Illusion breaks when questioned
+
+Understanding the difference matters because decisions based on illusion lead to disappointment, while decisions based on reality lead to growth. Seeing reality clearly—even when it hurts—is the first step toward real freedom and progress.`,
+  tags: ["reality", "perception"]
+},
+{
+  id: "time_space",
+  category: "METAPHYSICS",
+  title: "Time & Space",
+  essence: "The structure of reality.",
+  explanation: `Time and space are the two basic things that allow everything to exist and happen.
+
+Time is what allows change. Without time, nothing could move, grow, or happen. When you wake up, go to school or work, eat food, and sleep—time is passing. You cannot stop time or rewind it. Even if you do nothing, time still moves forward. Time is why you grow older, why seasons change, and why yesterday is different from today. You cannot see time directly, but you feel it through change.
+
+Space is where things exist. Your room has space. Your city has space. The Earth, the Sun, and the stars all exist in space. Space gives objects a place to be. Without space, everything would be piled into one point, and nothing could move or exist separately. When you walk from one room to another, you are moving through space.
+
+Now here is the important part: time and space always work together. You cannot move through space without time passing. You cannot experience time without being somewhere in space. For example, when you travel to another city, you move through space, and time passes during the journey.
+
+Think of a movie. Space is the screen where the movie appears. Time is what allows the movie to play scene by scene. Without the screen, nothing can appear. Without time, nothing can happen.
+
+So, time allows change, and space allows existence. Together, they form the stage on which all of life and reality happen.`,
+  tags: ["time", "space"]
+},
+{
+  id: "cause_effect",
+  category: "METAPHYSICS",
+  title: "Cause and Effect",
+  essence: "Why things happen.",
+  explanation: `Cause and effect means that everything that happens has a reason behind it. A cause is what makes something happen, and the effect is what happens because of it. Nothing happens by magic or randomly for no reason, even if we don’t understand the reason yet.
+
+For example, if you touch fire, the cause is touching the fire, and the effect is getting burned. If you don’t study for an exam, the cause is not studying, and the effect may be poor results. If you practice daily, the cause is effort, and the effect is improvement. Life constantly works this way.
+
+Sometimes causes are small, but their effects are big. Think of pushing the first domino in a line. One small push causes all the dominoes to fall. In the same way, one habit—good or bad—can slowly change your entire life. Waking up early, wasting time, saving money, or speaking kindly may seem small, but over time their effects grow.
+
+Not all effects happen immediately. Some take time. Eating unhealthy food once won’t harm you much, but doing it every day creates health problems later. This delay often makes people forget the cause.
+
+Understanding cause and effect gives you power. It teaches you that your actions matter. If you don’t like an effect in your life, look for the cause—and change it.`,
+  tags: ["causality", "determinism"]
+},
+{
+  id: "free_will",
+  category: "METAPHYSICS",
+  title: "Free Will vs Determinism",
+  essence: "Do we truly choose?",
+  explanation: `Free will means you have the power to choose. It says that your decisions come from you. When you choose what to eat, what career to follow, or how to react to a situation, free will says you could have chosen differently. You are not just a machine. You think, decide, and act based on your own will.
+
+For example, if you are angry but choose to stay calm, free will says that choice was yours. You were not forced by nature or fate. You decided.
+
+Determinism says the opposite. It says everything happens because of past causes. Your thoughts, choices, and actions are the result of your biology, upbringing, experiences, and environment. According to determinism, if someone knew everything about your brain and past, they could predict what you would do next—just like predicting a falling domino.
+
+For example, determinism says you chose tea over coffee because of your habits, past preferences, mood, and brain chemistry—not because you were “free.”
+
+This creates a big question:
+👉 Are we truly choosing, or are we just following a chain of causes?
+
+In real life, many people believe both play a role. Your past influences you, but you still have awareness. You may feel anger because of past causes, but you can choose how to respond. That choice matters.
+
+Why does this matter? Because free will gives responsibility, meaning, and growth. Determinism reminds us to be compassionate, because people are shaped by forces they didn’t choose.
+
+Understanding both helps you live wisely:
+Accept what shaped you—but take responsibility for what you do next.`,
+  tags: ["choice", "determinism"]
+},
+{
+  id: "identity_change",
+  category: "METAPHYSICS",
+  title: "Identity & Change",
+  essence: "What stays the same through change.",
+  explanation: `Identity is who you are. It includes your name, personality, beliefs, habits, values, and the way you see yourself. When someone asks, “Who are you?”, the answer you give comes from your identity. It feels stable, like something solid. You often think, “This is just how I am.”
+
+Change means becoming different over time. You change when you learn something new, gain experience, fail, succeed, get hurt, or grow. Your thoughts change. Your priorities change. Even your personality can slowly shift.
+
+At first, identity and change seem like opposites. If you change, are you still the same person? The answer is yes.
+
+Think of a river. It is called the same river today and tomorrow, but the water in it is never the same. New water flows in every second. In the same way, you remain you, even though your thoughts, habits, and beliefs keep changing.
+
+For example, as a child you may have been shy. As an adult, you may speak confidently. Your behavior changed, but your core self—the one experiencing life—remained continuous. Or think about learning. Before learning to ride a bicycle, you were “someone who can’t ride.” After learning, you are “someone who can.” Your identity expanded.
+
+The problem happens when people cling too tightly to an old identity. They say, “I am bad at math,” or “I am not confident,” and stop themselves from changing. But identity is not fixed like stone. It is more like clay—it keeps shape, but it can be reshaped.
+
+Understanding identity and change helps you grow. You respect who you are now, without being trapped by it. You realize:
+You are not finished. You are becoming.`,
+  tags: ["identity", "change"]
 },
 
-/* 2 */
+// -------- Epistemology --------
+
 {
-  id: "law_pareto",
-  category: "LAW",
-  title: "Pareto Principle (80/20 Rule)",
-  essence: "Most results come from a small portion of effort.",
-  explanation: "The Pareto Principle says that 80% of results come from 20% of efforts. A small part of what you do creates most of your success.",
-  example: "In studies, a few important topics give most exam marks, while many topics add very little.",
-  whenToUse: "It matters when you want maximum results with limited time or energy.",
-  warning: "People think the numbers must be exactly 80 and 20, but it’s only a general idea.",
-  tags: ["focus", "priority"]
+  id: "truth",
+  category: "EPISTEMOLOGY",
+  title: "What Is Truth?",
+  essence: "What makes something true.",
+  explanation: `Truth means what is real and correct, not what we wish were true, not what feels good, and not what many people believe. Truth answers a simple question: “What actually is the case?”
+
+For example, if it is raining outside, the truth is that it is raining—even if you feel like it shouldn’t be. If you failed an exam, the truth is you failed, even if you blame bad luck or the teacher. Truth does not change to protect feelings. It stays the same.
+
+Truth is different from belief. You may believe something strongly, but that does not make it true. Long ago, many people believed the Earth was flat. They believed it honestly. But the truth was still that the Earth is round. Truth exists independent of belief.
+
+Truth is also different from opinion. Saying “This movie is good” is an opinion. Saying “This movie is two hours long” is a fact. Truth deals with facts and reality, not personal likes or dislikes.
+
+Sometimes truth is uncomfortable. It can hurt pride, break illusions, or force change. That’s why people avoid it or hide from it. Lies feel safe in the short term, but they collapse over time. Truth may hurt at first, but it lasts.
+
+Truth can be tested. If something is true, it remains true when questioned, checked, or challenged. Lies fall apart under pressure.
+
+Why does truth matter? Because living according to truth helps you make better decisions, grow faster, and build real confidence. When you accept truth—even hard truth—you gain clarity. And clarity is power.
+
+Truth is reality as it is, not as we want it to be.`,
+  tags: ["truth", "knowledge"]
+},
+{
+  id: "knowledge_belief",
+  category: "EPISTEMOLOGY",
+  title: "Knowledge vs Belief",
+  essence: "Knowing vs thinking you know.",
+  explanation: `Belief is something you accept as true, even if you don’t have strong proof. Beliefs often come from parents, culture, religion, friends, or personal experience. For example, you may believe that waking up early makes life better because people around you say so. You may believe someone is honest because they seem honest. Beliefs feel true, but they can be wrong.
+
+Knowledge is different. Knowledge is something you know because it is supported by evidence, experience, or testing. It can be checked and confirmed. For example, you know fire is hot because you have seen it burn things and felt its heat. You know 2 + 2 = 4 because it can be proven every time. Knowledge does not depend only on feelings or tradition.
+
+A simple way to understand the difference is this:
+
+Belief says: “I think this is true.”
+
+Knowledge says: “I know this is true, and I can show why.”
+
+Beliefs are not always bad. They help us act when we don’t have full information. But problems start when beliefs are treated like knowledge. For example, believing “I am bad at learning” without evidence can stop growth. That belief feels real, but it may not be true.
+
+Knowledge grows when we question beliefs. Asking “How do I know this?” turns belief into understanding. Strong people are not those who hold many beliefs, but those who are willing to update beliefs when new knowledge appears.
+
+Why does this matter? Because decisions based on knowledge lead to better results, while decisions based only on belief can lead to mistakes. The goal is not to remove beliefs—but to turn as many beliefs as possible into knowledge..`,
+  tags: ["belief", "knowledge"]
+},
+{
+  id: "limits_knowledge",
+  category: "EPISTEMOLOGY",
+  title: "Limits of Human Knowledge",
+  essence: "What cannot be known.",
+  explanation: `Human knowledge has limits, which means there are things we do not know, cannot fully know, or may never know. This is not because humans are weak, but because our tools, senses, and minds are limited.
+
+First, our senses are limited. We see only a small part of light, hear only certain sounds, and feel only what touches us. Many things exist beyond our senses. For example, radio waves were always there, but humans did not know about them until technology helped us detect them. This shows that reality is bigger than what we can directly experience.
+
+Second, our minds are limited. We understand the world by using language, ideas, and models. But models are simplifications, not reality itself. Think of a map. A map helps you travel, but it is not the actual land. In the same way, our theories explain reality, but they are not reality itself.
+
+Third, knowledge depends on information and perspective. Imagine blind people touching different parts of an elephant. One feels the leg and says it’s like a pillar. Another feels the tail and says it’s like a rope. Each has partial knowledge, but none sees the whole elephant. Humans often understand only parts of the truth.
+
+There are also questions we may never fully answer:
+What existed before the universe?
+Why does anything exist at all?
+Is there a final purpose to life?
+
+Accepting the limits of knowledge is important. It creates humility. It reminds us to stay curious, open-minded, and willing to say, “I don’t know.” Real wisdom is not knowing everything—it is understanding where knowledge ends and mystery begins.`,
+  tags: ["limits", "uncertainty"]
+},
+{
+  id: "skepticism",
+  category: "EPISTEMOLOGY",
+  title: "Skepticism",
+  essence: "Questioning certainty.",
+  explanation: `Skepticism means questioning before believing. It does not mean rejecting everything or being negative. It means you don’t accept a claim just because someone said it, because many people believe it, or because it sounds nice. A skeptic asks: “How do we know this is true?”
+
+For example, if someone online says, “This habit will make you rich in 7 days,” a skeptical person does not immediately believe it. They ask for proof. They look for evidence, real examples, and logic. This protects them from being fooled.
+
+Skepticism is important because humans can be wrong. Our senses can mislead us. Our emotions can trick us. Our beliefs can be inherited without thinking. Skepticism acts like a filter between information and belief. It slows you down and helps you check facts before accepting them.
+
+However, skepticism is not the same as cynicism. A cynic says, “Everything is false.” A skeptic says, “I’m not convinced yet.” Skepticism is open-minded. If good evidence appears, a skeptic is willing to change their mind.
+
+In daily life, skepticism helps you avoid scams, fake news, and false confidence. It also helps you grow intellectually. Instead of asking, “Do I like this idea?” you ask, “Is this idea true?”
+
+The goal of skepticism is not doubt forever. The goal is better understanding. By questioning wisely, you get closer to truth, not farther from it.`,
+  tags: ["doubt", "certainty"]
+},
+{
+  id: "rationalism_empiricism",
+  category: "EPISTEMOLOGY",
+  title: "Rationalism vs Empiricism",
+  essence: "Reason vs experience.",
+  explanation: `Rationalism and empiricism are two different ways humans try to gain knowledge.
+
+Rationalism says that reason and thinking are the main sources of knowledge. It believes that some truths can be known just by using the mind, without needing experience. For example, you know that 2 + 2 = 4 without touching objects or doing experiments. You just think, and it is clearly true. Rationalists trust logic, mathematics, and clear thinking. They believe the mind already has the ability to discover certain truths.
+
+Empiricism, on the other hand, says that experience and observation are the main sources of knowledge. It believes we learn by seeing, hearing, touching, and testing the world. For example, you know fire is hot because you touched it or saw its effects. You know rain makes things wet because you experienced it. Empiricists trust experiments, evidence, and real-world results.
+
+A simple way to remember the difference:
+
+Rationalism: “I know because I can think it through.”
+
+Empiricism: “I know because I experienced it.”
+
+In real life, we use both. When you solve a math problem, you use rationalism. When you learn to ride a bike, you use empiricism. Thinking without experience can become unrealistic, and experience without thinking can be confusing.
+
+Why does this matter? Because understanding both helps you learn better. You think clearly and test ideas in the real world. True understanding comes from the balance between mind and experience.`,
+  tags: ["reason", "experience"]
 },
 
-/* 3 */
+// -------- Philosophy of Mind --------
+
 {
-  id: "law_diminishing_returns",
-  category: "LAW",
-  title: "Law of Diminishing Returns",
-  essence: "More effort gives less benefit after a point.",
-  explanation: "The Law of Diminishing Returns says that after a certain point, putting in more effort gives smaller results, and sometimes performance even gets worse.",
-  example: "Studying 2 hours helps a lot, but studying 10 hours straight makes you tired and learn less.",
-  whenToUse: "It matters when deciding when to stop and rest to stay effective.",
-  warning: "People think more effort always means better results, which is not true.",
-  tags: ["effort", "balance"]
+  id: "consciousness",
+  category: "MIND",
+  title: "Consciousness Explained",
+  essence: "Why awareness exists.",
+  explanation: `Consciousness is your awareness of being alive. It is the fact that you are experiencing life. Right now, you are reading these words, understanding them, and knowing that you are reading. That knowing is consciousness.
+
+Think about this carefully. A chair exists, but it does not know it exists. A phone can process information, but it does not feel anything. You, however, can feel happiness, pain, confusion, love, and fear. You can think about the past, imagine the future, and ask questions like “Who am I?” That inner experience is consciousness.
+
+Consciousness includes many things:
+
+Your thoughts
+
+Your emotions
+
+Your senses (seeing, hearing, feeling)
+
+Your awareness of yourself
+
+For example, when you touch something hot, your hand reacts quickly. That reaction can happen without much thought. But when you feel the pain and think, “This hurts,” that experience is conscious. Consciousness is not just reacting—it is experiencing.
+
+Another way to understand it is through dreams. When you dream, your body is still, but your mind creates a whole world. You see things, hear sounds, and feel emotions, even though nothing is physically happening. This shows that consciousness is deeply connected to the mind, not just the outside world.
+
+Scientists study consciousness through the brain, but there is still no complete answer to why we experience life from the inside. We know the brain is involved, but how physical matter creates inner experience is still a mystery.
+
+Why does consciousness matter? Because it is the foundation of everything you care about. Without consciousness, there would be no meaning, no pain, no joy, and no questions. Consciousness is what turns existence into experience.
+
+Consciousness is the light that makes you aware that you are alive.`,
+  tags: ["consciousness", "awareness"]
+},
+{
+  id: "mind_body",
+  category: "MIND",
+  title: "Mind–Body Problem",
+  essence: "Mind vs matter.",
+  explanation: `The mind–body problem is a simple but deep question:
+How is the mind connected to the body?
+
+Your body is physical. It has a brain, hands, heart, and nerves. It can be touched, seen, and measured.
+Your mind is different. It includes your thoughts, feelings, memories, dreams, and awareness. You cannot touch a thought or weigh a feeling.
+
+So the question is:
+👉 How does a physical body create non-physical experiences?
+
+For example, when someone insults you, nothing physically hits you. Yet you feel pain or anger. That pain is real, but it is not a physical object like a cut or bruise. Or think about this: when you decide to raise your hand, a thought causes your body to move. How can something invisible (a thought) control something physical (your arm)?
+
+There are two common ways people think about this.
+
+One idea says the mind and body are separate. The body is like a machine, and the mind is like a driver controlling it. Another idea says the mind is part of the body, especially the brain. According to this view, thoughts and feelings are results of brain activity, just like heat comes from fire.
+
+Both views have problems. If the mind is separate, how does it affect the body? If the mind is only the brain, why does experience feel so personal and inner?
+
+This problem matters because it affects how we understand identity, free will, emotions, and responsibility. Are you just a body reacting to chemicals, or something more?
+
+The mind–body problem asks how matter creates experience—and why being alive feels like something from the inside.`,
+  tags: ["mind", "body"]
+},
+{
+  id: "self_ego",
+  category: "MIND",
+  title: "Self & Ego",
+  essence: "Who you think you are.",
+  explanation: `The self is who you truly are at the deepest level. It is the one who experiences. When you say “I am thinking,” the “I” that is aware of the thought is the self. The self is calm, observing, and constant. It stays the same even when your thoughts, moods, or roles change.
+
+The ego is the story you tell about yourself. It is your name, achievements, failures, labels, and comparisons. The ego says, “I am successful,” “I am better than others,” or “I am a failure.” It wants approval, status, and control. The ego is built from memories, experiences, and social feedback.
+
+Here is a simple example. If someone criticizes you and you feel angry or hurt, that reaction usually comes from the ego. The ego feels threatened. But if you notice the feeling and think, “I am feeling hurt,” the part that is noticing is the self.
+
+The ego is not evil. It helps you function in society. You need it to introduce yourself, set goals, and protect yourself. Problems arise when you believe you are only your ego. Then every insult feels like an attack, and every failure feels like your identity.
+
+Understanding the difference brings freedom. You realize you have an ego, but you are not the ego. Thoughts and roles change, but the self remains.
+
+The ego is who you think you are.
+The self is who you are aware of being.`,
+  tags: ["self", "identity"]
+},
+{
+  id: "qualia",
+  category: "MIND",
+  title: "Qualia",
+  essence: "Subjective experience.",
+  explanation: `Qualia are the personal, inner experiences of life—the way things feel from the inside. They answer questions like: What does red look like to you? What does pain feel like? What is the taste of mango like? These experiences are real to you, but hard to fully explain to someone else.
+
+For example, think about the color red. Science can describe red as a certain wavelength of light. A brain scan can show activity when you see red. But none of that explains what red feels like to you. That “what-it-is-like” feeling is qualia. The same goes for pain. Doctors can explain nerves and signals, but only you know how your headache feels.
+
+Qualia are subjective, meaning they depend on the person experiencing them. You and a friend may both taste the same coffee, but one finds it bitter and unpleasant, while the other enjoys it. The coffee is the same, but the experience is different. Those differences are qualia.
+
+This is why qualia are important in understanding the mind. Machines can process information, but do they feel anything? A computer can recognize the word “sweet,” but it does not taste sweetness. Humans do. That inner feeling is qualia.
+
+Qualia also explain why experiences are hard to share fully. You can describe a sunset, but your words never perfectly transfer the feeling you had while watching it.
+
+Qualia are the private feelings of experience—how life feels to you from the inside.`,
+  tags: ["experience", "subjectivity"]
+},
+{
+  id: "artificial_consciousness",
+  category: "MIND",
+  title: "Artificial Consciousness",
+  essence: "Can machines be aware?",
+  explanation: `Artificial consciousness is the idea of creating a machine that is not only intelligent, but also aware. It asks a big question: Can a machine ever truly experience life the way humans do?
+
+Today’s computers and AI systems can think in a limited way. They can calculate fast, recognize faces, write text, and answer questions. But they do all this without awareness. They do not feel happy when they succeed or sad when they fail. They do not know that they exist. They only follow instructions and patterns. This means current AI is intelligent, but not conscious.
+
+To understand the difference, imagine a calculator. It gives the correct answer, but it has no idea what numbers mean. In the same way, an AI can say “I am happy,” but it does not feel happiness. There is no inner experience. No feelings. No point of view.
+
+Artificial consciousness would be different. A conscious machine would know it is thinking. It would have experiences, feelings, or something like them. It would have its own inner world. For example, if it saw the color red, it would not just identify it—it would experience it in some way.
+
+The problem is that we do not fully understand human consciousness yet. If we don’t know how awareness arises in the brain, it is very hard to recreate it in a machine. Some scientists believe consciousness might appear if machines become complex enough. Others believe consciousness requires biology and cannot be created artificially.
+
+This topic matters because if machines ever become conscious, big questions follow:
+Do they have rights?
+Can they suffer?
+Are they responsible for their actions?
+
+Artificial consciousness is not about smart machines—it is about machines that can actually experience being alive.`,
+  tags: ["ai", "consciousness"]
 },
 
-/* 4 */
+// -------- Ethics --------
+
 {
-  id: "law_murphy",
-  category: "LAW",
-  title: "Murphy’s Law",
-  essence: "Anything that can go wrong might go wrong.",
-  explanation: "Murphy’s Law says that if something can go wrong, it probably will—especially at the worst time. It reminds us that problems are a normal part of life.",
-  example: "Your phone battery dies exactly when you urgently need to make a call.",
-  whenToUse: "It matters when planning, so you prepare backups and stay calm when things fail.",
-  warning: "People think it means life is unlucky, but it actually encourages better preparation.",
-  tags: ["risk", "planning"]
+  id: "good_evil",
+  category: "ETHICS",
+  title: "Good vs Evil",
+  essence: "Right and wrong.",
+  explanation: `Good and evil are ideas we use to describe actions, intentions, and choices. Good usually means actions that reduce harm, increase well-being, and help life grow. Evil usually means actions that cause unnecessary harm, suffering, or destruction. In simple words, good helps, and evil hurts.
+
+For example, helping someone who is injured is seen as good because it reduces pain and supports life. Hurting someone for pleasure or power is seen as evil because it causes suffering without a good reason. Most people across cultures agree on these basics, even if details differ.
+
+Good and evil are not just about actions, but also about intent. Accidentally stepping on someone’s foot is not evil. Doing it on purpose to cause pain is closer to evil. This shows that what matters is not only what happens, but why it happens.
+
+Another important point is that good and evil are not always black and white. Real life is messy. A doctor may cause pain during surgery, but the goal is healing, so the action is considered good. A lie told to protect someone may feel morally better than a truth that causes serious harm. Context matters.
+
+Good and evil also exist inside people, not just in stories. A single person can do kind things in one moment and selfish things in another. This is why it’s dangerous to think only “others are evil.” Everyone has the capacity for both.
+
+Understanding good vs evil helps guide choices. It reminds us to ask:
+Does this action reduce suffering or increase it?
+Does it respect others or use them?
+
+Good is choosing care over harm.
+Evil is choosing harm when care is possible.`,
+  tags: ["morality", "ethics"]
+},
+{
+  id: "moral_responsibility",
+  category: "ETHICS",
+  title: "Moral Responsibility",
+  essence: "Accountability for actions.",
+  explanation: `Moral responsibility means being accountable for your actions—especially when those actions affect others. It answers a simple question: “Should this person be praised or blamed for what they did?”
+
+If you choose to help someone in need, people say you deserve praise. If you choose to hurt someone on purpose, people say you deserve blame. This idea only makes sense if you had some control over what you did. That is why moral responsibility is closely connected to choice, intention, and awareness.
+
+For example, if a child accidentally breaks a glass, we usually don’t blame them much. Why? Because they didn’t fully understand the consequences. But if an adult breaks it on purpose, we hold them responsible. The difference is understanding and intention.
+
+Moral responsibility also depends on freedom. If someone is forced at gunpoint to do something wrong, we blame them less, because their freedom was taken away. The more freedom and understanding a person has, the more responsibility they carry.
+
+Another important part is foreseeability. If you could reasonably predict that your action would cause harm, you are more responsible. For example, driving carelessly puts others at risk, even if you didn’t intend to hurt anyone. You are still morally responsible because you ignored the risk.
+
+Moral responsibility matters because it holds society together. It encourages people to act carefully, take ownership of mistakes, and improve themselves. Without it, praise, blame, justice, and trust would lose meaning.
+
+Moral responsibility means owning your actions—not just what you did, but why you did it and what you could have known.`,
+  tags: ["responsibility", "choice"]
+},
+{
+  id: "utilitarianism",
+  category: "ETHICS",
+  title: "Utilitarianism",
+  essence: "Greatest good principle.",
+  explanation: `Utilitarianism is a way of deciding what is right or wrong by looking at results. It says: an action is good if it creates the greatest happiness for the greatest number of people. If an action reduces suffering and increases overall well-being, it is considered morally right.
+
+Think of it like this: instead of asking, “Is this rule always correct?” utilitarianism asks, “What choice helps the most people and harms the fewest?”
+
+For example, imagine a town with limited medicine during an illness. If the medicine can save five people but only help one person a little, utilitarianism would say it should be given to the five. The goal is to maximize total well-being, even if it feels emotionally difficult.
+
+In daily life, we already think this way sometimes. A government may build a noisy highway because it helps millions travel faster, even though it bothers people living nearby. A teacher may focus more time on struggling students because it improves overall class learning. These decisions are not perfect, but they aim to create more good than harm.
+
+However, utilitarianism has problems. It can ignore individual rights. If harming one innocent person somehow made many others happy, utilitarian logic might say it is acceptable. This feels wrong to many people. Also, happiness is hard to measure. How do you compare one person’s pain with another person’s joy?
+
+Despite this, utilitarianism is powerful because it forces us to think about consequences. It reminds us that intentions alone are not enough—what actually happens matters.
+
+Utilitarianism says the best action is the one that creates the most overall good and the least overall harm.`,
+  tags: ["consequences", "happiness"]
+},
+{
+  id: "deontology",
+  category: "ETHICS",
+  title: "Deontology",
+  essence: "Duty-based ethics.",
+  explanation: `Deontology is a way of thinking about right and wrong that focuses on rules, duties, and principles, not results. It says: some actions are right or wrong in themselves, no matter what happens afterward. In simple words, doing the right thing matters more than getting a good outcome.
+
+For example, lying is usually considered wrong in deontology. Even if a lie could bring some benefit, deontology asks: Is lying itself right or wrong? If it breaks a moral rule like honesty, then it is wrong—no matter how useful the lie might seem.
+
+Think about a stop signal. You stop at a red light even when the road is empty. Why? Because following the rule matters. You don’t stop because of the result (no cars), but because it is the rule. Deontology works in a similar way for morals.
+
+Another example: imagine you promised a friend you would help them move. Later, something more fun comes up. Deontology says you should keep the promise, even if breaking it would make you happier. Why? Because keeping promises is a duty. Trust in society exists because people believe promises should be honored.
+
+Deontology also strongly protects individual rights. It says people should never be used only as tools to achieve a goal. Even if harming one person could help many others, deontology often says it is wrong—because it violates that person’s dignity.
+
+However, deontology can feel rigid. Sometimes following rules strictly can lead to bad outcomes. Critics ask: What if telling the truth causes serious harm? Deontology struggles with such conflicts between duties.
+
+Still, deontology is important because it reminds us that morality is not just about numbers or benefits. It is also about integrity, fairness, and respect.
+
+Deontology says some actions are right because they are right—not because they work.`,
+  tags: ["duty", "rules"]
+},
+{
+  id: "virtue_ethics",
+  category: "ETHICS",
+  title: "Virtue Ethics",
+  essence: "Character over rules.",
+  explanation: `Virtue ethics is a way of thinking about right and wrong that focuses on who you are, not just what you do. Instead of asking, “What rule should I follow?” or “What result will this action bring?”, virtue ethics asks a deeper question: “What kind of person should I become?”
+
+In virtue ethics, being good means developing good character traits, called virtues. These include honesty, kindness, courage, patience, fairness, and self-control. A good action is one that comes naturally from a good character. A bad action comes from bad traits, like greed, cruelty, laziness, or dishonesty.
+
+For example, imagine you find a lost wallet.
+
+Rule-based thinking asks: “Is stealing wrong?”
+
+Result-based thinking asks: “Will keeping it make me happier?”
+
+Virtue ethics asks: “What would an honest person do?”
+
+An honest person would return the wallet, not because of fear or reward, but because honesty is part of who they are.
+
+Virtue ethics sees life as practice. Just like muscles grow with repeated exercise, character grows with repeated actions. If you practice kindness, you become kinder. If you practice lying, lying becomes part of you. Over time, your habits shape your identity.
+
+Another key idea is balance. Virtue is often the middle path between extremes. Courage is between fear and recklessness. Confidence is between insecurity and arrogance. Virtue ethics teaches wisdom in choosing the right amount, at the right time, for the right reason.
+
+Why does virtue ethics matter? Because rules cannot cover every situation. Life is complex. A strong character helps you act well even when no rule tells you what to do.
+
+Virtue ethics is not about doing good sometimes—it is about becoming good over time.`,
+  tags: ["virtue", "character"]
 },
 
-/* 5 */
+// -------- Logic & Reasoning --------
+
 {
-  id: "law_hofstadter",
-  category: "LAW",
-  title: "Hofstadter’s Law",
-  essence: "Tasks take longer than expected, even when you plan for it.",
-  explanation: "Hofstadter’s Law says that tasks always take longer than you expect, even when you plan carefully and know this rule. Reality usually adds delays you didn’t predict.",
-  example: "You think a project will take 2 hours, but it ends up taking the whole day.",
-  whenToUse: "It matters when planning work, so you add buffer time and avoid stress.",
-  warning: "People think better planning removes delays, but some delays are unavoidable.",
-  tags: ["time", "projects"]
+  id: "deductive_inductive",
+  category: "LOGIC",
+  title: "Deductive vs Inductive Reasoning",
+  essence: "Types of reasoning.",
+  explanation: `Deductive reasoning and inductive reasoning are two ways humans think and reach conclusions. The main difference is certainty.
+
+Deductive reasoning starts with a general rule and applies it to a specific case. If the starting rule is true and the logic is correct, the conclusion is 100% certain.
+
+Example:
+
+All humans need oxygen to live.
+
+You are a human.
+
+Therefore, you need oxygen to live.
+
+If the first two statements are true, the conclusion cannot be false. This is why deduction is often used in mathematics, logic, and formal proofs. It moves from general → specific.
+
+Inductive reasoning works the opposite way. It starts with specific observations and forms a general conclusion. The conclusion is likely, but not guaranteed.
+
+Example:
+
+The sun rose yesterday.
+
+The sun rose today.
+
+The sun has risen every day you remember.
+
+Therefore, the sun will rise tomorrow.
+
+This conclusion feels very strong, but it is not logically certain. It is based on patterns and experience. Induction moves from specific → general.
+
+We use inductive reasoning constantly in daily life. If a restaurant serves you good food many times, you expect it to be good again. If touching fire always burns, you assume it will burn next time too. Science depends heavily on induction—experiments lead to general laws.
+
+The key difference is this:
+
+Deduction gives certainty, but no new information
+
+Induction gives new understanding, but with uncertainty
+
+Both are necessary. Deduction keeps thinking precise and safe. Induction helps us learn from experience and predict the world.
+
+Deduction proves.
+Induction predicts.`,
+  tags: ["logic", "reasoning"]
+},
+{
+  id: "logical_fallacies",
+  category: "LOGIC",
+  title: "Logical Fallacies",
+  essence: "Errors in thinking.",
+  explanation: `Logical fallacies are mistakes in thinking. They are arguments that sound convincing but are actually wrong when you look closely. People often use fallacies without realizing it, and that’s why they are dangerous—they trick the mind.
+
+For example, imagine someone says:
+“Everyone on social media believes this, so it must be true.”
+This is a fallacy. Popularity does not decide truth. Many people can believe something and still be wrong. Long ago, many people believed the Earth was flat.
+
+Another common fallacy is attacking the person instead of the idea. For example:
+“Don’t listen to his opinion about money—he’s poor.”
+This does not prove the idea is wrong. It avoids the argument and attacks the person.
+
+There is also false cause. This happens when someone assumes one thing caused another without proof. For example:
+“I wore my lucky shirt and won the match, so the shirt caused the win.”
+The win likely came from skill, not the shirt.
+
+Logical fallacies often appear in debates, ads, news, and even daily conversations. They use emotions like fear, pride, or anger instead of facts and logic. That’s why they feel powerful.
+
+Learning about fallacies helps you think clearly. You stop being easily fooled. You learn to ask:
+“Does this actually prove anything?”
+“Is the reasoning valid?”
+
+Logical fallacies are thinking shortcuts that lead to wrong conclusions.
+Spotting them protects your mind.`,
+  tags: ["fallacies", "thinking"]
+},
+{
+  id: "valid_sound",
+  category: "LOGIC",
+  title: "Valid vs Sound Arguments",
+  essence: "Structure vs truth.",
+  explanation: `In logic, an argument has premises (the reasons) and a conclusion (what you’re trying to prove). The ideas valid and sound help us judge how good an argument is.
+
+An argument is valid if the conclusion follows logically from the premises. This means: if the premises were true, then the conclusion would have to be true. Validity is only about structure, not about whether the premises are actually true.
+
+Example of a valid argument:
+
+All birds can fly.
+
+A penguin is a bird.
+
+Therefore, a penguin can fly.
+
+This argument is valid because the conclusion follows the structure correctly. But it is not true, because one premise (“all birds can fly”) is false.
+
+An argument is sound if it is valid AND all its premises are actually true. Sound arguments give conclusions you can trust.
+
+Example of a sound argument:
+
+All humans need oxygen to live.
+
+You are a human.
+
+Therefore, you need oxygen to live.
+
+This argument is valid in structure, and the premises are true—so it is sound.
+
+Here’s the key difference:
+
+Valid = logic works
+
+Sound = logic works and facts are true
+
+Why does this matter? Because people often present valid-sounding arguments with false premises. Learning this helps you avoid being fooled.
+
+Validity checks the logic.
+Soundness checks the logic plus reality.`,
+  tags: ["arguments", "logic"]
 },
 
-/* 6 */
-{
-  id: "law_least_effort",
-  category: "LAW",
-  title: "Law of Least Effort",
-  essence: "People choose the easiest path.",
-  explanation: "The Law of Least Effort says people naturally choose the easiest and fastest way to do something, even if it is not the best or most meaningful option.",
-  example: "You scroll social media instead of reading a book because it needs less mental effort.",
-  whenToUse: "It matters when building habits, so you design your environment to make good actions easier.",
-  warning: "People think it means laziness, but it is actually normal human behavior.",
-  tags: ["behavior", "habits"]
-},
+// -------- Eastern Philosophy --------
 
-/* 7 */
 {
-  id: "law_goodhart",
-  category: "LAW",
-  title: "Goodhart’s Law",
-  essence: "When a measure becomes a target, it stops being useful.",
-  explanation: "Goodhart’s Law says when a measure becomes a target, it stops being a good measure. People focus on the number, not the real goal.",
-  example: "Students study only to increase marks, not to actually understand the subject.",
-  whenToUse: "It matters when setting goals, so you don’t chase numbers and forget real improvement.",
-  warning: "People think metrics always show progress, but they can be misleading.",
-  tags: ["metrics", "systems"]
-},
-
-/* 8 */
-{
-  id: "law_broken_windows",
-  category: "LAW",
-  title: "Broken Windows Theory",
-  essence: "Small problems invite bigger problems.",
-  explanation: "Broken Window Theory says small signs of neglect, like broken windows or mess, encourage more bad behavior because people feel rules are not enforced.",
-  example: "If one window in a building stays broken, people start littering and damaging more things nearby.",
-  whenToUse: "It matters when maintaining habits or spaces, because small neglect leads to bigger problems.",
-  warning: "People think it’s only about crime, but it also applies to habits, discipline, and environments.",
-  tags: ["discipline", "order"]
-},
-
-/* 9 */
-{
-  id: "law_power",
-  category: "LAW",
-  title: "Power Law",
-  essence: "A few things dominate most outcomes.",
-  explanation: "The Power Law says a few things create most of the results, while most things create very little. Success, wealth, and impact are unevenly distributed.",
-  example: "A few YouTube videos get millions of views, while most videos get very few.",
-  whenToUse: "It matters when choosing focus, so you invest energy where big results are possible.",
-  warning: "People think effort always gives equal results, but real-world outcomes are uneven.",
-  tags: ["distribution", "reality"]
-},
-
-/* 10 */
-{
-  id: "law_anchoring",
-  category: "LAW",
-  title: "Anchoring Effect",
-  essence: "First information strongly influences decisions.",
-  explanation: "Anchoring Law says the first information you see strongly affects your decisions. Your mind sticks to that first number or idea, even if it is wrong.",
-  example: "If a shirt is first shown as ₹5000, a ₹2500 price later feels cheap, even if it’s still expensive.",
-  whenToUse: "It matters when making decisions, so you don’t blindly trust first impressions.",
-  warning: "People think they are fully logical, but anchors influence everyone subconsciously.",
-  tags: ["decision", "bias"]
-},
-
-/* 11 */
-{
-  id: "law_compounding",
-  category: "LAW",
-  title: "Law of Compounding",
-  essence: "Small actions grow exponentially over time.",
-  explanation: "Consistent effort multiplies results.",
-  example: "Daily reading builds massive knowledge.",
-  whenToUse: "Long-term growth.",
-  warning: "Works both positively and negatively.",
-  tags: ["growth", "time"]
-},
-
-/* 12 */
-{
-  id: "law_tradeoffs",
-  category: "LAW",
-  title: "Law of Trade-offs",
-  essence: "You cannot optimize everything at once.",
-  explanation: "Improving one thing often worsens another.",
-  example: "Speed vs quality.",
-  whenToUse: "Decision making.",
-  warning: "Hidden costs exist.",
-  tags: ["choices", "tradeoffs"]
-},
-
-/* 13 */
-{
-  id: "law_irreversibility",
-  category: "LAW",
-  title: "Law of Irreversibility",
-  essence: "Some actions cannot be undone.",
-  explanation: "Certain decisions permanently change outcomes.",
-  example: "Public reputation damage.",
-  whenToUse: "High-stakes decisions.",
-  warning: "Think before acting.",
-  tags: ["risk", "decisions"]
-},
-
-/* 14 */
-{
-  id: "law_unintended",
-  category: "LAW",
-  title: "Law of Unintended Consequences",
-  essence: "Actions often have unexpected effects.",
-  explanation: "Complex systems react unpredictably.",
-  example: "Rules causing loopholes.",
-  whenToUse: "Policy and system design.",
-  warning: "Watch second-order effects.",
-  tags: ["systems", "thinking"]
-},
-
-/* 15 */
-{
-  id: "law_feedback_loops",
-  category: "LAW",
-  title: "Feedback Loop Principle",
-  essence: "Outputs influence future inputs.",
-  explanation: "Positive loops amplify, negative loops stabilize.",
-  example: "Confidence improves performance.",
-  whenToUse: "Habit formation.",
-  warning: "Bad loops are dangerous.",
-  tags: ["systems", "habits"]
-},
-
-/* 16 */
-{
-  id: "law_necessity",
-  category: "LAW",
-  title: "Necessity Is the Mother of Invention",
-  essence: "Pressure drives creativity.",
-  explanation: "Constraints force innovation.",
-  example: "Limited resources create smarter solutions.",
-  whenToUse: "Problem solving.",
-  warning: "Too much pressure breaks people.",
-  tags: ["creativity", "pressure"]
-},
-
-/* 17 */
-{
-  id: "law_availability",
-  category: "LAW",
-  title: "Availability Heuristic",
-  essence: "We judge based on what comes to mind easily.",
-  explanation: "Recent or vivid events feel more important.",
-  example: "Fear of flying after hearing news.",
-  whenToUse: "Risk assessment.",
-  warning: "Memory is biased.",
-  tags: ["bias", "thinking"]
-},
-
-/* 18 */
-{
-  id: "law_inertia",
-  category: "LAW",
-  title: "Law of Inertia",
-  essence: "Objects resist change.",
-  explanation: "People and systems resist change unless forced.",
-  example: "Staying in bad habits.",
-  whenToUse: "Change management.",
-  warning: "Force causes backlash.",
-  tags: ["change", "behavior"]
-},
-
-/* 19 */
-{
-  id: "law_substitution",
-  category: "LAW",
-  title: "Substitution Effect",
-  essence: "People replace effort with easier answers.",
-  explanation: "Hard questions get replaced with simple ones.",
-  example: "Judging by looks instead of facts.",
-  whenToUse: "Critical thinking.",
-  warning: "Leads to wrong conclusions.",
-  tags: ["thinking", "bias"]
-},
-
-/* 20 */
-{
-  id: "law_sunk_cost",
-  category: "LAW",
-  title: "Sunk Cost Fallacy",
-  essence: "Past costs wrongly affect decisions.",
-  explanation: "People continue bad choices to justify past effort.",
-  example: "Staying in a failing project.",
-  whenToUse: "Decision review.",
-  warning: "Ignore irrecoverable costs.",
-  tags: ["decisions", "psychology"]
-},
-/* 1 */
-{
-  id: "model_second_order",
-  category: "MODEL",
-  title: "Second-Order Thinking",
-  essence: "Think beyond immediate results.",
-  explanation: "Good decisions consider not just what happens now, but what happens after that.",
-  example: "Lowering prices boosts sales short-term but may hurt brand value later.",
-  whenToUse: "Strategic decisions.",
-  warning: "Avoid overthinking every small choice.",
-  tags: ["strategy", "thinking"]
-},
-
-/* 2 */
-{
-  id: "model_inversion",
-  category: "MODEL",
-  title: "Inversion",
-  essence: "Avoid failure instead of chasing success.",
-  explanation: "Instead of asking how to succeed, ask what causes failure and avoid it.",
-  example: "Removing distractions instead of chasing motivation.",
-  whenToUse: "Problem solving.",
-  warning: "Balance with forward goals.",
-  tags: ["problem", "logic"]
-},
-
-/* 3 */
-{
-  id: "model_first_principles",
-  category: "MODEL",
-  title: "First Principles Thinking",
-  essence: "Break problems down to basics.",
-  explanation: "Remove assumptions and rebuild from fundamental truths.",
-  example: "Learning concepts instead of memorizing formulas.",
-  whenToUse: "Complex problems.",
-  warning: "Time-consuming for small tasks.",
-  tags: ["thinking", "clarity"]
-},
-
-/* 4 */
-{
-  id: "model_opportunity_cost",
-  category: "MODEL",
-  title: "Opportunity Cost",
-  essence: "Every choice means giving up another.",
-  explanation: "The real cost of a decision is the next best option you didn’t choose.",
-  example: "Studying instead of socializing.",
-  whenToUse: "Prioritization.",
-  warning: "Some costs are hidden.",
-  tags: ["decisions", "tradeoff"]
-},
-
-/* 5 */
-{
-  id: "model_margin_safety",
-  category: "MODEL",
-  title: "Margin of Safety",
-  essence: "Leave room for error.",
-  explanation: "Build buffers to protect against uncertainty.",
-  example: "Saving extra money for emergencies.",
-  whenToUse: "Risk management.",
-  warning: "Too much caution slows progress.",
-  tags: ["risk", "planning"]
-},
-
-/* 6 */
-{
-  id: "model_compounding",
-  category: "MODEL",
-  title: "Compounding",
-  essence: "Small actions grow exponentially.",
-  explanation: "Consistent effort over time creates massive results.",
-  example: "Daily reading builds deep knowledge.",
-  whenToUse: "Long-term growth.",
-  warning: "Negative habits compound too.",
-  tags: ["growth", "time"]
-},
-
-/* 7 */
-{
-  id: "model_feedback_loops",
-  category: "MODEL",
-  title: "Feedback Loops",
-  essence: "Outputs influence future inputs.",
-  explanation: "Positive loops amplify results; negative loops stabilize systems.",
-  example: "Confidence improves performance, which boosts confidence.",
-  whenToUse: "Habit building.",
-  warning: "Bad loops escalate quickly.",
-  tags: ["systems", "habits"]
-},
-
-/* 8 */
-{
-  id: "model_leverage",
-  category: "MODEL",
-  title: "Leverage",
-  essence: "Small input, big output.",
-  explanation: "Some actions multiply results far more than others.",
-  example: "Automation saving hours of work.",
-  whenToUse: "Efficiency improvement.",
-  warning: "Wrong leverage causes damage.",
-  tags: ["efficiency", "power"]
-},
-
-/* 9 */
-{
-  id: "model_bottleneck",
-  category: "MODEL",
-  title: "Bottleneck Analysis",
-  essence: "A system moves as fast as its slowest part.",
-  explanation: "Identify and improve the main constraint.",
-  example: "Slow approval delays entire project.",
-  whenToUse: "Process improvement.",
-  warning: "Fixing the wrong part wastes effort.",
-  tags: ["systems", "optimization"]
-},
-
-/* 10 */
-{
-  id: "model_map_territory",
-  category: "MODEL",
-  title: "Map vs Territory",
-  essence: "Models are not reality.",
-  explanation: "Representations simplify reality but are never perfect.",
-  example: "Job titles don’t show real skill.",
-  whenToUse: "Avoiding assumptions.",
-  warning: "Mistaking model for truth.",
-  tags: ["reality", "thinking"]
-},
-
-/* 11 */
-{
-  id: "model_probabilistic",
-  category: "MODEL",
-  title: "Probabilistic Thinking",
-  essence: "Think in chances, not certainties.",
-  explanation: "Most outcomes are uncertain, not guaranteed.",
-  example: "Assessing risk instead of yes/no thinking.",
-  whenToUse: "Risk decisions.",
-  warning: "Humans prefer certainty.",
-  tags: ["probability", "risk"]
-},
-
-/* 12 */
-{
-  id: "model_regret_minimization",
-  category: "MODEL",
-  title: "Regret Minimization",
-  essence: "Choose what you’ll regret least later.",
-  explanation: "Decide based on long-term satisfaction.",
-  example: "Trying something instead of wondering forever.",
-  whenToUse: "Major life decisions.",
-  warning: "Emotion still plays a role.",
-  tags: ["life", "choices"]
-},
-
-/* 13 */
-{
-  id: "model_mental_accounting",
-  category: "MODEL",
-  title: "Mental Accounting",
-  essence: "We treat money differently based on labels.",
-  explanation: "People separate money into categories irrationally.",
-  example: "Spending bonuses recklessly.",
-  whenToUse: "Financial awareness.",
-  warning: "Money is fungible.",
-  tags: ["finance", "bias"]
-},
-
-/* 14 */
-{
-  id: "model_law_large_numbers",
-  category: "MODEL",
-  title: "Law of Large Numbers",
-  essence: "Averages stabilize with more data.",
-  explanation: "Large samples give more reliable results.",
-  example: "Long-term investment returns.",
-  whenToUse: "Data analysis.",
-  warning: "Small samples mislead.",
-  tags: ["statistics", "data"]
-},
-
-/* 15 */
-{
-  id: "model_survivorship",
-  category: "MODEL",
-  title: "Survivorship Bias",
-  essence: "We notice winners, not failures.",
-  explanation: "Visible success hides unseen failures.",
-  example: "Only hearing startup success stories.",
-  whenToUse: "Learning from examples.",
-  warning: "Missing the full picture.",
-  tags: ["bias", "learning"]
-},
-
-/* 16 */
-{
-  id: "model_reversion_mean",
-  category: "MODEL",
-  title: "Regression to the Mean",
-  essence: "Extreme outcomes tend to normalize.",
-  explanation: "Unusual results often return to average.",
-  example: "Bad days followed by normal days.",
-  whenToUse: "Performance evaluation.",
-  warning: "Don’t overreact to extremes.",
-  tags: ["statistics", "behavior"]
-},
-
-/* 17 */
-{
-  id: "model_antifragile",
-  category: "MODEL",
-  title: "Antifragility",
-  essence: "Some things grow from stress.",
-  explanation: "Systems can improve through volatility.",
-  example: "Muscles growing after exercise.",
-  whenToUse: "Resilience building.",
-  warning: "Not all stress is good.",
-  tags: ["resilience", "growth"]
-},
-
-/* 18 */
-{
-  id: "model_scale",
-  category: "MODEL",
-  title: "Scale",
-  essence: "What works small may fail big.",
-  explanation: "Systems behave differently as they grow.",
-  example: "Small teams vs large organizations.",
-  whenToUse: "Growth planning.",
-  warning: "Scaling exposes weaknesses.",
-  tags: ["growth", "systems"]
-},
-
-/* 19 */
-{
-  id: "model_tradeoffs",
-  category: "MODEL",
-  title: "Trade-Off Thinking",
-  essence: "Every gain has a cost.",
-  explanation: "Optimizing one area sacrifices another.",
-  example: "Speed vs accuracy.",
-  whenToUse: "Decision making.",
-  warning: "Hidden costs exist.",
-  tags: ["choices", "balance"]
-},
-
-/* 20 */
-{
-  id: "model_optional",
-  category: "MODEL",
-  title: "Optionality",
-  essence: "Keep choices open.",
-  explanation: "Options increase flexibility and upside.",
-  example: "Learning multiple skills.",
-  whenToUse: "Uncertain environments.",
-  warning: "Too many options cause paralysis.",
-  tags: ["flexibility", "strategy"]
-},
-/* 1 */
-{
-  id: "philo_stoicism",
-  category: "PHILOSOPHY",
-  title: "Stoicism",
-  essence: "Control your response, not external events.",
-  explanation: "Stoicism teaches that peace comes from focusing on what you can control and accepting what you cannot.",
-  example: "Not getting angry over insults or delays.",
-  whenToUse: "Stress, anger, and difficult situations.",
-  warning: "Not about suppressing emotions.",
-  tags: ["resilience", "control"]
-},
-
-/* 2 */
-{
-  id: "philo_vedanta",
-  category: "PHILOSOPHY",
-  title: "Vedanta",
-  essence: "You are not the body or the mind.",
-  explanation: "Vedanta says the true self is pure awareness, separate from thoughts, emotions, and ego.",
-  example: "Observing thoughts without identifying with them.",
-  whenToUse: "Identity confusion and inner peace.",
-  warning: "Requires deep self-inquiry.",
-  tags: ["india", "self"]
-},
-
-/* 3 */
-{
-  id: "philo_karma_yoga",
-  category: "PHILOSOPHY",
-  title: "Karma Yoga (Bhagavad Gita)",
-  essence: "Act without attachment to results.",
-  explanation: "Do your duty sincerely but let go of obsession with outcomes.",
-  example: "Working hard without craving praise or reward.",
-  whenToUse: "Work stress and burnout.",
-  warning: "Not an excuse for laziness.",
-  tags: ["gita", "action"]
-},
-
-/* 4 */
-{
-  id: "philo_bhakti",
-  category: "PHILOSOPHY",
-  title: "Bhakti Yoga",
-  essence: "Devotion purifies the mind.",
-  explanation: "Love and devotion reduce ego and bring emotional stability.",
-  example: "Finding peace through prayer or surrender.",
-  whenToUse: "Emotional pain or loneliness.",
-  warning: "Blind faith can be dangerous.",
-  tags: ["india", "devotion"]
-},
-
-/* 5 */
-{
-  id: "philo_raja_yoga",
-  category: "PHILOSOPHY",
-  title: "Raja Yoga",
-  essence: "Master the mind through discipline.",
-  explanation: "Mental control through meditation, ethics, and focus.",
-  example: "Daily meditation practice.",
-  whenToUse: "Mental clarity and focus.",
-  warning: "Progress is slow and requires patience.",
-  tags: ["meditation", "discipline"]
-},
-
-/* 6 */
-{
-  id: "philo_buddhism",
-  category: "PHILOSOPHY",
+  id: "buddhism",
+  category: "EASTERN_PHILOSOPHY",
   title: "Buddhism",
-  essence: "Attachment causes suffering.",
-  explanation: "Desire and attachment lead to suffering; awareness frees the mind.",
-  example: "Letting go of constant craving.",
-  whenToUse: "Emotional suffering.",
-  warning: "Detachment is not indifference.",
-  tags: ["buddhism", "mindfulness"]
+  essence: "Suffering and impermanence.",
+  explanation: `Buddhism is a way of understanding life and ending suffering. It does not focus on worshiping a god. Instead, it focuses on understanding the mind, living wisely, and developing compassion.
+
+At the heart of Buddhism is a simple observation: life includes suffering. Suffering does not only mean pain. It also includes stress, dissatisfaction, fear, and the feeling that something is never enough. Even happy moments fade, and that fading causes discomfort. Buddhism says this happens because we cling—to pleasure, success, people, ideas, and even to our own identity.
+
+Buddhism teaches that suffering has a cause, and that cause can be understood and reduced. When we constantly crave things or resist change, we suffer. When we accept reality as it is and let go of excessive desire, suffering decreases.
+
+One key idea in Buddhism is impermanence. Everything changes—your emotions, your body, your situations. When you fight this truth, you suffer more. When you accept it, life becomes lighter.
+
+Another important idea is mindfulness—being fully aware of the present moment. Instead of living in regrets about the past or worries about the future, Buddhism encourages attention to what is happening now. Simple actions like breathing, walking, or eating can become peaceful when done with awareness.
+
+Buddhism also emphasizes compassion. When you understand that everyone struggles, you become kinder—to others and to yourself.
+
+Buddhism teaches that peace comes not from controlling life, but from understanding it.
+When the mind becomes clear, life becomes calmer.`,
+  tags: ["suffering", "impermanence"]
+},
+{
+  id: "hindu_philosophy",
+  category: "EASTERN_PHILOSOPHY",
+  title: "Hindu Philosophy",
+  essence: "Self and ultimate reality.",
+  explanation: `Hindu philosophy is not a single idea or belief. It is a large family of ways to understand life, reality, and the self. Instead of giving one fixed answer, it encourages deep questioning: Who am I? What is real? Why do we suffer? What is the purpose of life?
+
+One core idea in Hindu philosophy is Brahman. Brahman means ultimate reality—the source of everything. It is not a person sitting somewhere; it is the infinite reality behind the universe. Everything that exists comes from it and exists within it.
+
+Another key idea is Atman, which means the true self. Hindu philosophy says that deep inside you, beyond your name, body, thoughts, and ego, there is Atman. And the powerful idea is this: Atman and Brahman are the same. In simple words, your deepest self is connected to the deepest reality of the universe.
+
+Life, however, feels confusing because of Maya, which means illusion. Maya makes temporary things—money, status, pleasure—feel permanent and all-important. Because of this confusion, people suffer.
+
+This leads to Karma, the law of action and consequence. Every action, thought, and intention has an effect. Good actions lead to growth; harmful actions lead to suffering. Karma is not punishment—it is learning through cause and effect.
+
+Hindu philosophy also talks about Dharma, which means living rightly according to your role, abilities, and situation. Dharma is about doing what is appropriate and ethical, not just what you like.
+
+There are many paths in Hindu philosophy, such as:
+
+Knowledge (understanding truth)
+
+Action (doing your duty selflessly)
+
+Devotion (love and surrender)
+
+Meditation (direct inner experience)
+
+All paths aim at one goal: freedom from suffering and ignorance, and realization of your true nature.
+
+Hindu philosophy says you are not just a body or a role.
+You are part of a deeper reality—and peace comes from realizing that truth.`,
+  tags: ["self", "reality"]
+},
+{
+  id: "taoism",
+  category: "EASTERN_PHILOSOPHY",
+  title: "Taoism",
+  essence: "Flow and balance.",
+  explanation: `Taoism is a philosophy about living in harmony with life instead of fighting it. It comes from ancient China and is based on the idea of the Tao (pronounced Dao), which means “the Way.” The Tao is the natural flow of the universe—the way things happen on their own.
+
+Taoism teaches that many problems come from forcing things. When humans try too hard to control life, dominate nature, or push against reality, suffering increases. Instead, Taoism suggests moving with life, like water flowing around rocks instead of breaking them.
+
+A key idea in Taoism is Wu Wei, which means effortless action. This does not mean doing nothing. It means acting in a natural, relaxed way, without unnecessary struggle. For example, a skilled cyclist does not think about every movement—they flow naturally. That is Wu Wei.
+
+Another important idea is Yin and Yang. Everything has opposites: light and dark, active and passive, strong and soft. Taoism teaches that balance between opposites creates harmony. Too much of anything—even good things—creates problems.
+
+Taoism also values simplicity. Wanting too much, competing constantly, and overthinking disturb peace. A simple life brings clarity.
+
+Why does Taoism matter today? Because modern life is full of stress, pressure, and control. Taoism reminds us that not everything needs to be forced or fixed.
+
+Taoism teaches you to stop fighting life and start flowing with it.
+When you move with the Tao, life becomes lighter and calmer.`,
+  tags: ["balance", "flow"]
 },
 
-/* 7 */
-{
-  id: "philo_middle_path",
-  category: "PHILOSOPHY",
-  title: "The Middle Path",
-  essence: "Avoid extremes.",
-  explanation: "Balance between pleasure and strict denial leads to clarity.",
-  example: "Healthy lifestyle without excess.",
-  whenToUse: "Lifestyle choices.",
-  warning: "Balance is personal.",
-  tags: ["balance", "buddhism"]
-},
+// -------- Philosophy of Life --------
 
-/* 8 */
 {
-  id: "philo_chanakya_niti",
-  category: "PHILOSOPHY",
-  title: "Chanakya Niti",
-  essence: "Wisdom is power.",
-  explanation: "Chanakya emphasized realism, strategy, and self-interest in governance and life.",
-  example: "Thinking strategically instead of emotionally.",
-  whenToUse: "Leadership and survival.",
-  warning: "Can feel harsh if misunderstood.",
-  tags: ["india", "strategy"]
-},
+  id: "meaning_life",
+  category: "EXISTENTIALISM",
+  title: "Meaning of Life",
+  essence: "Why live?",
+  explanation: `The meaning of life is the question: Why are we here? What is all this for? People have asked this question for thousands of years, and there is no single answer that fits everyone. That itself is important to understand.
 
-/* 9 */
-{
-  id: "philo_existentialism",
-  category: "PHILOSOPHY",
-  title: "Existentialism",
-  essence: "Meaning is created, not given.",
-  explanation: "Life has no fixed meaning; you define it through choices.",
-  example: "Choosing values despite uncertainty.",
-  whenToUse: "Purpose and identity crises.",
-  warning: "Can feel overwhelming.",
-  tags: ["meaning", "freedom"]
-},
+Some people think the meaning of life is happiness—to enjoy life, feel joy, and avoid pain. Others think it is purpose—to do something valuable, like helping others, creating something meaningful, or improving the world. Some believe meaning comes from love and connection—family, friends, and caring relationships. Others find meaning in growth, learning, and becoming a better version of themselves.
 
-/* 10 */
-{
-  id: "philo_absurdism",
-  category: "PHILOSOPHY",
-  title: "Absurdism",
-  essence: "Life is irrational, live anyway.",
-  explanation: "The search for meaning conflicts with a meaningless universe.",
-  example: "Finding joy despite chaos.",
-  whenToUse: "Facing life’s contradictions.",
-  warning: "Not nihilism.",
-  tags: ["absurd", "life"]
-},
+Think of life like a journey. The road itself does not tell you where to go. You choose the direction. Two people can walk the same road and find completely different meanings. One may find meaning in success. Another may find meaning in peace. Neither is wrong.
 
-/* 11 */
+An important idea is this: meaning is often created, not discovered. Life may not come with a fixed instruction manual. Instead, meaning grows from how you live, what you value, and how you respond to challenges. When you help someone, learn from failure, or stay honest in a hard moment, life feels meaningful.
+
+Even suffering can carry meaning. Pain often teaches, deepens empathy, and shapes character. Many people say their hardest moments taught them the most about themselves.
+
+Why does this matter? Because when life feels meaningless, motivation fades. When you feel meaning—even a small one—you can endure difficulty and move forward.
+
+The meaning of life is not one answer for everyone.
+It is the meaning you create through how you live, love, learn, and grow.`,
+  tags: ["meaning", "purpose"]
+},
 {
-  id: "philo_nihilism",
-  category: "PHILOSOPHY",
+  id: "nihilism",
+  category: "EXISTENTIALISM",
   title: "Nihilism",
   essence: "Nothing has inherent meaning.",
-  explanation: "Traditional values and meanings are questioned or rejected.",
-  example: "Questioning social rules.",
-  whenToUse: "Breaking illusions.",
-  warning: "Can lead to despair.",
+  explanation: `Nihilism is the idea that life has no built-in meaning, purpose, or objective value. It says that the universe does not come with a goal, a moral rulebook, or a reason for why we exist. Things simply exist—and that’s all.
+
+According to nihilism, concepts like “ultimate purpose,” “absolute right and wrong,” or “destiny” are human-made ideas, not facts written into reality. For example, the universe does not care whether you succeed or fail. The stars do not reward good people or punish bad ones. Nature just follows its laws.
+
+This idea can feel uncomfortable at first. Many people think, “If life has no meaning, then what’s the point of anything?” That feeling is common. Nihilism removes comforting beliefs and forces you to face reality as it is, without guarantees.
+
+But nihilism is not the same as saying nothing matters at all. It only says nothing matters by default. There is no pre-given meaning handed to you. What you do with that fact is up to you.
+
+Think of life like a blank notebook. Nihilism says the notebook is empty—no rules written inside. That can feel scary. But it also means you are free to write your own meaning. Love, creativity, honesty, growth—these things may not be cosmic truths, but they can still matter deeply to you.
+
+Some people fall into despair with nihilism. Others feel liberated. Without fixed meaning, you are not forced to live a certain way. You choose what matters.
+
+Nihilism says life has no built-in meaning.
+What matters is what you choose to care about.`,
   tags: ["meaning", "void"]
 },
-
-/* 12 */
-{
-  id: "philo_utilitarianism",
-  category: "PHILOSOPHY",
-  title: "Utilitarianism",
-  essence: "Maximize overall happiness.",
-  explanation: "Actions are right if they benefit the majority.",
-  example: "Policies helping most people.",
-  whenToUse: "Ethical decisions.",
-  warning: "Can ignore individual suffering.",
-  tags: ["ethics", "decision"]
-},
-
-/* 13 */
-{
-  id: "philo_deontology",
-  category: "PHILOSOPHY",
-  title: "Deontology",
-  essence: "Duty matters more than outcome.",
-  explanation: "Actions are right or wrong regardless of results.",
-  example: "Telling truth even when harmful.",
-  whenToUse: "Moral dilemmas.",
-  warning: "Can be rigid.",
-  tags: ["ethics", "duty"]
-},
-
-/* 14 */
-{
-  id: "philo_virtue_ethics",
-  category: "PHILOSOPHY",
-  title: "Virtue Ethics",
-  essence: "Character matters more than rules.",
-  explanation: "Focus on becoming a good person rather than following rules.",
-  example: "Choosing honesty naturally.",
-  whenToUse: "Personal growth.",
-  warning: "Virtues vary culturally.",
-  tags: ["character", "ethics"]
-},
-
-/* 15 */
-{
-  id: "philo_non_duality",
-  category: "PHILOSOPHY",
-  title: "Non-Duality (Advaita)",
-  essence: "There is no separation.",
-  explanation: "Observer and observed are not separate.",
-  example: "Feeling unity with surroundings.",
-  whenToUse: "Deep meditation.",
-  warning: "Hard to grasp intellectually.",
-  tags: ["advaita", "consciousness"]
-},
-
-/* 16 */
-{
-  id: "philo_impermanence",
-  category: "PHILOSOPHY",
-  title: "Impermanence",
-  essence: "Everything changes.",
-  explanation: "Nothing is permanent; attachment causes suffering.",
-  example: "Accepting life transitions.",
-  whenToUse: "Grief and change.",
-  warning: "Not pessimism.",
-  tags: ["change", "buddhism"]
-},
-
-/* 17 */
-{
-  id: "philo_detachment",
-  category: "PHILOSOPHY",
-  title: "Detachment",
-  essence: "Freedom comes from non-attachment.",
-  explanation: "Clinging creates suffering; letting go creates peace.",
-  example: "Not tying self-worth to outcomes.",
-  whenToUse: "Emotional balance.",
-  warning: "Not emotional numbness.",
-  tags: ["freedom", "mind"]
-},
-
-/* 18 */
-{
-  id: "philo_samsara",
-  category: "PHILOSOPHY",
-  title: "Samsara",
-  essence: "Cycle of desire and suffering.",
-  explanation: "Repetitive patterns of craving lead to rebirth of suffering.",
-  example: "Repeating toxic habits.",
-  whenToUse: "Breaking cycles.",
-  warning: "Metaphorical understanding is enough.",
-  tags: ["india", "cycle"]
-},
-
-/* 19 */
-{
-  id: "philo_moksha",
-  category: "PHILOSOPHY",
-  title: "Moksha",
-  essence: "Liberation from suffering.",
-  explanation: "Freedom from ignorance and attachment.",
-  example: "Living without fear or craving.",
-  whenToUse: "Spiritual inquiry.",
-  warning: "Not escapism.",
-  tags: ["liberation", "india"]
-},
-
-/* 20 */
-{
-  id: "philo_meaningful_life",
-  category: "PHILOSOPHY",
-  title: "The Meaningful Life",
-  essence: "Meaning comes from values, not pleasure.",
-  explanation: "A meaningful life focuses on purpose, responsibility, and contribution.",
-  example: "Serving others through work.",
-  whenToUse: "Life direction.",
-  warning: "Meaning requires effort.",
-  tags: ["purpose", "life"]
-},
-/* 1 */
-{
-  id: "psych_confirmation_bias",
-  category: "PSYCHOLOGY",
-  title: "Confirmation Bias",
-  essence: "We prefer information that confirms our beliefs.",
-  explanation: "The mind naturally looks for evidence that supports what it already believes and ignores opposing views.",
-  example: "Only reading news that matches your opinion.",
-  whenToUse: "Decision making and debates.",
-  warning: "Leads to blind spots and poor judgment.",
-  tags: ["bias", "thinking"]
-},
-
-/* 2 */
-{
-  id: "psych_dunning_kruger",
-  category: "PSYCHOLOGY",
-  title: "Dunning–Kruger Effect",
-  essence: "Low skill often creates high confidence.",
-  explanation: "People with limited knowledge overestimate their ability because they lack awareness of what they don’t know.",
-  example: "A beginner thinking they have mastered a skill.",
-  whenToUse: "Self-evaluation and learning.",
-  warning: "Overconfidence blocks growth.",
-  tags: ["ego", "learning"]
-},
-
-/* 3 */
-{
-  id: "psych_loss_aversion",
-  category: "PSYCHOLOGY",
-  title: "Loss Aversion",
-  essence: "Loss hurts more than gain feels good.",
-  explanation: "People strongly prefer avoiding losses rather than gaining something of equal value.",
-  example: "Not selling a losing stock hoping it recovers.",
-  whenToUse: "Financial and life decisions.",
-  warning: "Can trap you in bad situations.",
-  tags: ["emotion", "risk"]
-},
-
-/* 4 */
-{
-  id: "psych_hedonic_adaptation",
-  category: "PSYCHOLOGY",
-  title: "Hedonic Adaptation",
-  essence: "We get used to pleasure quickly.",
-  explanation: "After positive or negative events, happiness returns to a baseline level.",
-  example: "New phone excitement fades after weeks.",
-  whenToUse: "Managing expectations and happiness.",
-  warning: "Chasing pleasure endlessly fails.",
-  tags: ["happiness", "mind"]
-},
-
-/* 5 */
-{
-  id: "psych_availability_heuristic",
-  category: "PSYCHOLOGY",
-  title: "Availability Heuristic",
-  essence: "We judge based on what we remember easily.",
-  explanation: "Events that are vivid or recent feel more common than they actually are.",
-  example: "Fear of flying after hearing crash news.",
-  whenToUse: "Risk assessment.",
-  warning: "Memory is biased, not factual.",
-  tags: ["bias", "risk"]
-},
-
-/* 6 */
-{
-  id: "psych_negativity_bias",
-  category: "PSYCHOLOGY",
-  title: "Negativity Bias",
-  essence: "Negative experiences affect us more strongly.",
-  explanation: "The brain gives more weight to negative events than positive ones.",
-  example: "One insult ruins an entire day.",
-  whenToUse: "Emotional awareness.",
-  warning: "Can distort reality.",
-  tags: ["emotion", "mind"]
-},
-
-/* 7 */
-{
-  id: "psych_social_proof",
-  category: "PSYCHOLOGY",
-  title: "Social Proof",
-  essence: "We copy what others do.",
-  explanation: "People assume that popular behavior is correct behavior.",
-  example: "Buying a product because many others did.",
-  whenToUse: "Understanding influence.",
-  warning: "Crowds can be wrong.",
-  tags: ["influence", "behavior"]
-},
-
-/* 8 */
-{
-  id: "psych_authority_bias",
-  category: "PSYCHOLOGY",
-  title: "Authority Bias",
-  essence: "We trust authority figures too easily.",
-  explanation: "People tend to obey or believe authority even when wrong.",
-  example: "Believing something because an expert said it.",
-  whenToUse: "Evaluating advice.",
-  warning: "Authority does not equal truth.",
-  tags: ["power", "bias"]
-},
-
-/* 9 */
-{
-  id: "psych_self_serving",
-  category: "PSYCHOLOGY",
-  title: "Self-Serving Bias",
-  essence: "We credit success to ourselves and blame failure on others.",
-  explanation: "The mind protects ego by shifting responsibility.",
-  example: "Blaming luck for failure but skill for success.",
-  whenToUse: "Self-reflection.",
-  warning: "Blocks accountability.",
-  tags: ["ego", "behavior"]
-},
-
-/* 10 */
-{
-  id: "psych_projection",
-  category: "PSYCHOLOGY",
-  title: "Psychological Projection",
-  essence: "We project our traits onto others.",
-  explanation: "People assume others think or feel the same way they do.",
-  example: "Accusing others of dishonesty while being dishonest.",
-  whenToUse: "Conflict resolution.",
-  warning: "Creates misunderstanding.",
-  tags: ["emotion", "relationships"]
-},
-
-/* 11 */
-{
-  id: "psych_cognitive_dissonance",
-  category: "PSYCHOLOGY",
-  title: "Cognitive Dissonance",
-  essence: "Mental discomfort from conflicting beliefs.",
-  explanation: "People change beliefs to reduce inner conflict.",
-  example: "Justifying bad habits.",
-  whenToUse: "Behavior change.",
-  warning: "Rationalization hides truth.",
-  tags: ["beliefs", "mind"]
-},
-
-/* 12 */
-{
-  id: "psych_illusion_control",
-  category: "PSYCHOLOGY",
-  title: "Illusion of Control",
-  essence: "We overestimate control over events.",
-  explanation: "People believe they influence outcomes they don’t.",
-  example: "Lucky rituals before exams.",
-  whenToUse: "Decision realism.",
-  warning: "Creates false confidence.",
-  tags: ["control", "bias"]
-},
-
-/* 13 */
-{
-  id: "psych_fundamental_error",
-  category: "PSYCHOLOGY",
-  title: "Fundamental Attribution Error",
-  essence: "We judge others harshly, ourselves softly.",
-  explanation: "We blame character for others’ mistakes but circumstances for our own.",
-  example: "Calling others lazy but excusing yourself.",
-  whenToUse: "Judging people.",
-  warning: "Damages empathy.",
-  tags: ["judgment", "relationships"]
-},
-
-/* 14 */
-{
-  id: "psych_placebo",
-  category: "PSYCHOLOGY",
-  title: "Placebo Effect",
-  essence: "Belief itself can change outcomes.",
-  explanation: "Expectation can produce real physical or mental effects.",
-  example: "Feeling better after a sugar pill.",
-  whenToUse: "Mind–body understanding.",
-  warning: "Does not replace real treatment.",
-  tags: ["belief", "health"]
-},
-
-/* 15 */
-{
-  id: "psych_nocebo",
-  category: "PSYCHOLOGY",
-  title: "Nocebo Effect",
-  essence: "Negative belief creates negative outcomes.",
-  explanation: "Expectation of harm can cause real harm.",
-  example: "Feeling sick after reading side effects.",
-  whenToUse: "Managing anxiety.",
-  warning: "Fear can worsen conditions.",
-  tags: ["belief", "emotion"]
-},
-
-/* 16 */
-{
-  id: "psych_framing",
-  category: "PSYCHOLOGY",
-  title: "Framing Effect",
-  essence: "Presentation changes perception.",
-  explanation: "People react differently depending on how information is framed.",
-  example: "90% success sounds better than 10% failure.",
-  whenToUse: "Communication and persuasion.",
-  warning: "Can manipulate decisions.",
-  tags: ["communication", "bias"]
-},
-
-/* 17 */
-{
-  id: "psych_reactance",
-  category: "PSYCHOLOGY",
-  title: "Psychological Reactance",
-  essence: "We resist when freedom feels threatened.",
-  explanation: "Restrictions increase desire for forbidden actions.",
-  example: "Wanting something more when told not to.",
-  whenToUse: "Influence awareness.",
-  warning: "Force backfires.",
-  tags: ["behavior", "control"]
-},
-
-/* 18 */
-{
-  id: "psych_sunk_cost",
-  category: "PSYCHOLOGY",
-  title: "Sunk Cost Fallacy",
-  essence: "Past investment distorts decisions.",
-  explanation: "People continue bad choices to justify past effort.",
-  example: "Staying in a failing relationship.",
-  whenToUse: "Decision correction.",
-  warning: "Past cost is irrelevant.",
-  tags: ["decisions", "emotion"]
-},
-
-/* 19 */
-{
-  id: "psych_peak_end",
-  category: "PSYCHOLOGY",
-  title: "Peak-End Rule",
-  essence: "We judge experiences by peak and end.",
-  explanation: "Memory favors the strongest moment and the ending.",
-  example: "Remembering vacations by highlights.",
-  whenToUse: "Experience design.",
-  warning: "Memory ≠ reality.",
-  tags: ["memory", "experience"]
-},
-
-/* 20 */
-{
-  id: "psych_emotional_contagion",
-  category: "PSYCHOLOGY",
-  title: "Emotional Contagion",
-  essence: "Emotions spread between people.",
-  explanation: "Humans unconsciously copy emotional states.",
-  example: "Feeling stressed around anxious people.",
-  whenToUse: "Environment awareness.",
-  warning: "Protect your mental space.",
-  tags: ["emotion", "social"]
-},
-   {
-  id: "neuro_neuroplasticity",
-  category: "NEUROSCIENCE",
-  title: "Neuroplasticity",
-  essence: "The brain can change itself.",
-  explanation: "Neuroplasticity is the brain’s ability to rewire connections based on experience, learning, and repetition.",
-  example: "Practicing a skill daily strengthens related neural pathways.",
-  whenToUse: "Learning, habit change, recovery.",
-  warning: "What you repeat, good or bad, gets reinforced.",
-  tags: ["learning", "habits"]
-},
-
-{
-  id: "neuro_synaptic_pruning",
-  category: "NEUROSCIENCE",
-  title: "Synaptic Pruning",
-  essence: "Unused connections are removed.",
-  explanation: "The brain removes weak or unused neural connections to become more efficient.",
-  example: "Skills you stop using slowly fade.",
-  whenToUse: "Skill maintenance awareness.",
-  warning: "Neglect leads to loss.",
-  tags: ["memory", "learning"]
-},
-
-{
-  id: "neuro_dopamine",
-  category: "NEUROSCIENCE",
-  title: "Dopamine Reward System",
-  essence: "Motivation chemical, not pleasure.",
-  explanation: "Dopamine drives anticipation and motivation, not happiness itself.",
-  example: "Scrolling feels addictive because of anticipation.",
-  whenToUse: "Understanding addiction and habits.",
-  warning: "Overstimulation reduces motivation.",
-  tags: ["motivation", "addiction"]
-},
-
-{
-  id: "neuro_hedonic_adaptation",
-  category: "NEUROSCIENCE",
-  title: "Hedonic Adaptation",
-  essence: "The brain gets used to pleasure.",
-  explanation: "Repeated rewards lose emotional impact over time.",
-  example: "New phone excitement fades quickly.",
-  whenToUse: "Managing expectations.",
-  warning: "Chasing pleasure never ends satisfaction.",
-  tags: ["emotion", "happiness"]
-},
-
-{
-  id: "neuro_amygdala",
-  category: "NEUROSCIENCE",
-  title: "Amygdala Hijack",
-  essence: "Emotion overrides logic.",
-  explanation: "Strong emotions temporarily reduce rational thinking.",
-  example: "Saying things you regret when angry.",
-  whenToUse: "Conflict and stress situations.",
-  warning: "Pause before reacting.",
-  tags: ["emotion", "control"]
-},
-
-{
-  id: "neuro_prefrontal_cortex",
-  category: "NEUROSCIENCE",
-  title: "Prefrontal Cortex",
-  essence: "The brain’s control center.",
-  explanation: "Handles planning, decision-making, and impulse control.",
-  example: "Resisting temptation requires PFC effort.",
-  whenToUse: "Self-discipline.",
-  warning: "Stress weakens it.",
-  tags: ["decision", "discipline"]
-},
-
-{
-  id: "neuro_default_mode",
-  category: "NEUROSCIENCE",
-  title: "Default Mode Network",
-  essence: "The wandering mind.",
-  explanation: "Activated during rest, self-reflection, and daydreaming.",
-  example: "Thinking deeply in silence.",
-  whenToUse: "Creativity and reflection.",
-  warning: "Overactivity fuels rumination.",
-  tags: ["thinking", "self"]
-},
-
-{
-  id: "neuro_attention_limited",
-  category: "NEUROSCIENCE",
-  title: "Limited Attention",
-  essence: "Attention is finite.",
-  explanation: "The brain cannot truly multitask; it switches rapidly.",
-  example: "Performance drops while multitasking.",
-  whenToUse: "Focus work.",
-  warning: "Distractions drain mental energy.",
-  tags: ["focus", "productivity"]
-},
-
-{
-  id: "neuro_long_term_potentiation",
-  category: "NEUROSCIENCE",
-  title: "Long-Term Potentiation",
-  essence: "Memory through repetition.",
-  explanation: "Repeated stimulation strengthens synapses.",
-  example: "Revision improves recall.",
-  whenToUse: "Studying and practice.",
-  warning: "Cramming is weaker than spacing.",
-  tags: ["memory", "learning"]
-},
-
-{
-  id: "neuro_stress_cortisol",
-  category: "NEUROSCIENCE",
-  title: "Cortisol & Stress",
-  essence: "Chronic stress harms cognition.",
-  explanation: "Long-term cortisol impairs memory and decision-making.",
-  example: "Burnout reduces thinking clarity.",
-  whenToUse: "Stress management.",
-  warning: "Rest is not optional.",
-  tags: ["stress", "health"]
-},
-
-{
-  id: "neuro_sleep_memory",
-  category: "NEUROSCIENCE",
-  title: "Sleep & Memory Consolidation",
-  essence: "Sleep locks learning.",
-  explanation: "The brain strengthens memories during sleep.",
-  example: "Studying before sleep improves retention.",
-  whenToUse: "Learning routines.",
-  warning: "Sleep deprivation blocks growth.",
-  tags: ["sleep", "memory"]
-},
-
-{
-  id: "neuro_mirror_neurons",
-  category: "NEUROSCIENCE",
-  title: "Mirror Neurons",
-  essence: "We learn by observing.",
-  explanation: "These neurons activate when watching others act.",
-  example: "Learning skills by watching experts.",
-  whenToUse: "Social learning.",
-  warning: "Environment shapes behavior.",
-  tags: ["learning", "social"]
-},
-
-{
-  id: "neuro_prediction_brain",
-  category: "NEUROSCIENCE",
-  title: "Predictive Brain",
-  essence: "The brain predicts reality.",
-  explanation: "The brain constantly predicts outcomes to save energy.",
-  example: "Surprises feel intense.",
-  whenToUse: "Understanding bias.",
-  warning: "Predictions can be wrong.",
-  tags: ["perception", "bias"]
-},
-
-{
-  id: "neuro_emotional_memory",
-  category: "NEUROSCIENCE",
-  title: "Emotionally Charged Memory",
-  essence: "Emotion strengthens memory.",
-  explanation: "Emotional events are remembered more vividly.",
-  example: "Traumatic or joyful memories lasting longer.",
-  whenToUse: "Teaching and storytelling.",
-  warning: "Emotions distort accuracy.",
-  tags: ["memory", "emotion"]
-},
-
-{
-  id: "neuro_decision_fatigue",
-  category: "NEUROSCIENCE",
-  title: "Decision Fatigue",
-  essence: "Decisions drain mental energy.",
-  explanation: "Repeated choices reduce decision quality.",
-  example: "Poor decisions late in the day.",
-  whenToUse: "Planning routines.",
-  warning: "Simplify choices.",
-  tags: ["decision", "energy"]
-},
-
-{
-  id: "neuro_homeostasis",
-  category: "NEUROSCIENCE",
-  title: "Homeostasis",
-  essence: "The brain seeks balance.",
-  explanation: "Neural systems try to maintain stability.",
-  example: "Mood regulation after stress.",
-  whenToUse: "Mental health awareness.",
-  warning: "Extreme habits disrupt balance.",
-  tags: ["balance", "health"]
-},
-
-{
-  id: "neuro_learning_styles_myth",
-  category: "NEUROSCIENCE",
-  title: "Learning Styles Myth",
-  essence: "The brain learns through multiple modes.",
-  explanation: "No fixed learning style exists; variety improves learning.",
-  example: "Combining reading, writing, and practice.",
-  whenToUse: "Effective studying.",
-  warning: "Labels limit growth.",
-  tags: ["learning", "myth"]
-},
-
-{
-  id: "neuro_emotion_cognition_loop",
-  category: "NEUROSCIENCE",
-  title: "Emotion–Cognition Loop",
-  essence: "Thoughts and emotions influence each other.",
-  explanation: "Emotions shape thinking; thinking shapes emotions.",
-  example: "Negative thoughts increase anxiety.",
-  whenToUse: "Self-awareness.",
-  warning: "Unchecked loops escalate.",
-  tags: ["emotion", "thinking"]
-},
-
-{
-  id: "neuro_brain_energy",
-  category: "NEUROSCIENCE",
-  title: "Brain Energy Budget",
-  essence: "Thinking is costly.",
-  explanation: "The brain uses significant energy and prefers efficiency.",
-  example: "Mental fatigue after intense focus.",
-  whenToUse: "Work design.",
-  warning: "Overload leads to burnout.",
-  tags: ["energy", "focus"]
-},
-
-{
-  id: "neuro_identity_brain",
-  category: "NEUROSCIENCE",
-  title: "Neural Basis of Identity",
-  essence: "Identity is constructed, not fixed.",
-  explanation: "The sense of self emerges from brain patterns and memory.",
-  example: "Personality shifts after major life events.",
-  whenToUse: "Personal growth.",
-  warning: "Rigid identity blocks change.",
-  tags: ["identity", "self"]
-},
-   {
-  id: "paradox_ship_of_theseus",
-  category: "PARADOX",
-  title: "Ship of Theseus",
-  essence: "If everything changes, is it still the same?",
-  explanation: "If all parts of an object are replaced over time, does its identity remain?",
-  example: "Is a person the same after years of change?",
-  reflection: "What truly defines identity?",
-  tags: ["identity", "change"]
-},
-
-{
-  id: "paradox_liar",
-  category: "PARADOX",
-  title: "The Liar Paradox",
-  essence: "This statement is false.",
-  explanation: "If the statement is true, it must be false — and vice versa.",
-  example: "Logical contradiction in self-reference.",
-  reflection: "Can language fully describe truth?",
-  tags: ["logic", "truth"]
-},
-
-{
-  id: "paradox_sorites",
-  category: "PARADOX",
-  title: "Sorites Paradox",
-  essence: "When does a heap stop being a heap?",
-  explanation: "Small changes don’t seem to matter, yet lead to big differences.",
-  example: "Removing one grain from a heap.",
-  reflection: "Where do boundaries truly exist?",
-  tags: ["vagueness", "logic"]
-},
-
-{
-  id: "paradox_grandfather",
-  category: "PARADOX",
-  title: "Grandfather Paradox",
-  essence: "Can you change the past?",
-  explanation: "If you prevent your own existence, how did you travel back?",
-  example: "Time travel contradictions.",
-  reflection: "Is time linear or fixed?",
-  tags: ["time", "causality"]
-},
-
-{
-  id: "paradox_freedom_choice",
-  category: "PARADOX",
-  title: "Paradox of Choice",
-  essence: "More options reduce satisfaction.",
-  explanation: "Too many choices create anxiety and regret.",
-  example: "Struggling to choose from hundreds of options.",
-  reflection: "Does freedom always improve happiness?",
-  tags: ["decision", "psychology"]
-},
-
-{
-  id: "paradox_hedonism",
-  category: "PARADOX",
-  title: "Hedonic Paradox",
-  essence: "Chasing happiness reduces happiness.",
-  explanation: "Direct pursuit of pleasure often leads to dissatisfaction.",
-  example: "Success not bringing fulfillment.",
-  reflection: "What is happiness really?",
-  tags: ["happiness", "psychology"]
-},
-
-{
-  id: "paradox_knowledge",
-  category: "PARADOX",
-  title: "Paradox of Knowledge",
-  essence: "The more you know, the more you realize you don’t know.",
-  explanation: "Knowledge expands awareness of ignorance.",
-  example: "Experts seeing complexity.",
-  reflection: "Is wisdom knowing limits?",
-  tags: ["knowledge", "wisdom"]
-},
-
-{
-  id: "paradox_tolerance",
-  category: "PARADOX",
-  title: "Paradox of Tolerance",
-  essence: "Unlimited tolerance destroys tolerance.",
-  explanation: "Tolerating intolerance enables harm.",
-  example: "Extremism in free societies.",
-  reflection: "Where should limits exist?",
-  tags: ["society", "ethics"]
-},
-
-{
-  id: "paradox_control",
-  category: "PARADOX",
-  title: "Paradox of Control",
-  essence: "Trying to control everything causes loss of control.",
-  explanation: "Overcontrol creates fragility and anxiety.",
-  example: "Micromanagement failing.",
-  reflection: "What should you let go?",
-  tags: ["control", "life"]
-},
-
-{
-  id: "paradox_confidence",
-  category: "PARADOX",
-  title: "Confidence Paradox",
-  essence: "The least skilled are often most confident.",
-  explanation: "Lack of knowledge hides incompetence.",
-  example: "Dunning–Kruger effect.",
-  reflection: "How do you measure true competence?",
-  tags: ["skill", "bias"]
-},
-
-{
-  id: "paradox_effort",
-  category: "PARADOX",
-  title: "Effort Paradox",
-  essence: "Trying too hard causes failure.",
-  explanation: "Some outcomes require relaxed effort.",
-  example: "Forcing creativity blocks it.",
-  reflection: "When should effort be softened?",
-  tags: ["performance", "flow"]
-},
-
-{
-  id: "paradox_time",
-  category: "PARADOX",
-  title: "Time Paradox",
-  essence: "The future shapes the present.",
-  explanation: "Expectations of the future influence current behavior.",
-  example: "Saving for retirement changes today’s choices.",
-  reflection: "Is time one-directional?",
-  tags: ["time", "mind"]
-},
-
-{
-  id: "paradox_learning",
-  category: "PARADOX",
-  title: "Learning Paradox",
-  essence: "To learn, you must accept not knowing.",
-  explanation: "Ego blocks learning.",
-  example: "Beginners progress faster than proud intermediates.",
-  reflection: "Where does ego stop growth?",
-  tags: ["learning", "ego"]
-},
-
-{
-  id: "paradox_choice_commitment",
-  category: "PARADOX",
-  title: "Commitment Paradox",
-  essence: "Limiting options increases freedom.",
-  explanation: "Commitment removes decision anxiety.",
-  example: "Daily routines increasing productivity.",
-  reflection: "What choices should you remove?",
-  tags: ["discipline", "focus"]
-},
-
-{
-  id: "paradox_success",
-  category: "PARADOX",
-  title: "Success Paradox",
-  essence: "Success creates the conditions for failure.",
-  explanation: "Past success leads to complacency.",
-  example: "Companies disrupted after success.",
-  reflection: "How do you stay adaptive?",
-  tags: ["success", "growth"]
-},
-
-{
-  id: "paradox_identity",
-  category: "PARADOX",
-  title: "Identity Paradox",
-  essence: "Holding identity too tightly prevents becoming.",
-  explanation: "Rigid self-image blocks change.",
-  example: "“I’m not that kind of person.”",
-  reflection: "Who could you become?",
-  tags: ["identity", "change"]
-},
-
-{
-  id: "paradox_security",
-  category: "PARADOX",
-  title: "Security Paradox",
-  essence: "Seeking safety creates fragility.",
-  explanation: "Overprotection reduces resilience.",
-  example: "Avoiding challenges weakens growth.",
-  reflection: "Where do you need discomfort?",
-  tags: ["resilience", "life"]
-},
-
-{
-  id: "paradox_attention",
-  category: "PARADOX",
-  title: "Attention Paradox",
-  essence: "Seeking attention reduces respect.",
-  explanation: "Quiet competence attracts more trust.",
-  example: "Leaders who don’t self-promote.",
-  reflection: "What speaks louder than words?",
-  tags: ["status", "social"]
-},
-
-{
-  id: "paradox_change",
-  category: "PARADOX",
-  title: "Change Paradox",
-  essence: "Change begins with acceptance.",
-  explanation: "Fighting reality blocks transformation.",
-  example: "Therapy and self-growth.",
-  reflection: "What must you accept first?",
-  tags: ["growth", "mindset"]
-},
-
-{
-  id: "paradox_life",
-  category: "PARADOX",
-  title: "Life Paradox",
-  essence: "Meaning is created, not found.",
-  explanation: "Life has no built-in meaning, yet humans create it.",
-  example: "Values shaping purpose.",
-  reflection: "What meaning are you choosing?",
-  tags: ["meaning", "existence"]
-},
-   {
-  id: "theory_string",
-  category: "THEORY",
-  title: "String Theory",
-  essence: "Everything is made of vibrating strings.",
-  explanation: "At the smallest level, particles are tiny strings whose vibrations determine their properties.",
-  example: "Different vibrations create different particles.",
-  reflection: "Is reality simpler or more complex than it appears?",
-  tags: ["physics", "reality"]
-},
-
-{
-  id: "theory_relativity",
-  category: "THEORY",
-  title: "Theory of Relativity",
-  essence: "Time and space are relative.",
-  explanation: "Time and space change depending on speed and gravity.",
-  example: "Time moves slower near massive objects.",
-  reflection: "Is time absolute or experienced?",
-  tags: ["physics", "time"]
-},
-
-{
-  id: "theory_quantum_mechanics",
-  category: "THEORY",
-  title: "Quantum Mechanics",
-  essence: "Reality is probabilistic.",
-  explanation: "At small scales, particles behave unpredictably until observed.",
-  example: "A particle existing in multiple states.",
-  reflection: "Does observation shape reality?",
-  tags: ["physics", "uncertainty"]
-},
-
-{
-  id: "theory_big_bang",
-  category: "THEORY",
-  title: "Big Bang Theory",
-  essence: "The universe had a beginning.",
-  explanation: "The universe expanded from a hot, dense state.",
-  example: "Cosmic background radiation.",
-  reflection: "What existed before the beginning?",
-  tags: ["cosmology", "origin"]
-},
-
-{
-  id: "theory_evolution",
-  category: "THEORY",
-  title: "Theory of Evolution",
-  essence: "Life adapts through selection.",
-  explanation: "Species evolve through variation and natural selection.",
-  example: "Resistance to disease over generations.",
-  reflection: "Is adaptation ongoing in your life?",
-  tags: ["biology", "change"]
-},
-
-{
-  id: "theory_cognitive_dissonance",
-  category: "THEORY",
-  title: "Cognitive Dissonance Theory",
-  essence: "The mind avoids inner conflict.",
-  explanation: "People adjust beliefs to reduce mental discomfort.",
-  example: "Justifying bad decisions.",
-  reflection: "What beliefs protect your ego?",
-  tags: ["psychology", "belief"]
-},
-
-{
-  id: "theory_attachment",
-  category: "THEORY",
-  title: "Attachment Theory",
-  essence: "Early bonds shape relationships.",
-  explanation: "Childhood attachment affects adult behavior.",
-  example: "Fear of abandonment.",
-  reflection: "How do you connect to others?",
-  tags: ["psychology", "relationships"]
-},
-
-{
-  id: "theory_game",
-  category: "THEORY",
-  title: "Game Theory",
-  essence: "Decisions depend on others.",
-  explanation: "Outcomes depend on strategic interaction.",
-  example: "Prisoner’s Dilemma.",
-  reflection: "Are you competing or cooperating?",
-  tags: ["strategy", "decision"]
-},
-
-{
-  id: "theory_chaos",
-  category: "THEORY",
-  title: "Chaos Theory",
-  essence: "Small changes cause big effects.",
-  explanation: "Complex systems are highly sensitive.",
-  example: "Butterfly effect.",
-  reflection: "Which small habits shape your future?",
-  tags: ["systems", "complexity"]
-},
-
-{
-  id: "theory_information",
-  category: "THEORY",
-  title: "Information Theory",
-  essence: "Information reduces uncertainty.",
-  explanation: "Information can be measured and transmitted efficiently.",
-  example: "Data compression.",
-  reflection: "What reduces uncertainty in your life?",
-  tags: ["information", "communication"]
-},
-
-{
-  id: "theory_simulation",
-  category: "THEORY",
-  title: "Simulation Theory",
-  essence: "Reality may be simulated.",
-  explanation: "Advanced civilizations might simulate realities.",
-  example: "Video game worlds.",
-  reflection: "Does meaning depend on origin?",
-  tags: ["philosophy", "reality"]
-},
-
-{
-  id: "theory_social_contract",
-  category: "THEORY",
-  title: "Social Contract Theory",
-  essence: "Society is an agreement.",
-  explanation: "People give up freedom for order.",
-  example: "Laws and governance.",
-  reflection: "What do you trade for security?",
-  tags: ["society", "ethics"]
-},
-
-{
-  id: "theory_constructivism",
-  category: "THEORY",
-  title: "Constructivism",
-  essence: "Knowledge is built, not received.",
-  explanation: "Learning happens through experience.",
-  example: "Learning by doing.",
-  reflection: "How do you build understanding?",
-  tags: ["learning", "education"]
-},
-
-{
-  id: "theory_behaviorism",
-  category: "THEORY",
-  title: "Behaviorism",
-  essence: "Behavior is shaped by reward.",
-  explanation: "Actions are reinforced by consequences.",
-  example: "Habits formed through rewards.",
-  reflection: "What rewards shape you?",
-  tags: ["behavior", "habits"]
-},
-
-{
-  id: "theory_unconscious",
-  category: "THEORY",
-  title: "Unconscious Mind Theory",
-  essence: "Most thinking is hidden.",
-  explanation: "Unconscious processes guide behavior.",
-  example: "Automatic reactions.",
-  reflection: "What drives you unconsciously?",
-  tags: ["mind", "psychology"]
-},
-
-{
-  id: "theory_systems",
-  category: "THEORY",
-  title: "Systems Theory",
-  essence: "Everything is interconnected.",
-  explanation: "Parts influence the whole system.",
-  example: "Ecosystems or organizations.",
-  reflection: "What system are you part of?",
-  tags: ["systems", "holistic"]
-},
-
-{
-  id: "theory_multiple_intelligence",
-  category: "THEORY",
-  title: "Multiple Intelligences",
-  essence: "Intelligence has many forms.",
-  explanation: "People excel in different cognitive domains.",
-  example: "Musical vs logical intelligence.",
-  reflection: "Where are you naturally strong?",
-  tags: ["intelligence", "learning"]
-},
-
-{
-  id: "theory_self_determination",
-  category: "THEORY",
-  title: "Self-Determination Theory",
-  essence: "Autonomy fuels motivation.",
-  explanation: "People thrive when autonomous, competent, and connected.",
-  example: "Intrinsic motivation.",
-  reflection: "What motivates you internally?",
-  tags: ["motivation", "self"]
-},
-
-{
-  id: "theory_emergence",
-  category: "THEORY",
-  title: "Emergence Theory",
-  essence: "The whole is more than parts.",
-  explanation: "Complex patterns arise from simple rules.",
-  example: "Ant colonies.",
-  reflection: "What emerges from your daily actions?",
-  tags: ["complexity", "patterns"]
-},
-
-{
-  id: "theory_identity_narrative",
-  category: "THEORY",
-  title: "Narrative Identity Theory",
-  essence: "We live by stories.",
-  explanation: "Identity is shaped by personal narratives.",
-  example: "Life seen as a story.",
-  reflection: "What story are you telling yourself?",
-  tags: ["identity", "meaning"]
-},
-   {
-  id: "mystery_db_cooper",
-  category: "MYSTERY",
-  title: "D.B. Cooper Hijacking",
-  essence: "A man vanished after a plane hijacking.",
-  explanation: "In 1971, a hijacker parachuted from a plane with ransom money and was never found.",
-  example: "No confirmed identity to this day.",
-  reflection: "Can someone disappear perfectly?",
-  tags: ["crime", "unsolved"]
-},
-
-{
-  id: "mystery_bermuda_triangle",
-  category: "MYSTERY",
-  title: "Bermuda Triangle",
-  essence: "Ships and planes vanished mysteriously.",
-  explanation: "Several disappearances occurred in the Atlantic with no clear explanation.",
-  example: "Flight 19 disappearance.",
-  reflection: "Pattern or coincidence?",
-  tags: ["ocean", "disappearance"]
-},
-
-{
-  id: "mystery_roanoke",
-  category: "MYSTERY",
-  title: "Lost Colony of Roanoke",
-  essence: "An entire settlement vanished.",
-  explanation: "A 16th-century colony disappeared without trace.",
-  example: "Only the word ‘CROATOAN’ was found.",
-  reflection: "What happened to them?",
-  tags: ["history", "lost"]
-},
-
-{
-  id: "mystery_jack_ripper",
-  category: "MYSTERY",
-  title: "Jack the Ripper",
-  essence: "A serial killer was never identified.",
-  explanation: "A killer terrorized London in 1888 and vanished.",
-  example: "Multiple suspects, no proof.",
-  reflection: "Can truth disappear over time?",
-  tags: ["crime", "history"]
-},
-
-{
-  id: "mystery_taman_shud",
-  category: "MYSTERY",
-  title: "Somerton Man (Tamam Shud)",
-  essence: "An unidentified man found dead.",
-  explanation: "A body with no ID and a mysterious note was found in Australia.",
-  example: "Code still unsolved.",
-  reflection: "How much can remain unknown?",
-  tags: ["identity", "unsolved"]
-},
-
-{
-  id: "mystery_ameli_earhart",
-  category: "MYSTERY",
-  title: "Amelia Earhart",
-  essence: "A pilot disappeared mid-flight.",
-  explanation: "Her plane vanished during a world flight attempt.",
-  example: "No confirmed wreckage.",
-  reflection: "How does someone vanish in open skies?",
-  tags: ["aviation", "disappearance"]
-},
-
-{
-  id: "mystery_voynich",
-  category: "MYSTERY",
-  title: "Voynich Manuscript",
-  essence: "A book no one can read.",
-  explanation: "An ancient manuscript written in an unknown language.",
-  example: "No successful translation.",
-  reflection: "Is it code, language, or fiction?",
-  tags: ["language", "unknown"]
-},
-
-{
-  id: "mystery_dyatlov",
-  category: "MYSTERY",
-  title: "Dyatlov Pass Incident",
-  essence: "Hikers died under strange conditions.",
-  explanation: "Nine hikers died mysteriously in the Ural Mountains.",
-  example: "Tents cut from inside.",
-  reflection: "What caused panic?",
-  tags: ["death", "unexplained"]
-},
-
-{
-  id: "mystery_green_children",
-  category: "MYSTERY",
-  title: "The Green Children of Woolpit",
-  essence: "Children appeared with green skin.",
-  explanation: "Medieval story of children speaking unknown language.",
-  example: "Skin color faded over time.",
-  reflection: "Myth or misunderstood reality?",
-  tags: ["history", "strange"]
-},
-
-{
-  id: "mystery_zodiac",
-  category: "MYSTERY",
-  title: "Zodiac Killer",
-  essence: "A killer who sent coded messages.",
-  explanation: "A serial killer taunted police with letters.",
-  example: "Some ciphers unsolved.",
-  reflection: "Why reveal clues?",
-  tags: ["crime", "codes"]
-},
-
-{
-  id: "mystery_oak_island",
-  category: "MYSTERY",
-  title: "Oak Island Treasure",
-  essence: "A treasure possibly buried underground.",
-  explanation: "Centuries of digging with no clear answer.",
-  example: "Strange flood traps.",
-  reflection: "Is the mystery the treasure?",
-  tags: ["treasure", "history"]
-},
-
-{
-  id: "mystery_mary_celeste",
-  category: "MYSTERY",
-  title: "Mary Celeste",
-  essence: "A ship found abandoned.",
-  explanation: "The crew vanished with no signs of struggle.",
-  example: "Food still on table.",
-  reflection: "What makes people leave safety?",
-  tags: ["ocean", "disappearance"]
-},
-
-{
-  id: "mystery_tunguska",
-  category: "MYSTERY",
-  title: "Tunguska Event",
-  essence: "A massive explosion with no crater.",
-  explanation: "A blast flattened forests in Siberia.",
-  example: "No impact remains.",
-  reflection: "What hit Earth?",
-  tags: ["explosion", "unknown"]
-},
-
-{
-  id: "mystery_black_dahlia",
-  category: "MYSTERY",
-  title: "Black Dahlia Murder",
-  essence: "A brutal murder never solved.",
-  explanation: "A woman was killed under bizarre circumstances.",
-  example: "Many suspects, no conviction.",
-  reflection: "Does justice always arrive?",
-  tags: ["crime", "unsolved"]
-},
-
-{
-  id: "mystery_disappearance_children",
-  category: "MYSTERY",
-  title: "The Sodder Children",
-  essence: "Five children vanished after a fire.",
-  explanation: "No remains found in the ruins.",
-  example: "Sightings reported later.",
-  reflection: "Can official stories be wrong?",
-  tags: ["family", "mystery"]
-},
-
-{
-  id: "mystery_hinterkaifeck",
-  category: "MYSTERY",
-  title: "Hinterkaifeck Murders",
-  essence: "A family killed, killer unknown.",
-  explanation: "Strange clues appeared before the murders.",
-  example: "Footprints to the house.",
-  reflection: "Was the killer watching?",
-  tags: ["crime", "fear"]
-},
-
-{
-  id: "mystery_stonehenge",
-  category: "MYSTERY",
-  title: "Stonehenge",
-  essence: "Purpose unknown.",
-  explanation: "Massive stones arranged with precision.",
-  example: "Aligned with solstices.",
-  reflection: "What knowledge was lost?",
-  tags: ["ancient", "architecture"]
-},
-
-{
-  id: "mystery_taured",
-  category: "MYSTERY",
-  title: "Man from Taured",
-  essence: "A traveler from a non-existent country.",
-  explanation: "A man claimed origin from Taured.",
-  example: "Country didn’t exist.",
-  reflection: "Hoax or misunderstanding?",
-  tags: ["identity", "strange"]
-},
-
-{
-  id: "mystery_flights_vanish",
-  category: "MYSTERY",
-  title: "Vanishing Flights",
-  essence: "Planes lost without trace.",
-  explanation: "Some aircraft disappear despite modern tracking.",
-  example: "MH370.",
-  reflection: "Is total tracking possible?",
-  tags: ["aviation", "technology"]
-},
-
-{
-  id: "mystery_unidentified",
-  category: "MYSTERY",
-  title: "Unidentified Phenomena",
-  essence: "Objects with no clear explanation.",
-  explanation: "Reports of objects defying known physics.",
-  example: "Radar anomalies.",
-  reflection: "Unknown or misunderstood?",
-  tags: ["phenomena", "unknown"]
-},
-   {
-  id: "bias_confirmation",
-  category: "COGNITIVE_BIAS",
-  title: "Confirmation Bias",
-  essence: "We notice what agrees with us.",
-  explanation: "People seek information that confirms existing beliefs and ignore opposing evidence.",
-  example: "Only reading news that supports your views.",
-  reflection: "What evidence do you avoid?",
-  tags: ["belief", "thinking"]
-},
-
-{
-  id: "bias_anchoring",
-  category: "COGNITIVE_BIAS",
-  title: "Anchoring Bias",
-  essence: "First information sticks.",
-  explanation: "Initial information strongly influences later judgments.",
-  example: "First price affects perceived value.",
-  reflection: "What anchors your decisions?",
-  tags: ["decision", "judgment"]
-},
-
-{
-  id: "bias_availability",
-  category: "COGNITIVE_BIAS",
-  title: "Availability Heuristic",
-  essence: "Easy recall feels common.",
-  explanation: "We judge probability based on how easily examples come to mind.",
-  example: "Fear of flying due to news coverage.",
-  reflection: "What feels common but isn’t?",
-  tags: ["risk", "memory"]
-},
-
-{
-  id: "bias_dunning_kruger",
-  category: "COGNITIVE_BIAS",
-  title: "Dunning–Kruger Effect",
-  essence: "Ignorance breeds confidence.",
-  explanation: "People with low skill overestimate ability; experts underestimate.",
-  example: "Beginners feeling overly confident.",
-  reflection: "Where might confidence hide ignorance?",
-  tags: ["skill", "ego"]
-},
-
-{
-  id: "bias_hindsight",
-  category: "COGNITIVE_BIAS",
-  title: "Hindsight Bias",
-  essence: "It seemed obvious later.",
-  explanation: "After outcomes, people believe they predicted them.",
-  example: "“I knew it would happen.”",
-  reflection: "What feels predictable only in hindsight?",
-  tags: ["memory", "judgment"]
-},
-
-{
-  id: "bias_loss_aversion",
-  category: "COGNITIVE_BIAS",
-  title: "Loss Aversion",
-  essence: "Loss hurts more than gain.",
-  explanation: "People fear losses more than equivalent gains.",
-  example: "Holding losing investments.",
-  reflection: "What losses control your choices?",
-  tags: ["emotion", "risk"]
-},
-
-{
-  id: "bias_status_quo",
-  category: "COGNITIVE_BIAS",
-  title: "Status Quo Bias",
-  essence: "Change feels risky.",
-  explanation: "People prefer things to stay the same.",
-  example: "Avoiding new methods.",
-  reflection: "What stays unchanged by habit?",
-  tags: ["change", "comfort"]
-},
-
-{
-  id: "bias_sunk_cost",
-  category: "COGNITIVE_BIAS",
-  title: "Sunk Cost Fallacy",
-  essence: "Past investment traps us.",
-  explanation: "Continuing because of what’s already spent.",
-  example: "Staying in failing projects.",
-  reflection: "What should you let go?",
-  tags: ["decision", "investment"]
-},
-
-{
-  id: "bias_framing",
-  category: "COGNITIVE_BIAS",
-  title: "Framing Effect",
-  essence: "Presentation changes choice.",
-  explanation: "Decisions change based on how options are framed.",
-  example: "“90% success” vs “10% failure.”",
-  reflection: "How does wording influence you?",
-  tags: ["communication", "choice"]
-},
-
-{
-  id: "bias_overconfidence",
-  category: "COGNITIVE_BIAS",
-  title: "Overconfidence Bias",
-  essence: "We overestimate ourselves.",
-  explanation: "Confidence exceeds accuracy.",
-  example: "Underestimating risks.",
-  reflection: "Where could humility help?",
-  tags: ["ego", "judgment"]
-},
-
-{
-  id: "bias_self_serving",
-  category: "COGNITIVE_BIAS",
-  title: "Self-Serving Bias",
-  essence: "We credit success, blame failure.",
-  explanation: "People attribute success to self, failure to outside factors.",
-  example: "Blaming others for mistakes.",
-  reflection: "How do you explain failure?",
-  tags: ["ego", "identity"]
-},
-
-{
-  id: "bias_negativity",
-  category: "COGNITIVE_BIAS",
-  title: "Negativity Bias",
-  essence: "Negative stands out.",
-  explanation: "Negative events have stronger impact than positive ones.",
-  example: "One insult outweighs praise.",
-  reflection: "What positives are you missing?",
-  tags: ["emotion", "attention"]
-},
-
-{
-  id: "bias_representativeness",
-  category: "COGNITIVE_BIAS",
-  title: "Representativeness Heuristic",
-  essence: "Stereotypes replace probability.",
-  explanation: "Judging likelihood by resemblance, not statistics.",
-  example: "Assuming personality by appearance.",
-  reflection: "What shortcuts shape judgment?",
-  tags: ["stereotype", "probability"]
-},
-
-{
-  id: "bias_authority",
-  category: "COGNITIVE_BIAS",
-  title: "Authority Bias",
-  essence: "Authority feels correct.",
-  explanation: "People trust authority figures excessively.",
-  example: "Believing experts without questioning.",
-  reflection: "When should authority be questioned?",
-  tags: ["power", "trust"]
-},
-
-{
-  id: "bias_bandwagon",
-  category: "COGNITIVE_BIAS",
-  title: "Bandwagon Effect",
-  essence: "Popularity becomes truth.",
-  explanation: "People adopt beliefs because many others do.",
-  example: "Trends spreading quickly.",
-  reflection: "Do you choose or follow?",
-  tags: ["social", "influence"]
-},
-
-{
-  id: "bias_illusion_control",
-  category: "COGNITIVE_BIAS",
-  title: "Illusion of Control",
-  essence: "We overestimate influence.",
-  explanation: "People believe they control random events.",
-  example: "Superstitions.",
-  reflection: "What is truly controllable?",
-  tags: ["control", "chance"]
-},
-
-{
-  id: "bias_planning_fallacy",
-  category: "COGNITIVE_BIAS",
-  title: "Planning Fallacy",
-  essence: "We underestimate time.",
-  explanation: "Projects take longer than expected.",
-  example: "Missed deadlines.",
-  reflection: "How can you plan realistically?",
-  tags: ["planning", "time"]
-},
-
-{
-  id: "bias_false_consensus",
-  category: "COGNITIVE_BIAS",
-  title: "False Consensus Effect",
-  essence: "We assume others agree.",
-  explanation: "People overestimate shared beliefs.",
-  example: "Thinking opinions are universal.",
-  reflection: "Who thinks differently?",
-  tags: ["social", "belief"]
-},
-
-{
-  id: "bias_survivorship",
-  category: "COGNITIVE_BIAS",
-  title: "Survivorship Bias",
-  essence: "We see winners only.",
-  explanation: "Ignoring failures skews conclusions.",
-  example: "Studying successful startups only.",
-  reflection: "What failures are hidden?",
-  tags: ["success", "analysis"]
-},
-
-{
-  id: "bias_emotional_reasoning",
-  category: "COGNITIVE_BIAS",
-  title: "Emotional Reasoning",
-  essence: "Feelings feel factual.",
-  explanation: "Emotions are treated as evidence.",
-  example: "Feeling anxious means danger.",
-  reflection: "What emotions distort truth?",
-  tags: ["emotion", "logic"]
-},
-   {
-  id: "te_trolley",
-  category: "THOUGHT_EXPERIMENT",
-  title: "The Trolley Problem",
-  essence: "Is it right to sacrifice one to save many?",
-  explanation: "You must choose between actively causing one death or allowing several deaths to happen.",
-  example: "Pulling a lever to divert a trolley.",
-  reflection: "Is moral responsibility about action or outcome?",
-  tags: ["ethics", "morality"]
-},
-
-{
-  id: "te_schrodinger",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Schrödinger’s Cat",
-  essence: "Is reality defined before observation?",
-  explanation: "A cat is both alive and dead until observed.",
-  example: "Quantum superposition.",
-  reflection: "Does observation create reality?",
-  tags: ["quantum", "reality"]
-},
-
-{
-  id: "te_brain_vat",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Brain in a Vat",
-  essence: "How do you know reality is real?",
-  explanation: "Your brain could be fed fake experiences.",
-  example: "Living in a simulation unknowingly.",
-  reflection: "What grounds certainty?",
-  tags: ["reality", "knowledge"]
-},
-
-{
-  id: "te_ship_theseus",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Ship of Theseus",
-  essence: "Does identity survive total change?",
-  explanation: "If all parts are replaced, is it the same object?",
-  example: "A person changing over years.",
-  reflection: "What defines identity?",
-  tags: ["identity", "change"]
-},
-
-{
-  id: "te_prisoners",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Prisoner’s Dilemma",
-  essence: "Is cooperation rational?",
-  explanation: "Self-interest can lead to worse outcomes.",
-  example: "Betrayal vs cooperation.",
-  reflection: "When should you trust?",
-  tags: ["strategy", "decision"]
-},
-
-{
-  id: "te_mary_room",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Mary’s Room",
-  essence: "Is all knowledge physical?",
-  explanation: "Mary knows all facts but not experience.",
-  example: "Seeing color for the first time.",
-  reflection: "Can facts replace experience?",
-  tags: ["consciousness", "knowledge"]
-},
-
-{
-  id: "te_chinese_room",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Chinese Room",
-  essence: "Can machines truly understand?",
-  explanation: "Following rules isn’t understanding.",
-  example: "AI responding without comprehension.",
-  reflection: "What is understanding?",
-  tags: ["ai", "mind"]
-},
-
-{
-  id: "te_experience_machine",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Experience Machine",
-  essence: "Would you plug into perfect happiness?",
-  explanation: "A machine can simulate any pleasure.",
-  example: "Living an artificial life.",
-  reflection: "Is happiness enough?",
-  tags: ["happiness", "reality"]
-},
-
-{
-  id: "te_laplace_demon",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Laplace’s Demon",
-  essence: "Is the universe deterministic?",
-  explanation: "Perfect knowledge predicts all future events.",
-  example: "Complete predictability.",
-  reflection: "Is free will an illusion?",
-  tags: ["determinism", "freewill"]
-},
-
-{
-  id: "te_grandfather",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Grandfather Paradox",
-  essence: "Can you change the past?",
-  explanation: "Killing your ancestor prevents your existence.",
-  example: "Time travel contradiction.",
-  reflection: "Is time fixed?",
-  tags: ["time", "causality"]
-},
-
-{
-  id: "te_vampire",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Vampire Problem",
-  essence: "Can future values override current ones?",
-  explanation: "Would you choose to become someone else?",
-  example: "Permanent transformation.",
-  reflection: "Who decides your future self?",
-  tags: ["identity", "choice"]
-},
-
-{
-  id: "te_surprise_exam",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Surprise Exam Paradox",
-  essence: "Can surprise be predicted?",
-  explanation: "Logical reasoning removes surprise.",
-  example: "Unexpected exams.",
-  reflection: "Can logic defeat intuition?",
-  tags: ["logic", "paradox"]
-},
-
-{
-  id: "te_buridan",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Buridan’s Ass",
-  essence: "Can indecision be fatal?",
-  explanation: "Perfect balance leads to paralysis.",
-  example: "Unable to choose between equal options.",
-  reflection: "Is randomness better than no choice?",
-  tags: ["decision", "choice"]
-},
-
-{
-  id: "te_newcomb",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Newcomb’s Problem",
-  essence: "Prediction vs free will.",
-  explanation: "A predictor challenges rational choice.",
-  example: "One box or two?",
-  reflection: "Can choice exist with prediction?",
-  tags: ["freewill", "rationality"]
-},
-
-{
-  id: "te_ring_gyges",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Ring of Gyges",
-  essence: "Would you act morally if unseen?",
-  explanation: "Invisibility removes consequences.",
-  example: "Power without accountability.",
-  reflection: "Is morality internal or external?",
-  tags: ["ethics", "power"]
-},
-
-{
-  id: "te_sleeping_beauty",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Sleeping Beauty",
-  essence: "How should belief update?",
-  explanation: "Probability changes with information.",
-  example: "Waking with uncertainty.",
-  reflection: "How do beliefs adapt?",
-  tags: ["probability", "belief"]
-},
-
-{
-  id: "te_boat_leak",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Leaky Boat",
-  essence: "Is partial truth worse than ignorance?",
-  explanation: "Fixing leaks reveals deeper problems.",
-  example: "Policy interventions.",
-  reflection: "Do solutions create new issues?",
-  tags: ["systems", "complexity"]
-},
-
-{
-  id: "te_exploding_trolley",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Fat Man Variant",
-  essence: "Does physical action change morality?",
-  explanation: "Pushing someone feels worse than pulling a lever.",
-  example: "Direct vs indirect harm.",
-  reflection: "Why does intent matter?",
-  tags: ["ethics", "emotion"]
-},
-
-{
-  id: "te_last_man",
-  category: "THOUGHT_EXPERIMENT",
-  title: "The Last Man",
-  essence: "Does nature have value without humans?",
-  explanation: "If no one exists, does harm matter?",
-  example: "Destroying the last forest.",
-  reflection: "Is value observer-dependent?",
-  tags: ["ethics", "nature"]
-},
-
-{
-  id: "te_person_split",
-  category: "THOUGHT_EXPERIMENT",
-  title: "Teletransportation",
-  essence: "Is continuity required for identity?",
-  explanation: "You are copied and destroyed.",
-  example: "Teleporters.",
-  reflection: "Is the copy you?",
-  tags: ["identity", "self"]
-},
-   {
-  id: "spirit_presence",
-  category: "SPIRITUAL",
-  title: "Presence",
-  essence: "Being fully here.",
-  explanation: "Presence means attention is rooted in the current moment, not past or future.",
-  example: "Listening without thinking of a reply.",
-  reflection: "Where is your attention right now?",
-  tags: ["awareness", "mindfulness"]
-},
-
-{
-  id: "spirit_non_attachment",
-  category: "SPIRITUAL",
-  title: "Non-Attachment",
-  essence: "Letting go without losing care.",
-  explanation: "Caring deeply without clinging to outcomes.",
-  example: "Doing your best without obsessing over results.",
-  reflection: "What are you gripping too tightly?",
-  tags: ["freedom", "balance"]
-},
-
-{
-  id: "spirit_observer_self",
-  category: "SPIRITUAL",
-  title: "Observer Self",
-  essence: "You are not your thoughts.",
-  explanation: "Thoughts arise, but awareness watches them.",
-  example: "Noticing anxiety instead of becoming it.",
-  reflection: "Who is noticing this thought?",
-  tags: ["identity", "awareness"]
-},
-
-{
-  id: "spirit_equanimity",
-  category: "SPIRITUAL",
-  title: "Equanimity",
-  essence: "Inner balance amid change.",
-  explanation: "Staying steady regardless of gain or loss.",
-  example: "Calm during praise or criticism.",
-  reflection: "What disturbs your inner balance?",
-  tags: ["calm", "resilience"]
-},
-
-{
-  id: "spirit_impermanence",
-  category: "SPIRITUAL",
-  title: "Impermanence",
-  essence: "Everything changes.",
-  explanation: "Nothing stays fixed — emotions, situations, identities.",
-  example: "Feelings passing naturally.",
-  reflection: "What are you expecting to stay?",
-  tags: ["change", "acceptance"]
-},
-
-{
-  id: "spirit_interbeing",
-  category: "SPIRITUAL",
-  title: "Interbeing",
-  essence: "Nothing exists alone.",
-  explanation: "All things arise through relationships and conditions.",
-  example: "Food depends on countless unseen processes.",
-  reflection: "What are you connected to right now?",
-  tags: ["connection", "systems"]
-},
-
-{
-  id: "spirit_silence",
-  category: "SPIRITUAL",
-  title: "Inner Silence",
-  essence: "Stillness beneath thought.",
-  explanation: "Beyond mental noise, awareness remains calm.",
-  example: "Quiet moments without stimulation.",
-  reflection: "When do you feel inner quiet?",
-  tags: ["stillness", "peace"]
-},
-
-{
-  id: "spirit_compassion",
-  category: "SPIRITUAL",
-  title: "Compassion",
-  essence: "Understanding suffering.",
-  explanation: "Seeing others’ pain without judgment.",
-  example: "Responding gently to mistakes.",
-  reflection: "How do you treat suffering?",
-  tags: ["empathy", "humanity"]
-},
-
-{
-  id: "spirit_authenticity",
-  category: "SPIRITUAL",
-  title: "Authenticity",
-  essence: "Living without masks.",
-  explanation: "Aligning actions with inner values.",
-  example: "Speaking honestly without cruelty.",
-  reflection: "Where are you pretending?",
-  tags: ["truth", "identity"]
-},
-
-{
-  id: "spirit_acceptance",
-  category: "SPIRITUAL",
-  title: "Acceptance",
-  essence: "Allowing what is.",
-  explanation: "Acknowledging reality without resistance.",
-  example: "Accepting difficult emotions.",
-  reflection: "What are you resisting?",
-  tags: ["peace", "reality"]
-},
-
-{
-  id: "spirit_gratitude",
-  category: "SPIRITUAL",
-  title: "Gratitude",
-  essence: "Recognizing what already exists.",
-  explanation: "Appreciation shifts attention from lack to abundance.",
-  example: "Noticing simple comforts.",
-  reflection: "What is quietly supporting you?",
-  tags: ["contentment", "awareness"]
-},
-
-{
-  id: "spirit_inner_alignment",
-  category: "SPIRITUAL",
-  title: "Inner Alignment",
-  essence: "Thought, emotion, and action aligned.",
-  explanation: "Inner conflict reduces clarity and energy.",
-  example: "Saying yes when you mean yes.",
-  reflection: "Where are you divided?",
-  tags: ["clarity", "integrity"]
-},
-
-{
-  id: "spirit_non_duality",
-  category: "SPIRITUAL",
-  title: "Non-Dual Awareness",
-  essence: "Subject and object dissolve.",
-  explanation: "The sense of separation softens.",
-  example: "Feeling part of nature.",
-  reflection: "Where does separation begin?",
-  tags: ["unity", "awareness"]
-},
-
-{
-  id: "spirit_detachment_identity",
-  category: "SPIRITUAL",
-  title: "Detachment from Identity",
-  essence: "You are more than roles.",
-  explanation: "Identities are useful but not absolute.",
-  example: "Letting go of labels.",
-  reflection: "Who are you without roles?",
-  tags: ["self", "freedom"]
-},
-
-{
-  id: "spirit_intuition",
-  category: "SPIRITUAL",
-  title: "Intuition",
-  essence: "Knowing without reasoning.",
-  explanation: "Subtle understanding emerges before logic.",
-  example: "A quiet inner nudge.",
-  reflection: "When do you trust intuition?",
-  tags: ["inner-knowing", "awareness"]
-},
-
-{
-  id: "spirit_surrender",
-  category: "SPIRITUAL",
-  title: "Surrender",
-  essence: "Letting go of control.",
-  explanation: "Allowing life to unfold without force.",
-  example: "Trusting processes.",
-  reflection: "What are you trying to control?",
-  tags: ["trust", "flow"]
-},
-
-{
-  id: "spirit_wholeness",
-  category: "SPIRITUAL",
-  title: "Wholeness",
-  essence: "Nothing is missing.",
-  explanation: "Completeness exists beneath striving.",
-  example: "Feeling enough without achievement.",
-  reflection: "What makes you feel incomplete?",
-  tags: ["self", "contentment"]
-},
-
-{
-  id: "spirit_attention_energy",
-  category: "SPIRITUAL",
-  title: "Attention as Energy",
-  essence: "Where attention goes, energy flows.",
-  explanation: "Focus shapes experience.",
-  example: "Growth through mindful focus.",
-  reflection: "What receives your energy?",
-  tags: ["focus", "growth"]
-},
-
-{
-  id: "spirit_inner_freedom",
-  category: "SPIRITUAL",
-  title: "Inner Freedom",
-  essence: "Freedom regardless of circumstance.",
-  explanation: "Freedom comes from inner relationship to events.",
-  example: "Peace despite chaos.",
-  reflection: "What would freedom feel like now?",
-  tags: ["freedom", "resilience"]
-},
-
-{
-  id: "spirit_becoming",
-  category: "SPIRITUAL",
-  title: "Becoming",
-  essence: "Life is unfolding.",
-  explanation: "Growth is continuous, not final.",
-  example: "Evolving values.",
-  reflection: "Who are you becoming?",
-  tags: ["growth", "change"]
-},
-   {
-  id: "power_visibility",
-  category: "POWER",
-  title: "Visibility Creates Influence",
-  essence: "What is seen is remembered.",
-  explanation: "People notice and trust what is visible more than what is hidden.",
-  example: "Consistent presence builds authority.",
-  reflection: "Where are you invisible?",
-  tags: ["influence", "presence"]
-},
-
-{
-  id: "power_scarcity",
-  category: "POWER",
-  title: "Scarcity Increases Value",
-  essence: "What is rare feels important.",
-  explanation: "Limited access increases perceived worth.",
-  example: "Exclusive opportunities feel more powerful.",
-  reflection: "What do you overexpose?",
-  tags: ["value", "perception"]
-},
-
-{
-  id: "power_control_emotion",
-  category: "POWER",
-  title: "Control Emotion, Not Just Action",
-  essence: "Emotional control signals strength.",
-  explanation: "Calm behavior under pressure earns trust.",
-  example: "Remaining composed during conflict.",
-  reflection: "What triggers your reactions?",
-  tags: ["emotion", "self-control"]
-},
-
 {
-  id: "power_reputation",
-  category: "POWER",
-  title: "Reputation Precedes You",
-  essence: "People judge before interaction.",
-  explanation: "Perception shapes opportunity.",
-  example: "Strong reputation opens doors.",
-  reflection: "What story follows your name?",
-  tags: ["reputation", "trust"]
-},
-
-{
-  id: "power_leverage",
-  category: "POWER",
-  title: "Leverage Multiplies Effort",
-  essence: "Small inputs can yield large results.",
-  explanation: "Using systems, people, or timing increases impact.",
-  example: "Delegation or automation.",
-  reflection: "Where can effort be multiplied?",
-  tags: ["leverage", "strategy"]
-},
+  id: "absurdism",
+  category: "EXISTENTIALISM",
+  title: "Absurdism",
+  essence: "Meaning in a meaningless world.",
+  explanation: `Absurdism is the idea that life has no clear, built-in meaning, but humans naturally search for meaning anyway. This creates a conflict. We want answers like “Why am I here?” or “What is the point of all this?”, but the universe stays silent. This clash between our desire for meaning and the universe’s indifference is called the absurd.
 
-{
-  id: "power_information",
-  category: "POWER",
-  title: "Information Is Power",
-  essence: "Understanding beats force.",
-  explanation: "Knowing more allows better positioning.",
-  example: "Preparation before negotiation.",
-  reflection: "What do you need to understand better?",
-  tags: ["knowledge", "strategy"]
-},
-
-{
-  id: "power_silence",
-  category: "POWER",
-  title: "Silence Creates Authority",
-  essence: "Not speaking can speak loudly.",
-  explanation: "Silence creates space and focus.",
-  example: "Pausing before responding.",
-  reflection: "When is silence stronger than words?",
-  tags: ["communication", "presence"]
-},
+Think of it like this: you ask life for clear instructions, but life never replies. You keep asking, and it keeps staying quiet. That situation feels strange, frustrating, and even funny in a dark way. That is the absurd.
 
-{
-  id: "power_timing",
-  category: "POWER",
-  title: "Timing Shapes Outcomes",
-  essence: "When matters as much as what.",
-  explanation: "Right action at the wrong time fails.",
-  example: "Waiting for the right moment.",
-  reflection: "Are you early, late, or aligned?",
-  tags: ["timing", "decision"]
-},
+Absurdism does not say you should give up or become hopeless. It also does not say you must invent a fake meaning to feel better. Instead, it says: accept the absurd honestly. Accept that there may be no final answers—and still choose to live fully.
 
-{
-  id: "power_boundary",
-  category: "POWER",
-  title: "Boundaries Create Respect",
-  essence: "Limits signal self-worth.",
-  explanation: "Clear boundaries reduce exploitation.",
-  example: "Saying no when necessary.",
-  reflection: "Where are your limits unclear?",
-  tags: ["respect", "self-worth"]
-},
+A famous example is a man pushing a heavy rock up a hill, only for it to roll back down every time. He knows it is pointless, yet he keeps pushing. Absurdism says there is dignity and freedom in continuing anyway, with awareness.
 
-{
-  id: "power_focus",
-  category: "POWER",
-  title: "Focus Beats Force",
-  essence: "Concentrated effort dominates scattered effort.",
-  explanation: "Depth outperforms breadth.",
-  example: "Mastery in one area.",
-  reflection: "What deserves your full focus?",
-  tags: ["focus", "mastery"]
-},
+In daily life, this looks like knowing that success, money, or fame won’t give permanent meaning—yet still working, loving, laughing, and creating. You stop demanding that life justify itself. You live without illusions, but not without joy.
 
-{
-  id: "power_network",
-  category: "POWER",
-  title: "Networks Amplify Power",
-  essence: "Connections extend influence.",
-  explanation: "Relationships open paths effort alone cannot.",
-  example: "Strong professional networks.",
-  reflection: "Who supports your growth?",
-  tags: ["relationships", "influence"]
-},
+Absurdism teaches rebellion—not violent rebellion, but inner rebellion. You refuse despair. You refuse false comfort. You say: “Even if life has no ultimate meaning, I will live intensely and honestly.”
 
-{
-  id: "power_adaptability",
-  category: "POWER",
-  title: "Adaptability Sustains Power",
-  essence: "Rigidity breaks under pressure.",
-  explanation: "Flexible strategies survive change.",
-  example: "Adjusting plans mid-course.",
-  reflection: "Where are you resisting change?",
-  tags: ["adaptability", "resilience"]
+Absurdism is accepting that life makes no sense—and choosing to live boldly anyway.`,
+  tags: ["absurd", "existence"]
 },
-
 {
-  id: "power_perception",
-  category: "POWER",
-  title: "Perception Often Matters More Than Reality",
-  essence: "Belief shapes response.",
-  explanation: "People act on what they perceive.",
-  example: "Confidence influencing trust.",
-  reflection: "How are you perceived?",
-  tags: ["perception", "influence"]
-},
+  id: "death",
+  category: "EXISTENTIALISM",
+  title: "Death and Finitude",
+  essence: "The limit of life.",
+  explanation: `Death means the end of life. Finitude means having limits—especially the limit of time. Together, they remind us of one simple truth: our lives are not endless. We are born, we live for a while, and one day we die. This fact applies to everyone, no matter how rich, famous, or powerful they are.
 
-{
-  id: "power_self_mastery",
-  category: "POWER",
-  title: "Self-Mastery Precedes External Power",
-  essence: "Inner control enables outer control.",
-  explanation: "Discipline builds reliable strength.",
-  example: "Consistency in habits.",
-  reflection: "What weakens your discipline?",
-  tags: ["discipline", "growth"]
-},
+At first, thinking about death can feel scary. We don’t know exactly what happens after, and we don’t like losing people we love. Because of this fear, many people avoid thinking about death. But ignoring it does not make it go away. Death is part of life, not the opposite of it.
 
-{
-  id: "power_alignment",
-  category: "POWER",
-  title: "Alignment Builds Sustainable Power",
-  essence: "Power lasts when values align.",
-  explanation: "Internal conflict erodes influence.",
-  example: "Integrity building trust.",
-  reflection: "Are actions aligned with values?",
-  tags: ["integrity", "trust"]
-},
+Finitude gives life value. Imagine if you had unlimited time. You could delay everything forever. Nothing would feel urgent or precious. But because time is limited, moments matter. A conversation, a hug, a sunset—these things feel meaningful because they cannot be repeated endlessly.
 
-{
-  id: "power_observation",
-  category: "POWER",
-  title: "Observation Before Action",
-  essence: "Understanding precedes control.",
-  explanation: "Watching reveals hidden dynamics.",
-  example: "Listening before deciding.",
-  reflection: "What are you overlooking?",
-  tags: ["awareness", "strategy"]
-},
+Think of life like a movie. If the movie never ended, it would become boring. The ending gives the story shape. In the same way, death gives life a shape. It pushes us to choose what matters, instead of wasting time on things that don’t.
 
-{
-  id: "power_energy",
-  category: "POWER",
-  title: "Energy Attracts Attention",
-  essence: "Vitality draws influence.",
-  explanation: "People follow enthusiasm and clarity.",
-  example: "Clear vision energizing teams.",
-  reflection: "What energizes you?",
-  tags: ["energy", "leadership"]
-},
+Death also teaches humility. It reminds us that we are not permanent and not in full control. This can soften ego and increase compassion. When you realize everyone is fragile and temporary, it becomes easier to forgive, care, and connect.
 
-{
-  id: "power_consistency",
-  category: "POWER",
-  title: "Consistency Builds Authority",
-  essence: "Reliability earns trust.",
-  explanation: "Predictable behavior creates confidence.",
-  example: "Showing up consistently.",
-  reflection: "Where do you break consistency?",
-  tags: ["trust", "authority"]
-},
+Finitude can also guide better decisions. When you remember that your time is limited, you may spend less time pleasing others and more time living honestly. You may focus on relationships, growth, and meaning instead of shallow rewards.
 
-{
-  id: "power_detachment",
-  category: "POWER",
-  title: "Detachment Increases Leverage",
-  essence: "Needing less gives strength.",
-  explanation: "Desperation weakens position.",
-  example: "Walking away from bad deals.",
-  reflection: "What are you attached to?",
-  tags: ["leverage", "freedom"]
+Death reminds us that life is short.
+Finitude reminds us to live it wisely.`,
+  tags: ["death", "mortality"]
 },
 
-{
-  id: "power_long_term",
-  category: "POWER",
-  title: "Long-Term Thinking Outlasts Short-Term Wins",
-  essence: "Endurance beats intensity.",
-  explanation: "Sustainable strategies compound.",
-  example: "Building skills over quick gains.",
-  reflection: "What are you building for the long run?",
-  tags: ["strategy", "growth"]
-},
+  
 ];
 window.SEED_VAULT = SEED_VAULT;
-
-
-
-
-
