@@ -6,6 +6,20 @@
 
 const DAILY_KEY = "BUDDHIKOSH_DAILY";
 
+const DAILY_CATEGORIES = [
+  "METAPHYSICS",
+  "EPISTEMOLOGY",
+  "MIND",
+  "ETHICS",
+  "LOGIC",
+  "EASTERN_PHILOSOPHY",
+  "EXISTENTIALISM",
+];
+
+function shuffleArray(arr) {
+  return [...arr].sort(() => Math.random() - 0.5);
+}
+
 
 /* -----------------------------------------
    DATE HELPERS
@@ -31,7 +45,6 @@ function pickRandom(items) {
 /* -----------------------------------------
    DAILY GENERATION LOGIC
 ----------------------------------------- */
-
 function generateDailyKnowledge() {
   const todayKey = getTodayKey();
   const stored = localStorage.getItem(DAILY_KEY);
@@ -44,26 +57,24 @@ function generateDailyKnowledge() {
     }
   }
 
-  /* Fetch category pools */
-  const laws = Vault.getItemsByCategory("LAW");
-  const models = Vault.getItemsByCategory("MODEL");
-  const psychology = Vault.getItemsByCategory("PSYCHOLOGY");
-  const philosophy = Vault.getItemsByCategory("PHILOSOPHY");
-  const concepts = Vault.getItemsByCategory("CONCEPT");
+  /* 1️⃣ Find categories that actually have items */
+  const validCategories = DAILY_CATEGORIES.filter(cat => {
+    const items = Vault.getItemsByCategory(cat);
+    return items && items.length > 0;
+  });
 
-  /*
-    Daily mix logic:
-    1. One law (core rule)
-    2. One thinking model (fallback to psychology)
-    3. One worldview idea (fallback to concepts)
-  */
-  const dailyItems = [
-    pickRandom(laws),
-    pickRandom(models.length ? models : psychology),
-    pickRandom(philosophy.length ? philosophy : concepts)
-  ].filter(Boolean); // Remove nulls safely
+  /* Safety check */
+  if (validCategories.length === 0) return [];
 
-  /* Persist for the rest of the day */
+  /* 2️⃣ Pick random 5 categories */
+  const selectedCategories = shuffleArray(validCategories).slice(0, 5);
+
+  /* 3️⃣ Pick one random item from each category */
+  const dailyItems = selectedCategories
+    .map(cat => pickRandom(Vault.getItemsByCategory(cat)))
+    .filter(Boolean);
+
+  /* 4️⃣ Persist for the rest of the day */
   localStorage.setItem(
     DAILY_KEY,
     JSON.stringify({
@@ -75,6 +86,9 @@ function generateDailyKnowledge() {
   return dailyItems;
 }
 
+function shuffleArray(arr) {
+  return [...arr].sort(() => Math.random() - 0.5);
+}
 
 /* -----------------------------------------
    PUBLIC API
@@ -83,3 +97,4 @@ function generateDailyKnowledge() {
 window.DailyEngine = {
   getDailyKnowledge: generateDailyKnowledge
 };
+
