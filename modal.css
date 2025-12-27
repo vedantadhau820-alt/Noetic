@@ -1,37 +1,77 @@
-/* ===========================
-   Modal Overlay
-=========================== */
+/* =========================================
+   MODAL OVERLAY & CONTAINER
+========================================= */
 
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.6);
   z-index: 1000;
+
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .modal.hidden {
-  display: none;
+  opacity: 0;
+  transform: scale(0.96);
+  pointer-events: none;
 }
+
+
+/* =========================================
+   MODAL CONTENT BOX
+========================================= */
 
 .modal-content {
-  background: var(--bg-card);
-  padding: 20px;
-  border-radius: var(--border-radius);
+  position: relative;
+
   width: 90%;
   max-width: 420px;
+  max-height: 80vh;
+
+  background: #0f172a;
+  border-radius: 14px;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
+
+/* =========================================
+   MODAL CLOSE BUTTON
+========================================= */
+
 .modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
   background: none;
   border: none;
-  color: var(--text-secondary);
-  font-size: 1.2rem;
-  float: right;
   cursor: pointer;
+
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+
+  transition: color 0.15s ease;
 }
+
+.modal-close:hover {
+  color: #fff;
+}
+
+
+/* =========================================
+   MODAL TYPOGRAPHY
+========================================= */
 
 .modal-category {
   font-size: 0.7rem;
@@ -44,6 +84,12 @@
   font-size: 1.2rem;
 }
 
+.modal-section h4 {
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  color: var(--text-primary);
+}
+
 .modal-explanation,
 .modal-when,
 .modal-warning,
@@ -53,74 +99,73 @@
   margin-bottom: 12px;
 }
 
-.modal-section h4 {
-  font-size: 0.8rem;
-  margin-bottom: 4px;
-  color: var(--text-primary);
+
+/* =========================================
+   MODAL CONTENT SCROLL AREA
+========================================= */
+
+.modal-explanation {
+  margin-top: 6px;
+  margin-bottom: 16px;
+
+  max-height: 45vh;
+  overflow-y: auto;
+  padding-right: 6px;
 }
+
+.modal-explanation {
+  white-space: pre-line;
+}
+
+
+/* Scrollbar (WebKit only) */
+.modal-explanation::-webkit-scrollbar {
+  width: 4px;
+}
+
+.modal-explanation::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+}
+
+.modal-explanation:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+
+/* =========================================
+   CATEGORY COLOR SYSTEM
+========================================= */
+
+.cat-law { color: var(--cat-law); }
+.cat-psychology { color: var(--cat-psychology); }
+.cat-cognitive_bias { color: var(--cat-cognitive_bias); }
+.cat-philosophy { color: var(--cat-philosophy); }
+.cat-spiritual { color: var(--cat-spiritual); }
+.cat-mystery { color: var(--cat-mystery); }
+.cat-hypothesis { color: var(--cat-hypothesis); }
+.cat-thought_experiment { color: var(--cat-thought_experiment); }
+.cat-power { color: var(--cat-power); }
+
+
+/* =========================================
+   SAVE / REFLECTION SYSTEM
+========================================= */
 
 .save-button {
   width: 100%;
   padding: 10px;
+
   background: var(--bg-elevated);
   border: none;
   border-radius: var(--border-radius);
+
   color: var(--text-primary);
   cursor: pointer;
-}
 
-.save-button {
-  transition: background 0.2s ease;
-}
-
-.save-button:active {
-  background: var(--bg-main);
-}
-
-.reflection-box {
-  margin-top: 16px;
-}
-
-.reflection-box textarea {
-  width: 100%;
-  background: var(--bg-card);
-  border: none;
-  outline: none;
-  border-radius: 8px;
-  padding: 8px;
-  color: var(--text-primary);
-  resize: none;
-}
-
-#save-reflection-btn {
-  margin-top: 6px;
-  width: 100%;
-  padding: 8px;
-  background: var(--bg-elevated);
-  border: none;
-  border-radius: 8px;
-  color: var(--text-primary);
-  cursor: pointer;
-}
-
-#reflection-list {
-  margin-top: 8px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.modal {
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-.modal.hidden {
-  opacity: 0;
-  transform: scale(0.96);
-  pointer-events: none;
-}
-
-.save-button {
-  transition: background 0.2s ease, transform 0.15s ease;
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease;
 }
 
 .save-button:active {
@@ -130,8 +175,3 @@
 .save-button.saved {
   background: linear-gradient(135deg, #3b82f6, #60a5fa);
 }
-
-body {
-  scroll-behavior: smooth;
-}
-
