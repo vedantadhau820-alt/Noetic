@@ -39,3 +39,12 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
+
+self.addEventListener("fetch", event => {
+  event.respondWith(
+    caches.match(event.request).then(cached => {
+      return cached || fetch(event.request);
+    })
+  );
+});
