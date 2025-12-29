@@ -565,3 +565,14 @@ function shuffleArray(arr) {
     .map(({ item }) => item);
 
 }
+
+document.getElementById("bell-icon")?.addEventListener("click", () => {
+  Object.keys(localStorage).forEach(key => {
+    if (!key.startsWith("BUDDHIKOSH_USER")) {
+      localStorage.removeItem(key);
+    }
+  });
+
+  location.reload();
+});
+
