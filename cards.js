@@ -104,6 +104,10 @@ function renderDiscoverCards() {
 }
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  renderDiscoverCards();
+});
+
 function renderSavedCards() {
   const container = document.getElementById("saved-cards");
   if (!container) return;
@@ -205,6 +209,9 @@ function renderVaultCategories() {
   });
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  renderVaultCategories();
+});
 
 function renderVaultItems(category) {
   const itemsContainer = document.getElementById("vault-items");
@@ -282,3 +289,4 @@ function shuffleArray(arr) {
     .sort((a, b) => a.sort - b.sort)
     .map(({ item }) => item);
 }
+
