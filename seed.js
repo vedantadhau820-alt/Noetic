@@ -2,7 +2,7 @@
    Knowledge Vault — Seed Data
 =========================== */
 
-window.SEED_VERSION = "1.0.0";
+window.SEED_VERSION = "1.0.2";
 const SEED_VAULT = [
 
 // {
@@ -17,7 +17,7 @@ const SEED_VAULT = [
 {
   id: "existence",
   category: "METAPHYSICS",
-  title: "What Is Existence?",
+  title: "What Is Existence!?",
   essence: "Why anything exists at all.",
   explanation: `Existence means being real or being there. If something exists, it is not imaginary—it has some form of reality. You exist. Other people exist. Trees, air, sound, thoughts, and even time exist in different ways. Existence simply answers one basic question: “Is this real in any way?”
 
@@ -1528,6 +1528,7 @@ You can rewrite that story as you grow and learn.`,
   
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
 
