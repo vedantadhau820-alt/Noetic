@@ -56,24 +56,20 @@ function buildRuntimeVault() {
 ----------------------------------------- */
 
 window.Vault = {
-  /* All items */
   getAllItems() {
     return buildRuntimeVault();
   },
 
-  /* Filter by category */
   getItemsByCategory(category) {
     return buildRuntimeVault().filter(
       item => item.category === category
     );
   },
 
-  /* Saved items */
   getSavedItems() {
     return buildRuntimeVault().filter(item => item.saved);
   },
 
-  /* Toggle save */
   toggleSaveItem(id) {
     if (userState.savedIds.includes(id)) {
       userState.savedIds = userState.savedIds.filter(x => x !== id);
@@ -83,12 +79,10 @@ window.Vault = {
     saveUserState(userState);
   },
 
-  /* Get single item */
   getItemById(id) {
     return buildRuntimeVault().find(item => item.id === id);
   },
 
-  /* Add reflection */
   addReflection(itemId, text) {
     if (!userState.reflections[itemId]) {
       userState.reflections[itemId] = [];
