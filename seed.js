@@ -2,7 +2,7 @@
    Knowledge Vault — Seed Data
 =========================== */
 
-window.SEED_VERSION = "1.0.3";
+// window.SEED_VERSION = "1.0.3";
 const SEED_VAULT = [
 
 // {
@@ -1528,6 +1528,7 @@ You can rewrite that story as you grow and learn.`,
   
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
 
