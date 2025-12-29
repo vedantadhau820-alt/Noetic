@@ -566,7 +566,7 @@ function shuffleArray(arr) {
 
 }
 
-document.getElementById("bell-icon")?.addEventListener("click", () => {
+document.getElementByClassNane("icon-button")?.addEventListener("click", () => {
   Object.keys(localStorage).forEach(key => {
     if (!key.startsWith("BUDDHIKOSH_USER")) {
       localStorage.removeItem(key);
@@ -575,4 +575,5 @@ document.getElementById("bell-icon")?.addEventListener("click", () => {
 
   location.reload();
 });
+
 
