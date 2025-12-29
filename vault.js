@@ -17,6 +17,14 @@ let vaultData = [];
   - Loads from localStorage if valid
   - Otherwise seeds from SEED_VAULT
 */
+
+const PERSISTENT_KEYS = [
+  "noetic_streak",
+  "noetic_saved_items",
+  "noetic_reflections",
+  "noetic_seed_version"
+];
+
 function initVault() {
   const stored = localStorage.getItem(VAULT_STORAGE_KEY);
 
@@ -27,11 +35,44 @@ function initVault() {
     } catch (err) {
       console.error("Failed to parse vault data", err);
     }
+
+     checkSeedVersion();
   }
 
   vaultData = [...window.SEED_VAULT];
   saveVault();
 }
+
+function softResetAppData() {
+  const keep = new Set(PERSISTENT_KEYS);
+
+  Object.keys(localStorage).forEach(key => {
+    if (!keep.has(key)) {
+      localStorage.removeItem(key);
+    }
+  });
+
+  console.log("NOETIC: App cache reset, user data preserved");
+}
+
+function checkSeedVersion() {
+  const storedVersion = localStorage.getItem("noetic_seed_version");
+
+  if (storedVersion !== window.SEED_VERSION) {
+    console.log(
+      `NOETIC: Seed updated (${storedVersion} → ${window.SEED_VERSION})`
+    );
+
+    softResetAppData();
+    localStorage.setItem("noetic_seed_version", window.SEED_VERSION);
+  }
+}
+
+document.getElementById("bell-icon").addEventListener("click", () => {
+  softResetAppData();
+  reloadSeedData();
+  location.reload(); // clean refresh
+});
 
 
 /* -----------------------------------------
@@ -112,3 +153,4 @@ const Vault = {
 
 initVault();
 window.Vault = Vault;
+
