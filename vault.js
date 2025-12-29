@@ -26,7 +26,7 @@ const PERSISTENT_KEYS = [
 ];
 
 function initVault() {
-  checkSeedVersion(); // 🔴 MUST COME FIRST
+  checkSeedVersion();
 
   const stored = localStorage.getItem(VAULT_STORAGE_KEY);
 
@@ -37,6 +37,12 @@ function initVault() {
     } catch (err) {
       console.error("Failed to parse vault data", err);
     }
+  }
+
+  if (!window.SEED_VAULT || !Array.isArray(window.SEED_VAULT)) {
+    console.error("SEED_VAULT missing");
+    vaultData = [];
+    return;
   }
 
   vaultData = [...window.SEED_VAULT];
@@ -57,6 +63,12 @@ function softResetAppData() {
 
 function checkSeedVersion() {
   const storedVersion = localStorage.getItem("noetic_seed_version");
+
+  if (!storedVersion) {
+    // First run ever
+    localStorage.setItem("noetic_seed_version", window.SEED_VERSION);
+    return;
+  }
 
   if (storedVersion !== window.SEED_VERSION) {
     console.log(
@@ -153,5 +165,6 @@ const Vault = {
 
 initVault();
 window.Vault = Vault;
+
 
 
