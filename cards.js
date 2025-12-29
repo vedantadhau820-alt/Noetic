@@ -566,17 +566,22 @@ function shuffleArray(arr) {
 
 }
 
-document.getElementByClassName("icon-button")?.addEventListener("click", () => {
-  Object.keys(localStorage).forEach(key => {
-    if (!key.startsWith("BUDDHIKOSH_USER")) {
-      localStorage.removeItem(key);
-       alert("Data Updated.")
-    }
+document.addEventListener("DOMContentLoaded", () => {
+  const bell = document.getElementById("bell-icon");
+
+  if (!bell) {
+    console.warn("Bell icon not found");
+    return;
+  }
+
+  bell.addEventListener("click", () => {
+    Object.keys(localStorage).forEach(key => {
+      if (!key.startsWith("BUDDHIKOSH_USER")) {
+        localStorage.removeItem(key);
+      }
+    });
+
+    alert("Knowledge updated.");
+    location.reload();
   });
-
-  location.reload();
 });
-
-
-
-
