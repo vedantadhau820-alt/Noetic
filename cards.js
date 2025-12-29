@@ -570,10 +570,12 @@ document.getElementByClassNane("icon-button")?.addEventListener("click", () => {
   Object.keys(localStorage).forEach(key => {
     if (!key.startsWith("BUDDHIKOSH_USER")) {
       localStorage.removeItem(key);
+       alert("Data Updated.")
     }
   });
 
   location.reload();
 });
+
 
 
