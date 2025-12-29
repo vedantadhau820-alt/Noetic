@@ -764,9 +764,13 @@ Finitude reminds us to live it wisely.`,
   title: "Attention & Focus",
   essence: "Where the mind directs its limited resources.",
   explanation: `Attention is where your mind is pointing right now. Focus is how long and how deeply you can keep it there. If attention is a flashlight, focus is how steadily you hold it. Together, they decide what you notice, what you learn, and what you become good at.
+
 For example, when you read a page but keep thinking about messages or noise, your attention keeps jumping. You may read the words, but nothing stays. When you put your phone away and read with full presence, your focus deepens—and understanding improves.
+
 Attention is limited. You cannot fully attend to many things at once. Multitasking feels productive, but it usually splits attention and reduces quality. Doing one thing well often beats doing many things poorly.
+
 Focus grows when distractions are reduced. A quiet place, clear goals, and short breaks help the mind stay steady. Focus also improves with practice, like a muscle. Even five minutes of deep focus daily can train your brain over time.
+
 Attention shapes your life. What you give attention to grows stronger in your mind. If you constantly attend to fear, comparison, or noise, they dominate your thoughts. If you attend to learning, relationships, and meaningful work, they grow instead.
 
 Attention chooses what enters your mind.
@@ -779,10 +783,15 @@ Focus decides how deeply it shapes you.`,
   title: "Memory (Short & Long Term)",
   essence: "How experiences are stored and recalled over time.",
   explanation: `Memory is your mind’s ability to store and recall information. It helps you remember names, learn skills, understand lessons, and recognize people. Memory is not one single thing—it mainly works in two stages: short-term memory and long-term memory.
+
 Short-term memory holds information for a very short time—usually a few seconds to a minute. It is like a mental notepad. For example, when someone tells you a phone number and you repeat it in your head until you dial it, you are using short-term memory. This memory has limited space. If too much information comes in at once, things quickly disappear. That’s why distractions easily break concentration.
+
 Long-term memory stores information for a long time—days, years, or even your whole life. Your name, childhood memories, language skills, and important life events live here. Long-term memory has much larger capacity than short-term memory.
+
 Information usually moves from short-term to long-term memory through repetition, understanding, emotion, and practice. For example, cramming facts once may stay briefly, but studying regularly helps them stick. Emotional experiences—like a happy moment or a painful event—are remembered more strongly because emotion strengthens memory.
+
 Sleep also plays a big role. During sleep, the brain organizes and stores memories properly. Lack of sleep weakens learning and recall.
+
 Memory is not a perfect recorder. It changes, fades, and reshapes over time. But it improves with attention, repetition, and meaning.
 
 Short-term memory holds information briefly.
@@ -791,18 +800,27 @@ Long-term memory keeps what truly becomes part of you.`,
 },
 {
   id: "thinking_and_reasoning",
-  category: "MENTAL_ODEL",
+  category: "MENTAL_MODEL",
   title: "Thinking & Reasoning",
   essence: "How the mind processes information to reach conclusions.",
   explanation: `Thinking is the process of having ideas, thoughts, images, and questions in your mind. It happens all the time—when you remember the past, imagine the future, plan your day, or wonder “why.” Thinking is natural. It starts automatically and often emotionally.
+
 Reasoning is a more careful type of thinking. It means using logic to understand, judge, and decide. When you reason, you slow down and ask: Does this make sense? What follows from this? Is this true? Reasoning helps you move from confusion to clarity.
+
 For example, imagine you feel anxious before an exam.
+
 Thinking says: “I might fail. This is bad.”
+
 Reasoning says: “I studied. I passed earlier exams. Feeling anxious doesn’t mean I will fail.”
+
 The feeling comes automatically, but reasoning checks it.
+
 We reason every day, often without noticing. If it’s cloudy, you take an umbrella. If touching fire burned you before, you avoid it. These are simple forms of reasoning based on experience and logic.
+
 Reasoning becomes especially important when emotions are strong. Anger, fear, and excitement can distort thinking. Reasoning helps you pause and ask better questions instead of reacting blindly. It does not remove emotions—it guides them.
+
 There are different kinds of reasoning. Sometimes we reason from rules (logic). Sometimes we reason from experience (patterns). Good reasoning means knowing when to question assumptions, when to ask for evidence, and when to change your mind.
+
 Thinking gives ideas. Reasoning tests them. Without thinking, there are no ideas. Without reasoning, ideas become beliefs, mistakes, or illusions.
 
 Thinking creates thoughts.
@@ -815,17 +833,24 @@ Together, they help you understand the world, make better decisions, and grow wi
   category: "MENTAL_MODEL",
   title: "Problem Solving",
   essence: "Reducing gaps between a current state and a desired outcome.",
-  explanation: `Problem Solving
-Problem solving is the process of finding a way out when something is stuck, confusing, or not working. A problem is simply a gap between where you are now and where you want to be. Problem solving is how you close that gap.
+  explanation: `Problem solving is the process of finding a way out when something is stuck, confusing, or not working. A problem is simply a gap between where you are now and where you want to be. Problem solving is how you close that gap.
+
 Everyday life is full of problems—small and big. Your phone stops working. You don’t understand a topic. You feel stuck in life. In all cases, problem solving follows a similar pattern.
+
 The first step is understanding the problem clearly. Many people rush to solutions without knowing the real issue. For example, if you are failing exams, the problem may not be “I’m stupid,” but “I don’t revise properly” or “I get distracted.” A clear problem is already half solved.
+
 The second step is thinking of possible solutions. There is rarely only one answer. You can ask questions, break the problem into smaller parts, or learn from others. Writing options down helps the mind see clearly.
+
 The third step is trying a solution. Not every solution works—and that’s okay. Failure here is not defeat; it is information. If one method fails, you adjust and try another. This is called learning by feedback.
+
 Problem solving also requires emotional control. Stress and panic shrink thinking. Calmness expands it. When emotions are high, take a pause. Clear thinking returns when the mind settles.
+
 Good problem solvers don’t panic. They stay curious. They ask:
+
 “What exactly is wrong?”
 “What can I control?”
 “What is one small step forward?”
+
 Over time, problem solving builds confidence. You stop fearing problems and start seeing them as challenges that can be handled.
 
 Problems are part of life.
@@ -838,13 +863,19 @@ Problem solving is the skill that turns obstacles into progress.`,
   title: "Decision-Making",
   essence: "Choosing one action among multiple possibilities.",
   explanation: `Decision-making is the process of choosing one option among many. Every day, you make decisions—some small, some life-changing. What to eat, how to respond to someone, which path to follow in life—all of these shape your future.
+
 Good decision-making starts with clarity. You first understand the situation instead of reacting emotionally. Many bad decisions happen when people act in anger, fear, or excitement. Pausing for a moment creates space to think.
+
 Next comes evaluating options. Ask simple questions:
+
 What are my choices?
 What could happen if I choose this?
 What might I regret later?
+
 This does not mean overthinking. It means seeing consequences before acting. For example, spending money now may feel good, but saving it may help future you. Good decisions often involve short-term discomfort for long-term benefit.
+
 Decision-making also improves when you focus on what you can control. You cannot control outcomes fully, but you can control effort, honesty, and intention. A good decision is not one that guarantees success—it is one made with the best information and values you have at the time.
+
 Mistakes are part of decision-making. Even wise people choose wrong sometimes. What matters is learning, not perfection. Each decision teaches you more about yourself and life.
 
 Decision-making is choosing your direction.
@@ -857,16 +888,23 @@ Small choices repeated daily create big life results.`,
   title: "Perception",
   essence: "How the mind interprets sensory information.",
   explanation: `Perception is how your mind interprets the world through your senses. It is not just seeing, hearing, or touching—it is how your brain makes meaning from what your senses receive. In simple words, perception is how reality appears to you, not reality itself.
+
 For example, when you see a red apple, your eyes do not actually see “red” or “apple.” They receive light signals. Your brain then interprets those signals and says, “This is a red apple.” That interpretation is perception. This means perception is an active process, not a passive one.
+
 Perception is influenced by many things:
 Past experiences
 Beliefs and expectations
 Emotions and mood
 Culture and language
+
 That’s why two people can experience the same situation very differently. One person may see criticism as helpful feedback. Another may see the same words as an attack. The event is the same, but perception changes the experience.
+
 Optical illusions show this clearly. Your eyes see one thing, but your brain interprets it incorrectly. This proves that perception can be wrong, even when it feels real. The mind fills gaps, guesses, and sometimes makes mistakes.
+
 Emotions strongly affect perception. When you are afraid, neutral situations can feel dangerous. When you are happy, small things feel positive. This is why perception is not fixed—it changes with your inner state.
+
 Understanding perception is powerful. It helps you pause and ask:
+
 “Is this how things really are, or is this just how they appear to me?”
 
 Perception is not the world itself.
@@ -879,14 +917,20 @@ It is the mind’s version of the world.`,
   title: "Mental Representations",
   essence: "Internal models of the external world.",
   explanation: `Mental representations are the pictures, models, symbols, and ideas your mind creates to understand the world. You do not interact with reality directly—you interact with your mind’s version of reality. That inner version is made of mental representations.
+
 For example, think about your house. Even with your eyes closed, you can imagine its rooms, doors, and layout. That image in your mind is a mental representation. The house exists outside, but your brain keeps a simplified internal model so you can think about it, talk about it, and move around it.
+
 Mental representations are not only images. They can be:
+
 Words (the concept of “justice” or “freedom”)
 Symbols (numbers, signs, flags)
 Rules (“Fire is dangerous”)
 Emotional patterns (associating dogs with fear or safety)
+
 They help you think quickly. Instead of analyzing everything from scratch, your brain uses stored representations. For example, when you see a chair, you don’t study its shape every time—you instantly recognize “chair” and know how to use it.
+
 However, mental representations are simplifications, not reality itself. Like a map, they help you navigate, but they are not the actual land. Sometimes they are outdated or wrong. This is why misunderstandings happen. You may think someone is rude because of an old mental model, even when they are just tired.
+
 Learning, growth, and intelligence often mean updating mental representations. When you learn something new, your brain adjusts its internal models to match reality better.
 
 Mental representations are how the mind stores and understands the world.
@@ -899,13 +943,19 @@ They guide your thinking—but they are not the world itself.`,
   title: "Conditioning",
   essence: "How behavior is shaped through association and consequences.",
   explanation: `Conditioning is how we learn through experience and repetition. Many of our habits, reactions, likes, and fears are shaped not by thinking deeply, but by what has happened to us again and again. There are two main types: classical conditioning and operant conditioning.
+
 Classical conditioning is learning by association. It happens when your brain connects two things that appear together often. A famous example is a dog that starts salivating when it hears a bell, because the bell was repeatedly paired with food. Over time, the bell alone causes the reaction.
+
 In daily life, this happens all the time. If you once felt embarrassed while speaking in class, your brain may connect “speaking in public” with “fear.” Later, even thinking about public speaking can make your heart race. The fear is learned, not chosen.
+
 Operant conditioning is learning by consequences. Here, behavior changes based on rewards and punishments. If an action brings a reward, you are more likely to repeat it. If it brings punishment, you try to avoid it.
+
 For example, if studying hard gives you good marks and praise, you are likely to study more. If touching fire causes pain, you learn not to do it again. Even habits like checking your phone are operant conditioning—notifications reward your brain with attention.
+
 The key difference is simple:
 Classical conditioning shapes automatic reactions
 Operant conditioning shapes choices and habits
+
 Understanding conditioning is powerful. It shows that many behaviors are learned—and if they are learned, they can be unlearned or reshaped. You can change habits by changing rewards. You can reduce fears by slowly creating new, safer associations.
 
 Conditioning is how experience trains the mind.
@@ -918,10 +968,15 @@ Change the experience—and you change the behavior.`,
   title: "Rewards & Punishment",
   essence: "Forces that strengthen or weaken behavior.",
   explanation: `Rewards and punishment are two powerful ways behavior is shaped. They influence what we repeat and what we avoid, often without us realizing it. In simple words, rewards pull behavior forward, and punishment pushes behavior away.
+
 A reward is something pleasant that happens after an action, making you more likely to repeat it. For example, when a child studies and receives praise or good marks, studying feels worthwhile. When you exercise and feel energetic or proud afterward, your brain connects exercise with good feelings. Even small rewards—like a smile, appreciation, or rest—can strongly shape behavior.
+
 Punishment is something unpleasant that happens after an action, making you less likely to repeat it. Touching fire causes pain, so you learn to avoid it. If someone breaks rules and faces consequences, they may hesitate next time. Punishment works by creating discomfort linked to an action.
+
 However, rewards and punishment work very differently. Rewards usually build habits better than punishment. Punishment can stop behavior temporarily, but it often creates fear, resentment, or hiding mistakes. Rewards encourage learning and motivation.
+
 Rewards can also be internal, not just external. Feeling proud, calm, or satisfied is often stronger than money or praise. Punishment can also be internal—like guilt or regret.
+
 The key is balance. Too many rewards can make people dependent. Too much punishment can break confidence. The best learning happens when rewards encourage growth and consequences teach responsibility without harm.
 
 Rewards teach the brain what to repeat.
@@ -935,18 +990,28 @@ Wise use of both shapes better behavior and habits.`,
   title: "Habit Formation",
   essence: "How repeated actions become automatic.",
   explanation: `Habit formation is the process by which actions become automatic. A habit is something you do without thinking much, like brushing your teeth, checking your phone, or locking the door. Habits save mental energy. Instead of deciding every time, your brain runs a shortcut.
+
 Most habits follow a simple loop: cue → action → reward.
+
 The cue is the trigger. It could be a time (morning), a feeling (boredom), or a place (bedroom).
+
 The action is what you do.
+
 The reward is what you get—comfort, pleasure, relief, or satisfaction.
+
 For example, you feel bored (cue), open social media (action), and feel entertained (reward). Your brain remembers this loop. The next time boredom appears, the habit runs automatically.
+
 Habits form through repetition. The more you repeat a behavior in the same context, the stronger the brain connection becomes. At first, it takes effort. Over time, it feels natural. This is why starting is hard, but continuing gets easier.
+
 Good habits and bad habits form the same way. The brain does not judge—it only learns what gets rewarded. This means bad habits are not moral failures; they are learned patterns. And what is learned can be changed.
+
 To build good habits:
 Make the cue obvious
 Make the action small and easy
 Make the reward satisfying
+
 For example, if you want to read daily, place a book near your bed, read just two pages, and enjoy the calm feeling afterward.
+
 Breaking bad habits works best by changing the cue or reward, not just using willpower.
 
 Habits are behaviors your brain learns to repeat.
@@ -959,11 +1024,17 @@ Change the loop—and you change the habit.`,
   title: "Behavior Change",
   essence: "The process of altering existing behavioral patterns.",
   explanation: `Behavior change means changing what you repeatedly do—your habits, reactions, and actions. It is not about changing who you are overnight. It is about slowly changing patterns that no longer help you and building new ones that do.
+
 Most behavior is automatic, not conscious. You don’t choose every habit each time—you follow patterns learned through repetition, rewards, and environment. That’s why simply saying “I will change” often fails. Real behavior change works with the brain, not against it.
+
 The first step is awareness. You cannot change what you don’t notice. When you observe your behavior without judging it, you start seeing triggers. For example: I scroll my phone when I feel bored or stressed. Awareness turns unconscious behavior into conscious choice.
+
 The second step is changing the environment, not just willpower. If junk food is nearby, eating it is easy. If your phone is always in your hand, distraction is natural. Small environment changes—like keeping the phone away or preparing healthy food—make better behavior easier.
+
 The third step is small changes, not big ones. Trying to change everything at once overwhelms the brain. Small actions repeated daily are more powerful than strong motivation once. Consistency beats intensity.
+
 Another key part is replacing, not just stopping. The brain dislikes empty space. If you remove a behavior, replace it with a better one that gives a similar reward. For example, replace stress-eating with walking or deep breathing.
+
 Behavior change also needs patience. Slips are normal. They don’t mean failure. Each attempt teaches your brain a little more.
 
 Behavior change is not about force.
@@ -976,10 +1047,15 @@ It’s about understanding patterns, adjusting the system, and repeating small w
   title: "Environmental Influence",
   essence: "How surroundings shape behavior and decisions.",
   explanation: `Environmental influence means how your surroundings shape your thoughts, feelings, and behavior—often without you noticing. Your environment includes people, places, objects, culture, and daily situations. It quietly pushes you toward certain actions and away from others.
+
 For example, if healthy food is visible on your table, you are more likely to eat it. If junk food is nearby, you will probably choose that instead. The food didn’t force you—but the environment nudged your behavior. In the same way, if your phone is always in your hand, distraction becomes natural. If it is kept away, focus becomes easier.
+
 People are a powerful part of the environment. When you spend time with motivated, curious people, you start thinking and acting like them. When you are surrounded by negativity or laziness, it slowly affects you too. This is why habits, attitudes, and even emotions spread through groups.
+
 Physical spaces also matter. A clean, quiet room supports focus. A noisy, cluttered space increases stress. Even lighting, colors, and temperature can affect mood and energy. Your brain constantly reacts to these signals.
+
 Culture and rules are environmental influences as well. What is praised, punished, or considered “normal” shapes behavior. You may act differently at home, school, or work—not because you changed, but because the environment changed.
+
 The key lesson is this: don’t rely only on willpower. Willpower gets tired. Environment works all the time. If you want better behavior, design a better environment—remove friction for good habits and add friction for bad ones.
 
 Your environment shapes your behavior more than your intentions.
@@ -992,14 +1068,22 @@ Change the environment, and behavior changes naturally.`,
   title: "Learned Behavior",
   essence: "Actions acquired through experience rather than instinct.",
   explanation:  `Learned behavior is behavior that is not inborn, but developed through experience, observation, and repetition. You are not born knowing how to speak a language, use a phone, fear exams, or feel confident while talking. You learn these behaviors over time.
+
 For example, a baby is not afraid of dogs at birth. But if a dog once barked loudly and scared the child, the child may later feel fear when seeing dogs. That fear is a learned behavior. In the same way, confidence, politeness, anger, shyness, and habits like checking your phone are all learned.
+
 Learned behavior comes from many sources:
+
 Experience: What happens to you personally
 Rewards and punishment: What brings pleasure or pain
+
 Observation: Watching others (parents, friends, society)
+
 Repetition: Doing something again and again
+
 For instance, if a child sees parents arguing loudly, the child may learn that shouting is a normal way to solve problems. If someone gets praised for being honest, honesty becomes stronger. The brain learns patterns: “This action leads to this result.”
+
 The important thing to understand is this: learned behavior feels natural, but it is not fixed. Just because you learned to react a certain way does not mean it is permanent. What is learned can be unlearned and replaced.
+
 This idea is empowering. It means bad habits, fears, or negative reactions are not your identity—they are patterns your brain picked up. With awareness, practice, and new experiences, you can teach your brain new responses.
 
 Learned behavior is behavior trained by life.
@@ -1012,14 +1096,21 @@ Change the training—and the behavior changes.`,
   title: "Behavior Patterns",
   essence: "Repeated and predictable ways of acting.",
   explanation: `Behavior patterns are repeated ways of acting, thinking, or reacting that happen automatically over time. They are not single actions, but habits that repeat in similar situations. Once a pattern forms, your brain follows it without much thinking.
+
 For example, when you feel stressed, you might always scroll your phone. When someone criticizes you, you might become defensive. When you feel bored, you might snack. These reactions feel natural, but they are learned patterns, not fixed traits.
+
 Behavior patterns form because the brain likes efficiency. When a response works once—by reducing discomfort or giving reward—the brain remembers it. Over time, the pattern strengthens. The brain thinks, “This works. Do it again.” This is why patterns repeat even when they are not helpful.
+
 Patterns include three parts:
+
 Trigger (stress, boredom, situation)
 Response (what you do)
 Result (relief, pleasure, avoidance)
+
 Many negative patterns exist because they give short-term relief, even if they cause long-term problems. For example, avoiding difficult tasks reduces anxiety now, but increases stress later.
+
 The key to changing behavior patterns is awareness. When you notice the trigger and pause before reacting, you create space for choice. Small changes repeated consistently can weaken old patterns and build new ones.
+
 Understanding behavior patterns is powerful because it removes self-blame. You are not “bad” or “weak.” You are running patterns that can be changed.
 
 Behavior patterns are habits of response.
@@ -1032,15 +1123,23 @@ Notice the pattern—and you gain the power to change it.`,
   title: "What Emotions Are",
   essence: "Signals that reflect how the mind interprets situations.",
   explanation: `Emotions are inner feelings that arise in response to what we experience, think, or remember. They are signals from your mind and body that something important is happening. Emotions are not random. They exist to guide attention, decisions, and action.
+
 For example, when you feel fear, your body prepares to protect you. When you feel joy, your body relaxes and opens up. When you feel anger, it signals that something feels unfair or threatening. When you feel sadness, it often signals loss or the need for rest and care.
+
 Emotions have three parts working together:
+
 A feeling (what you experience inside, like happiness or anxiety)
 A body response (heartbeat, tension, tears, energy)
 A message (what the emotion is trying to tell you)
+
 For example, before an exam, anxiety may appear. Your heart beats faster, your stomach feels tight, and your mind worries. The message is not “you are weak.” The message is “this matters—prepare and pay attention.”
+
 Emotions are not good or bad. They are useful. Problems arise when emotions are ignored, suppressed, or blindly acted upon. Anger can protect boundaries, but uncontrolled anger can harm. Fear can keep you safe, but too much fear can stop growth.
+
 Emotions are also temporary. They rise, peak, and fall—like waves. Even intense emotions do not last forever, though they may feel permanent in the moment.
+
 Importantly, emotions are different from actions. Feeling angry is not wrong. Hurting someone because of anger is a choice. Learning to feel emotions without being controlled by them is emotional maturity.
+
 Understanding emotions helps you live better. Instead of asking, “How do I get rid of this feeling?”, you ask, “What is this feeling trying to tell me?”
 
 Emotions are the mind and body’s way of communicating meaning.
@@ -1053,14 +1152,22 @@ They guide you—but they don’t have to control you.`,
   title: "Emotion Regulation",
   essence: "How emotional responses are managed over time.",
   explanation:  `Emotion regulation is the ability to manage your emotions instead of being controlled by them. It does not mean suppressing feelings or pretending everything is fine. It means understanding what you feel, allowing it to exist, and choosing how to respond in a healthy way.
+
 Everyone feels strong emotions—anger, fear, sadness, excitement. The difference between emotional struggle and emotional strength is not what you feel, but how you handle it. For example, feeling angry is normal. Shouting, hurting someone, or regretting words later happens when anger is not regulated.
+
 The first step in emotion regulation is awareness. You must notice what you are feeling. Saying “I feel angry” or “I feel anxious” creates distance between you and the emotion. You are not the emotion—you are the one experiencing it.
+
 The second step is pausing. Emotions push you to act quickly. Regulation means slowing down the reaction. Simple actions like deep breathing, stepping away, or counting a few seconds calm the body. When the body calms, the mind becomes clearer.
+
 The third step is choosing a response. Ask:
+
 “What is this emotion telling me?”
 “What response will help, not harm?”
+
 For example, anxiety may tell you to prepare better, not to panic. Sadness may tell you to rest or ask for support, not to isolate completely.
+
 Emotion regulation also includes self-compassion. You don’t shame yourself for feeling bad. You treat yourself kindly, just like you would treat a friend.
+
 With practice, emotion regulation builds maturity. You stop reacting blindly. You act with clarity.
 
 Emotion regulation is feeling deeply without losing control.
@@ -1073,17 +1180,28 @@ It turns emotions into guidance instead of chaos.`,
   title: "Emotional Triggers",
   essence: "Stimuli that automatically activate emotional reactions.",
   explanation: `Emotional triggers are specific situations, words, actions, or memories that cause strong emotional reactions very quickly. The reaction often feels automatic and intense, even if the situation itself is small. This happens because the trigger connects to past experiences, not just the present moment.
+
 For example, someone criticizes your work, and you suddenly feel very angry or hurt. The criticism may be mild, but it reminds your brain of past rejection, failure, or embarrassment. The emotion you feel is not only about now—it is about then. That connection creates a trigger.
+
 Common emotional triggers include:
+
 Feeling ignored or disrespected
+
 Being criticized or compared
+
 Fear of failure or rejection
+
 Certain tones of voice, words, or expressions
+
 Triggers work fast because the brain is trying to protect you. It thinks, “This felt dangerous before—react now.” The problem is that the reaction may no longer fit the situation.
+
 The key to handling triggers is awareness. When you notice a sudden emotional spike, ask:
+
 “Why does this feel so strong?”
 “Is this about the present, or the past?”
+
 Pausing breaks the automatic reaction. Once you pause, you regain choice.
+
 Triggers are not weaknesses. They are signals showing where past wounds still exist. Understanding them helps you heal, not react blindly.
 
 Emotional triggers are old emotional memories activated in the present.
@@ -1096,12 +1214,19 @@ Notice them—and you gain control instead of reaction.`,
   title: "Emotional Intelligence (EQ)",
   essence: "Understanding and managing emotions in oneself and others.",
   explanation: `Emotional intelligence (EQ) is the ability to understand, manage, and use emotions wisely—your own emotions and the emotions of others. It is not about being emotional or hiding feelings. It is about being aware and skillful with emotions.
+
 EQ has four main parts.
+
 First is self-awareness. This means noticing what you feel and why you feel it. Instead of saying, “I’m fine,” you can say, “I’m feeling anxious because this matters to me.” When you can name your emotions, you stop being confused by them.
+
 Second is self-regulation. This means managing emotions instead of reacting blindly. You still feel anger, fear, or excitement—but you choose how to respond. You pause before speaking, calm yourself, and act thoughtfully.
+
 Third is empathy. This is understanding how others feel. You listen not just to words, but to tone, body language, and emotions. Empathy helps relationships because people feel seen and respected.
+
 Fourth is social skill. This means communicating clearly, handling conflict calmly, and building trust. People with high EQ can disagree without destroying relationships.
+
 EQ matters because emotions drive behavior. High intelligence without EQ can still lead to poor decisions, broken relationships, and stress. High EQ helps you stay calm under pressure, connect deeply with others, and grow as a person.
+
 The good news is that EQ is learnable. With awareness, practice, and reflection, emotional intelligence improves over time.
 
 EQ is understanding emotions and using that understanding to live, decide, and connect better.`,
@@ -1112,15 +1237,21 @@ EQ is understanding emotions and using that understanding to live, decide, and c
   category: "PSYCHOLOGY",
   title: "Empathy",
   essence: "The ability to understand another person’s emotional state.",
-  explanation: `Empathy is the ability to understand and feel what another person is experiencing—from their point of view, not just your own. It means emotionally putting yourself in someone else’s place and sensing their feelings, even if you have not gone through the exact same situation.
+ explanation: `Empathy is the ability to understand and feel what another person is experiencing—from their point of view, not just your own. It means emotionally putting yourself in someone else’s place and sensing their feelings, even if you have not gone through the exact same situation.
+
 For example, if a friend fails an exam and feels hopeless, empathy is not saying, “It’s not a big deal.” Instead, empathy says, “I can see how painful this is for you.” You may not feel the same pain, but you understand it and respect it. That understanding makes the person feel seen and less alone.
+
 Empathy is different from sympathy. Sympathy feels sorry for someone. Empathy feels with someone. Sympathy looks down from outside. Empathy steps inside emotionally. When someone cries and you sit quietly with them instead of trying to fix everything, that is empathy.
+
 Empathy has three parts:
 Noticing emotions in others (tone, body language, silence)
 Understanding why they might feel that way
 Responding with care and respect
+
 Empathy does not mean agreeing with someone or justifying bad behavior. You can understand someone’s feelings and still disagree with their actions. Empathy is about connection, not approval.
+
 Empathy builds strong relationships. It reduces conflict, because people calm down when they feel understood. It also makes you a better listener, friend, leader, and partner.
+
 Empathy also changes how you see the world. Instead of asking, “What’s wrong with this person?” you ask, “What might they be dealing with?” This shift increases patience and kindness.
 
 Empathy is feeling another person’s inner world without losing your own.
@@ -1133,15 +1264,21 @@ It turns understanding into connection and connection into trust.`,
   title: "Emotional Resilience",
   essence: "Stability in the face of emotional stress.",
   explanation: `Emotional resilience is the ability to recover after emotional pain, stress, or failure. It does not mean you never feel sad, angry, or hurt. It means that when life hits you, you are able to bend without breaking and slowly return to balance.
+
 Everyone faces problems—rejection, loss, mistakes, pressure. The difference is not who suffers and who doesn’t, but how people respond to suffering. An emotionally resilient person feels pain fully, but they don’t get stuck in it forever.
+
 For example, imagine two people fail an exam. One thinks, “I’m useless,” gives up, and avoids trying again. The other feels disappointed, but later thinks, “This hurts, but I can learn and improve.” Both feel pain, but only one recovers and grows. That recovery is emotional resilience.
+
 Resilience includes several skills:
 Accepting emotions instead of denying them
 Self-compassion instead of self-criticism
 Perspective, knowing that pain is temporary
 Adaptability, adjusting when things don’t go as planned
+
 Resilient people don’t pretend everything is okay. They allow themselves to feel bad—but they don’t let emotions control their identity or future.
+
 Emotional resilience grows through experience. Each time you face difficulty and survive it, your inner strength increases. Support from others, healthy habits, reflection, and meaning also build resilience.
+
 Why does emotional resilience matter? Because life is uncertain. You cannot avoid problems, but you can learn to handle them without losing yourself.
 
 Emotional resilience is the strength to feel pain, recover, and move forward wiser than before.`,
@@ -1153,16 +1290,23 @@ Emotional resilience is the strength to feel pain, recover, and move forward wis
   title: "Suppressed Emotions",
   essence: "Emotions that are avoided rather than processed.",
   explanation: `Suppressed emotions are feelings that you push down, ignore, or avoid instead of feeling and expressing them. These emotions don’t disappear. They stay inside the mind and body, quietly affecting thoughts, behavior, and health.
+
 For example, you may feel angry but tell yourself, “I shouldn’t feel this way,” and act calm. Or you feel sad but stay busy so you don’t have to feel it. On the surface, everything looks fine—but inside, the emotion is still there. This is suppression.
+
 People suppress emotions for many reasons:
 Fear of being judged or seen as weak
 Belief that emotions are “bad” or “unacceptable”
 Wanting to avoid conflict or pain
 Growing up in an environment where emotions were ignored
+
 In the short term, suppression can seem useful. It helps you function, stay polite, or survive a difficult situation. But over time, suppressed emotions create problems.
+
 Unexpressed emotions often come out in other ways: sudden anger, anxiety, overthinking, numbness, burnout, or even physical issues like headaches, stomach problems, or constant tiredness. The body remembers what the mind avoids.
+
 Suppressed emotions also affect behavior. For example, unexpressed sadness may turn into withdrawal. Suppressed anger may turn into passive-aggression. When emotions are not processed, they control you from the background.
+
 The solution is not exploding emotionally. It is acknowledging emotions safely. This can mean naming the feeling (“I feel hurt”), writing it down, talking to someone you trust, or simply sitting with the feeling without judging it. Emotions lose power when they are allowed to exist.
+
 Learning to feel emotions does not make you weak. It makes you emotionally healthy. Strength is not the absence of emotion—it is the ability to face it honestly.
 
 Suppressed emotions don’t disappear.
@@ -1176,21 +1320,30 @@ Feeling them gently is how you heal and regain control.`,
   title: "Personality Traits",
   essence: "Stable patterns in how people think, feel, and behave.",
   explanation: `Personality traits are the stable patterns of thinking, feeling, and behaving that make you who you are. They explain why different people react differently to the same situation. Personality traits are not moods. Moods change daily. Traits are more consistent over time.
+
 For example, if someone is naturally calm, they tend to stay calm in many situations—not just once. If someone is curious, they often ask questions, explore ideas, and enjoy learning. These repeated tendencies are personality traits.
+
 Some common personality traits include:
+
 Introversion / Extroversion – whether you gain energy from being alone or with people
+
 Confidence – how secure you feel about yourself
 Agreeableness – how kind, cooperative, and empathetic you are
 Conscientiousness – how disciplined, organized, and responsible you are
 Emotional sensitivity – how strongly you feel emotions
+
 You are not just one trait. Everyone has a mix of traits. For example, you can be introverted but confident, kind but firm, emotional but disciplined.
+
 Personality traits develop from both nature and nurture. Some traits are influenced by genetics. Others form through upbringing, experiences, culture, and habits. A shy child may become confident through support and practice. This shows that traits are tendencies, not prisons.
+
 A common mistake is thinking personality is fixed. While traits are stable, they are not unchangeable. You may not change completely, but you can grow. For example, an anxious person can learn calmness. A disorganized person can build structure.
+
 Understanding personality traits helps in many ways:
 Better self-understanding
 Improved relationships
 Choosing suitable work and environments
 Reducing self-judgment
+
 When you know your traits, you stop fighting yourself and start working with yourself.
 
 Personality traits are patterns that shape how you think, feel, and act.
@@ -1203,29 +1356,38 @@ You don’t choose them—but you can grow beyond their limits.`,
   title: "Big Five Model",
   essence: "A framework describing personality across five core dimensions.",
   explanation: `The Big Five model is a simple and widely accepted way to understand human personality. It says that most personality traits can be grouped into five broad dimensions. These traits do not label you as “good” or “bad.” They describe tendencies—how you usually think, feel, and behave.
+
 The five traits are often remembered using the word OCEAN.
+
 1. Openness to Experience
 This trait describes how open you are to new ideas, creativity, and curiosity.
 High openness: imaginative, curious, enjoys learning and new experiences
 Low openness: prefers routine, familiar things, practical thinking
+
 2. Conscientiousness
 This is about self-discipline and responsibility.
 High conscientiousness: organized, reliable, goal-focused
 Low conscientiousness: spontaneous, flexible, sometimes careless
+
 3. Extraversion
 This describes how you get energy.
 High extraversion: social, talkative, energized by people
 Low extraversion (introversion): quiet, reflective, energized by solitude
+
 4. Agreeableness
 This trait shows how you relate to others.
 High agreeableness: kind, cooperative, empathetic
 Low agreeableness: competitive, direct, sometimes blunt
+
 5. Neuroticism
 This is about emotional sensitivity.
 High neuroticism: feels stress, anxiety, mood changes easily
 Low neuroticism: emotionally stable, calm under pressure
+
 Everyone has all five traits, just in different amounts. You are not “one type.” You are a mix on five scales.
+
 The Big Five model is useful because it helps you understand yourself without judgment. It explains why certain environments suit you better, why some habits are easier or harder, and why people behave differently.
+
 Most importantly, traits are not fixed limits. They show your starting point—not your destiny.
 
 The Big Five model explains personality using five basic dimensions.
@@ -1238,10 +1400,15 @@ It helps you understand yourself and others with clarity, not labels.`,
   title: "Introversion vs Extroversion",
   essence: "Differences in how people gain and expend social energy.",
   explanation: `Introversion and extroversion describe where you get your energy from. They are not about confidence, intelligence, or social skill. They are about how your mind and body recharge.
+
 Introverts gain energy from being alone or in calm environments. Too much social interaction can feel draining for them, even if they enjoy people. Introverts usually think before speaking, enjoy deep conversations, and like focusing on one thing at a time. They may prefer writing over talking and quality time over large groups. An introvert can be confident and social—but they need quiet time to recharge afterward.
+
 Extroverts gain energy from being around people and activity. Social interaction makes them feel alive and motivated. Extroverts often think out loud, enjoy group discussions, and like fast-paced environments. Being alone for too long can make them feel bored or low in energy. An extrovert may struggle in silence but thrive in teamwork and interaction.
+
 A common misunderstanding is that introverts are shy and extroverts are confident. This is false. Shyness is about fear. Introversion is about energy. An introvert can be bold and outspoken. An extrovert can feel anxious too.
+
 Most people are not fully one or the other. Many are ambiverts, meaning they show both traits depending on the situation.
+
 Understanding this difference helps you stop forcing yourself into the wrong environment. When you respect your energy style, life feels easier and more natural.
 
 Introverts recharge alone.
@@ -1255,15 +1422,21 @@ Neither is better—just different ways of being.`,
   title: "Temperament",
   essence: "Innate emotional and behavioral tendencies.",
   explanation: `Temperament is your natural emotional and behavioral style—the way you are from the beginning. It shows how you usually react to the world: how intense your emotions are, how fast you respond, and how calm or active you tend to be. Temperament is present early in life, even in babies.
+
 For example, some children are calm, quiet, and easy to soothe. Others are energetic, sensitive, or easily upset. These differences appear very early, before learning, culture, or personal choices play a big role. That is temperament.
+
 Temperament affects things like:
 How strongly you feel emotions
 How quickly you react
 How comfortable you are with change
 How social or reserved you feel naturally
+
 A person with a calm temperament may stay relaxed under pressure. A person with a sensitive temperament may feel things deeply and react strongly. Neither is good or bad—they are different starting points.
+
 Temperament is not the same as personality. Temperament is the base. Personality is what grows on top of it through experience, learning, habits, and environment. Think of temperament as the raw material, and personality as the final shape.
+
 Importantly, temperament does not decide your future. It influences how things feel, not what you must become. A naturally anxious person can learn calm skills. A naturally impulsive person can learn self-control. Temperament shapes challenges—but does not remove choice.
+
 Understanding your temperament helps reduce self-judgment. You stop asking, “What’s wrong with me?” and start asking, “How can I work with my nature?”
 
 Temperament is your emotional starting point.
@@ -1276,11 +1449,17 @@ It influences how you react—but you still choose how you grow.`,
   title: "Personality Development",
   essence: "How personality patterns evolve over time.",
   explanation: `Personality development is the lifelong process through which your way of thinking, feeling, and behaving is shaped and reshaped. It explains how you become you—and how you continue to grow, mature, and change over time. Personality is not something you are born with fully formed. It develops step by step.
+
 Personality development starts with temperament, your natural emotional style from birth. Some people are naturally calm, others energetic or sensitive. This is your starting point, not your destiny. Temperament influences how things feel to you, but it does not decide what you will become.
+
 As you grow, environment plays a major role. Family, school, friends, culture, and society teach you how to behave. Praise, criticism, love, neglect, success, and failure slowly shape your habits. Over time, these habits become part of your personality. For example, a child who is encouraged may grow confident, while one who is constantly criticized may grow self-doubt—but both can change later.
+
 Learning and experience also shape personality. When you face challenges, your responses matter. If you avoid difficulties, fear can grow. If you face them gradually, courage develops. Personality is built from repeated responses, not one-time events.
+
 An important part of personality development is self-awareness. When you start observing your thoughts, emotions, and patterns, you gain the power to change them. Without awareness, personality runs on autopilot. With awareness, growth becomes intentional.
+
 Personality continues to change throughout life. People often believe, “This is just how I am.” But this is only partly true. While some traits are stable, many parts of personality are flexible. You can learn emotional control, confidence, discipline, empathy, and resilience.
+
 Healthy personality development is not about becoming someone else. It is about becoming a more balanced, aware, and mature version of yourself.
 
 Personality development is how life shapes you—
@@ -1293,15 +1472,21 @@ and how you learn to shape yourself in return.`,
   title: "Identity Formation",
   essence: "The process of developing a sense of self.",
   explanation: `Identity formation is the process of discovering and building a sense of who you are. It answers questions like: Who am I? What do I believe? What matters to me? What kind of person do I want to be? This process begins early in life and continues as you grow.
+
 At first, identity is borrowed. As a child, you absorb beliefs, values, and roles from parents, culture, religion, and school. You learn labels like “good student,” “shy,” “strong,” or “weak.” These labels feel true, but they are often unexamined.
+
 As you grow older, especially in adolescence and adulthood, identity enters a questioning phase. You begin to ask: Do I really believe this? Is this who I want to be? This phase can feel confusing or uncomfortable, but it is healthy. Confusion means growth is happening.
+
 Identity is shaped by:
 Values (what you care about)
 Beliefs (how you see the world)
 Roles (student, friend, writer, child)
 Experiences (success, failure, pain, love)
+
 Importantly, identity is not fixed. People often think “This is just who I am,” but identity evolves. A failure can reshape how you see yourself. A new skill can expand identity. Healing can remove old labels.
+
 Problems arise when identity becomes rigid. If you strongly attach to one role or label, change feels like loss. Healthy identity is flexible. It allows growth without losing self-respect.
+
 Identity formation is most powerful when it becomes conscious. Instead of letting life define you, you choose what values guide you and what stories you keep.
 
 Identity formation is the journey of becoming yourself—
@@ -1314,17 +1499,25 @@ not by copying others, but by choosing what truly represents you.`,
   title: "Self-Concept",
   essence: "How individuals perceive and define themselves.",
   explanation: `Self-concept is the picture you hold in your mind about who you are. It is how you see yourself, describe yourself, and understand yourself. When you say things like “I am confident,” “I am bad at math,” “I am creative,” you are expressing your self-concept.
+
 Self-concept is not just one idea. It has three main parts.
+
 First is self-image. This is how you see yourself—your abilities, personality, appearance, and roles. For example, you may see yourself as a student, a writer, a shy person, or a leader.
+
 Second is self-esteem. This is how you feel about yourself. Do you respect yourself? Do you feel worthy? Two people can have the same self-image but very different self-esteem. One may accept themselves, the other may feel “not enough.”
+
 Third is the ideal self. This is who you want to become. It includes your goals, values, and dreams. When your real self and ideal self feel close, you feel confident. When they feel far apart, you may feel stress or dissatisfaction.
+
 Self-concept develops over time. It is shaped by:
 Childhood experiences
 Feedback from parents, teachers, and friends
 Successes and failures
 Comparisons with others
+
 A powerful thing to understand is that self-concept is learned, not fixed. If you were repeatedly told “you are weak” or “you are smart,” your mind absorbed it. But learned ideas can be questioned and updated.
+
 Problems happen when self-concept becomes rigid. Saying “This is just who I am” can stop growth. A healthier self-concept is flexible. It allows change without losing self-worth.
+
 Improving self-concept starts with awareness. When you notice negative self-talk, you can ask: Is this a fact, or just an old belief?
 
 Self-concept is the story you tell yourself about who you are.
@@ -1334,5 +1527,6 @@ You can rewrite that story as you grow and learn.`,
   
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
