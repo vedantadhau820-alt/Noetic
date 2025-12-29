@@ -758,7 +758,142 @@ Death reminds us that life is short.
 Finitude reminds us to live it wisely.`,
   tags: ["death", "mortality"]
 },
-
+{
+  id: "attention_and_focus",
+  category: "NEUROSCIENCE",
+  title: "Attention & Focus",
+  essence: "Where the mind directs its limited resources.",
+  explanation: `Attention is where your mind is pointing right now. Focus is how long and how deeply you can keep it there. If attention is a flashlight, focus is how steadily you hold it. Together, they decide what you notice, what you learn, and what you become good at.
+For example, when you read a page but keep thinking about messages or noise, your attention keeps jumping. You may read the words, but nothing stays. When you put your phone away and read with full presence, your focus deepens—and understanding improves.
+Attention is limited. You cannot fully attend to many things at once. Multitasking feels productive, but it usually splits attention and reduces quality. Doing one thing well often beats doing many things poorly.
+Focus grows when distractions are reduced. A quiet place, clear goals, and short breaks help the mind stay steady. Focus also improves with practice, like a muscle. Even five minutes of deep focus daily can train your brain over time.
+Attention shapes your life. What you give attention to grows stronger in your mind. If you constantly attend to fear, comparison, or noise, they dominate your thoughts. If you attend to learning, relationships, and meaningful work, they grow instead.
+In simple words:
+Attention chooses what enters your mind.
+Focus decides how deeply it shapes you.`,
+  tags: ["attention", "focus"]
+},
+{
+  id: "memory_short_long_term",
+  category: "NEUROSCIENCE",
+  title: "Memory (Short & Long Term)",
+  essence: "How experiences are stored and recalled over time.",
+  explanation: `Memory is your mind’s ability to store and recall information. It helps you remember names, learn skills, understand lessons, and recognize people. Memory is not one single thing—it mainly works in two stages: short-term memory and long-term memory.
+Short-term memory holds information for a very short time—usually a few seconds to a minute. It is like a mental notepad. For example, when someone tells you a phone number and you repeat it in your head until you dial it, you are using short-term memory. This memory has limited space. If too much information comes in at once, things quickly disappear. That’s why distractions easily break concentration.
+Long-term memory stores information for a long time—days, years, or even your whole life. Your name, childhood memories, language skills, and important life events live here. Long-term memory has much larger capacity than short-term memory.
+Information usually moves from short-term to long-term memory through repetition, understanding, emotion, and practice. For example, cramming facts once may stay briefly, but studying regularly helps them stick. Emotional experiences—like a happy moment or a painful event—are remembered more strongly because emotion strengthens memory.
+Sleep also plays a big role. During sleep, the brain organizes and stores memories properly. Lack of sleep weakens learning and recall.
+Memory is not a perfect recorder. It changes, fades, and reshapes over time. But it improves with attention, repetition, and meaning.
+In simple words:
+Short-term memory holds information briefly.
+Long-term memory keeps what truly becomes part of you.`,
+  tags: ["memory", "learning"]
+},
+{
+  id: "thinking_and_reasoning",
+  category: "MODEL",
+  title: "Thinking & Reasoning",
+  essence: "How the mind processes information to reach conclusions.",
+  explanation: `Thinking is the process of having ideas, thoughts, images, and questions in your mind. It happens all the time—when you remember the past, imagine the future, plan your day, or wonder “why.” Thinking is natural. It starts automatically and often emotionally.
+Reasoning is a more careful type of thinking. It means using logic to understand, judge, and decide. When you reason, you slow down and ask: Does this make sense? What follows from this? Is this true? Reasoning helps you move from confusion to clarity.
+For example, imagine you feel anxious before an exam.
+Thinking says: “I might fail. This is bad.”
+Reasoning says: “I studied. I passed earlier exams. Feeling anxious doesn’t mean I will fail.”
+The feeling comes automatically, but reasoning checks it.
+We reason every day, often without noticing. If it’s cloudy, you take an umbrella. If touching fire burned you before, you avoid it. These are simple forms of reasoning based on experience and logic.
+Reasoning becomes especially important when emotions are strong. Anger, fear, and excitement can distort thinking. Reasoning helps you pause and ask better questions instead of reacting blindly. It does not remove emotions—it guides them.
+There are different kinds of reasoning. Sometimes we reason from rules (logic). Sometimes we reason from experience (patterns). Good reasoning means knowing when to question assumptions, when to ask for evidence, and when to change your mind.
+Thinking gives ideas. Reasoning tests them. Without thinking, there are no ideas. Without reasoning, ideas become beliefs, mistakes, or illusions.
+In simple words:
+Thinking creates thoughts.
+Reasoning checks them.
+Together, they help you understand the world, make better decisions, and grow wiser over time.`,
+  tags: ["reasoning", "cognition"]
+},
+{
+  id: "problem_solving",
+  category: "MODEL",
+  title: "Problem Solving",
+  essence: "Reducing gaps between a current state and a desired outcome.",
+  explanation: `Problem Solving
+Problem solving is the process of finding a way out when something is stuck, confusing, or not working. A problem is simply a gap between where you are now and where you want to be. Problem solving is how you close that gap.
+Everyday life is full of problems—small and big. Your phone stops working. You don’t understand a topic. You feel stuck in life. In all cases, problem solving follows a similar pattern.
+The first step is understanding the problem clearly. Many people rush to solutions without knowing the real issue. For example, if you are failing exams, the problem may not be “I’m stupid,” but “I don’t revise properly” or “I get distracted.” A clear problem is already half solved.
+The second step is thinking of possible solutions. There is rarely only one answer. You can ask questions, break the problem into smaller parts, or learn from others. Writing options down helps the mind see clearly.
+The third step is trying a solution. Not every solution works—and that’s okay. Failure here is not defeat; it is information. If one method fails, you adjust and try another. This is called learning by feedback.
+Problem solving also requires emotional control. Stress and panic shrink thinking. Calmness expands it. When emotions are high, take a pause. Clear thinking returns when the mind settles.
+Good problem solvers don’t panic. They stay curious. They ask:
+“What exactly is wrong?”
+“What can I control?”
+“What is one small step forward?”
+Over time, problem solving builds confidence. You stop fearing problems and start seeing them as challenges that can be handled.
+In simple words:
+Problems are part of life.
+Problem solving is the skill that turns obstacles into progress.`,
+  tags: ["problems", "solutions"]
+},
+{
+  id: "decision_making",
+  category: "MODEL",
+  title: "Decision-Making",
+  essence: "Choosing one action among multiple possibilities.",
+  explanation: `Decision-making is the process of choosing one option among many. Every day, you make decisions—some small, some life-changing. What to eat, how to respond to someone, which path to follow in life—all of these shape your future.
+Good decision-making starts with clarity. You first understand the situation instead of reacting emotionally. Many bad decisions happen when people act in anger, fear, or excitement. Pausing for a moment creates space to think.
+Next comes evaluating options. Ask simple questions:
+What are my choices?
+What could happen if I choose this?
+What might I regret later?
+This does not mean overthinking. It means seeing consequences before acting. For example, spending money now may feel good, but saving it may help future you. Good decisions often involve short-term discomfort for long-term benefit.
+Decision-making also improves when you focus on what you can control. You cannot control outcomes fully, but you can control effort, honesty, and intention. A good decision is not one that guarantees success—it is one made with the best information and values you have at the time.
+Mistakes are part of decision-making. Even wise people choose wrong sometimes. What matters is learning, not perfection. Each decision teaches you more about yourself and life.
+In simple words:
+Decision-making is choosing your direction.
+Small choices repeated daily create big life results.`,
+  tags: ["choices", "judgment"]
+},
+{
+  id: "perception",
+  category: "PSYCHOLOGY",
+  title: "Perception",
+  essence: "How the mind interprets sensory information.",
+  explanation: `Perception is how your mind interprets the world through your senses. It is not just seeing, hearing, or touching—it is how your brain makes meaning from what your senses receive. In simple words, perception is how reality appears to you, not reality itself.
+For example, when you see a red apple, your eyes do not actually see “red” or “apple.” They receive light signals. Your brain then interprets those signals and says, “This is a red apple.” That interpretation is perception. This means perception is an active process, not a passive one.
+Perception is influenced by many things:
+Past experiences
+Beliefs and expectations
+Emotions and mood
+Culture and language
+That’s why two people can experience the same situation very differently. One person may see criticism as helpful feedback. Another may see the same words as an attack. The event is the same, but perception changes the experience.
+Optical illusions show this clearly. Your eyes see one thing, but your brain interprets it incorrectly. This proves that perception can be wrong, even when it feels real. The mind fills gaps, guesses, and sometimes makes mistakes.
+Emotions strongly affect perception. When you are afraid, neutral situations can feel dangerous. When you are happy, small things feel positive. This is why perception is not fixed—it changes with your inner state.
+Understanding perception is powerful. It helps you pause and ask:
+“Is this how things really are, or is this just how they appear to me?”
+In simple words:
+Perception is not the world itself.
+It is the mind’s version of the world.`,
+  tags: ["reality", "senses"]
+},
+{
+  id: "mental_representations",
+  category: "PSYCHOLOGY",
+  title: "Mental Representations",
+  essence: "Internal models of the external world.",
+  explanation: `Mental representations are the pictures, models, symbols, and ideas your mind creates to understand the world. You do not interact with reality directly—you interact with your mind’s version of reality. That inner version is made of mental representations.
+For example, think about your house. Even with your eyes closed, you can imagine its rooms, doors, and layout. That image in your mind is a mental representation. The house exists outside, but your brain keeps a simplified internal model so you can think about it, talk about it, and move around it.
+Mental representations are not only images. They can be:
+Words (the concept of “justice” or “freedom”)
+Symbols (numbers, signs, flags)
+Rules (“Fire is dangerous”)
+Emotional patterns (associating dogs with fear or safety)
+They help you think quickly. Instead of analyzing everything from scratch, your brain uses stored representations. For example, when you see a chair, you don’t study its shape every time—you instantly recognize “chair” and know how to use it.
+However, mental representations are simplifications, not reality itself. Like a map, they help you navigate, but they are not the actual land. Sometimes they are outdated or wrong. This is why misunderstandings happen. You may think someone is rude because of an old mental model, even when they are just tired.
+Learning, growth, and intelligence often mean updating mental representations. When you learn something new, your brain adjusts its internal models to match reality better.
+In simple words:
+Mental representations are how the mind stores and understands the world.
+They guide your thinking—but they are not the world itself.`,
+  tags: ["models", "cognition"]
+}
   
 ];
 window.SEED_VAULT = SEED_VAULT;
+
