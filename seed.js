@@ -20,7 +20,7 @@ const SEED_VAULT = [
 
    {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Existence",
   essence: "The inquiry into why anything exists at all rather than nothing.",
   explanation: `Existence means being real or being there in some way. It is the most basic idea behind everything else. Before asking what something is, why it exists, or what it means, we first ask one simple question: Does it exist at all?
@@ -45,7 +45,7 @@ Before answers, before meaning—there is existence.`,
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Reality",
   essence: "The study of what is real and how appearance differs from truth.",
   explanation: `Reality is how things actually are, independent of what we think, feel, or believe. It is what remains true even when opinions change. Reality does not adjust itself to our wishes. It exists on its own terms.
@@ -67,7 +67,7 @@ Reality is what stays true when beliefs are removed and illusions fall away.`,
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Truth",
   essence: "The exploration of what it means for something to be true or false.",
   explanation: `Truth is what is actually correct, not what feels right, not what is popular, and not what we want to believe. Truth answers a simple but powerful question: “What is really the case?”
@@ -89,7 +89,7 @@ Truth is what remains when feelings, wishes, and stories are set aside.`,
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Meaning",
   essence: "The search for significance, value, and purpose in life.",
   explanation: `Meaning is the sense that life, actions, or experiences matter. When something has meaning, it feels worth doing, worth enduring, or worth caring about. Meaning answers the question: “Why does this matter to me?”
@@ -109,7 +109,7 @@ Meaning is what makes life feel worth living, even when it is not easy.`,
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Free Will",
   essence: "The question of whether humans genuinely choose their actions.",
   explanation: `Free will is the idea that you can choose your actions and that those choices genuinely belong to you. It means you are not just being pushed around by fate, biology, or past events. When you decide what to say, what to do, or how to respond, free will says you could have acted differently.
@@ -129,7 +129,7 @@ Free will is the ability to choose your response, even when you cannot choose th
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Determinism",
   essence: "The idea that all events are caused by prior conditions and laws.",
   explanation: `Determinism is the idea that everything happens because of prior causes. According to this view, no event appears out of nowhere. Every action, thought, and decision is the result of something that happened before—your biology, upbringing, experiences, environment, and even brain chemistry.
@@ -151,7 +151,7 @@ Determinism shows how the past shapes the present, even when choice feels person
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Identity",
   essence: "The investigation of what makes a person the same over time.",
   explanation: `Identity is your sense of who you are. It includes how you see yourself, how you describe yourself, and how you feel you remain “you” over time. When you say “this is me,” you are pointing to your identity.
@@ -174,7 +174,7 @@ Identity is the evolving answer to “who am I,” shaped by memory, story, and 
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Ethics",
   essence: "The study of right and wrong, and how one ought to live.",
   explanation: `Ethics is the study of how we should act. It asks questions about right and wrong, good and harmful, fair and unfair. Ethics is not just about rules written in books. It is about the choices you make every day and how those choices affect others.
@@ -198,7 +198,7 @@ Ethics is about choosing actions that respect others and reduce harm, even when 
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Knowledge",
   essence: "The examination of what it means to know something.",
   explanation: `Knowledge is understanding something well enough to use it correctly. It is more than just hearing information or memorizing facts. Knowledge means you know why something is true, how it works, and when it applies.
@@ -225,7 +225,7 @@ Knowledge is understanding that guides action, not just facts stored in the mind
 },
 {
   id: "",
-  category: "Philosophy",
+  category: "PHILOSOPHY",
   title: "Wisdom",
   essence: "The ability to apply understanding with clarity, balance, and insight.",
   explanation: ``,",
@@ -254,6 +254,7 @@ Wisdom is knowing how to live well, not just knowing many things.`,
   
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
 
