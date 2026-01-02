@@ -19,7 +19,7 @@ const SEED_VAULT = [
 =========================== */
 
    {
-  id: "",
+  id: "philosophy_existence",
   category: "PHILOSOPHY",
   title: "Existence",
   essence: "The inquiry into why anything exists at all rather than nothing.",
@@ -44,7 +44,7 @@ Before answers, before meaning—there is existence.`,
   tags: ["being","reality","life"]
 },
 {
-  id: "",
+  id: "philosophy_reality",
   category: "PHILOSOPHY",
   title: "Reality",
   essence: "The study of what is real and how appearance differs from truth.",
@@ -66,7 +66,7 @@ Reality is what stays true when beliefs are removed and illusions fall away.`,
   tags: ["truth","perception","illusion"]
 },
 {
-  id: "",
+  id: "philosophy_truth",
   category: "PHILOSOPHY",
   title: "Truth",
   essence: "The exploration of what it means for something to be true or false.",
@@ -88,7 +88,7 @@ Truth is what remains when feelings, wishes, and stories are set aside.`,
   tags: ["knowledge","belief","fact"]
 },
 {
-  id: "",
+  id: "philosophy_meaning",
   category: "PHILOSOPHY",
   title: "Meaning",
   essence: "The search for significance, value, and purpose in life.",
@@ -108,7 +108,7 @@ Meaning is what makes life feel worth living, even when it is not easy.`,
   tags: ["purpose","value","life"]
 },
 {
-  id: "",
+  id: "philosophy_free_will",
   category: "PHILOSOPHY",
   title: "Free Will",
   essence: "The question of whether humans genuinely choose their actions.",
@@ -128,7 +128,7 @@ Free will is the ability to choose your response, even when you cannot choose th
   tags: ["choice","agency","freedom"]
 },
 {
-  id: "",
+  id: "philosophy_Determinism",
   category: "PHILOSOPHY",
   title: "Determinism",
   essence: "The idea that all events are caused by prior conditions and laws.",
@@ -151,7 +151,7 @@ Determinism shows how the past shapes the present, even when choice feels person
 },
 {
   id: "",
-  category: "PHILOSOPHY",
+  category: "PHILOSOPHY_identity",
   title: "Identity",
   essence: "The investigation of what makes a person the same over time.",
   explanation: `Identity is your sense of who you are. It includes how you see yourself, how you describe yourself, and how you feel you remain “you” over time. When you say “this is me,” you are pointing to your identity.
@@ -173,7 +173,7 @@ Identity is the evolving answer to “who am I,” shaped by memory, story, and 
   tags: ["self","continuity","change"]
 },
 {
-  id: "",
+  id: "PHILOSOPHY_ethics",
   category: "PHILOSOPHY",
   title: "Ethics",
   essence: "The study of right and wrong, and how one ought to live.",
@@ -197,7 +197,7 @@ Ethics is about choosing actions that respect others and reduce harm, even when 
   tags: ["morality","good","responsibility"]
 },
 {
-  id: "",
+  id: "PHILOSOPHY_knowledge",
   category: "PHILOSOPHY",
   title: "Knowledge",
   essence: "The examination of what it means to know something.",
@@ -224,7 +224,7 @@ Knowledge is understanding that guides action, not just facts stored in the mind
   tags: ["epistemology","knowing","understanding"]
 },
 {
-  id: "",
+  id: "PHILOSOPHY_wisdom",
   category: "PHILOSOPHY",
   title: "Wisdom",
   essence: "The ability to apply understanding with clarity, balance, and insight.",
@@ -254,6 +254,7 @@ Wisdom is knowing how to live well, not just knowing many things.`,
   
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
 
