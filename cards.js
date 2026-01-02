@@ -330,46 +330,56 @@ function renderVaultCategories() {
 
   const categories = [
 
-  { key: "PHILOSOPHY", label: "Philosophy" },
+    
+
   { key: "METAPHYSICS", label: "Metaphysics" },
+
   { key: "EPISTEMOLOGY", label: "Epistemology" },
-  { key: "ONTOLOGY", label: "Ontology" },
-  { key: "CONSCIOUSNESS", label: "Consciousness" },
-  { key: "IDENTITY_SELF", label: "Identity & Self" },
-  { key: "MEANING_PURPOSE", label: "Meaning & Purpose" },
+
+  { key: "MIND", label: "Mind" },
+
+  { key: "ETHICS", label: "Ethics" },
+
+  { key: "LOGIC", label: "Logic" },
+
+  { key: "EASTERN_PHILOSOPHY", label: "Eastern Philosophy" },
+
+  { key: "EXISTENTIALISM", label: "Existentialism" },
+
   { key: "PSYCHOLOGY", label: "Psychology" },
+
   { key: "NEUROSCIENCE", label: "Neuroscience" },
-  { key: "COGNITIVE_SCIENCE", label: "Cognitive Science" },
-  { key: "EMOTIONS_INNER_LIFE", label: "Emotions & Inner Life" },
-  { key: "PERSONALITY_TEMPERAMENT", label: "Personality & Temperament" },
-  { key: "SUBCONSCIOUS_MIND", label: "Subconscious Mind" },
+
+  { key: "INTELLIGENCE", label: "Intelligence" },
+
+
+
   { key: "MENTAL_MODELS", label: "Mental Models" },
-  { key: "LOGIC_REASONING", label: "Logic & Reasoning" },
-  { key: "CRITICAL_THINKING", label: "Critical Thinking" },
-  { key: "COGNITIVE_BIASES", label: "Cognitive Biases" },
+
+  { key: "COGNITIVE_BIAS", label: "Cognitive Bias" },
+
+  { key: "LAWS_AND_PRINCIPLES", label: "Laws And Principles" },
+
+
+
+  { key: "THEORIES", label: "Theories" },
+
   { key: "PARADOXES", label: "Paradoxes" },
+
   { key: "THOUGHT_EXPERIMENTS", label: "Thought Experiments" },
-  { key: "LAWS_PRINCIPLES", label: "Laws & Principles" },
-  { key: "SYSTEMS_THINKING", label: "Systems Thinking" },
-  { key: "CAUSE_EFFECT", label: "Cause & Effect" },
-  { key: "CHAOS_COMPLEXITY", label: "Chaos & Complexity" },
-  { key: "TIME_IMPERMANENCE", label: "Time & Impermanence" },
-  { key: "SCIENTIFIC_THEORIES", label: "Scientific Theories" },
-  { key: "PHILOSOPHY_OF_SCIENCE", label: "Philosophy of Science" },
-  { key: "MATHEMATICS_OF_REALITY", label: "Mathematics of Reality" },
-  { key: "PHYSICS_CONCEPTS", label: "Physics Concepts" },
-  { key: "UNSOLVED_MYSTERIES", label: "Unsolved Mysteries" },
-  { key: "COSMIC_QUESTIONS", label: "Cosmic Questions" },
-  { key: "PARANORMAL_ANOMALIES", label: "Paranormal & Anomalies (Neutral)" },
-  { key: "CONSPIRACY_THEORIES", label: "Conspiracy Theories (Analytical)" },
-  { key: "SIMULATION_REALITY", label: "Simulation & Reality Hypotheses" },
-  { key: "SYMBOLISM_ARCHETYPES", label: "Symbolism & Archetypes" },
-  { key: "MYTHOLOGY_STORIES", label: "Mythology & Stories" },
-  { key: "LANGUAGE_MEANING", label: "Language & Meaning" },
-  { key: "CREATIVITY_IMAGINATION", label: "Creativity & Imagination" },
-  { key: "WISDOM_TRADITIONS", label: "Wisdom Traditions (Non-Dogmatic)" },
-  { key: "ETHICS_COMPASSION", label: "Ethics & Compassion" },
-  { key: "SELF_UNDERSTANDING", label: "Self-Understanding & Acceptance" }
+
+
+
+  { key: "POWER", label: "Power" },
+
+  { key: "SYMBOLISM", label: "Symbolism" },
+
+  { key: "SPIRITUAL", label: "Spiritual" },
+
+
+
+  { key: "UNSOLVED_MYSTRIES", label: "Unsolved Mysteries" },
+
   
 
   ];
@@ -575,4 +585,3 @@ document.addEventListener("DOMContentLoaded", () => {
     location.reload();
   });
 });
-
