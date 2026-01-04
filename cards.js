@@ -356,7 +356,7 @@ function renderVaultCategories() {
 
   { key: "MENTAL_MODELS", label: "Mental Models" },
 
-  { key: "COGNITIVE_BIAS", label: "Cognitive Bias" },
+  { key: "COGNITIVE_BIASES", label: "Cognitive Bias" },
 
   { key: "LAWS_AND_PRINCIPLES", label: "Laws And Principles" },
 
@@ -585,3 +585,4 @@ document.addEventListener("DOMContentLoaded", () => {
     location.reload();
   });
 });
+
