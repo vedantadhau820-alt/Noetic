@@ -94,7 +94,7 @@
 .card-category.spiritual { color: var(--cat-nine); }
 .card-category.power { color: var(--cat-ten); }
 .card-category.thought_experiments { color: var(--cat-eleven); }
-.card-category.cognitive_bias { color: var(--cat-twelve); }
+.card-category.cognitive_biases { color: var(--cat-twelve); }
 .card-category.mental_model { color: var(--cat-five); }
 .card-category.psychology { color: var(--cat-fourteen); }
 .card-category.neuroscience { color: var(--cat-three); }
@@ -233,5 +233,6 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
 
 
