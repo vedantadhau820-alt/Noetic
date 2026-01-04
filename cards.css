@@ -95,9 +95,12 @@
 .card-category.power { color: var(--cat-ten); }
 .card-category.thought_experiments { color: var(--cat-eleven); }
 .card-category.cognitive_biases { color: var(--cat-twelve); }
-.card-category.mental_model { color: var(--cat-five); }
+.card-category.mental_models { color: var(--cat-five); }
 .card-category.psychology { color: var(--cat-fourteen); }
 .card-category.neuroscience { color: var(--cat-three); }
+.card-category.paradoxes { color: var(--cat-seven); }
+.card-category.theories { color: var(--cat-sixteen); }
+.card-category.laws_and_principles { color: var(--cat-thirteen); }
 
 
 /* =========================================
@@ -233,6 +236,7 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
 
 
 
