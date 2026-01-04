@@ -1525,9 +1525,567 @@ Self-concept is the story you tell yourself about who you are.
 You can rewrite that story as you grow and learn.`,
   tags: ["self", "identity"]
 },
-  
+   {
+  id: "brain_structure",
+  category: "NEUROSCIENCE",
+  title: "Brain Structure",
+  essence: "The physical organization of the brain and its major regions.",
+  explanation: `Brain structure refers to the different parts of the brain and what each part does. The brain is the control center of the body. It helps you think, feel, move, remember, decide, and stay alive. Even though it looks like one organ, it is actually made of many specialized parts working together.
+
+The largest part of the brain is the cerebrum. This is the thinking part. It helps with reasoning, planning, imagination, language, and conscious decision-making. The cerebrum is divided into two halves (left and right) and into regions called lobes.
+
+The frontal area helps with thinking, self-control, and decision-making.
+
+The parietal area helps with touch, body awareness, and space.
+
+The temporal area helps with hearing, memory, and understanding language.
+
+The occipital area helps with vision.
+
+Below the cerebrum is the cerebellum. This part helps with balance, coordination, and smooth movement. When you walk, write, or catch a ball, the cerebellum is working. It also helps make movements automatic through practice.
+
+At the base is the brainstem. This part controls basic life functions like breathing, heartbeat, sleep, and wakefulness. You do not consciously control it, yet it keeps you alive every second.
+
+Inside the brain are deeper structures that handle emotions, motivation, and memory. These parts help you feel fear, pleasure, attachment, and drive. When you react emotionally or remember important events, these inner systems are active.
+
+The brain works as a network, not as isolated parts. Thinking, emotion, and action are connected. Damage to one area can affect many abilities, showing how interlinked the structure is.
+
+Understanding brain structure helps you realize something important: your thoughts, emotions, and behaviors are not random. They arise from a complex physical system shaped by biology and experience.
+
+The brain’s structure is the physical foundation that allows the mind to experience, decide, and act.`,
+  tags: ["brain","structure","regions"]
+},
+{
+  id: "neurons",
+  category: "NEUROSCIENCE",
+  title: "Neurons",
+  essence: "The fundamental cells that transmit information in the nervous system.",
+  explanation: `Neurons are the basic working units of the brain and nervous system. They are special cells whose job is to send and receive information. Everything you think, feel, remember, or do happens because neurons communicate with each other.
+
+A single neuron looks simple, but its role is powerful. Each neuron has three main parts.
+
+The dendrites receive messages from other neurons.
+
+The cell body processes those messages.
+
+The axon sends a signal to other neurons.
+
+Neurons do not touch each other directly. There is a tiny gap between them called a synapse. When a neuron wants to send a message, it sends an electrical signal down its axon. At the synapse, this electrical signal turns into a chemical message. That chemical crosses the gap and activates the next neuron. This process happens incredibly fast—millions of times every second.
+
+Your brain contains billions of neurons, forming huge networks. A single neuron is not very useful on its own. Intelligence, memory, emotions, and skills come from patterns of connections between neurons. When you learn something new, certain connections become stronger. When you repeat something many times, those pathways become faster and easier to use.
+
+For example, when you first learn to ride a bicycle, many neurons are active and the process feels difficult. With practice, the same neural pathways strengthen. Riding becomes automatic. This shows that learning is not magic—it is neurons changing their connections.
+
+Neurons are also involved in emotions. Fear, happiness, motivation, and stress all come from different patterns of neural activity. Chemicals released between neurons influence mood and energy. That is why sleep, nutrition, and stress affect how you think and feel.
+
+Neurons can change throughout life. This ability is called plasticity. It means your brain is not fixed. With effort, learning, and healing, neural patterns can be reshaped.
+
+Neurons are the messengers of the mind, turning experience into thought, feeling, and action.`,
+  tags: ["neurons","signals","cells"]
+},
+{
+  id: "neuroplasticity",
+  category: "NEUROSCIENCE",
+  title: "Neuroplasticity",
+  essence: "The brain’s ability to change and adapt through experience.",
+  explanation: `Neuroplasticity is the brain’s ability to change itself. It means the brain can form new connections, strengthen old ones, and weaken unused ones throughout life. Your brain is not fixed like a machine—it is flexible, adaptable, and constantly reshaping based on experience.
+
+When you learn something new, neurons begin to communicate in new patterns. If you repeat that activity—studying, practicing a skill, thinking a certain way—those neural connections become stronger and faster. If you stop using a pathway, it slowly weakens. This is why practice makes skills easier and why habits become automatic over time.
+
+For example, when you first learn to type or play an instrument, it feels slow and difficult. Your brain is building new pathways. With repetition, the same task feels natural. Nothing changed outside—you changed inside the brain.
+
+Neuroplasticity also explains how people recover and grow. After an injury or stroke, other parts of the brain can sometimes take over lost functions through training. It also explains emotional healing. Someone who lived with fear for years can, with new experiences and awareness, slowly train calmer patterns. The brain learns safety again.
+
+This ability works in both directions. Positive habits strengthen helpful circuits. Negative habits strengthen unhelpful ones. Constant stress can train anxiety. Repeated focus can train attention. What you repeatedly think and do physically shapes the brain.
+
+Age does not stop neuroplasticity. While change is faster in childhood, adults can still learn, heal, and transform. It just requires repetition, patience, and attention.
+
+Neuroplasticity is empowering because it shows that change is not just motivational—it is biological. Growth is not about willpower alone. It is about training the brain gently and consistently.
+
+Your brain becomes what it repeatedly practices—so every small habit matters.`,
+  tags: ["learning","adaptation","change"]
+},
+{
+  id: "emotional_circuits",
+  category: "NEUROSCIENCE",
+  title: "Emotion Circuits",
+  essence: "Neural systems responsible for generating and regulating emotions.",
+  explanation: `Emotion circuits are networks in the brain that create, process, and regulate emotions. Emotions do not come from one single spot. They emerge from multiple brain areas working together, sending signals back and forth in fast loops.
+
+One key part of emotion circuits is the amygdala. It helps detect danger and emotional significance. When you suddenly feel fear, shock, or strong anger, the amygdala is usually involved. It reacts quickly—often before you consciously think. This fast reaction helps with survival, but it can also cause overreactions.
+
+Another important part is the hippocampus, which connects emotions to memory. It helps you remember why something feels emotional. For example, if a place reminds you of a past event, the hippocampus links that memory to the feeling. This is why emotions can return even when the situation seems harmless.
+
+The prefrontal areas of the brain help regulate emotions. They are involved in thinking, reflection, and self-control. When you pause, breathe, and choose your response instead of reacting instantly, these regions are calming the emotion circuits. Regulation does not remove emotion—it guides it.
+
+Emotion circuits also involve chemical messengers that affect mood and energy. These messengers help determine whether you feel calm, motivated, anxious, or low. Balance matters. Long-term stress can overstimulate fear circuits. Support, rest, and positive experiences help stabilize them.
+
+Emotion circuits are shaped by experience. Repeated fear strengthens fear pathways. Repeated calm and safety strengthen regulation pathways. This is why emotional habits form—and why they can change.
+
+Understanding emotion circuits reduces self-blame. Strong emotions are not weakness. They are brain patterns doing their job, sometimes too intensely.
+
+Emotion circuits are the brain’s emotional wiring, shaped by experience and guided by awareness.`,
+  tags: ["emotions","limbic system","regulation"]
+},
+{
+  id: "memory_formation",
+  category: "NEUROSCIENCE",
+  title: "Memory Formation",
+  essence: "How experiences are encoded, stored, and recalled by the brain.",
+  explanation: `Memory formation is the process by which experiences turn into lasting memories. It explains how something you see, hear, feel, or learn becomes something you can remember later. Memory is not recorded like a video. It is built step by step inside the brain.
+
+The process usually begins with attention. If you are not paying attention, memory formation is weak. For example, reading a page while distracted often leads to forgetting it quickly. Attention tells the brain, “This is important—store it.”
+
+Next comes encoding. This is when the brain translates an experience into neural patterns. Different parts of the brain handle different details—sounds, images, emotions, meaning. Emotional events are encoded more strongly because the brain treats them as important for survival.
+
+A key structure involved here is the hippocampus. It helps organize and link information, deciding what should be stored and how different pieces fit together. Without this system, new long-term memories are very hard to form.
+
+After encoding comes consolidation. This is when memories become stable. Sleep plays a major role here. During sleep, the brain replays and strengthens neural connections. That is why studying and then sleeping works better than studying without rest.
+
+Finally, memories are stored across networks, not in one place. Remembering something means reactivating those networks. Each time you recall a memory, it can slightly change, becoming stronger or distorted.
+
+Memory formation is influenced by repetition, emotion, meaning, and rest. This explains why practice builds skill, trauma leaves deep memories, and lack of sleep weakens learning.
+
+Memories form when attention, experience, and repetition reshape connections in the brain.`,
+  tags: ["memory","learning","recall"]
+},
+{
+  id: "attention_systems",
+  category: "NEUROSCIENCE",
+  title: "Attention Systems",
+  essence: "Brain mechanisms that control focus and awareness.",
+  explanation: `Attention systems are the brain’s ways of selecting what matters right now. At any moment, countless sights, sounds, thoughts, and feelings compete for your mind. Attention systems decide what you notice, what you ignore, and what you act on. Without them, thinking would be chaotic.
+
+The brain uses different attention networks for different jobs.
+
+One system keeps you alert. It maintains wakefulness and readiness. When you hear a sudden sound or feel something important is about to happen, this system increases awareness. If it is weak—because of fatigue or stress—you feel dull and unfocused.
+
+Another system helps you orient attention. It directs focus toward something specific, like turning your eyes to a moving object or shifting attention to a voice in a noisy room. This system answers the question: Where should I look or listen?
+
+The third system manages control. It helps you stay focused on a task, resist distractions, and switch when needed. This system is active when you study despite notifications, or when you pause before reacting emotionally. It relies heavily on brain areas involved in planning and self-control.
+
+These systems constantly interact. For example, when your phone vibrates, alerting increases readiness, orienting pulls attention to the phone, and control decides whether you check it or stay focused. When control is tired, distractions win.
+
+Attention is limited. You cannot deeply focus on many things at once. Dividing attention usually reduces quality and increases mistakes. This is why multitasking feels busy but often leads to shallow work.
+
+Attention systems are trainable. Practice, rest, clear goals, and reducing distractions strengthen them. Stress, sleep loss, and constant interruptions weaken them.
+
+Understanding attention systems helps you design better habits. Instead of blaming yourself for “lack of focus,” you adjust conditions so attention can work properly.
+
+Attention systems guide the mind’s spotlight, shaping what you notice, learn, and become.`,
+  tags: ["attention","focus","awareness"]
+},
+{
+  id: "dicision_making",
+  category: "NEUROSCIENCE",
+  title: "Decision-Making",
+  essence: "Neural processes involved in choosing between actions.",
+  explanation: `Decision-making is the process of choosing one option over others. Every day, your life moves forward through decisions—small ones like what to eat, and big ones like what to pursue or avoid. Even not choosing is a decision, because it still leads to an outcome.
+
+Inside the brain, decision-making happens through interaction between thinking systems and emotional systems. Emotions quickly signal what feels good, dangerous, or important. Thinking systems then evaluate options, consequences, and long-term effects. Good decisions happen when these systems work together instead of fighting each other.
+
+For example, imagine you want to quit a task because it feels boring. Emotion pushes you to stop. Thinking reminds you of long-term benefits. Decision-making happens in the space between these forces. If emotion dominates, choices become impulsive. If thinking dominates without emotion, choices become cold or disconnected. Balance matters.
+
+Decisions are shaped by past experiences. If a choice once led to pain, the brain becomes cautious. If it led to reward, the brain leans toward it again. This is helpful for learning, but it can also trap people in old patterns if past experiences were limited or negative.
+
+Another key factor is uncertainty. Most decisions are made without full information. Waiting for perfect certainty often leads to paralysis. Effective decision-making means choosing with the best available information, not complete certainty.
+
+Good decision-making improves when you:
+
+Pause before acting
+
+Separate feelings from facts
+
+Consider long-term impact
+
+Accept that mistakes are part of learning
+
+Mistakes do not mean poor character. They are feedback. Each decision teaches the brain something new.
+
+Ultimately, decision-making shapes identity. Repeated choices slowly define who you become. You may not control every situation, but you influence your direction through the choices you consistently make.
+
+Decision-making is how intention turns into action and action turns into a life path.`,
+  tags: ["choices","judgment","behavior"]
+},
+{
+  id: "stress_response",
+  category: "NEUROSCIENCE",
+  title: "Stress Response",
+  essence: "How the brain and body react to threat and pressure.",
+  explanation: `The stress response is the body’s automatic reaction to threat or pressure. It is a survival system designed to protect you. When the brain senses danger—real or imagined—it quickly prepares the body to respond. This happens without conscious choice.
+
+At the center of this response is a fast alarm system in the brain. When something feels threatening, the body releases stress chemicals that increase heart rate, sharpen attention, tense muscles, and redirect energy. This prepares you for three basic reactions: fight, flight, or freeze.
+
+Fight prepares you to confront the threat.
+
+Flight prepares you to escape.
+
+Freeze pauses action when neither fighting nor running seems safe.
+
+This response is useful in real danger. If a car suddenly approaches, stress helps you react instantly. The problem appears when the same system activates for modern pressures—exams, social judgment, deadlines, or overthinking. The body reacts as if survival is at risk, even when it isn’t.
+
+Short-term stress can improve focus and performance. Long-term stress, however, overloads the system. When stress stays active for too long, it can disturb sleep, weaken memory, increase irritability, and exhaust the body. The system was designed for brief emergencies, not constant pressure.
+
+The body also has a recovery system that calms things down. Slow breathing, rest, safety, social support, and reassurance signal the brain that danger has passed. When this calming system is used regularly, stress becomes easier to manage.
+
+Understanding the stress response reduces self-criticism. Feeling stressed does not mean weakness. It means a survival system is working—sometimes too intensely. With awareness, you can help it return to balance.
+
+Stress is the body trying to protect you; learning to calm it teaches the body that you are safe.`,
+  tags: ["stress","survival","adaptation"]
+},
+{
+  id: "conscious_brain",
+  category: "NEUROSCIENCE",
+  title: "Conscious Brain",
+  essence: "Brain activity associated with awareness and deliberate thought.",
+  explanation: `The conscious brain is the part of your mind that you are aware of right now. It is responsible for noticing, thinking, deciding, and experiencing life deliberately. When you say, “I know I am thinking,” or “I am choosing to do this,” you are using the conscious brain.
+
+This system allows you to focus attention, reason, plan, and reflect. For example, when you read a sentence carefully, solve a problem, or decide how to respond in a conversation, conscious processing is active. It works more slowly than automatic reactions, but it gives control and flexibility.
+
+The conscious brain is closely linked to areas involved in attention, reflection, and self-control. These areas help you pause before acting, compare options, imagine outcomes, and change behavior intentionally. This is why conscious awareness is essential for learning new skills, breaking habits, and regulating emotions.
+
+However, the conscious brain has limits. It can handle only a small amount of information at once. That is why deep focus is tiring and multitasking reduces quality. When the conscious system is overloaded—by stress, fatigue, or distraction—it hands control back to automatic processes.
+
+Conscious awareness often feels like a spotlight. Whatever it shines on becomes clearer and more flexible. Thoughts under awareness can be questioned. Emotions under awareness can be regulated. Actions under awareness can be chosen.
+
+Importantly, the conscious brain does not run life alone. Much of what you do happens automatically in the background. The conscious brain steps in when something is new, difficult, or meaningful.
+
+Developing conscious awareness—through reflection, focus, or mindfulness—strengthens this system. Over time, this gives you more choice and less reactivity.
+
+The conscious brain is where experience becomes choice, and choice becomes direction.`,
+  tags: ["consciousness","awareness","control"]
+},
+{
+  id: "unconscious_brain",
+  category: "NEUROSCIENCE",
+  title: "Unconscious Brain",
+  essence: "Neural activity operating outside of conscious awareness.",
+  explanation: `The unconscious brain is the part of the mind that works outside your awareness. It runs silently in the background, handling most of what you do without you noticing. Even though you are not aware of it, it strongly influences thoughts, emotions, habits, and decisions.
+
+For example, when you walk, breathe, type on a keyboard, or recognize a familiar face, you are not consciously controlling each step. The unconscious brain takes care of these tasks automatically. This allows the conscious brain to focus on more important or new things.
+
+The unconscious brain also stores habits, emotional patterns, and learned responses. If you feel nervous in certain situations without knowing why, or react quickly before thinking, the unconscious brain is at work. Past experiences—especially emotional ones—shape these reactions. The brain learns patterns and reuses them to save energy.
+
+Much of decision-making starts unconsciously. Studies show that the brain often leans toward a choice before you become aware of deciding. Conscious thought then explains or justifies the choice afterward. This does not mean you have no control—it means awareness comes after initial processing.
+
+The unconscious brain is very fast and powerful, but not always accurate. It relies on shortcuts and past learning. This helps in familiar situations but can cause bias, fear, or overreaction when circumstances change.
+
+The good news is that the unconscious brain can be trained. Repetition, reflection, and awareness slowly reshape its patterns. When you repeatedly pause, choose differently, and reflect on behavior, unconscious habits begin to shift.
+
+Understanding the unconscious brain reduces self-blame. Many reactions are learned, not chosen. Awareness brings those patterns into light, where change becomes possible.
+
+The unconscious brain runs the background of life; awareness is how you gradually rewrite its code.`,
+  tags: ["unconscious","automatic","processing"]
+},
+   {
+  id: "reasoning_ability",
+  category: "INTELLIGENCE",
+  title: "Reasoning Ability",
+  essence: "The capacity to think logically and draw valid conclusions.",
+  explanation: `Reasoning ability is the skill of thinking clearly and logically to understand situations, solve problems, and make decisions. It helps you connect ideas, see patterns, judge what makes sense, and avoid mistakes in thinking. Reasoning is not about being fast—it is about being accurate and thoughtful.
+
+When you reason, you ask questions like: Why is this happening? What follows from this? Does this conclusion really match the facts? For example, if you fail a test, poor reasoning says, “I am useless.” Better reasoning says, “I didn’t prepare well this time. What can I change next time?” The situation is the same, but reasoning changes the outcome.
+
+Reasoning ability has different forms. Sometimes you reason from rules (“If this is true, then that must follow”). Sometimes you reason from experience (“This worked before, so it may work again”). Sometimes you reason by elimination, removing options that don’t fit. All of these help you narrow confusion into clarity.
+
+Strong reasoning ability helps in daily life more than people realize. It helps you:
+
+Spot false claims and lies
+
+Avoid emotional overreactions
+
+Make better long-term choices
+
+Learn from mistakes instead of repeating them
+
+Poor reasoning often happens when emotions take control or when assumptions go unquestioned. Stress, fear, and bias can weaken reasoning. That’s why pausing is important. A short pause gives reasoning space to work.
+
+Reasoning is trainable. Reading carefully, questioning assumptions, explaining your thinking, and learning from feedback all strengthen it. You don’t need to be naturally “smart.” You need to be willing to think slowly and honestly.
+
+Reasoning ability does not remove emotion. It guides emotion. It helps you respond instead of react and understand instead of assume.
+
+Reasoning ability is the tool that turns raw thoughts into clear understanding and wiser action.`,
+  tags: ["logic","thinking","analysis"]
+},
+{
+  id: "learning_capacity",
+  category: "INTELLIGENCE",
+  title: "Learning Capacity",
+  essence: "The ability to acquire, retain, and apply new information.",
+  explanation: ``,
+  tags: ["learning","adaptation","memory"]
+},
+{
+  id: "problem_solving",
+  category: "INTELLIGENCE",
+  title: "Problem Solving",
+  essence: "The skill of identifying challenges and finding effective solutions.",
+  explanation: `Learning capacity is your ability to absorb, understand, store, and use new information or skills. It is not the same as intelligence. Intelligence is about how well you think. Learning capacity is about how well you adapt. It decides how quickly and deeply you can learn from experience.
+
+Learning capacity depends on several factors working together. One major factor is attention. If your attention is scattered, learning stays shallow. When attention is focused, the brain signals that something matters and begins forming stronger connections. This is why deep focus often leads to faster learning than long hours of distracted study.
+
+Another factor is prior knowledge. Learning is easier when new information connects to something you already know. For example, learning a new language is easier if you already know one, because the brain can reuse patterns. Learning builds layer by layer, not from zero.
+
+Practice and repetition are also essential. The brain learns by strengthening neural pathways through repeated use. One-time exposure rarely creates lasting learning. Repeated use turns effort into ease. This is why skills feel hard at first and automatic later.
+
+Learning capacity is also affected by emotion and motivation. When something feels meaningful or interesting, learning improves. Fear and stress, on the other hand, narrow learning by pushing the brain into survival mode. Safety and curiosity expand it.
+
+Importantly, learning capacity is not fixed. Many people believe they are “slow learners,” but this belief itself limits learning. With better methods, rest, feedback, and patience, learning ability grows over time.
+
+Sleep, nutrition, and rest also play a role. A tired brain struggles to learn, no matter how motivated you are.
+
+Learning capacity is the brain’s readiness to change—and it increases when attention, practice, and meaning come together.`,
+  tags: ["solutions","creativity","strategy"]
+},
+{
+  id: "adaptability",
+  category: "INTELLIGENCE",
+  title: "Adaptability",
+  essence: "The ability to adjust thinking and behavior in changing situations.",
+  explanation: `Adaptability is the ability to adjust when things change. It means responding flexibly instead of breaking down or staying stuck when situations, plans, or conditions shift. Life is unpredictable, and adaptability is what helps you continue moving forward even when things don’t go as expected.
+
+For example, imagine you prepared for one career path, but circumstances forced you to change direction. A rigid response says, “My life is ruined.” An adaptable response says, “This is not what I planned—but what can I learn or do next?” The situation is the same, but adaptability changes the outcome.
+
+Adaptability does not mean giving up values or identity. It means changing methods, not meaning. You may keep the same goals—growth, stability, purpose—but adjust how you reach them. This flexibility is a strength, not a weakness.
+
+Emotion plays a big role here. Fear resists change. Curiosity works with it. Adaptable people still feel fear or discomfort, but they don’t let those feelings stop action. They experiment, learn, and adjust instead of freezing.
+
+Adaptability also relies on learning from feedback. When something doesn’t work, an adaptable mind asks, “What is this teaching me?” instead of “Why did this happen to me?” This shift turns setbacks into information.
+
+In a fast-changing world, adaptability matters more than rigid planning. Skills change, environments change, people change. Those who adapt stay relevant and mentally healthier.
+
+Adaptability can be trained. Trying new approaches, reflecting on mistakes, and staying open to unfamiliar ideas gradually strengthen it. The goal is not to control change, but to work with it intelligently.
+
+Adaptability is staying steady inside while adjusting outside.`,
+  tags: ["flexibility","change","resilience"]
+},
+{
+  id: "self_awareness",
+  category: "INTELLIGENCE",
+  title: "Self-Awareness",
+  essence: "Understanding one’s own strengths, limits, and thought patterns.",
+  explanation: `Self-awareness is the ability to notice and understand your own thoughts, emotions, behaviors, and patterns. It means you can step back and observe yourself instead of being completely lost in reactions. When you say, “I know what I’m feeling and why,” you are using self-awareness.
+
+Most people live on autopilot. They feel angry, anxious, or insecure and immediately react, without knowing what triggered it. Self-awareness creates a pause. In that pause, you can see what is happening inside you. For example, instead of saying, “He made me angry,” you notice, “I felt angry because I felt disrespected.” That shift gives you clarity and control.
+
+Self-awareness has two directions. One is inner awareness—noticing thoughts, emotions, desires, fears, and habits. The other is outer awareness—understanding how your behavior affects others. A self-aware person notices not only what they feel, but also how they come across.
+
+This skill is powerful because you cannot change what you cannot see. When patterns stay unconscious, they repeat. When they become visible, they become flexible. For instance, noticing that you avoid difficult conversations allows you to work on courage instead of blaming circumstances.
+
+Self-awareness does not mean self-criticism. It is about curiosity, not judgment. Harsh self-judgment closes awareness. Gentle observation opens it. You don’t say, “I’m terrible for feeling this.” You say, “Interesting—this is what I’m feeling.”
+
+Self-awareness grows through reflection, honest feedback, journaling, and quiet attention. Even asking yourself simple questions like “What am I feeling right now?” strengthens it.
+
+As self-awareness increases, emotional control improves, decisions become clearer, and relationships deepen—because you are no longer acting blindly.
+
+Self-awareness is the ability to see yourself clearly—so your actions come from understanding instead of habit.`,
+  tags: ["reflection","metacognition","clarity"]
+},
+   {
+  id: "",
+  category: "Mental Models",
+  title: "First Principles Thinking",
+  essence: "Breaking problems down to their most basic truths.",
+  explanation: ``,
+  tags: ["foundations","clarity","reasoning"]
+},
+{
+  id: "",
+  category: "Mental Models",
+  title: "Second-Order Thinking",
+  essence: "Considering the long-term and indirect consequences of actions.",
+  explanation: ``,
+  tags: ["consequences","foresight","systems"]
+},
+{
+  id: "",
+  category: "Mental Models",
+  title: "Systems Thinking",
+  essence: "Understanding how parts interact to form a whole.",
+  explanation: ``,
+  tags: ["systems","interconnections","patterns"]
+},
+{
+  id: "",
+  category: "Mental Models",
+  title: "Inversion",
+  essence: "Solving problems by thinking in reverse.",
+  explanation: ``,
+  tags: ["reverse thinking","avoidance","clarity"]
+},
+{
+  id: "",
+  category: "Mental Models",
+  title: "Probabilistic Thinking",
+  essence: "Reasoning in terms of likelihoods rather than certainties.",
+  explanation: ``,
+  tags: ["uncertainty","risk","judgment"]
+},
+   {
+  id: "",
+  category: "Cognitive Biases",
+  title: "Confirmation Bias",
+  essence: "The tendency to favor information that supports existing beliefs.",
+  explanation: ``,
+  tags: ["belief","selective thinking","evidence"]
+},
+{
+  id: "",
+  category: "Cognitive Biases",
+  title: "Anchoring Bias",
+  essence: "Relying too heavily on the first piece of information encountered.",
+  explanation: ``,
+  tags: ["judgment","reference point","decision"]
+},
+{
+  id: "",
+  category: "Cognitive Biases",
+  title: "Availability Bias",
+  essence: "Judging likelihood based on how easily examples come to mind.",
+  explanation: ``,
+  tags: ["memory","perception","probability"]
+},
+{
+  id: "",
+  category: "Cognitive Biases",
+  title: "Overconfidence Bias",
+  essence: "Overestimating one’s own knowledge or abilities.",
+  explanation: ``,
+  tags: ["certainty","judgment","self-assessment"]
+},
+{
+  id: "",
+  category: "Cognitive Biases",
+  title: "Loss Aversion",
+  essence: "The tendency to prefer avoiding losses over acquiring gains.",
+  explanation: ``,
+  tags: ["risk","emotion","decision-making"]
+},
+   {
+  id: "",
+  category: "Laws and Principles",
+  title: "Cause and Effect",
+  essence: "Every action produces consequences that shape future outcomes.",
+  explanation: ``,
+  tags: ["causality","consequences","actions"]
+},
+{
+  id: "",
+  category: "Laws and Principles",
+  title: "Impermanence",
+  essence: "All things change and nothing remains fixed forever.",
+  explanation: ``,
+  tags: ["change","time","transience"]
+},
+{
+  id: "",
+  category: "Laws and Principles",
+  title: "Law of Least Effort",
+  essence: "Humans naturally choose paths requiring the least energy.",
+  explanation: ``,
+  tags: ["efficiency","behavior","effort"]
+},
+{
+  id: "",
+  category: "Laws and Principles",
+  title: "Diminishing Returns",
+  essence: "Beyond a point, additional effort produces smaller benefits.",
+  explanation: ``,
+  tags: ["limits","efficiency","balance"]
+},
+{
+  id: "",
+  category: "Laws and Principles",
+  title: "Feedback Principle",
+  essence: "Outputs of a system loop back to influence future behavior.",
+  explanation: ``,
+  tags: ["loops","systems","adaptation"]
+},
+   {
+  id: "",
+  category: "Theories",
+  title: "Theory of Evolution",
+  essence: "Species change over time through variation and natural selection.",
+  explanation: ``,
+  tags: ["biology","adaptation","life"]
+},
+{
+  id: "",
+  category: "Theories",
+  title: "Theory of Relativity",
+  essence: "Space and time are interconnected and relative to motion.",
+  explanation: ``,
+  tags: ["space-time","physics","motion"]
+},
+{
+  id: "",
+  category: "Theories",
+  title: "Quantum Theory",
+  essence: "Physical reality behaves probabilistically at the smallest scales.",
+  explanation: ``,
+  tags: ["uncertainty","particles","physics"]
+},
+{
+  id: "",
+  category: "Theories",
+  title: "Attachment Theory",
+  essence: "Early relationships shape emotional bonds and behavior.",
+  explanation: ``,
+  tags: ["relationships","development","emotion"]
+},
+{
+  id: "",
+  category: "Theories",
+  title: "Cognitive Load Theory",
+  essence: "The mind has limited capacity for processing information.",
+  explanation: ``,
+  tags: ["learning","memory","attention"]
+},
+   {
+  id: "",
+  category: "Paradoxes",
+  title: "Ship of Theseus",
+  essence: "Questions whether an object remains the same after all parts change.",
+  explanation: ``,
+  tags: ["identity","change","continuity"]
+},
+{
+  id: "",
+  category: "Paradoxes",
+  title: "Grandfather Paradox",
+  essence: "Explores contradictions arising from time travel and causality.",
+  explanation: ``,
+  tags: ["time","causality","logic"]
+},
+{
+  id: "",
+  category: "Paradoxes",
+  title: "Liar Paradox",
+  essence: "A statement that refers to itself and creates a contradiction.",
+  explanation: ``,
+  tags: ["self-reference","truth","logic"]
+},
+{
+  id: "",
+  category: "Paradoxes",
+  title: "Zeno’s Paradoxes",
+  essence: "Challenges the nature of motion and infinity.",
+  explanation: ``,
+  tags: ["motion","infinity","space"]
+},
+{
+  id: "",
+  category: "Paradoxes",
+  title: "Choice Paradox",
+  essence: "More options can reduce satisfaction and clarity.",
+  explanation: ``,
+  tags: ["decision-making","freedom","psychology"]
+}
+
+
 ];
 window.SEED_VAULT = SEED_VAULT;
+
 
 
 
