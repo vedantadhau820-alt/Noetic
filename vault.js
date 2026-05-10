@@ -9,8 +9,31 @@
    USER STATE
 ----------------------------------------- */
 
+const USER_STATE_KEY = "BUDDHIKOSH_USER_STATE";
 
-let userState = UserState.load();
+const defaultUserState = {
+  savedIds: [],
+  reflections: {}, // { itemId: [{ text, date }] }
+  streak: null
+};
+
+function loadUserState() {
+  const raw = localStorage.getItem(USER_STATE_KEY);
+  if (!raw) return structuredClone(defaultUserState);
+
+  try {
+    return { ...defaultUserState, ...JSON.parse(raw) };
+  } catch {
+    return structuredClone(defaultUserState);
+  }
+}
+
+function saveUserState(state) {
+  localStorage.setItem(USER_STATE_KEY, JSON.stringify(state));
+}
+
+let userState = loadUserState();
+
 /* -----------------------------------------
    RUNTIME VAULT BUILDER
 ----------------------------------------- */
@@ -53,7 +76,7 @@ window.Vault = {
     } else {
       userState.savedIds.push(id);
     }
-    UserState.save(userState);
+    saveUserState(userState);
   },
 
   getItemById(id) {
@@ -70,6 +93,6 @@ window.Vault = {
       date: new Date().toISOString().split("T")[0]
     });
 
-    UserState.save(userState);
+    saveUserState(userState);
   }
 };
