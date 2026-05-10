@@ -2614,7 +2614,45 @@ The thought experiment suggests that humans may want more than just feeling good
 
 This experiment becomes even more powerful in the modern world of virtual reality, social media, and digital escapism. It asks whether comfort and pleasure are enough for a meaningful life.
 
-In simple terms, the Experience Machine asks: “Is happiness alone enough
+In simple terms, the Experience Machine asks: “Is happiness alone enough, or does reality matter too?”`,
+  tags: ["reality", "happiness", "meaning"]
+},
+
+{
+  id: "chinese-room",
+  category: "THOUGHT_EXPERIMENTS",
+  title: "Chinese Room",
+  essence: "Can something appear intelligent without truly understanding anything?",
+  explanation: `The Chinese Room is a famous thought experiment about artificial intelligence and understanding. Imagine a person sitting inside a closed room. That person does not understand Chinese at all. However, inside the room is a giant instruction manual explaining exactly how to respond to Chinese symbols.
+
+People outside the room slide questions written in Chinese under the door. The person inside follows the instructions carefully and sends back correct answers in Chinese. To the people outside, it appears that the room understands Chinese perfectly.
+
+But in reality, nobody inside truly understands the language. The person is only following rules and manipulating symbols.
+
+The experiment argues that computers may work the same way. A machine can process information and give intelligent responses without actually understanding meaning, emotions, or awareness. It may imitate intelligence perfectly while still being empty inside.
+
+This thought experiment challenges the belief that advanced AI automatically becomes conscious just because it behaves intelligently. It separates “acting intelligent” from “actually understanding.”
+
+In simple terms, the Chinese Room asks: “Does perfect imitation mean real understanding?”`,
+  tags: ["ai", "language", "consciousness"]
+},
+
+{
+  id: "library-of-babel",
+  category: "THOUGHT_EXPERIMENTS",
+  title: "The Library of Babel",
+  essence: "An infinite library containing every possible book ever written.",
+  explanation: `The Library of Babel imagines a massive infinite library filled with books containing every possible combination of letters, words, and sentences. Most books are complete nonsense, random symbols without meaning. But hidden among the chaos are books containing every true story, every false story, every scientific discovery, every secret, and every possible version of your life.
+
+Somewhere in the library exists a perfect biography of you. Somewhere else exists a book predicting your future. Another book explains the meaning of life. Another contains one tiny mistake that changes everything.
+
+The terrifying part is that useful knowledge becomes almost impossible to find because it is buried beneath endless meaningless information. Truth exists, but so do infinite lies that look almost identical.
+
+The experiment explores infinity, knowledge, and humanity’s search for meaning. It reflects the modern internet in many ways: endless information, endless confusion, and no guaranteed way to know what is true.
+
+In simple terms, the Library of Babel asks: “If all knowledge exists somewhere, how do you ever find truth?”`,
+  tags: ["infinity", "knowledge", "truth"]
+},
 
 ];
 window.SEED_VAULT = SEED_VAULT;
