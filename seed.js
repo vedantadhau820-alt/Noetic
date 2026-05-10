@@ -2563,12 +2563,11 @@ One helpful strategy is becoming a satisficer instead of a maximizer. A satisfic
 
 Freedom grows with choice, but peace grows with limits—clarity comes from choosing what matters, not everything available.`,
   tags: ["decision-making","freedom","psychology"]
-}
-
+},
 
 {
   id: "boltzmann-brain",
-  category: "COSMOLOGY",
+  category: "THOUGHT_EXPERIMENTS",
   title: "Boltzmann Brain",
   essence: "What if you are just a random brain floating in chaos?",
   explanation: `The Boltzmann Brain thought experiment comes from physics and probability. It asks a strange question: if the universe is infinite and lasts forever, what is more likely—to create an entire organized universe like ours, or to randomly create a single conscious brain with fake memories?
@@ -2585,7 +2584,7 @@ In simple terms, the Boltzmann Brain asks: “How can you prove your reality is 
 
 {
   id: "rokos-basilisk",
-  category: "ARTIFICIAL INTELLIGENCE",
+  category: "THOUGHT_EXPERIMENTS",
   title: "Roko's Basilisk",
   essence: "Could a future AI punish you just for not helping create it?",
   explanation: `Roko’s Basilisk is a modern thought experiment connected to artificial intelligence, fear, and decision theory. It imagines a future superintelligent AI that becomes powerful enough to simulate human minds and punish people from the past.
@@ -2602,7 +2601,7 @@ In simple terms, Roko’s Basilisk asks: “Can knowledge itself become a threat
 
 {
   id: "experience-machine",
-  category: "PHILOSOPHY",
+  category: "THOUGHT_EXPERIMENTS",
   title: "The Experience Machine",
   essence: "Would you choose a perfect fake life over a real imperfect one?",
   explanation: `The Experience Machine is a thought experiment created to explore happiness and meaning. Imagine a machine that can simulate the perfect life for you. Once connected, you would experience endless joy, success, love, adventure, or anything else you desire. The experiences would feel completely real, and you would never know you were inside a simulation.
