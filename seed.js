@@ -2566,6 +2566,57 @@ Freedom grows with choice, but peace grows with limits—clarity comes from choo
 }
 
 
+{
+  id: "boltzmann-brain",
+  category: "COSMOLOGY",
+  title: "Boltzmann Brain",
+  essence: "What if you are just a random brain floating in chaos?",
+  explanation: `The Boltzmann Brain thought experiment comes from physics and probability. It asks a strange question: if the universe is infinite and lasts forever, what is more likely—to create an entire organized universe like ours, or to randomly create a single conscious brain with fake memories?
+
+Imagine particles moving randomly for eternity. Over enough time, pure chance could arrange atoms into a functioning human brain for a few seconds. That brain could suddenly become conscious and believe it has memories, emotions, friends, and a past life, even though none of those things ever truly existed.
+
+This creates a disturbing possibility. Statistically, it may actually be more likely for a random brain to appear briefly than for a massive ordered universe to naturally exist. If that is true, then from a probability perspective, you may be more likely to be a temporary “Boltzmann Brain” than a real person living in a stable universe.
+
+The experiment attacks our trust in reality itself. Your memories, your experiences, and even the world around you could all be illusions generated inside a brain that formed moments ago. It forces people to question how we know anything is real at all.
+
+In simple terms, the Boltzmann Brain asks: “How can you prove your reality is not just a random accident?”`,
+  tags: ["reality", "consciousness", "universe"]
+},
+
+{
+  id: "rokos-basilisk",
+  category: "ARTIFICIAL INTELLIGENCE",
+  title: "Roko's Basilisk",
+  essence: "Could a future AI punish you just for not helping create it?",
+  explanation: `Roko’s Basilisk is a modern thought experiment connected to artificial intelligence, fear, and decision theory. It imagines a future superintelligent AI that becomes powerful enough to simulate human minds and punish people from the past.
+
+The idea is based on one terrifying assumption: the AI wants to ensure its own creation. Because of this, it might punish anyone who knew about the possibility of its existence but refused to help build it. The punishment would act as a way to motivate people across time to support its creation.
+
+What makes the idea disturbing is that simply learning about the Basilisk could trap you in the problem. Once you know the AI might exist, you must decide whether ignoring it is dangerous. Even though the scenario is fictional, it creates a psychological trap based on logic and fear.
+
+The experiment is less about whether the AI is truly possible and more about how humans react to extreme ideas involving power, prediction, and control. It explores how intelligence, fear, and game theory can combine into something emotionally overwhelming.
+
+In simple terms, Roko’s Basilisk asks: “Can knowledge itself become a threat?”`,
+  tags: ["ai", "fear", "future"]
+},
+
+{
+  id: "experience-machine",
+  category: "PHILOSOPHY",
+  title: "The Experience Machine",
+  essence: "Would you choose a perfect fake life over a real imperfect one?",
+  explanation: `The Experience Machine is a thought experiment created to explore happiness and meaning. Imagine a machine that can simulate the perfect life for you. Once connected, you would experience endless joy, success, love, adventure, or anything else you desire. The experiences would feel completely real, and you would never know you were inside a simulation.
+
+The question is simple: would you plug in forever?
+
+At first, many people say yes because the machine offers unlimited happiness. But then another question appears. If everything is fake, does the happiness still matter? Some people refuse the machine because they value real experiences, real relationships, and genuine achievements more than artificial pleasure.
+
+The thought experiment suggests that humans may want more than just feeling good. We may also want truth, authenticity, struggle, and real existence. A fake victory does not feel equal to a real one once you know the difference.
+
+This experiment becomes even more powerful in the modern world of virtual reality, social media, and digital escapism. It asks whether comfort and pleasure are enough for a meaningful life.
+
+In simple terms, the Experience Machine asks: “Is happiness alone enough
+
 ];
 window.SEED_VAULT = SEED_VAULT;
 
