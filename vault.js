@@ -1,44 +1,24 @@
 /* =========================================
-   VAULT ENGINE (RUNTIME)
+   VAULT ENGINE
    - Seed = truth
    - UserState = persistence
-   - Vault = derived view
+   - Vault = derived runtime view
 ========================================= */
 
+
 /* -----------------------------------------
-   USER STATE
+   LOAD USER STATE
 ----------------------------------------- */
 
-const USER_STATE_KEY = "BUDDHIKOSH_USER_STATE";
+let userState = UserState.load();
 
-const defaultUserState = {
-  savedIds: [],
-  reflections: {}, // { itemId: [{ text, date }] }
-  streak: null
-};
-
-function loadUserState() {
-  const raw = localStorage.getItem(USER_STATE_KEY);
-  if (!raw) return structuredClone(defaultUserState);
-
-  try {
-    return { ...defaultUserState, ...JSON.parse(raw) };
-  } catch {
-    return structuredClone(defaultUserState);
-  }
-}
-
-function saveUserState(state) {
-  localStorage.setItem(USER_STATE_KEY, JSON.stringify(state));
-}
-
-let userState = loadUserState();
 
 /* -----------------------------------------
-   RUNTIME VAULT BUILDER
+   BUILD RUNTIME VAULT
 ----------------------------------------- */
 
 function buildRuntimeVault() {
+
   if (!Array.isArray(window.SEED_VAULT)) {
     console.error("SEED_VAULT missing or invalid");
     return [];
@@ -46,53 +26,101 @@ function buildRuntimeVault() {
 
   return window.SEED_VAULT.map(item => ({
     ...item,
+
     saved: userState.savedIds.includes(item.id),
-    reflections: userState.reflections[item.id] || []
+
+    reflections:
+      userState.reflections[item.id] || []
   }));
 }
+
 
 /* -----------------------------------------
    VAULT API
 ----------------------------------------- */
 
-window.Vault = {
+const Vault = {
+
+  /* Get every knowledge item */
   getAllItems() {
     return buildRuntimeVault();
   },
 
+
+  /* Get items by category */
   getItemsByCategory(category) {
+
     return buildRuntimeVault().filter(
       item => item.category === category
     );
   },
 
+
+  /* Get saved items only */
   getSavedItems() {
-    return buildRuntimeVault().filter(item => item.saved);
+
+    return buildRuntimeVault().filter(
+      item => item.saved
+    );
   },
 
+
+  /* Get single item */
+  getItemById(id) {
+
+    return buildRuntimeVault().find(
+      item => item.id === id
+    );
+  },
+
+
+  /* Toggle save state */
   toggleSaveItem(id) {
+
     if (userState.savedIds.includes(id)) {
-      userState.savedIds = userState.savedIds.filter(x => x !== id);
+
+      userState.savedIds =
+        userState.savedIds.filter(
+          savedId => savedId !== id
+        );
+
     } else {
+
       userState.savedIds.push(id);
     }
-    saveUserState(userState);
+
+    UserState.save(userState);
   },
 
-  getItemById(id) {
-    return buildRuntimeVault().find(item => item.id === id);
-  },
 
+  /* Add reflection */
   addReflection(itemId, text) {
+
     if (!userState.reflections[itemId]) {
       userState.reflections[itemId] = [];
     }
 
     userState.reflections[itemId].push({
       text,
-      date: new Date().toISOString().split("T")[0]
+      date: new Date()
+        .toISOString()
+        .split("T")[0]
     });
 
-    saveUserState(userState);
+    UserState.save(userState);
+  },
+
+
+  /* Reload runtime state */
+  refresh() {
+    userState = UserState.load();
   }
+
 };
+
+
+/* -----------------------------------------
+   GLOBAL EXPORT
+----------------------------------------- */
+
+window.Vault = Vault;
