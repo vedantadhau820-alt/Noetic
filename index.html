@@ -130,14 +130,14 @@
   <!-- =====================================
        SCRIPTS (ORDER MATTERS)
   ====================================== -->
-  <script src="seed.js"></script>
-  <script src="storage.js"></script>
-  <script src="vault.js"></script>
-  <script src="streak.js"></script>
-  <script src="daily.js"></script>
-  <script src="cards.js"></script>
-  <script src="modals.js"></script>
-  <script src="userState.js"></script>
+  <script defer src="seed.js"></script>
+  <script defer src="storage.js"></script>
+  <script defer src="userState.js"></script>
+  <script defer src="vault.js"></script>
+  <script defer src="streak.js"></script>
+  <script defer src="daily.js"></script>
+  <script defer src="cards.js"></script>
+  <script defer src="modals.js"></script>
 
   
     <!-- Service Worker -->
@@ -145,7 +145,7 @@
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
       navigator.serviceWorker
-        .register("./service-worker.js")
+        .register("/service-worker.js")
         .then(() => console.log("Service Worker Registered"))
         .catch(err => console.error("SW registration failed:", err));
     });
