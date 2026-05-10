@@ -1,27 +1,41 @@
-const USER_STATE_KEY = "BUDDHIKOSH_USER_STATE";
+/* =========================================
+   USER STATE ENGINE
+========================================= */
+
+const USER_STATE_KEY = "NOETIC_USER_STATE";
 
 const defaultUserState = {
   savedIds: [],
-  reflections: {}, // { itemId: [{ text, date }] }
+  reflections: {},
   streak: null
 };
 
 function loadUserState() {
   const raw = localStorage.getItem(USER_STATE_KEY);
-  if (!raw) return structuredClone(defaultUserState);
+
+  if (!raw) {
+    return structuredClone(defaultUserState);
+  }
 
   try {
-    return { ...defaultUserState, ...JSON.parse(raw) };
+    return {
+      ...defaultUserState,
+      ...JSON.parse(raw)
+    };
   } catch {
     return structuredClone(defaultUserState);
   }
 }
 
 function saveUserState(state) {
-  localStorage.setItem(USER_STATE_KEY, JSON.stringify(state));
+  localStorage.setItem(
+    USER_STATE_KEY,
+    JSON.stringify(state)
+  );
 }
 
 window.UserState = {
   load: loadUserState,
-  save: saveUserState
+  save: saveUserState,
+  defaultState: defaultUserState
 };
