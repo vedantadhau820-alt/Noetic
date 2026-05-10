@@ -140,12 +140,17 @@
   <script src="userState.js"></script>
 
   
-    Service Worker (optional – enable for PWA)
-    <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("./service-worker.js");
-      }
-    </script>
+    <!-- Service Worker -->
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker
+        .register("./service-worker.js")
+        .then(() => console.log("Service Worker Registered"))
+        .catch(err => console.error("SW registration failed:", err));
+    });
+  }
+</script>
 
 
 </body>
