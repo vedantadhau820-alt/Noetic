@@ -245,7 +245,7 @@ function renderVaultCategories() {
     { key: "SPIRITUAL", label: "Spiritual" },
 
     { key: "UNSOLVED_MYSTERIES", label: "Unsolved Mysteries" },
-    { key: "UNANSWERED_QUESTION", label: "Unanswered Questions" },
+    { key: "UNANSWERED_QUESTIONS", label: "Unanswered Questions" },
 
 
   ];
