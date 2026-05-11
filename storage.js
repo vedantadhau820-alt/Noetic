@@ -142,38 +142,43 @@ function clearVault() {
 
 function initializeVault(seedData = []) {
 
-  const existingVault = loadVault();
+  const currentVersion =
+    localStorage.getItem(VAULT_VERSION_KEY);
 
-  if (
-    Array.isArray(existingVault) &&
-    existingVault.length > 0
-  ) {
+  /* -------------------------------------
+     VERSION MATCH → USE STORED
+  ------------------------------------- */
 
-    return existingVault;
+  if (currentVersion === SEED_VERSION) {
+
+    const existingVault = loadVault();
+
+    if (
+      Array.isArray(existingVault) &&
+      existingVault.length > 0
+    ) {
+
+      return existingVault;
+
+    }
 
   }
 
 
   /* -------------------------------------
-     VALIDATE SEED DATA
+     NEW VERSION → RESET VAULT
   ------------------------------------- */
 
-  if (!Array.isArray(seedData)) {
-
-    console.error(
-      "Seed data must be an array"
-    );
-
-    seedData = [];
-
-  }
-
-
-  /* -------------------------------------
-     SAVE INITIAL DATA
-  ------------------------------------- */
+  console.log(
+    "New seed version detected. Updating vault..."
+  );
 
   saveVault(seedData);
+
+  localStorage.setItem(
+    VAULT_VERSION_KEY,
+    SEED_VERSION
+  );
 
   return seedData;
 
