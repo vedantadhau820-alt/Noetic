@@ -6,66 +6,221 @@
 const VAULT_KEY = "BUDDHIKOSH_VAULT";
 
 
-/* -----------------------------------------
+/* =========================================
    LOAD
------------------------------------------ */
+========================================= */
 
 /*
-  Loads vault data from localStorage.
-  Returns:
-  - Parsed array on success
-  - null if missing or corrupted
+   Loads vault data from localStorage
+
+   Returns:
+   - Array on success
+   - null on failure
 */
+
 function loadVault() {
-  const stored = localStorage.getItem(VAULT_KEY);
-  if (!stored) return null;
 
   try {
-    return JSON.parse(stored);
-  } catch (err) {
-    console.error("Failed to parse vault data", err);
+
+    const stored =
+      localStorage.getItem(VAULT_KEY);
+
+    if (!stored) return null;
+
+    const parsed = JSON.parse(stored);
+
+    if (!Array.isArray(parsed)) {
+
+      console.warn(
+        "Vault data is not an array"
+      );
+
+      return null;
+
+    }
+
+    return parsed;
+
+  } catch (error) {
+
+    console.error(
+      "Failed to load vault data:",
+      error
+    );
+
     return null;
+
   }
+
 }
 
 
-/* -----------------------------------------
+/* =========================================
    SAVE
------------------------------------------ */
-
-/* Persists vault data to localStorage */
-function saveVault(vault) {
-  localStorage.setItem(VAULT_KEY, JSON.stringify(vault));
-}
-
-
-/* -----------------------------------------
-   INITIALIZATION
------------------------------------------ */
+========================================= */
 
 /*
-  Initializes vault on first run.
-  - Uses existing stored data if valid
-  - Otherwise seeds with provided data
+   Saves vault safely
 */
-function initializeVault(seedData) {
-  const existingVault = loadVault();
 
-  if (Array.isArray(existingVault)) {
-    return existingVault;
+function saveVault(vault = []) {
+
+  try {
+
+    if (!Array.isArray(vault)) {
+
+      console.error(
+        "Attempted to save invalid vault data"
+      );
+
+      return false;
+
+    }
+
+    localStorage.setItem(
+      VAULT_KEY,
+      JSON.stringify(vault)
+    );
+
+    return true;
+
+  } catch (error) {
+
+    console.error(
+      "Failed to save vault:",
+      error
+    );
+
+    return false;
+
   }
 
-  saveVault(seedData);
-  return seedData;
 }
 
 
-/* -----------------------------------------
+/* =========================================
+   CLEAR
+========================================= */
+
+/*
+   Removes vault from storage
+*/
+
+function clearVault() {
+
+  try {
+
+    localStorage.removeItem(VAULT_KEY);
+
+    return true;
+
+  } catch (error) {
+
+    console.error(
+      "Failed to clear vault:",
+      error
+    );
+
+    return false;
+
+  }
+
+}
+
+
+/* =========================================
+   INITIALIZATION
+========================================= */
+
+/*
+   Initializes vault on first run
+
+   Rules:
+   - Uses stored vault if valid
+   - Otherwise seeds from seedData
+*/
+
+function initializeVault(seedData = []) {
+
+  const existingVault = loadVault();
+
+  if (
+    Array.isArray(existingVault) &&
+    existingVault.length > 0
+  ) {
+
+    return existingVault;
+
+  }
+
+
+  /* -------------------------------------
+     VALIDATE SEED DATA
+  ------------------------------------- */
+
+  if (!Array.isArray(seedData)) {
+
+    console.error(
+      "Seed data must be an array"
+    );
+
+    seedData = [];
+
+  }
+
+
+  /* -------------------------------------
+     SAVE INITIAL DATA
+  ------------------------------------- */
+
+  saveVault(seedData);
+
+  return seedData;
+
+}
+
+
+/* =========================================
+   VALIDATION HELPERS
+========================================= */
+
+/*
+   Checks if vault exists
+*/
+
+function vaultExists() {
+
+  return localStorage.getItem(VAULT_KEY) !== null;
+
+}
+
+
+/*
+   Returns vault size
+*/
+
+function getVaultSize() {
+
+  const vault = loadVault();
+
+  return Array.isArray(vault)
+    ? vault.length
+    : 0;
+
+}
+
+
+/* =========================================
    PUBLIC API
------------------------------------------ */
+========================================= */
 
 window.StorageEngine = {
+
   loadVault,
   saveVault,
-  initializeVault
+  clearVault,
+  initializeVault,
+  vaultExists,
+  getVaultSize
+
 };
