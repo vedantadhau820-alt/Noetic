@@ -3,7 +3,7 @@
 =========================== */
 
 // window.SEED_VERSION = "1.0.3";
-const SEED_VERSION = "1.0.0";
+const SEED_VERSION = "1.0.1";
 const SEED_VAULT = [
 
 // {
@@ -15,6 +15,22 @@ const SEED_VAULT = [
 //   tags: ["", ""]
 // },
 
+{
+  id: "existence2",
+  category: "METAPHYSICS",
+  title: "What Is Existence ?",
+  essence: "Why anything exists at all.",
+  explanation: `Existence means being real or being there. If something exists, it is not imaginary—it has some form of reality. You exist. Other people exist. Trees, air, sound, thoughts, and even time exist in different ways. Existence simply answers one basic question: “Is this real in any way?”
+
+Think of a chair in front of you. You can see it, touch it, sit on it. So the chair exists physically. Now think of a dream you had last night. The dream felt real, but when you woke up, it disappeared. The dream still existed, but only in your mind. This shows that existence is not just about physical objects. Things can exist physically, mentally, or emotionally.
+
+You also exist even when no one is looking at you. You don’t stop existing when you sleep or when you are alone. This means existence does not depend on attention. It simply is. Your thoughts exist when you think them. Your feelings exist when you feel them, even if you never say them out loud.
+
+Another way to understand existence is through change. If something can affect you or be affected by something else, it exists. Fire exists because it can burn. Love exists because it can change how people act. Fear exists because it can stop you from moving.
+
+So, existence is the state of being something rather than nothing. It is the basic fact that something is happening at all. Everything else—life, meaning, choices—comes after existence.`,
+  tags: ["being", "reality"]
+},
 {
   id: "existence",
   category: "METAPHYSICS",
