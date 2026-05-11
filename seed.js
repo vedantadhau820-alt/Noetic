@@ -2764,7 +2764,337 @@ The law is simple:
 When your presence becomes necessary,
 your position becomes powerful.`,
   tags: ["influence", "value"]
-}
+},
+
+   {
+  id: "mirror_symbolism",
+  category: "SYMBOLISM",
+  title: "The Mirror",
+  essence: "A symbol of truth, identity, and self-awareness.",
+  explanation: `A mirror symbolizes reflection—not just physical reflection, but psychological and spiritual reflection. It represents the ability to see yourself clearly. In stories, philosophy, and art, mirrors often reveal hidden truth. Sometimes they show reality honestly, and sometimes they expose what people try to hide from themselves.
+
+When a person looks into a mirror, they are forced to confront their image directly. This is why mirrors are connected to self-awareness and identity. A mirror asks a silent question: “Who are you really?” Not who you pretend to be, but who you are underneath appearances.
+
+Mirrors also symbolize duality. The reflection looks like you, but it is reversed. This creates the feeling that there are always two versions of a person—the outer self shown to the world and the inner self hidden inside.
+
+In mythology and literature, broken mirrors often symbolize fractured identity, bad luck, or psychological collapse. Foggy or distorted mirrors symbolize confusion and inability to see reality clearly.
+
+A mirror can also represent society itself. Other people reflect parts of your personality back to you. Through relationships, criticism, and connection, humans discover themselves indirectly.
+
+The symbol becomes powerful because everyone understands the experience of reflection. A mirror does not create truth—it only reveals what already exists.`,
+  tags: ["reflection", "identity"]
+},
+{
+  id: "fire_symbolism",
+  category: "SYMBOLISM",
+  title: "Fire",
+  essence: "A symbol of destruction, transformation, and life force.",
+  explanation: `Fire is one of humanity’s oldest and strongest symbols. It represents both creation and destruction at the same time. Fire can provide warmth, light, survival, and energy, but it can also burn, consume, and destroy everything in its path.
+
+Because of this dual nature, fire symbolizes transformation. When something enters fire, it changes permanently. Wood becomes ash. Metal becomes purified. Food becomes cooked. Symbolically, people also pass through emotional or spiritual fire during struggle, pain, or growth.
+
+Fire is often connected to passion and intense emotion. Love burns. Anger burns. Desire burns. These emotions feel alive and uncontrollable, just like flames. This is why fire is used to symbolize inner energy and ambition.
+
+In spiritual traditions, fire frequently represents purification. Old parts of the self are destroyed so something new can emerge. Many cultures use candles or sacred flames to symbolize wisdom, spirit, or divine presence.
+
+At the same time, uncontrolled fire symbolizes chaos. Human emotions without discipline can spread destructively just like wildfire.
+
+The power of fire as a symbol comes from its contradiction. It gives life and takes life. It creates and destroys. It is both beautiful and dangerous at once.`,
+  tags: ["transformation", "energy"]
+},
+{
+  id: "ocean_symbolism",
+  category: "SYMBOLISM",
+  title: "The Ocean",
+  essence: "A symbol of the unknown, emotion, and infinity.",
+  explanation: `The ocean symbolizes depth, mystery, and the unconscious mind. Humans can see its surface, but its deeper parts remain hidden and difficult to understand. Because of this, the ocean often represents the unknown parts of existence and the hidden parts of ourselves.
+
+Calm oceans symbolize peace, openness, and emotional balance. Stormy oceans symbolize chaos, fear, emotional conflict, or loss of control. In many stories, crossing an ocean represents entering transformation or moving from one stage of life into another.
+
+The ocean is also associated with infinity. Its endless horizon creates the feeling that reality is far larger than human understanding. Looking at the sea often makes people feel both small and connected to something greater.
+
+Emotionally, water and oceans symbolize feelings because emotions move like waves. Sometimes emotions are calm. Sometimes they rise violently. Sometimes they pull people under unexpectedly. This connection between water and emotion appears across cultures and literature.
+
+The deep ocean especially symbolizes the unconscious mind. Thoughts, fears, memories, and desires often exist beneath awareness just like unseen creatures beneath the sea.
+
+The ocean’s symbolic power comes from uncertainty. Humans are naturally drawn toward mystery, and the sea represents a world that cannot ever be fully controlled or completely understood.`,
+  tags: ["mystery", "emotion"]
+},
+{
+  id: "mask_symbolism",
+  category: "SYMBOLISM",
+  title: "The Mask",
+  essence: "A symbol of hidden identity and social performance.",
+  explanation: `A mask symbolizes the separation between appearance and reality. When someone wears a mask, they hide one identity while presenting another. Because of this, masks are deeply connected to deception, protection, personality, and social roles.
+
+In everyday life, people wear invisible masks constantly. A person may hide sadness behind confidence, fear behind anger, or insecurity behind humor. The symbolic mask represents the version of ourselves shown to society rather than the full truth inside us.
+
+Masks can also symbolize survival. Sometimes people hide their real selves because revealing vulnerability feels dangerous. In this way, masks are not always evil—they can be forms of emotional protection.
+
+In ancient theater, masks allowed actors to become larger symbolic characters rather than individuals. This connected masks to transformation and role-playing. Even today, uniforms, makeup, and online identities function like modern masks.
+
+However, masks create tension. The longer someone hides behind a false identity, the more disconnected they may become from their authentic self. Eventually the question appears: “Who are you without the mask?”
+
+The symbolic power of masks comes from a universal human experience. Nearly everyone has hidden parts of themselves from others at some point in life.`,
+  tags: ["identity", "deception"]
+},
+{
+  id: "moon_symbolism",
+  category: "SYMBOLISM",
+  title: "The Moon",
+  essence: "A symbol of cycles, mystery, and the subconscious.",
+  explanation: `The moon symbolizes change, rhythm, and hidden emotional life. Unlike the sun, which appears constant and direct, the moon changes shape continuously. Because of this, it became associated with cycles, transformation, and the passage of time.
+
+The moon is connected to mystery because it shines indirectly. It reflects light instead of creating its own. Moonlight reveals things partially, not completely. This gives the moon a dreamlike and emotional quality.
+
+In symbolism, the moon often represents the subconscious mind—the hidden world of intuition, dreams, emotions, and inner imagination. Nighttime itself symbolizes uncertainty and introspection, making the moon a guide through darkness.
+
+Different moon phases carry different meanings. A full moon symbolizes completion, intensity, or revelation. A crescent moon symbolizes beginnings and growth. A fading moon symbolizes endings, decline, or rest.
+
+The moon also reminds humans that life moves in repeating patterns. Emotions rise and fall. People change and return. Darkness is temporary, just as phases eventually shift again.
+
+The symbolic power of the moon comes from its quiet influence. It does not dominate the sky like the sun, yet it deeply affects tides, nights, stories, and human imagination.`,
+  tags: ["cycles", "mystery"]
+},
+
+   {
+  id: "ego_spiritual",
+  category: "SPIRITUALITY",
+  title: "The Ego",
+  essence: "The false self created by identity and attachment.",
+  explanation: `The ego is the version of yourself built from labels, memories, status, fears, and desires. It is the voice in the mind that constantly says “me,” “mine,” and “I.” The ego creates identity, but it also creates separation. It wants recognition, control, validation, and importance.
+
+Ego itself is not evil. Humans need some sense of identity to function in the world. The problem begins when a person completely mistakes the ego for their true self. When identity becomes attached to appearance, success, intelligence, or social approval, suffering grows because all these things can change or disappear.
+
+Spiritually, the ego survives through comparison. It constantly measures itself against others—better, worse, richer, smarter, more attractive, more successful. This endless comparison creates insecurity and restlessness.
+
+The ego also fears silence because silence weakens the illusion of identity. That is why many people distract themselves constantly. Without distraction, they are forced to confront who they are beneath achievements and social masks.
+
+Many spiritual traditions teach that inner peace begins when a person observes the ego instead of obeying it automatically. The moment you can watch your thoughts without fully becoming them, a deeper awareness appears.
+
+The ego says:
+“I am what I own, achieve, or display.”
+
+Spiritual awareness says:
+“You exist even without those things.”
+
+The goal is not destroying the ego completely, but understanding that it is only a tool—not your deepest self.`,
+  tags: ["ego", "identity"]
+},
+{
+  id: "presence_spiritual",
+  category: "SPIRITUALITY",
+  title: "Living In The Present",
+  essence: "Reality is experienced only in the present moment.",
+  explanation: `Most human suffering comes from mentally living somewhere other than the present. People replay the past with regret or fear the future with anxiety. Meanwhile, the only moment truly being lived is now.
+
+Spiritually, the present moment is considered the closest experience to reality itself. The past exists as memory. The future exists as imagination. But the present is directly happening.
+
+When the mind constantly jumps through time, people stop experiencing life clearly. They eat without tasting, walk without noticing, and speak without fully listening. Presence means becoming fully aware of what is happening right now without mental escape.
+
+This does not mean ignoring the future or forgetting the past. Planning and memory are useful. The problem begins when the mind becomes trapped inside them. A person physically alive in one moment may mentally live somewhere else entirely.
+
+Presence creates clarity because reality can only be understood directly, not through endless thought. Many spiritual practices like meditation, prayer, or deep breathing exist to return awareness back to the present.
+
+Nature naturally exists in presence. Trees do not worry about tomorrow. Animals do not carry years of psychological regret. Humans suffer uniquely because the mind can continuously replay time.
+
+The deeper meaning of presence is simple:
+
+Life is never experienced yesterday or tomorrow.
+It is always experienced now.`,
+  tags: ["awareness", "mindfulness"]
+},
+{
+  id: "impermanence_spiritual",
+  category: "SPIRITUALITY",
+  title: "Impermanence",
+  essence: "Everything changes, and nothing stays forever.",
+  explanation: `Impermanence is the understanding that all things eventually change. People grow older. Seasons shift. Relationships evolve. Emotions rise and disappear. Even mountains slowly erode over time.
+
+Humans often suffer because they try to hold onto things permanently—youth, success, pleasure, identity, or people. But reality itself is movement. Nothing remains fixed forever.
+
+Spiritually, understanding impermanence creates wisdom and freedom. Pain becomes easier to survive because difficult moments eventually pass. Pride becomes softer because success also fades. Appreciation grows because moments become more precious when recognized as temporary.
+
+Impermanence also destroys illusion. Many people live as if life will continue endlessly, postponing meaning, love, and truth. But awareness of change reminds humans that time is limited.
+
+Nature constantly demonstrates impermanence. Flowers bloom and die. Day becomes night. Tides rise and fall. Human life follows the same rhythm.
+
+This understanding is not meant to create sadness. Instead, it creates depth. A sunset feels beautiful partly because it disappears. A meaningful conversation matters because moments cannot be repeated exactly.
+
+Spiritually, peace often begins when people stop demanding permanence from a changing world.
+
+The truth of impermanence is simple:
+
+Everything you experience is temporary,
+including both suffering and joy.`,
+  tags: ["change", "acceptance"]
+},
+{
+  id: "inner_silence",
+  category: "SPIRITUALITY",
+  title: "Inner Silence",
+  essence: "Silence reveals what constant noise hides.",
+  explanation: `Most people are surrounded by endless noise—music, screens, opinions, conversation, notifications, and constant thought. Because of this, many never experience true silence. But spiritually, silence is powerful because it reveals what distraction hides.
+
+Inner silence does not only mean absence of sound. It means the quieting of mental chaos. When thoughts slow down, awareness becomes clearer. People begin noticing emotions, fears, desires, and truths they usually avoid.
+
+Silence can feel uncomfortable at first because the mind depends on distraction. Without noise, unresolved thoughts rise to the surface. This is why many people fear being alone with themselves.
+
+However, silence creates space for understanding. Deep insight rarely appears in chaos. It appears in stillness. Many spiritual traditions treat silence as sacred because it allows direct experience beyond constant thinking.
+
+Nature often creates this feeling naturally. Sitting near the ocean, under the night sky, or in a quiet forest can make the mind feel larger and calmer. In silence, existence itself becomes more noticeable.
+
+Inner silence also strengthens attention. Instead of reacting impulsively to every thought or emotion, a person learns observation and control.
+
+The spiritual lesson of silence is simple:
+
+When external noise disappears,
+you finally hear what has always been inside you.`,
+  tags: ["silence", "awareness"]
+},
+{
+  id: "unity_spiritual",
+  category: "SPIRITUALITY",
+  title: "Interconnectedness",
+  essence: "Everything exists as part of a larger whole.",
+  explanation: `Humans often experience themselves as completely separate individuals, disconnected from others and from existence itself. Spiritually, interconnectedness teaches the opposite: everything influences everything else.
+
+Nature works through connection. Trees produce oxygen humans breathe. Humans produce carbon dioxide trees use. Oceans affect weather. The sun affects life on Earth. Every system depends on another system.
+
+Human life is also deeply interconnected. One conversation can change someone’s future. One act of kindness can continue through generations. Even thoughts and emotions spread socially through behavior and energy.
+
+The illusion of complete separation often creates loneliness, greed, and conflict. When people see themselves as isolated from others, harming others feels easier. But recognizing connection creates empathy because another person’s suffering no longer feels completely distant.
+
+Spiritually, interconnectedness also changes how meaning is understood. A single human life may seem small alone, but within the larger web of existence, every action creates ripple effects.
+
+This idea appears across many traditions in different forms. Some describe it as unity, universal consciousness, or oneness. The core idea remains similar: existence is deeply connected beneath surface differences.
+
+The spiritual insight is simple:
+
+You are an individual,
+but never completely separate from the whole.`,
+  tags: ["unity", "connection"]
+},
+
+   {
+  id: "db_cooper",
+  category: "UNSOLVED_MYSTERIES",
+  title: "D. B. Cooper",
+  essence: "A man hijacked a plane, stole money, and vanished forever.",
+  explanation: `In 1971, a man calling himself Dan Cooper boarded a commercial airplane in the United States carrying a briefcase. During the flight, he calmly informed a flight attendant that he had a bomb. He demanded $200,000 in cash and parachutes in exchange for the safety of the passengers.
+
+Authorities took the threat seriously. After the plane landed, the passengers were released and the ransom money was delivered. Then the plane took off again with only a few crew members and Cooper still onboard.
+
+Somewhere in the dark sky above the Pacific Northwest, Cooper opened the rear stairs of the aircraft and parachuted into the night carrying the money. After that, he disappeared completely.
+
+No confirmed body was ever found. No verified trace of him was discovered. Years later, only a small portion of the ransom money appeared near a riverbank, raising even more questions.
+
+Nobody knows whether Cooper survived the jump, planned everything perfectly, or died anonymously in the wilderness. His identity remains unknown.
+
+The mystery became legendary because it feels almost unreal—a calm criminal escaping into darkness without leaving a clear ending.
+
+The unanswered question remains:
+
+Who was D. B. Cooper,
+and where did he go?`,
+  tags: ["crime", "disappearance"]
+},
+{
+  id: "dyatlov_pass",
+  category: "UNSOLVED_MYSTERIES",
+  title: "The Dyatlov Pass Incident",
+  essence: "Nine experienced hikers died under terrifying and unexplained conditions.",
+  explanation: `In 1959, a group of skilled hikers traveled into the snowy Ural Mountains in the Soviet Union. They never returned.
+
+When rescue teams finally discovered their campsite, something deeply disturbing appeared. The hikers had cut their tent open from the inside and fled into freezing darkness barefoot or partially dressed, as if escaping sudden terror.
+
+Their bodies were later found scattered across the snow in strange positions. Some died from hypothermia, but others suffered severe injuries, including crushed ribs and skull fractures, without obvious external wounds. One victim was missing a tongue.
+
+Investigators could not fully explain what happened. There were no clear signs of another attack, yet the behavior of the hikers made little sense. Why would experienced people abandon shelter in deadly cold?
+
+Over the years, theories exploded: avalanche, military experiments, infrasound panic, secret weapons, wild animals, paranormal forces, and even extraterrestrials.
+
+Modern investigations suggest a rare avalanche-like event may explain parts of the tragedy, but many people still believe important details remain unanswered.
+
+The mystery continues because the scene felt less like an accident and more like a moment of sudden invisible horror.
+
+The question still lingers:
+
+What frightened the hikers enough
+to run into the frozen night?`,
+  tags: ["mountains", "death"]
+},
+{
+  id: "zodiac_killer",
+  category: "UNSOLVED_MYSTERIES",
+  title: "The Zodiac Killer",
+  essence: "A serial killer taunted the world with coded messages and was never identified.",
+  explanation: `During the late 1960s and early 1970s, a mysterious serial killer terrorized Northern California. The murderer called himself “Zodiac” and sent letters to newspapers containing threats, cryptic symbols, and coded messages.
+
+What made the case especially terrifying was the killer’s need for attention. He seemed to enjoy turning murder into psychological theater. Some letters included details only the killer could know, proving they were authentic.
+
+The Zodiac claimed responsibility for multiple murders, though investigators could not confirm every claim. Some of his coded messages were eventually solved, but others remain undeciphered even today.
+
+Despite massive investigations, public fear, and decades of theories, the killer’s true identity was never officially confirmed. Many suspects appeared over time, but no definitive proof solved the case completely.
+
+The mystery became larger than the crimes themselves. The coded letters created the feeling that the killer wanted to be understood while simultaneously remaining hidden.
+
+People remain obsessed with the case because it combines fear, intelligence, performance, and anonymity into one haunting puzzle.
+
+The mystery remains:
+
+Who was the Zodiac Killer,
+and what secrets still hide inside the unsolved codes?`,
+  tags: ["serial_killer", "codes"]
+},
+{
+  id: "mary_celeste",
+  category: "UNSOLVED_MYSTERIES",
+  title: "The Mary Celeste",
+  essence: "A perfectly functional ship was discovered abandoned in the middle of the ocean.",
+  explanation: `In 1872, a merchant ship named Mary Celeste was found drifting alone in the Atlantic Ocean. The ship itself was still in good condition. Its cargo remained onboard. Food and supplies were largely untouched.
+
+But the crew had vanished completely.
+
+There were no signs of violent struggle, pirate attack, or major damage. The lifeboat was missing, suggesting the crew left voluntarily—but why would experienced sailors abandon a safe ship in open ocean?
+
+Investigators searched for explanations. Some believed there may have been fear of explosion from alcohol fumes in the cargo hold. Others suggested storms, mutiny, sea monsters, or paranormal causes.
+
+Yet none of the theories fully explained the strange calmness of the abandoned vessel. It felt as though the crew suddenly disappeared from reality itself.
+
+The Mary Celeste became one of history’s most famous ghost ship stories because the mystery was not only about death—it was about absence. An entire human presence vanished while ordinary objects remained frozen in place.
+
+The haunting question still survives:
+
+Why would people abandon safety
+and disappear into the open sea?`,
+  tags: ["ghost_ship", "ocean"]
+},
+{
+  id: "sodder_children",
+  category: "UNSOLVED_MYSTERIES",
+  title: "The Sodder Children Disappearance",
+  essence: "Five children vanished after a house fire, but no bodies were ever found.",
+  explanation: `On Christmas Eve in 1945, the Sodder family home in West Virginia caught fire during the night. The parents and some children escaped, but five children were believed trapped inside the burning house.
+
+After the fire ended, investigators expected to recover remains from the children. But strangely, no identifiable bodies or bones were found in the ashes.
+
+This deeply disturbed the family. The parents refused to believe the children had died in the fire. Over time, strange clues appeared: reports of unknown visitors, sightings of the children after the fire, and mysterious photographs sent years later.
+
+Some theories claimed the children were kidnapped, possibly connected to organized crime or personal revenge. Others believed the fire itself was intentionally set to cover the abduction.
+
+The mystery became emotionally powerful because the parents spent the rest of their lives searching for answers. They placed billboards asking for information and never fully accepted the official explanation.
+
+What makes the case haunting is not only the disappearance itself, but the absence of closure.
+
+The question remains unanswered:
+
+Did the children truly die in the fire,
+or were they taken somewhere else entirely?`,
+  tags: ["missing_persons", "fire"]
+},
+
+   
 
 ];
 window.SEED_VAULT = SEED_VAULT;
