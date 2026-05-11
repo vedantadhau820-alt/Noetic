@@ -3096,7 +3096,7 @@ or were they taken somewhere else entirely?`,
 
 {
   id: "fermi_paradox",
-  category: "UNSOLVED_MYSTERIES",
+  category: "UNANSWERED_QUESTIONS",
   title: "Where Is Everybody ?",
   essence: "If intelligent life should exist, why have we found none?",
   explanation: `The universe is unimaginably large. There are billions of galaxies, and each galaxy contains billions of stars. Around many of those stars are planets. Statistically, it seems almost impossible that Earth is the only place where intelligent life appeared.
@@ -3119,7 +3119,7 @@ why does humanity appear so alone?`,
 },
 {
   id: "consciousness_mystery",
-  category: "UNSOLVED_MYSTERIES",
+  category: "UNANSWERED_QUESTIONS",
   title: "What Is Consciousness ?",
   essence: "Why does awareness exist at all?",
   explanation: `Humans understand many physical processes inside the brain. Scientists can observe neurons firing, chemicals moving, and electrical activity changing thoughts and behavior. But one mystery still remains unsolved: why does any of this create conscious experience?
@@ -3141,7 +3141,7 @@ How does matter become experience?`,
 },
 {
   id: "dark_matter",
-  category: "UNSOLVED_MYSTERIES",
+  category: "UNANSWERED_QUESTIONS",
   title: "Dark Matter",
   essence: "Most of the universe appears invisible.",
   explanation: `Scientists discovered that galaxies behave strangely. Stars move as if enormous amounts of hidden mass exist around them. Based on visible matter alone, galaxies should spin apart, but they remain held together by something unseen.
@@ -3164,7 +3164,7 @@ than human senses can perceive.`,
 },
 {
   id: "dreams_mystery",
-  category: "UNSOLVED_MYSTERIES",
+  category: "UNANSWERED_QUESTIONS",
   title: "Why Do Humans Dream ?",
   essence: "The true purpose of dreams remains uncertain.",
   explanation: `Every night, humans enter strange mental worlds filled with symbols, emotions, memories, and impossible events. People fly, relive fears, meet dead relatives, or experience places that do not exist. Yet despite centuries of study, nobody fully understands why dreams happen.
@@ -3190,7 +3190,7 @@ how certain is waking reality itself?`,
 {
   id: "time_mystery",
   category: "UNSOLVED_MYSTERIES",
-  title: "What Is Time ?",
+  title: "UNANSWERED_QUESTIONS",
   essence: "Humans measure time constantly but do not fully understand it.",
   explanation: `Time shapes every human experience. People age through it, remember the past through it, and move toward the future through it. Yet despite its importance, nobody fully understands what time actually is.
 
