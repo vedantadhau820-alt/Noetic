@@ -3189,8 +3189,8 @@ how certain is waking reality itself?`,
 },
 {
   id: "time_mystery",
-  category: "UNSOLVED_MYSTERIES",
-  title: "UNANSWERED_QUESTIONS",
+  category: "UNANSWERED_QUESTIONS",
+  title: "What Is Time ?",
   essence: "Humans measure time constantly but do not fully understand it.",
   explanation: `Time shapes every human experience. People age through it, remember the past through it, and move toward the future through it. Yet despite its importance, nobody fully understands what time actually is.
 
