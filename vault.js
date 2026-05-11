@@ -38,20 +38,21 @@ let userState =
 
 function getSeedVault() {
 
-  if (!Array.isArray(window.SEED_VAULT)) {
+  const storedVault =
+    StorageEngine.loadVault();
 
-    console.error(
-      "SEED_VAULT missing or invalid"
-    );
+  if (
+    Array.isArray(storedVault) &&
+    storedVault.length > 0
+  ) {
 
-    return [];
+    return storedVault;
 
   }
 
-  return window.SEED_VAULT;
+  return [];
 
 }
-
 
 /*
    Returns fresh runtime vault
