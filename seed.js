@@ -2654,6 +2654,118 @@ In simple terms, the Library of Babel asks: “If all knowledge exists somewhere
   tags: ["infinity", "knowledge", "truth"]
 },
 
+   {
+  id: "conceal_intentions",
+  category: "POWER",
+  title: "Conceal Your Intentions",
+  essence: "People cannot defend against what they cannot predict.",
+  explanation: `When people clearly understand your plans, they can interfere, compete, manipulate, or prepare defenses against you. But when your true intentions remain hidden, you control the direction of events. Mystery creates uncertainty, and uncertainty gives power.
+
+Most people reveal too much too early. They speak about future goals, dreams, strategies, or emotions before achieving anything. This gives others the ability to judge, discourage, or sabotage them. Powerful people move quietly. They allow others to focus on surface actions while the real objective stays hidden underneath.
+
+This does not mean lying constantly. It means learning restraint. Sometimes silence is stronger than explanation. If people cannot fully read you, they spend their energy trying to understand you instead of stopping you.
+
+Think of chess. A good player does not announce every move beforehand. They create distractions, patterns, and false assumptions. By the time the opponent realizes the real strategy, it is already too late.
+
+Concealing intentions also protects you emotionally. The more openly you expose unfinished plans, the more vulnerable those plans become to doubt and outside influence. Quiet action often grows stronger than loud ambition.
+
+The law is simple:
+
+What people fully understand, they can resist.
+What remains unclear, they struggle to control.`,
+  tags: ["strategy", "mystery"]
+},
+{
+  id: "protect_reputation",
+  category: "POWER",
+  title: "Guard Your Reputation",
+  essence: "Reputation shapes how the world treats you.",
+  explanation: `Reputation is like invisible armor. Before people truly know you, they judge you through your reputation. A strong reputation creates respect, trust, and fear. A weak reputation invites attack, dismissal, and manipulation.
+
+People often react not to reality, but to perception. If someone is known as disciplined, others hesitate to challenge them. If someone is known as unreliable, even their truth becomes doubted. This means reputation can shape opportunities long before skill or character are fully seen.
+
+Building reputation takes time, but destroying it can happen instantly. One careless action, emotional outburst, or betrayal can damage years of trust. That is why powerful people protect their public image carefully. They understand that perception influences power.
+
+A good reputation also creates psychological advantage. People expect consistency. If your reputation is strong, others often assume competence before you even act. This makes life easier because people approach you with caution or respect.
+
+At the same time, reputation should not become fake identity. If you build a false image completely disconnected from reality, eventually it collapses. The strongest reputation is built on repeated patterns of behavior.
+
+The law is simple:
+
+People rarely see you directly.
+They mostly see the story attached to your name.`,
+  tags: ["reputation", "perception"]
+},
+{
+  id: "master_emotions",
+  category: "POWER",
+  title: "Master Your Emotions",
+  essence: "Emotional control prevents others from controlling you.",
+  explanation: `The person who controls their emotions controls themselves. The person who loses control becomes predictable and easy to manipulate. Anger, desperation, jealousy, and fear often push people into mistakes they later regret.
+
+Strong emotions narrow judgment. When angry, people reveal secrets, attack recklessly, or destroy relationships. When desperate, they accept bad deals. When afraid, they surrender power too quickly. Emotional reactions give others information about your weaknesses.
+
+Powerful people understand that calmness itself is strength. A calm person can observe clearly while emotional people expose themselves. Silence during conflict often creates more pressure than shouting. Patience often defeats impulsiveness.
+
+This law does not mean becoming emotionless like a machine. Emotions are natural and necessary. The goal is not suppression but control. Feel emotions internally without letting them dominate your actions externally.
+
+Imagine two people arguing. One becomes loud, reactive, and unstable. The other remains calm and measured. Even without speaking much, the calm person appears more powerful because they remain centered while the other loses balance.
+
+Emotional mastery also protects long-term goals. Temporary feelings often destroy permanent opportunities. A single uncontrolled moment can ruin years of effort.
+
+The law is simple:
+
+If others can control your emotions,
+they can control your decisions.`,
+  tags: ["discipline", "self-control"]
+},
+{
+  id: "absence_value",
+  category: "POWER",
+  title: "Use Absence To Increase Respect",
+  essence: "Too much presence reduces value.",
+  explanation: `People often assume constant visibility creates importance, but the opposite is frequently true. When something becomes too common, people stop appreciating it. Scarcity increases value. Absence creates curiosity, respect, and emotional weight.
+
+If you are always available, always speaking, always explaining yourself, your presence becomes ordinary. But when you step back strategically, people notice the space you leave behind. Silence can create more attention than constant noise.
+
+This happens in relationships, leadership, art, and social life. A person who appears everywhere loses mystery. A person who knows when to withdraw becomes harder to replace and easier to remember.
+
+Absence also allows your image to grow in people's minds. When you are not constantly present, others fill gaps with imagination. They remember your strongest qualities instead of your ordinary moments.
+
+However, absence must be balanced. Too little presence creates irrelevance. The power comes from controlled scarcity—not complete disappearance.
+
+Think about music. If your favorite song played every minute all day, eventually you would stop feeling anything. But after time away from it, hearing it again feels meaningful.
+
+The law is simple:
+
+What is constantly available becomes ordinary.
+What is limited becomes valuable.`,
+  tags: ["scarcity", "respect"]
+},
+{
+  id: "create_dependency",
+  category: "POWER",
+  title: "Make Others Depend On You",
+  essence: "The more necessary you become, the more power you gain.",
+  explanation: `True power often comes from becoming difficult to replace. If people can easily remove you without consequences, your influence is weak. But if your skills, knowledge, or presence become essential, others naturally protect your position.
+
+Dependence creates stability. A teacher becomes valuable because students depend on their guidance. A skilled developer becomes valuable because systems rely on their expertise. A trusted friend becomes valuable because emotional support is difficult to replace.
+
+This law does not mean trapping people unfairly. It means developing unique value. The more useful, reliable, and rare your abilities are, the stronger your position becomes.
+
+Many people weaken themselves by becoming completely replaceable. They offer nothing unique, build no specialized skill, and create no meaningful impact. As a result, their absence changes nothing.
+
+Powerful individuals often understand systems deeply. They know information others do not know, solve problems others cannot solve, or create things others cannot easily recreate. This naturally increases dependence.
+
+However, dependence must be handled wisely. If you abuse it through arrogance or control, people eventually seek freedom from you. Lasting influence comes from combining usefulness with trust.
+
+The law is simple:
+
+When your presence becomes necessary,
+your position becomes powerful.`,
+  tags: ["influence", "value"]
+}
+
 ];
 window.SEED_VAULT = SEED_VAULT;
 
