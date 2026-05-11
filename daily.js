@@ -6,7 +6,13 @@
 
 const DAILY_KEY = "BUDDHIKOSH_DAILY";
 
+
+/* =========================================
+   DAILY CATEGORY POOL
+========================================= */
+
 const DAILY_CATEGORIES = [
+
   "METAPHYSICS",
   "EPISTEMOLOGY",
   "MIND",
@@ -14,87 +20,244 @@ const DAILY_CATEGORIES = [
   "LOGIC",
   "EASTERN_PHILOSOPHY",
   "EXISTENTIALISM",
+
 ];
 
-function shuffleArray(arr) {
-  return [...arr].sort(() => Math.random() - 0.5);
-}
 
-
-/* -----------------------------------------
+/* =========================================
    DATE HELPERS
------------------------------------------ */
+========================================= */
 
-/* Returns YYYY-MM-DD (local date) */
+/*
+   Returns YYYY-MM-DD
+*/
 function getTodayKey() {
-  return new Date().toISOString().split("T")[0];
+
+  const now = new Date();
+
+  const year = now.getFullYear();
+
+  const month =
+    String(now.getMonth() + 1).padStart(2, "0");
+
+  const day =
+    String(now.getDate()).padStart(2, "0");
+
+  return `${year}-${month}-${day}`;
+
 }
 
 
-/* -----------------------------------------
+/* =========================================
    RANDOM UTILITIES
------------------------------------------ */
+========================================= */
 
-/* Picks a random item from a non-empty array */
-function pickRandom(items) {
-  if (!items || !items.length) return null;
-  return items[Math.floor(Math.random() * items.length)];
+/*
+   Safe shuffle
+*/
+function shuffleArray(arr = []) {
+
+  return [...arr]
+    .map(item => ({
+      item,
+      sort: Math.random()
+    }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ item }) => item);
+
 }
 
 
-/* -----------------------------------------
-   DAILY GENERATION LOGIC
------------------------------------------ */
-function generateDailyKnowledge() {
-  const todayKey = getTodayKey();
-  const stored = localStorage.getItem(DAILY_KEY);
+/*
+   Picks one random item
+*/
+function pickRandom(items = []) {
 
-  /* Return cached daily knowledge if still valid */
-  if (stored) {
-    const parsed = JSON.parse(stored);
-    if (parsed.date === todayKey) {
-      return parsed.items;
-    }
+  if (!Array.isArray(items)) return null;
+
+  if (items.length === 0) return null;
+
+  return items[
+    Math.floor(Math.random() * items.length)
+  ];
+
+}
+
+
+/* =========================================
+   STORAGE HELPERS
+========================================= */
+
+function loadStoredDaily() {
+
+  try {
+
+    const stored =
+      localStorage.getItem(DAILY_KEY);
+
+    if (!stored) return null;
+
+    return JSON.parse(stored);
+
+  } catch (error) {
+
+    console.error(
+      "Failed to load daily knowledge:",
+      error
+    );
+
+    return null;
+
   }
 
-  /* 1️⃣ Find categories that actually have items */
-  const validCategories = DAILY_CATEGORIES.filter(cat => {
-    const items = Vault.getItemsByCategory(cat);
-    return items && items.length > 0;
-  });
+}
 
-  /* Safety check */
-  if (validCategories.length === 0) return [];
 
-  /* 2️⃣ Pick random 5 categories */
-  const selectedCategories = shuffleArray(validCategories).slice(0, 5);
+function saveDailyKnowledge(items) {
 
-  /* 3️⃣ Pick one random item from each category */
-  const dailyItems = selectedCategories
-    .map(cat => pickRandom(Vault.getItemsByCategory(cat)))
-    .filter(Boolean);
+  try {
 
-  /* 4️⃣ Persist for the rest of the day */
-  localStorage.setItem(
-    DAILY_KEY,
-    JSON.stringify({
-      date: todayKey,
-      items: dailyItems
-    })
-  );
+    localStorage.setItem(
+      DAILY_KEY,
+      JSON.stringify({
+        date: getTodayKey(),
+        items
+      })
+    );
+
+  } catch (error) {
+
+    console.error(
+      "Failed to save daily knowledge:",
+      error
+    );
+
+  }
+
+}
+
+
+/* =========================================
+   DAILY GENERATION LOGIC
+========================================= */
+
+function generateDailyKnowledge() {
+
+  const todayKey = getTodayKey();
+
+  const stored = loadStoredDaily();
+
+
+  /* -------------------------------------
+     RETURN CACHED DAILY KNOWLEDGE
+  ------------------------------------- */
+
+  if (
+    stored &&
+    stored.date === todayKey &&
+    Array.isArray(stored.items)
+  ) {
+
+    return stored.items;
+
+  }
+
+
+  /* -------------------------------------
+     VAULT SAFETY CHECK
+  ------------------------------------- */
+
+  if (
+    typeof Vault === "undefined" ||
+    typeof Vault.getItemsByCategory !== "function"
+  ) {
+
+    console.error(
+      "Vault system unavailable"
+    );
+
+    return [];
+
+  }
+
+
+  /* -------------------------------------
+     FIND VALID CATEGORIES
+  ------------------------------------- */
+
+  const validCategories =
+    DAILY_CATEGORIES.filter(category => {
+
+      const items =
+        Vault.getItemsByCategory(category);
+
+      return (
+        Array.isArray(items) &&
+        items.length > 0
+      );
+
+    });
+
+
+  /* -------------------------------------
+     NO CONTENT SAFETY
+  ------------------------------------- */
+
+  if (validCategories.length === 0) {
+
+    console.warn(
+      "No valid daily categories found"
+    );
+
+    return [];
+
+  }
+
+
+  /* -------------------------------------
+     PICK RANDOM CATEGORIES
+  ------------------------------------- */
+
+  const selectedCategories =
+    shuffleArray(validCategories)
+      .slice(0, 5);
+
+
+  /* -------------------------------------
+     PICK RANDOM ITEMS
+  ------------------------------------- */
+
+  const dailyItems =
+    selectedCategories
+      .map(category => {
+
+        const items =
+          Vault.getItemsByCategory(category);
+
+        return pickRandom(items);
+
+      })
+      .filter(Boolean);
+
+
+  /* -------------------------------------
+     SAVE DAILY STATE
+  ------------------------------------- */
+
+  saveDailyKnowledge(dailyItems);
+
 
   return dailyItems;
+
 }
 
-function shuffleArray(arr) {
-  return [...arr].sort(() => Math.random() - 0.5);
-}
 
-/* -----------------------------------------
+/* =========================================
    PUBLIC API
------------------------------------------ */
+========================================= */
 
 window.DailyEngine = {
-  getDailyKnowledge: generateDailyKnowledge
-};
 
+  getDailyKnowledge: generateDailyKnowledge
+
+};
