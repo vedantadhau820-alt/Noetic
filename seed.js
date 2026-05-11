@@ -3,6 +3,7 @@
 =========================== */
 
 // window.SEED_VERSION = "1.0.3";
+const SEED_VERSION = "1.0.0";
 const SEED_VAULT = [
 
 // {
