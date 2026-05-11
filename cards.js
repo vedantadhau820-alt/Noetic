@@ -230,6 +230,7 @@ function renderVaultCategories() {
     { key: "PSYCHOLOGY", label: "Psychology" },
     { key: "NEUROSCIENCE", label: "Neuroscience" },
     { key: "INTELLIGENCE", label: "Intelligence" },
+    { key: "PATTERNS", label: "Patterns" },
 
     { key: "MENTAL_MODELS", label: "Mental Models" },
     { key: "COGNITIVE_BIASES", label: "Cognitive Biases" },
@@ -243,7 +244,9 @@ function renderVaultCategories() {
     { key: "SYMBOLISM", label: "Symbolism" },
     { key: "SPIRITUAL", label: "Spiritual" },
 
-    { key: "UNSOLVED_MYSTERIES", label: "Unsolved Mysteries" }
+    { key: "UNSOLVED_MYSTERIES", label: "Unsolved Mysteries" },
+    { key: "UNANSWERED_QUESTION", label: "Unanswered Questions" },
+
 
   ];
 
