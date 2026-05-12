@@ -232,6 +232,8 @@ function renderVaultCategories() {
     { key: "ETHICS", label: "Ethics" },
     { key: "LOGIC", label: "Logic" },
     { key: "EASTERN_PHILOSOPHY", label: "Eastern Philosophy" },
+    { key: "BHAGAVAD_GITA", label: "Bhagawad Gita" },
+    { key: "SANSKRIT_WISDOM", label: "Sanskrit Wisdom" },
     { key: "EXISTENTIALISM", label: "Existentialism" },
     { key: "PSYCHOLOGY", label: "Psychology" },
     { key: "NEUROSCIENCE", label: "Neuroscience" },
@@ -252,8 +254,6 @@ function renderVaultCategories() {
 
     { key: "UNSOLVED_MYSTERIES", label: "Unsolved Mysteries" },
     { key: "UNANSWERED_QUESTIONS", label: "Unanswered Questions" },
-    { key: "BHAGAVAD_GITA", label: "Bhagawad Gita" },
-    { key: "SANSKRIT_WISDOM", label: "Sanskrit Wisdom" },
 
 
   ];
