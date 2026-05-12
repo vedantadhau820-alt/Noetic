@@ -41,6 +41,15 @@
   color: #10b981;
 }
 
+.read-button.read {
+
+  background:
+    rgba(16,185,129,0.12);
+
+  color: #10b981;
+
+}
+
 /* Remove focus outline (card is clickable, not input) */
 .knowledge-card:focus {
   outline: none;
