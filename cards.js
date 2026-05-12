@@ -242,7 +242,7 @@ function renderVaultCategories() {
 
     { key: "POWER", label: "Power" },
     { key: "SYMBOLISM", label: "Symbolism" },
-    { key: "SPIRITUAL", label: "Spiritual" },
+    { key: "SPIRITUALITY", label: "Spirituality" },
 
     { key: "UNSOLVED_MYSTERIES", label: "Unsolved Mysteries" },
     { key: "UNANSWERED_QUESTIONS", label: "Unanswered Questions" },
