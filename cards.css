@@ -449,21 +449,19 @@
 .save-button,
 .read-button {
 
-  width: 100%;
+  flex: 1;
+
   padding: 10px;
 
   background: var(--bg-elevated);
+
   border: none;
+
   border-radius: var(--border-radius);
 
   color: var(--text-primary);
-  cursor: pointer;
 
-  transition:
-    background 0.2s ease,
-    transform 0.15s ease;
 }
-
 
 /* =========================================
    HOVER
