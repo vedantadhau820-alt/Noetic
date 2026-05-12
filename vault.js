@@ -105,6 +105,9 @@ function buildRuntimeVault() {
       Array.isArray(userState.savedIds) &&
       userState.savedIds.includes(item.id),
 
+   read:
+      userState.readIds.includes(item.id),
+ 
     reflections:
       userState.reflections?.[item.id] || []
 
