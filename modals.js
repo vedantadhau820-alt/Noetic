@@ -41,6 +41,9 @@ const closeButton =
    SAFETY CHECK
 ========================================= */
 
+const readButton =
+  modal?.querySelector(".read-button");
+
 if (!modal) {
 
   console.error(
@@ -68,11 +71,77 @@ function openModal(item) {
     typeof Vault.markAsRead === "function"
   ) {
 
-    Vault.markAsRead(item.id);
+    if (readButton) {
+
+  const isRead =
+    Boolean(item.read);
+
+  readButton.textContent =
+    isRead
+      ? "Read"
+      : "Mark Read";
+
+  readButton.classList.toggle(
+    "read",
+    isRead
+  );
+
+    }
 
   }
 
 
+   function handleReadToggle() {
+
+  if (!currentItemId) return;
+
+
+  Vault.toggleReadItem(
+    currentItemId
+  );
+
+
+  const updatedItem =
+    Vault.getItemById(
+      currentItemId
+    );
+
+
+  if (!updatedItem || !readButton) {
+    return;
+  }
+
+
+  const isRead =
+    Boolean(updatedItem.read);
+
+
+  readButton.textContent =
+    isRead
+      ? "Read"
+      : "Mark Read";
+
+
+  readButton.classList.toggle(
+    "read",
+    isRead
+  );
+
+
+  renderDailyCards?.();
+  renderDiscoverCards?.();
+  renderSavedCards?.();
+
+   }
+
+   if (readButton) {
+
+  readButton.addEventListener(
+    "click",
+    handleReadToggle
+  );
+
+   }
   /* -------------------------------------
      UPDATE LOCAL ITEM
   ------------------------------------- */
