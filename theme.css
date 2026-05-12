@@ -16,26 +16,32 @@
 
   /* Accent Colors (by category) */
 
-  --cat-one: #60a5fa;     /* Calm Blue */
-  --cat-two: #3b82f6;    /* Deep Blue */
-  --cat-three: #818cf8;  /* Soft Indigo */
-  --cat-four: #a78bfa;   /* Violet */
-  --cat-five: #7c3aed;   /* Deep Purple */
-  --cat-six: #34d399;    /* Mint Green */
-  --cat-seven: #10b981;  /* Emerald */
-  --cat-eight: #2dd4bf;  /* Teal */
-  --cat-nine: #14b8a6;   /* Deep Teal */
-  --cat-ten: #fbbf24;    /* Soft Amber */
-  --cat-eleven: #f59e0b; /* Golden */
-  --cat-twelve: #eab308; /* Muted Gold */
-  --cat-thirteen: #fb7185; /* Soft Rose */
-  --cat-fourteen: #f97316; /* Burnt Orange */
-  --cat-fifteen: #ef4444;  /* Calm Red */
-  --cat-sixteen: #9ca3af;  /* Soft Gray */
-  --cat-seventeen: #64748b;/* Slate */
-  --cat-eighteen: #94a3b8; /* Blue Gray */
-  --cat-nineteen: #22d3ee; /* Cyan Accent */
-  --cat-twenty: #c084fc;  /* Lavender Glow */
+  --cat-metaphysics: #8b5cf6;
+  --cat-epistemology: #3b82f6;
+  --cat-mind: #06b6d4;
+  --cat-ethics: #10b981;
+  --cat-logic: #f59e0b;
+  --cat-eastern-philosophy: #ec4899;
+  --cat-existentialism: #ef4444;
+
+  --cat-psychology: #14b8a6;
+  --cat-neuroscience: #6366f1;
+  --cat-intelligence: #0ea5e9;
+  --cat-mental-models: #84cc16;
+  --cat-cognitive-biases: #f97316;
+  --cat-laws-principles: #eab308;
+  --cat-theories: #8b5cf6;
+  --cat-paradoxes: #dc2626;
+  --cat-thought-experiments: #a855f7;
+
+  --cat-power: #b91c1c;
+  --cat-symbolism: #7c3aed;
+  --cat-spirituality: #22c55e;
+  --cat-unsolved-mysteries: #475569;
+  --cat-patterns: #0f766e;
+
+  --cat-bhagavad-gita: #facc15;
+  --cat-sanskrit-wisdom: #fb7185;
 
   /* UI */
   --border-radius: 14px;
