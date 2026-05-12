@@ -137,15 +137,102 @@
    CATEGORY COLOR SYSTEM
 ========================================= */
 
-.cat-law { color: var(--cat-law); }
-.cat-psychology { color: var(--cat-psychology); }
-.cat-cognitive_bias { color: var(--cat-cognitive_bias); }
-.cat-philosophy { color: var(--cat-philosophy); }
-.cat-spiritual { color: var(--cat-spiritual); }
-.cat-mystery { color: var(--cat-mystery); }
-.cat-hypothesis { color: var(--cat-hypothesis); }
-.cat-thought_experiment { color: var(--cat-thought_experiment); }
-.cat-power { color: var(--cat-power); }
+
+/* =========================================
+   CATEGORY TEXT COLORS
+========================================= */
+
+.card-category.metaphysics {
+  color: var(--cat-metaphysics);
+}
+
+.card-category.epistemology {
+  color: var(--cat-epistemology);
+}
+
+.card-category.mind {
+  color: var(--cat-mind);
+}
+
+.card-category.ethics {
+  color: var(--cat-ethics);
+}
+
+.card-category.logic {
+  color: var(--cat-logic);
+}
+
+.card-category.eastern_philosophy {
+  color: var(--cat-eastern-philosophy);
+}
+
+.card-category.existentialism {
+  color: var(--cat-existentialism);
+}
+
+.card-category.psychology {
+  color: var(--cat-psychology);
+}
+
+.card-category.neuroscience {
+  color: var(--cat-neuroscience);
+}
+
+.card-category.intelligence {
+  color: var(--cat-intelligence);
+}
+
+.card-category.mental_models {
+  color: var(--cat-mental-models);
+}
+
+.card-category.cognitive_biases {
+  color: var(--cat-cognitive-biases);
+}
+
+.card-category.laws_and_principles {
+  color: var(--cat-laws-principles);
+}
+
+.card-category.theories {
+  color: var(--cat-theories);
+}
+
+.card-category.paradoxes {
+  color: var(--cat-paradoxes);
+}
+
+.card-category.thought_experiments {
+  color: var(--cat-thought-experiments);
+}
+
+.card-category.power {
+  color: var(--cat-power);
+}
+
+.card-category.symbolism {
+  color: var(--cat-symbolism);
+}
+
+.card-category.spirituality {
+  color: var(--cat-spirituality);
+}
+
+.card-category.unsolved_mysteries {
+  color: var(--cat-unsolved-mysteries);
+}
+
+.card-category.patterns {
+  color: var(--cat-patterns);
+}
+
+.card-category.bhagavad_gita {
+  color: var(--cat-bhagavad-gita);
+}
+
+.card-category.sanskrit_wisdom {
+  color: var(--cat-sanskrit-wisdom);
+}
 
 
 /* =========================================
