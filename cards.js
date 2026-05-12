@@ -50,6 +50,7 @@ function showOnly(section) {
 ========================================= */
 
 function createKnowledgeCard(item) {
+   console.log(item.title, item.read);
 
   if (!item) return document.createElement("div");
 
