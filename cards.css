@@ -102,6 +102,16 @@
 .card-category.theories { color: var(--cat-sixteen); }
 .card-category.laws_and_principles { color: var(--cat-thirteen); }
 
+.card-category.theories {  color: #6366f1; }
+.card-category.paradoxes {  color: #f43f5e; }
+.card-category.thought_experiments {  color: #8b5cf6;}
+.card-category.power { color: #dc2626; }
+.card-category.symbolism { color: #d946ef; }
+.card-category.spirituality { color: #0ea5e9;}
+.card-category.unsolved_mysteries { color: #64748b; }
+.card-category.unanswered_questions { color: #facc15;}
+.card-category.patterns { color: #06b6d4;}
+
 
 /* =========================================
    CARD ENTRY ANIMATION
