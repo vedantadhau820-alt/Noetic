@@ -3,7 +3,11 @@
    Handles persistence of Vault data
 ========================================= */
 
-const VAULT_KEY = "BUDDHIKOSH_VAULT";
+const VAULT_KEY =
+  "BUDDHIKOSH_VAULT";
+
+const VAULT_VERSION_KEY =
+  "BUDDHIKOSH_VAULT_VERSION";
 
 
 /* =========================================
@@ -25,9 +29,12 @@ function loadVault() {
     const stored =
       localStorage.getItem(VAULT_KEY);
 
-    if (!stored) return null;
+    if (!stored) {
+      return null;
+    }
 
-    const parsed = JSON.parse(stored);
+    const parsed =
+      JSON.parse(stored);
 
     if (!Array.isArray(parsed)) {
 
@@ -112,6 +119,10 @@ function clearVault() {
 
     localStorage.removeItem(VAULT_KEY);
 
+    localStorage.removeItem(
+      VAULT_VERSION_KEY
+    );
+
     return true;
 
   } catch (error) {
@@ -133,54 +144,110 @@ function clearVault() {
 ========================================= */
 
 /*
-   Initializes vault on first run
+   Initializes vault on startup
 
    Rules:
-   - Uses stored vault if valid
-   - Otherwise seeds from seedData
+   - Uses stored vault if version matches
+   - Otherwise refreshes from seed
 */
 
 function initializeVault(seedData = []) {
 
-  const currentVersion =
-    localStorage.getItem(VAULT_VERSION_KEY);
+  try {
 
-  /* -------------------------------------
-     VERSION MATCH → USE STORED
-  ------------------------------------- */
+    /* -----------------------------------
+       VALIDATE SEED DATA
+    ----------------------------------- */
 
-  if (currentVersion === SEED_VERSION) {
+    if (!Array.isArray(seedData)) {
 
-    const existingVault = loadVault();
+      console.error(
+        "Seed data must be an array"
+      );
 
-    if (
-      Array.isArray(existingVault) &&
-      existingVault.length > 0
-    ) {
-
-      return existingVault;
+      return [];
 
     }
 
+
+    /* -----------------------------------
+       CHECK REQUIRED VERSION
+    ----------------------------------- */
+
+    if (
+      typeof SEED_VERSION ===
+      "undefined"
+    ) {
+
+      console.error(
+        "SEED_VERSION is missing"
+      );
+
+      return seedData;
+
+    }
+
+
+    const currentVersion =
+      localStorage.getItem(
+        VAULT_VERSION_KEY
+      );
+
+
+    /* -----------------------------------
+       SAME VERSION → USE STORED
+    ----------------------------------- */
+
+    if (
+      currentVersion ===
+      SEED_VERSION
+    ) {
+
+      const existingVault =
+        loadVault();
+
+      if (
+        Array.isArray(existingVault) &&
+        existingVault.length > 0
+      ) {
+
+        return existingVault;
+
+      }
+
+    }
+
+
+    /* -----------------------------------
+       NEW VERSION DETECTED
+    ----------------------------------- */
+
+    console.log(
+      "Updating vault to version:",
+      SEED_VERSION
+    );
+
+
+    saveVault(seedData);
+
+    localStorage.setItem(
+      VAULT_VERSION_KEY,
+      SEED_VERSION
+    );
+
+
+    return seedData;
+
+  } catch (error) {
+
+    console.error(
+      "Failed to initialize vault:",
+      error
+    );
+
+    return [];
+
   }
-
-
-  /* -------------------------------------
-     NEW VERSION → RESET VAULT
-  ------------------------------------- */
-
-  console.log(
-    "New seed version detected. Updating vault..."
-  );
-
-  saveVault(seedData);
-
-  localStorage.setItem(
-    VAULT_VERSION_KEY,
-    SEED_VERSION
-  );
-
-  return seedData;
 
 }
 
@@ -195,7 +262,10 @@ function initializeVault(seedData = []) {
 
 function vaultExists() {
 
-  return localStorage.getItem(VAULT_KEY) !== null;
+  return (
+    localStorage.getItem(VAULT_KEY)
+    !== null
+  );
 
 }
 
@@ -216,16 +286,40 @@ function getVaultSize() {
 
 
 /* =========================================
+   FORCE REFRESH
+========================================= */
+
+/*
+   Completely refreshes vault from seed
+*/
+
+function refreshVault(seedData = []) {
+
+  clearVault();
+
+  return initializeVault(seedData);
+
+}
+
+
+/* =========================================
    PUBLIC API
 ========================================= */
 
 window.StorageEngine = {
 
   loadVault,
+
   saveVault,
+
   clearVault,
+
   initializeVault,
+
+  refreshVault,
+
   vaultExists,
+
   getVaultSize
 
 };
