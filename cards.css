@@ -28,6 +28,19 @@
     background 0.2s ease;
 }
 
+.read-card::after {
+  content: "READ";
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  font-size: 10px;
+  letter-spacing: 1px;
+
+  color: #10b981;
+}
+
 /* Remove focus outline (card is clickable, not input) */
 .knowledge-card:focus {
   outline: none;
