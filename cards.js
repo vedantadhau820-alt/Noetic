@@ -53,6 +53,10 @@ function createKnowledgeCard(item) {
 
   if (!item) return document.createElement("div");
 
+  if (item.read) {
+  article.classList.add("read-card");
+  }
+
   const article = document.createElement("article");
   article.className = "knowledge-card";
 
