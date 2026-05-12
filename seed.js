@@ -3352,7 +3352,236 @@ The pattern is simple:
 What people expect strongly enough,
 they may unconsciously help create.`,
   tags: ["belief", "psychology"]
-}
+},
+
+   {
+  id: "karma_yoga",
+  category: "BHAGAVAD_GITA",
+  title: "Focus On Action, Not Outcome",
+  essence: "You control your actions, not the results.",
+  explanation: `One of the most famous teachings of the Bhagavad Gita says that a person has control over actions, but not over the fruits of those actions. This idea appears in Karma Yoga—the path of disciplined action.
+
+Many people suffer because they become emotionally attached to outcomes. They work only for reward, praise, success, or recognition. When results fail, frustration and fear appear. The mind becomes unstable because happiness depends entirely on external outcomes.
+
+The Gita teaches a different approach: act sincerely, intelligently, and fully—but without becoming psychologically trapped by success or failure.
+
+This does not mean becoming lazy or emotionless. It means understanding that results are influenced by countless factors beyond personal control. A farmer can plant seeds carefully, but cannot control the weather completely.
+
+When attention shifts from obsession with results toward excellence in action itself, clarity increases. Fear decreases because the mind is no longer constantly calculating future rewards.
+
+The deeper spiritual lesson is that attachment creates suffering. Action done with awareness and discipline creates freedom.
+
+The shlok teaches:
+
+Do your duty completely,
+but do not lose yourself in the outcome.`,
+  tags: ["karma", "discipline"]
+},
+{
+  id: "soul_eternal",
+  category: "BHAGAVAD_GITA",
+  title: "The Soul Cannot Be Destroyed",
+  essence: "The true self is beyond physical death.",
+  explanation: `In the Bhagavad Gita, Krishna explains to Arjuna that the soul is eternal. Bodies are born and eventually die, but the deeper self—the Atman—is never destroyed.
+
+Humans usually identify themselves completely with the body, appearance, age, and physical existence. Because of this, death appears terrifying and absolute. But the Gita separates the body from consciousness itself.
+
+The body is compared to clothing. Just as a person changes old clothes for new ones, the soul moves from one form of existence to another. The external form changes, but the deeper essence remains.
+
+This teaching is meant to reduce fear and attachment. Much human anxiety comes from clinging to temporary things while forgetting the deeper continuity of existence.
+
+Spiritually, the shlok suggests that the true self cannot be cut by weapons, burned by fire, drowned by water, or destroyed by time. The soul exists beyond physical change.
+
+Whether interpreted literally or symbolically, the teaching shifts attention away from temporary identity toward deeper awareness.
+
+The message is simple:
+
+The body changes and disappears,
+but the deepest part of you
+belongs to something timeless.`,
+  tags: ["soul", "eternity"]
+},
+{
+  id: "control_mind",
+  category: "BHAGAVAD_GITA",
+  title: "The Mind Can Be Friend Or Enemy",
+  essence: "An uncontrolled mind creates suffering.",
+  explanation: `The Bhagavad Gita teaches that the human mind can either elevate a person or destroy them. A disciplined mind becomes a guide, while an uncontrolled mind becomes a source of confusion and suffering.
+
+Most people are ruled by impulses, fears, distractions, and emotional reactions. Thoughts pull them endlessly from desire to desire. Because of this, inner peace becomes unstable.
+
+Krishna explains that mastering the mind is one of the greatest challenges in life. The restless mind constantly seeks stimulation, pleasure, comparison, and attachment. Without awareness, humans become servants of their own mental habits.
+
+However, the same mind can become powerful when trained through discipline, self-awareness, and focus. A controlled mind creates clarity in difficult situations. It allows a person to act wisely rather than react impulsively.
+
+The Gita does not teach suppression of thought, but mastery over attention and inner balance.
+
+This teaching remains timeless because external success means little if the mind itself remains chaotic.
+
+The lesson is clear:
+
+If you do not guide your mind,
+your mind will guide you blindly.`,
+  tags: ["mind", "self_control"]
+},
+{
+  id: "desire_and_peace",
+  category: "BHAGAVAD_GITA",
+  title: "Desire Disturbs Peace",
+  essence: "Constant craving keeps the mind restless.",
+  explanation: `The Bhagavad Gita explains that endless desire creates inner disturbance. Human beings continuously chase pleasure, success, approval, possessions, and emotional satisfaction, believing fulfillment lies in the next achievement.
+
+But desire rarely ends after being satisfied. One fulfilled desire usually creates another. This cycle keeps the mind restless because peace becomes dependent on external conditions constantly changing.
+
+Krishna teaches that attachment to desires leads to frustration, anger, confusion, and eventually suffering. When expectations fail, emotional instability appears.
+
+This does not mean humans should abandon all goals or ambition. The teaching focuses on attachment, not action itself. A person may work, create, and strive while remaining internally balanced.
+
+The spiritually mature person is described as someone who remains steady whether gaining or losing, succeeding or failing. Their peace comes from inner stability rather than temporary pleasure.
+
+Desire itself is natural. The danger begins when identity and happiness become completely controlled by craving.
+
+The lesson is profound:
+
+A mind always chasing something
+rarely experiences the present moment peacefully.`,
+  tags: ["desire", "peace"]
+},
+{
+  id: "dharma_duty",
+  category: "BHAGAVAD_GITA",
+  title: "Follow Your Dharma",
+  essence: "Living according to your true duty creates meaning.",
+  explanation: `A central idea in the Bhagavad Gita is Dharma—one’s true responsibility, path, or rightful way of living. Krishna teaches Arjuna that avoiding his duty out of fear or emotional confusion would create deeper suffering.
+
+Dharma is not merely social obligation. Spiritually, it means aligning actions with truth, responsibility, and inner purpose. Every person has different strengths, roles, and challenges in life. Dharma asks a person to fulfill their path honestly rather than escaping it.
+
+Many people suffer because they compare themselves constantly with others. They abandon their own nature trying to imitate someone else’s life. The Gita teaches that it is better to imperfectly live your own path than perfectly imitate another person’s path.
+
+Dharma also requires courage. Sometimes the correct action feels uncomfortable or difficult. Fear, attachment, and confusion often tempt people away from responsibility.
+
+The teaching encourages inner integrity—acting according to what is right rather than what is easiest.
+
+The deeper message is this:
+
+Meaning is not found by avoiding life’s responsibilities,
+but by facing them consciously and truthfully.`,
+  tags: ["dharma", "purpose"]
+},
+
+   {
+  id: "yad_bhavam_tad_bhavati",
+  category: "SANSKRIT_WISDOM",
+  title: "Yad Bhavam Tad Bhavati",
+  essence: "As you think and feel, so you become.",
+  explanation: `“Yad Bhavam Tad Bhavati” means that a person gradually becomes shaped by their inner state. Thoughts, emotions, beliefs, and repeated mental patterns influence behavior, perception, and eventually reality itself.
+
+If someone constantly lives in fear, they begin seeing danger everywhere. If someone carries confidence and purpose, their actions naturally become stronger and clearer. The mind slowly transforms identity through repetition.
+
+This idea appears across spirituality and psychology. Human beings are deeply influenced by what they repeatedly focus on internally. Attention shapes emotion, emotion shapes action, and action shapes life.
+
+The phrase also suggests responsibility. Reality is not controlled entirely by thought alone, but inner attitude strongly influences experience. A negative mind can turn opportunity into suffering, while a disciplined and hopeful mind can create resilience even during hardship.
+
+The wisdom of the line is simple:
+
+Your inner world
+slowly becomes your outer world.`,
+  tags: ["mind", "transformation"]
+},
+{
+  id: "yato_dharma_tato_jaya",
+  category: "SANSKRIT_WISDOM",
+  title: "Yato Dharma Tato Jaya",
+  essence: "Where there is righteousness, there is victory.",
+  explanation: `“Yato Dharma Tato Jaya” teaches that true victory ultimately belongs to Dharma—truth, righteousness, balance, and moral order.
+
+At first, injustice and dishonesty may appear powerful. People may gain temporary success through manipulation, greed, or force. But such victories are often unstable because they are disconnected from deeper ethical foundations.
+
+Dharma represents alignment with truth and responsibility. When actions are rooted in integrity, they create strength that lasts beyond temporary gain.
+
+This teaching appears strongly in the Mahabharata, where external victory matters less than inner righteousness. A person can win externally yet lose spiritually through corruption and dishonor.
+
+The line does not promise immediate reward for good behavior. Instead, it suggests that truth carries deeper endurance than falsehood. Unethical power often destroys itself eventually through fear, conflict, or imbalance.
+
+The wisdom behind the phrase is this:
+
+Victory without Dharma is temporary.
+Victory with Dharma creates lasting meaning.`,
+  tags: ["dharma", "justice"]
+},
+{
+  id: "neti_neti",
+  category: "SANSKRIT_WISDOM",
+  title: "Neti Neti",
+  essence: "Not this, not that.",
+  explanation: `“Neti Neti” is a profound philosophical idea from the Upanishads. It means “Not this, not that.” The phrase is used to explore the nature of ultimate reality and the true self.
+
+Whenever humans try to define truth completely using words, concepts, or physical descriptions, the teaching says: Neti Neti. Reality is deeper than any single definition.
+
+Spiritually, the phrase is often used in self-inquiry. A person asks:
+
+Am I the body? Neti.
+Am I thoughts? Neti.
+Am I emotions? Neti.
+
+By removing everything temporary and changing, the seeker moves closer toward the deeper awareness beyond identity.
+
+The teaching suggests that ultimate reality cannot be fully captured through language because language itself is limited. Truth is experienced directly rather than perfectly described.
+
+Neti Neti also destroys attachment to rigid identity. Humans usually define themselves through roles, possessions, and labels. The phrase challenges all these definitions.
+
+Its deeper wisdom is this:
+
+The truth of existence
+is greater than every concept used to describe it.`,
+  tags: ["advaita", "self_inquiry"]
+},
+{
+  id: "aham_brahmasmi",
+  category: "SANSKRIT_WISDOM",
+  title: "Aham Brahmasmi",
+  essence: "I am Brahman.",
+  explanation: `“Aham Brahmasmi” is one of the Mahāvākyas—the great spiritual statements of the Upanishads. It means “I am Brahman,” where Brahman refers to ultimate universal reality or pure consciousness.
+
+The statement does not mean the individual ego is superior or godlike. Instead, it points beyond ego entirely. It teaches that the deepest essence of the self is not separate from the deeper essence of existence itself.
+
+Humans usually experience themselves as isolated individuals separated from the world. But this teaching suggests that beneath surface identity, there is unity between consciousness and reality.
+
+The phrase becomes transformative when understood experientially rather than intellectually. It shifts identity away from temporary personality toward deeper awareness.
+
+Spiritually, it suggests that the search for truth is not about becoming something new, but recognizing what already exists at the deepest level of being.
+
+The insight behind the statement is profound:
+
+Your deepest self
+is not separate from existence itself.`,
+  tags: ["brahman", "oneness"]
+},
+{
+  id: "tat_tvam_asi",
+  category: "SANSKRIT_WISDOM",
+  title: "Tat Tvam Asi",
+  essence: "You are that.",
+  explanation: `“Tat Tvam Asi” is another great Mahāvākya from the Upanishads. It translates to “You are that.” The phrase points toward the unity between the individual self and ultimate reality.
+
+“Tat” means the ultimate truth or universal consciousness.
+“Tvam” means you.
+“Asi” means are.
+
+Together, the statement suggests that the essence inside you is not separate from the essence underlying the universe.
+
+Humans often feel disconnected—from nature, from others, and from existence itself. This teaching dissolves that separation. It suggests that individuality exists on the surface, while deeper reality remains interconnected.
+
+The phrase also transforms spirituality from blind belief into self-discovery. Instead of searching externally for truth, the seeker turns inward.
+
+Tat Tvam Asi does not claim that personality or ego controls the universe. Instead, it points beyond the ego toward deeper consciousness shared across existence.
+
+Its wisdom is simple yet immense:
+
+What you seek outside yourself
+already exists within you.`,
+  tags: ["upanishads", "unity"]
+},
    
 
 ];
