@@ -54,6 +54,8 @@ if (!modal) {
 
 function openModal(item) {
 
+  Vault.markAsRead(item.id);
+
   if (!item || !modal) return;
 
   currentItemId = item.id || null;
