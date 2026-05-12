@@ -39,7 +39,45 @@ if (typeof UserState === "undefined") {
 
 
 
+toggleReadItem(id) {
 
+  if (!id) return false;
+
+
+  if (
+    !Array.isArray(userState.readIds)
+  ) {
+
+    userState.readIds = [];
+
+  }
+
+
+  if (
+    userState.readIds.includes(id)
+  ) {
+
+    userState.readIds =
+      userState.readIds.filter(
+        readId => readId !== id
+      );
+
+  }
+
+  else {
+
+    userState.readIds.push(id);
+
+  }
+
+
+  persistUserState();
+
+  refreshUserState();
+
+  return true;
+
+},
 /* =========================================
 
    LOAD USER STATE
