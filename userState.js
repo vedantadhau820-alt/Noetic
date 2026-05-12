@@ -13,6 +13,7 @@ const USER_STATE_KEY =
 const defaultUserState = {
 
   savedIds: [],
+   readIds: [],
   reflections: {},
   streak: null
 
