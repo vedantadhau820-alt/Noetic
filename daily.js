@@ -1,10 +1,12 @@
 /* =========================================
    DAILY KNOWLEDGE ENGINE
-   - Picks a fixed set of knowledge per day
-   - Ensures same content for the entire day
+   - Picks fixed knowledge per day
+   - Keeps same content for whole day
+   - Always syncs fresh runtime state
 ========================================= */
 
-const DAILY_KEY = "BUDDHIKOSH_DAILY";
+const DAILY_KEY =
+  "BUDDHIKOSH_DAILY";
 
 
 /* =========================================
@@ -24,16 +26,18 @@ const DAILY_CATEGORIES = [
   "PSYCHOLOGY",
   "NEUROSCIENCE",
   "INTELLIGENCE",
+
   "MENTAL_MODELS",
   "COGNITIVE_BIASES",
   "LAWS_AND_PRINCIPLES",
+
   "THEORIES",
   "PARADOXES",
   "THOUGHT_EXPERIMENTS",
+
   "POWER",
   "SYMBOLISM",
 
-  // Previously Added
   "SPIRITUALITY",
   "UNSOLVED_MYSTERIES",
   "PATTERNS",
@@ -46,20 +50,20 @@ const DAILY_CATEGORIES = [
    DATE HELPERS
 ========================================= */
 
-/*
-   Returns YYYY-MM-DD
-*/
 function getTodayKey() {
 
   const now = new Date();
 
-  const year = now.getFullYear();
+  const year =
+    now.getFullYear();
 
   const month =
-    String(now.getMonth() + 1).padStart(2, "0");
+    String(now.getMonth() + 1)
+      .padStart(2, "0");
 
   const day =
-    String(now.getDate()).padStart(2, "0");
+    String(now.getDate())
+      .padStart(2, "0");
 
   return `${year}-${month}-${day}`;
 
@@ -70,9 +74,6 @@ function getTodayKey() {
    RANDOM UTILITIES
 ========================================= */
 
-/*
-   Safe shuffle
-*/
 function shuffleArray(arr = []) {
 
   return [...arr]
@@ -86,17 +87,20 @@ function shuffleArray(arr = []) {
 }
 
 
-/*
-   Picks one random item
-*/
 function pickRandom(items = []) {
 
-  if (!Array.isArray(items)) return null;
+  if (!Array.isArray(items)) {
+    return null;
+  }
 
-  if (items.length === 0) return null;
+  if (items.length === 0) {
+    return null;
+  }
 
   return items[
-    Math.floor(Math.random() * items.length)
+    Math.floor(
+      Math.random() * items.length
+    )
   ];
 
 }
@@ -111,9 +115,13 @@ function loadStoredDaily() {
   try {
 
     const stored =
-      localStorage.getItem(DAILY_KEY);
+      localStorage.getItem(
+        DAILY_KEY
+      );
 
-    if (!stored) return null;
+    if (!stored) {
+      return null;
+    }
 
     return JSON.parse(stored);
 
@@ -131,16 +139,29 @@ function loadStoredDaily() {
 }
 
 
-function saveDailyKnowledge(items) {
+/*
+   Saves ONLY ids
+   (prevents stale read state)
+*/
+
+function saveDailyKnowledge(items = []) {
 
   try {
 
     localStorage.setItem(
+
       DAILY_KEY,
+
       JSON.stringify({
+
         date: getTodayKey(),
-        items
+
+        items: items.map(item => ({
+          id: item.id
+        }))
+
       })
+
     );
 
   } catch (error) {
@@ -161,13 +182,16 @@ function saveDailyKnowledge(items) {
 
 function generateDailyKnowledge() {
 
-  const todayKey = getTodayKey();
+  const todayKey =
+    getTodayKey();
 
-  const stored = loadStoredDaily();
+  const stored =
+    loadStoredDaily();
 
 
   /* -------------------------------------
-     RETURN CACHED DAILY KNOWLEDGE
+     USE STORED DAILY IDS
+     BUT FETCH FRESH RUNTIME ITEMS
   ------------------------------------- */
 
   if (
@@ -176,7 +200,18 @@ function generateDailyKnowledge() {
     Array.isArray(stored.items)
   ) {
 
-    return stored.items;
+    return stored.items
+      .map(storedItem => {
+
+        const freshItem =
+          Vault.getItemById(
+            storedItem.id
+          );
+
+        return freshItem || null;
+
+      })
+      .filter(Boolean);
 
   }
 
@@ -187,7 +222,8 @@ function generateDailyKnowledge() {
 
   if (
     typeof Vault === "undefined" ||
-    typeof Vault.getItemsByCategory !== "function"
+    typeof Vault.getItemsByCategory !==
+      "function"
   ) {
 
     console.error(
@@ -204,24 +240,30 @@ function generateDailyKnowledge() {
   ------------------------------------- */
 
   const validCategories =
-    DAILY_CATEGORIES.filter(category => {
+    DAILY_CATEGORIES.filter(
+      category => {
 
-      const items =
-        Vault.getItemsByCategory(category);
+        const items =
+          Vault.getItemsByCategory(
+            category
+          );
 
-      return (
-        Array.isArray(items) &&
-        items.length > 0
-      );
+        return (
+          Array.isArray(items) &&
+          items.length > 0
+        );
 
-    });
+      }
+    );
 
 
   /* -------------------------------------
      NO CONTENT SAFETY
   ------------------------------------- */
 
-  if (validCategories.length === 0) {
+  if (
+    validCategories.length === 0
+  ) {
 
     console.warn(
       "No valid daily categories found"
@@ -250,7 +292,9 @@ function generateDailyKnowledge() {
       .map(category => {
 
         const items =
-          Vault.getItemsByCategory(category);
+          Vault.getItemsByCategory(
+            category
+          );
 
         return pickRandom(items);
 
@@ -259,7 +303,7 @@ function generateDailyKnowledge() {
 
 
   /* -------------------------------------
-     SAVE DAILY STATE
+     SAVE DAILY IDS
   ------------------------------------- */
 
   saveDailyKnowledge(dailyItems);
@@ -276,6 +320,7 @@ function generateDailyKnowledge() {
 
 window.DailyEngine = {
 
-  getDailyKnowledge: generateDailyKnowledge
+  getDailyKnowledge:
+    generateDailyKnowledge
 
 };
