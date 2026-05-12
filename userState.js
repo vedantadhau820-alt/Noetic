@@ -55,7 +55,10 @@ function normalizeUserState(data = {}) {
       Array.isArray(data.savedIds)
         ? data.savedIds
         : [],
-
+   readIds:
+     Array.isArray(data.readIds)
+    ? data.readIds
+    : [],
     reflections:
       typeof data.reflections === "object" &&
       data.reflections !== null
