@@ -84,33 +84,106 @@
 
 /* Category color mapping */
 .card-category.metaphysics { color: var(--cat-one); }
-.card-category.epistemology { color: var(--cat-six); }
-.card-category.mind { color: var(--cat-fourteen); }
-.card-category.ethics { color: var(--cat-three); }
-.card-category.logic { color: var(--cat-fifteen); }
-.card-category.eastern_philosophy { color: var(--cat-eight); }
-.card-category.existentialism { color: var(--cat-eleven); }
-.card-category.mystery { color: var(--cat-eight); }
-.card-category.spiritual { color: var(--cat-nine); }
-.card-category.power { color: var(--cat-ten); }
-.card-category.thought_experiments { color: var(--cat-eleven); }
-.card-category.cognitive_biases { color: var(--cat-twelve); }
-.card-category.mental_models { color: var(--cat-five); }
-.card-category.psychology { color: var(--cat-fourteen); }
-.card-category.neuroscience { color: var(--cat-three); }
-.card-category.paradoxes { color: var(--cat-seven); }
-.card-category.theories { color: var(--cat-sixteen); }
-.card-category.laws_and_principles { color: var(--cat-thirteen); }
+/* =========================================
+   CATEGORY COLORS
+========================================= */
 
-.card-category.theories {  color: #6366f1; }
-.card-category.paradoxes {  color: #f43f5e; }
-.card-category.thought_experiments {  color: #8b5cf6;}
-.card-category.power { color: #dc2626; }
-.card-category.symbolism { color: #d946ef; }
-.card-category.spirituality { color: #0ea5e9;}
-.card-category.unsolved_mysteries { color: #64748b; }
-.card-category.unanswered_questions { color: #facc15;}
-.card-category.patterns { color: #06b6d4;}
+
+/* =========================================
+   CATEGORY TEXT COLORS
+========================================= */
+
+.card-category.metaphysics {
+  color: var(--cat-metaphysics);
+}
+
+.card-category.epistemology {
+  color: var(--cat-epistemology);
+}
+
+.card-category.mind {
+  color: var(--cat-mind);
+}
+
+.card-category.ethics {
+  color: var(--cat-ethics);
+}
+
+.card-category.logic {
+  color: var(--cat-logic);
+}
+
+.card-category.eastern_philosophy {
+  color: var(--cat-eastern-philosophy);
+}
+
+.card-category.existentialism {
+  color: var(--cat-existentialism);
+}
+
+.card-category.psychology {
+  color: var(--cat-psychology);
+}
+
+.card-category.neuroscience {
+  color: var(--cat-neuroscience);
+}
+
+.card-category.intelligence {
+  color: var(--cat-intelligence);
+}
+
+.card-category.mental_models {
+  color: var(--cat-mental-models);
+}
+
+.card-category.cognitive_biases {
+  color: var(--cat-cognitive-biases);
+}
+
+.card-category.laws_and_principles {
+  color: var(--cat-laws-principles);
+}
+
+.card-category.theories {
+  color: var(--cat-theories);
+}
+
+.card-category.paradoxes {
+  color: var(--cat-paradoxes);
+}
+
+.card-category.thought_experiments {
+  color: var(--cat-thought-experiments);
+}
+
+.card-category.power {
+  color: var(--cat-power);
+}
+
+.card-category.symbolism {
+  color: var(--cat-symbolism);
+}
+
+.card-category.spirituality {
+  color: var(--cat-spirituality);
+}
+
+.card-category.unsolved_mysteries {
+  color: var(--cat-unsolved-mysteries);
+}
+
+.card-category.patterns {
+  color: var(--cat-patterns);
+}
+
+.card-category.bhagavad_gita {
+  color: var(--cat-bhagavad-gita);
+}
+
+.card-category.sanskrit_wisdom {
+  color: var(--cat-sanskrit-wisdom);
+}
 
 
 /* =========================================
