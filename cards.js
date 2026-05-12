@@ -246,6 +246,8 @@ function renderVaultCategories() {
 
     { key: "UNSOLVED_MYSTERIES", label: "Unsolved Mysteries" },
     { key: "UNANSWERED_QUESTIONS", label: "Unanswered Questions" },
+    { key: "BHAGAVAD_GITA", label: "Bhagawad Gita" },
+    { key: "SANSKRIT_WISDOM", label: "Sanskrit Wisdom" },
 
 
   ];
