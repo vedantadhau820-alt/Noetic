@@ -13,8 +13,11 @@ const USER_STATE_KEY =
 const defaultUserState = {
 
   savedIds: [],
-   readIds: [],
+
+  readIds: [],
+
   reflections: {},
+
   streak: null
 
 };
@@ -33,6 +36,8 @@ function createFreshState() {
   return {
 
     savedIds: [],
+
+    readIds: [],
 
     reflections: {},
 
@@ -55,15 +60,20 @@ function normalizeUserState(data = {}) {
       Array.isArray(data.savedIds)
         ? data.savedIds
         : [],
-   readIds:
-     Array.isArray(data.readIds)
-    ? data.readIds
-    : [],
+
+
+    readIds:
+      Array.isArray(data.readIds)
+        ? data.readIds
+        : [],
+
+
     reflections:
       typeof data.reflections === "object" &&
       data.reflections !== null
         ? data.reflections
         : {},
+
 
     streak:
       data.streak || null
@@ -168,9 +178,23 @@ function getSavedIds() {
 }
 
 
+function getReadIds() {
+
+  return loadUserState().readIds;
+
+}
+
+
 function isSaved(id) {
 
   return getSavedIds().includes(id);
+
+}
+
+
+function isRead(id) {
+
+  return getReadIds().includes(id);
 
 }
 
@@ -189,7 +213,11 @@ window.UserState = {
 
   getSavedIds,
 
+  getReadIds,
+
   isSaved,
+
+  isRead,
 
   defaultState:
     createFreshState()
