@@ -423,9 +423,15 @@
    MODAL ACTIONS
 ========================================= */
 
+/* =========================================
+   MODAL ACTIONS
+========================================= */
+
 .modal-actions {
 
   display: flex;
+
+  align-items: center;
 
   gap: 12px;
 
@@ -435,7 +441,7 @@
 
 
 /* =========================================
-   BASE BUTTON STYLE
+   SHARED BUTTON STYLE
 ========================================= */
 
 .save-button,
@@ -454,10 +460,10 @@
   border-radius: 14px;
 
   background:
-    rgba(255,255,255,0.05);
+    rgba(255,255,255,0.06);
 
   color:
-    rgba(255,255,255,0.88);
+    rgba(255,255,255,0.92);
 
   font-size: 0.92rem;
 
@@ -468,27 +474,26 @@
   transition:
     background 0.2s ease,
     transform 0.15s ease,
-    color 0.2s ease,
-    opacity 0.2s ease;
+    color 0.2s ease;
 
 }
 
 
 /* =========================================
-   BUTTON HOVER
+   HOVER
 ========================================= */
 
 .save-button:hover,
 .read-button:hover {
 
   background:
-    rgba(255,255,255,0.09);
+    rgba(255,255,255,0.1);
 
 }
 
 
 /* =========================================
-   BUTTON ACTIVE
+   ACTIVE
 ========================================= */
 
 .save-button:active,
@@ -527,7 +532,6 @@
     #6ee7b7;
 
 }
-
 
 /* =========================================
    SECTION FADE
