@@ -5,6 +5,35 @@
    - Vault = derived runtime view
 ========================================= */
 
+markAsRead(id) {
+
+  if (!id) return;
+
+  if (!userState.readIds.includes(id)) {
+
+    userState.readIds.push(id);
+
+    persistUserState();
+
+  }
+
+},
+
+
+isRead(id) {
+
+  return userState.readIds.includes(id);
+
+},
+
+
+getReadItems() {
+
+  return buildRuntimeVault().filter(
+    item => userState.readIds.includes(item.id)
+  );
+
+},
 
 /* =========================================
    SAFETY CHECKS
