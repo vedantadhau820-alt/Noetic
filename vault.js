@@ -5,35 +5,6 @@
    - Vault = derived runtime view
 ========================================= */
 
-markAsRead(id) {
-
-  if (!id) return;
-
-  if (!userState.readIds.includes(id)) {
-
-    userState.readIds.push(id);
-
-    persistUserState();
-
-  }
-
-},
-
-
-isRead(id) {
-
-  return userState.readIds.includes(id);
-
-},
-
-
-getReadItems() {
-
-  return buildRuntimeVault().filter(
-    item => userState.readIds.includes(item.id)
-  );
-
-},
 
 /* =========================================
    SAFETY CHECKS
@@ -157,6 +128,50 @@ function refreshUserState() {
 ========================================= */
 
 const Vault = {
+
+   /* =====================================
+   MARK AS READ
+===================================== */
+
+markAsRead(id) {
+
+  if (!id) return false;
+
+  if (!userState.readIds.includes(id)) {
+
+    userState.readIds.push(id);
+
+    persistUserState();
+
+  }
+
+  return true;
+
+},
+
+
+/* =====================================
+   CHECK READ
+===================================== */
+
+isRead(id) {
+
+  return userState.readIds.includes(id);
+
+},
+
+
+/* =====================================
+   GET READ ITEMS
+===================================== */
+
+getReadItems() {
+
+  return buildRuntimeVault().filter(
+    item => userState.readIds.includes(item.id)
+  );
+
+},
 
 
   /* =====================================
