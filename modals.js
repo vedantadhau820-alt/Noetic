@@ -1,9 +1,5 @@
 /* =========================================
    KNOWLEDGE MODAL CONTROLLER
-   Handles:
-   - Open / close modal
-   - Render selected knowledge
-   - Save / unsave knowledge
 ========================================= */
 
 
@@ -33,6 +29,9 @@ const modalExplanation =
 const saveButton =
   modal?.querySelector(".save-button");
 
+const readButton =
+  modal?.querySelector(".read-button");
+
 const closeButton =
   modal?.querySelector(".modal-close");
 
@@ -40,9 +39,6 @@ const closeButton =
 /* =========================================
    SAFETY CHECK
 ========================================= */
-
-const readButton =
-  modal?.querySelector(".read-button");
 
 if (!modal) {
 
@@ -61,134 +57,12 @@ function openModal(item) {
 
   if (!item || !modal) return;
 
-
-  /* -------------------------------------
-     MARK AS READ
-  ------------------------------------- */
-
-  if (
-    typeof Vault !== "undefined" &&
-    typeof Vault.markAsRead === "function"
-  ) {
-
-    if (readButton) {
-
-  const isRead =
-    Boolean(item.read);
-
-  readButton.textContent =
-    isRead
-      ? "Read"
-      : "Mark Read";
-
-  readButton.classList.toggle(
-    "read",
-    isRead
-  );
-
-    }
-
-  }
-
-
-   function handleReadToggle() {
-
-  if (!currentItemId) return;
-
-
-  Vault.toggleReadItem(
-    currentItemId
-  );
-
-
-  const updatedItem =
-    Vault.getItemById(
-      currentItemId
-    );
-
-
-  if (!updatedItem || !readButton) {
-    return;
-  }
-
-
-  const isRead =
-    Boolean(updatedItem.read);
-
-
-  readButton.textContent =
-    isRead
-      ? "Read"
-      : "Mark Read";
-
-
-  readButton.classList.toggle(
-    "read",
-    isRead
-  );
-
-
-  renderDailyCards?.();
-  renderDiscoverCards?.();
-  renderSavedCards?.();
-
-   }
-
-   if (readButton) {
-
-  readButton.addEventListener(
-    "click",
-    handleReadToggle
-  );
-
-   }
-  /* -------------------------------------
-     UPDATE LOCAL ITEM
-  ------------------------------------- */
-
-  item.read = true;
+  currentItemId =
+    item.id || null;
 
 
   /* -------------------------------------
-     REFRESH UI
-  ------------------------------------- */
-
-  setTimeout(() => {
-
-    if (
-      typeof renderDailyCards === "function"
-    ) {
-
-      renderDailyCards();
-
-    }
-
-    if (
-      typeof renderDiscoverCards ===
-      "function"
-    ) {
-
-      renderDiscoverCards();
-
-    }
-
-    if (
-      typeof renderSavedCards ===
-      "function"
-    ) {
-
-      renderSavedCards();
-
-    }
-
-  }, 0);
-
-
-  currentItemId = item.id || null;
-
-
-  /* -------------------------------------
-     RENDER CONTENT
+     CATEGORY
   ------------------------------------- */
 
   if (modalCategory) {
@@ -198,12 +72,22 @@ function openModal(item) {
 
   }
 
+
+  /* -------------------------------------
+     TITLE
+  ------------------------------------- */
+
   if (modalTitle) {
 
     modalTitle.textContent =
       item.title || "Untitled";
 
   }
+
+
+  /* -------------------------------------
+     EXPLANATION
+  ------------------------------------- */
 
   if (modalExplanation) {
 
@@ -214,7 +98,7 @@ function openModal(item) {
 
 
   /* -------------------------------------
-     SAVE BUTTON STATE
+     SAVE BUTTON
   ------------------------------------- */
 
   if (saveButton) {
@@ -223,7 +107,9 @@ function openModal(item) {
       Boolean(item.saved);
 
     saveButton.textContent =
-      isSaved ? "Saved" : "Save";
+      isSaved
+        ? "Saved"
+        : "Save";
 
     saveButton.classList.toggle(
       "saved",
@@ -234,10 +120,34 @@ function openModal(item) {
 
 
   /* -------------------------------------
+     READ BUTTON
+  ------------------------------------- */
+
+  if (readButton) {
+
+    const isRead =
+      Boolean(item.read);
+
+    readButton.textContent =
+      isRead
+        ? "Read"
+        : "Mark Read";
+
+    readButton.classList.toggle(
+      "read",
+      isRead
+    );
+
+  }
+
+
+  /* -------------------------------------
      SHOW MODAL
   ------------------------------------- */
 
-  modal.classList.remove("hidden");
+  modal.classList.remove(
+    "hidden"
+  );
 
   document.body.style.overflow =
     "hidden";
@@ -253,7 +163,9 @@ function closeModal() {
 
   if (!modal) return;
 
-  modal.classList.add("hidden");
+  modal.classList.add(
+    "hidden"
+  );
 
   document.body.style.overflow = "";
 
@@ -263,7 +175,7 @@ function closeModal() {
 
 
 /* =========================================
-   SAVE / UNSAVE
+   SAVE TOGGLE
 ========================================= */
 
 function handleSaveToggle() {
@@ -290,30 +202,41 @@ function handleSaveToggle() {
      TOGGLE SAVE
   ------------------------------------- */
 
-  Vault.toggleSaveItem(currentItemId);
+  Vault.toggleSaveItem(
+    currentItemId
+  );
 
 
   /* -------------------------------------
-     GET UPDATED ITEM
+     UPDATED ITEM
   ------------------------------------- */
 
   const updatedItem =
-    Vault.getItemById?.(currentItemId);
+    Vault.getItemById?.(
+      currentItemId
+    );
 
-  if (!updatedItem || !saveButton) {
+  if (
+    !updatedItem ||
+    !saveButton
+  ) {
+
     return;
+
   }
 
 
   /* -------------------------------------
-     UPDATE BUTTON UI
+     UPDATE BUTTON
   ------------------------------------- */
 
   const isSaved =
     Boolean(updatedItem.saved);
 
   saveButton.textContent =
-    isSaved ? "Saved" : "Save";
+    isSaved
+      ? "Saved"
+      : "Save";
 
   saveButton.classList.toggle(
     "saved",
@@ -324,10 +247,94 @@ function handleSaveToggle() {
 
 
 /* =========================================
+   READ TOGGLE
+========================================= */
+
+function handleReadToggle() {
+
+  if (!currentItemId) return;
+
+
+  if (
+    typeof Vault === "undefined" ||
+    typeof Vault.toggleReadItem !==
+      "function"
+  ) {
+
+    console.error(
+      "Read system unavailable"
+    );
+
+    return;
+
+  }
+
+
+  /* -------------------------------------
+     TOGGLE READ
+  ------------------------------------- */
+
+  Vault.toggleReadItem(
+    currentItemId
+  );
+
+
+  /* -------------------------------------
+     GET UPDATED ITEM
+  ------------------------------------- */
+
+  const updatedItem =
+    Vault.getItemById(
+      currentItemId
+    );
+
+  if (
+    !updatedItem ||
+    !readButton
+  ) {
+
+    return;
+
+  }
+
+
+  /* -------------------------------------
+     UPDATE BUTTON
+  ------------------------------------- */
+
+  const isRead =
+    Boolean(updatedItem.read);
+
+  readButton.textContent =
+    isRead
+      ? "Read"
+      : "Mark Read";
+
+  readButton.classList.toggle(
+    "read",
+    isRead
+  );
+
+
+  /* -------------------------------------
+     REFRESH UI
+  ------------------------------------- */
+
+  renderDailyCards?.();
+
+  renderDiscoverCards?.();
+
+  renderSavedCards?.();
+
+}
+
+
+/* =========================================
    EVENT LISTENERS
 ========================================= */
 
-/* Close via X button */
+
+/* CLOSE BUTTON */
 
 if (closeButton) {
 
@@ -339,7 +346,7 @@ if (closeButton) {
 }
 
 
-/* Close by clicking backdrop */
+/* BACKDROP CLOSE */
 
 if (modal) {
 
@@ -359,7 +366,7 @@ if (modal) {
 }
 
 
-/* Save / Unsave */
+/* SAVE BUTTON */
 
 if (saveButton) {
 
@@ -371,9 +378,19 @@ if (saveButton) {
 }
 
 
-/* =========================================
-   ESC KEY SUPPORT
-========================================= */
+/* READ BUTTON */
+
+if (readButton) {
+
+  readButton.addEventListener(
+    "click",
+    handleReadToggle
+  );
+
+}
+
+
+/* ESC KEY */
 
 document.addEventListener(
   "keydown",
@@ -399,6 +416,8 @@ document.addEventListener(
    GLOBAL ACCESS
 ========================================= */
 
-window.openModal = openModal;
+window.openModal =
+  openModal;
 
-window.closeModal = closeModal;
+window.closeModal =
+  closeModal;
