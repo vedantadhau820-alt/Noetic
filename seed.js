@@ -14,22 +14,173 @@ const SEED_VAULT = [
 //   explanation: ``,
 //   tags: ["", ""]
 // },
+{
+  id: "consciousness2",
+  category: "METAPHYSICS",
+  title: "The Nature of Consciousness",
+  essence: "What it means to be aware.",
+  explanation: `Consciousness is the ability to experience, feel, think, and be aware. It is the reason you know that you exist right now. You are not just reacting like a machine—you are experiencing life from the inside. You can feel pain, hear music, imagine the future, and question your own thoughts. That inner awareness is consciousness.
+
+Imagine two cameras recording the same room. Both capture images, but neither actually experiences the room. Humans are different. When you look at the sky, you do not only see it—you experience it. You feel emotions, memories, and thoughts connected to what you see. Consciousness is that invisible inner experience.
+
+Consciousness also allows self-awareness. You can think about yourself. You can ask questions like “Who am I?” or “Why do I feel this way?” A rock exists, but it is not aware of existing. Humans are aware of existence itself.
+
+Some people believe consciousness comes entirely from the brain, like electricity produced by a machine. Others believe consciousness is something deeper, possibly beyond the physical body. This is why consciousness remains one of the greatest mysteries in metaphysics.
+
+Without consciousness, there would be no meaning, no feelings, and no understanding of reality. Everything you know about the world is experienced through consciousness. It is the window through which existence becomes real to you.`,
+  tags: ["awareness", "mind"]
+},
 
 {
-  id: "existence2",
+  id: "nothingness",
   category: "METAPHYSICS",
-  title: "What Is Existence ?",
-  essence: "Why anything exists at all.",
-  explanation: `Existence means being real or being there. If something exists, it is not imaginary—it has some form of reality. You exist. Other people exist. Trees, air, sound, thoughts, and even time exist in different ways. Existence simply answers one basic question: “Is this real in any way?”
+  title: "Being & Nothingness",
+  essence: "Why there is something instead of nothing.",
+  explanation: `Being means existence. Nothingness means the complete absence of everything—no matter, no time, no space, no thoughts, absolutely nothing. Metaphysics asks one of the deepest questions possible: “Why does anything exist at all instead of nothing?”
 
-Think of a chair in front of you. You can see it, touch it, sit on it. So the chair exists physically. Now think of a dream you had last night. The dream felt real, but when you woke up, it disappeared. The dream still existed, but only in your mind. This shows that existence is not just about physical objects. Things can exist physically, mentally, or emotionally.
+Imagine an empty room. Even that room still contains space, air, and time. True nothingness would remove even those things. It is difficult to imagine because the human mind always thinks using something. We cannot easily picture absolute nothing.
 
-You also exist even when no one is looking at you. You don’t stop existing when you sleep or when you are alone. This means existence does not depend on attention. It simply is. Your thoughts exist when you think them. Your feelings exist when you feel them, even if you never say them out loud.
+Being is the opposite. Being means reality itself is happening. Every object, thought, person, and event belongs to being because it exists in some form. The universe itself is part of being.
 
-Another way to understand existence is through change. If something can affect you or be affected by something else, it exists. Fire exists because it can burn. Love exists because it can change how people act. Fear exists because it can stop you from moving.
+This topic becomes strange because nothingness seems simpler than existence. It might seem easier for nothing to exist rather than an entire universe filled with galaxies, life, and consciousness. Yet somehow, reality exists.
 
-So, existence is the state of being something rather than nothing. It is the basic fact that something is happening at all. Everything else—life, meaning, choices—comes after existence.`,
-  tags: ["being", "reality"]
+Some philosophers believe nothingness is impossible because the very idea of “nothing” still becomes a concept in the mind. Others believe existence may have always existed and never truly began.
+
+Being and nothingness explore the mystery of existence at its deepest level. It forces us to question why reality exists at all and whether absolute nothingness could ever truly exist.`,
+  tags: ["existence", "nothing"]
+},
+
+{
+  id: "mindmatter",
+  category: "METAPHYSICS",
+  title: "Mind vs Matter",
+  essence: "Whether reality is mental or physical.",
+  explanation: `Mind refers to thoughts, emotions, awareness, and consciousness. Matter refers to physical things like bodies, planets, atoms, and objects. Metaphysics asks an important question: which one is more fundamental—mind or matter?
+
+For example, when you imagine a dragon, the image exists in your mind even though no physical dragon is present. Thoughts are real experiences, but they are not physical objects you can hold. This creates the mystery of how mental experiences relate to the physical world.
+
+Some people believe matter comes first. According to this view, the brain creates thoughts and consciousness the same way a computer creates images on a screen. If the physical brain changes, the mind changes too.
+
+Others believe the mind is more fundamental. They argue that everything you know about reality comes through consciousness. You never experience the world directly—you only experience your awareness of it. In this view, consciousness may be deeper than physical matter itself.
+
+This topic also explores how thoughts can affect physical reality. Fear can make the body shake. Motivation can change actions. Stress can weaken health. Mental experiences influence the physical world constantly.
+
+Mind vs Matter is ultimately about understanding what reality is truly made of and whether consciousness is simply part of the universe or the foundation of it.`,
+  tags: ["mind", "matter"]
+},
+
+{
+  id: "infinity",
+  category: "METAPHYSICS",
+  title: "Infinity & the Infinite Universe",
+  essence: "Whether reality has limits.",
+  explanation: `Infinity means something without an end or limit. Metaphysics asks whether the universe is finite or infinite. Does reality eventually stop somewhere, or does it continue forever?
+
+Imagine counting numbers: 1, 2, 3, 4. No matter how high you count, there is always another number after it. Numbers seem infinite because they never truly end. The universe may be similar.
+
+If the universe is infinite, then space may continue forever with no final edge. There could be endless galaxies, endless worlds, and endless possibilities. Some theories even suggest infinite versions of reality may exist.
+
+Infinity also applies to time. Did time begin at some point, or has existence always existed? If time stretches endlessly into the future, then reality may never truly end.
+
+The idea of infinity is difficult because the human mind prefers limits and boundaries. We understand beginnings and endings more easily than endlessness. Yet infinity appears everywhere in mathematics, space, and philosophical thought.
+
+This topic explores whether reality is ultimately limited or unlimited. It questions whether existence has boundaries or whether reality extends beyond anything humans can fully imagine.`,
+  tags: ["infinity", "universe"]
+},
+
+{
+  id: "soul",
+  category: "METAPHYSICS",
+  title: "The Self and the Soul",
+  essence: "What makes you truly you.",
+  explanation: `The self is your sense of “I.” It is the feeling that you are the same person across different moments of life. Even as your body changes and your thoughts change, you still feel like yourself. Metaphysics asks what creates this identity.
+
+Some people believe the self is connected to the brain and memory. Your experiences, personality, and thoughts create who you are. If memories disappear completely, they argue that the self changes too.
+
+Others believe humans possess a soul—something deeper than the body or mind. The soul is often described as an eternal essence that continues beyond physical death. In this view, the body may change, but the true self remains.
+
+Think about childhood photos of yourself. Your body looks different now, your thoughts are different, and your personality has evolved. Yet somehow you still feel connected to that younger version of yourself. This continuity creates the mystery of identity.
+
+This topic also explores whether the self is permanent or constantly changing. Are you the exact same person you were years ago, or are you becoming someone new every moment?
+
+The self and the soul focus on the deepest question of personal existence: what truly defines who you are.`,
+  tags: ["self", "soul"]
+},
+
+{
+  id: "possibility",
+  category: "METAPHYSICS",
+  title: "Possibility vs Actuality",
+  essence: "The difference between what could happen and what is real.",
+  explanation: `Possibility refers to things that could exist or happen. Actuality refers to what truly exists or happens right now. Metaphysics explores the relationship between potential realities and actual reality.
+
+For example, a seed has the possibility of becoming a tree. The tree does not exist yet, but the potential already exists within the seed. When the tree finally grows, the possibility becomes actual.
+
+Human life is filled with possibilities. You could choose different careers, meet different people, or make different decisions. Every choice changes which possibilities become real and which remain unrealized.
+
+This topic also raises questions about reality itself. Are possibilities simply ideas in the mind, or do all possible realities exist in some way? Some theories suggest every possible event may exist in parallel realities or alternate universes.
+
+Possibility shows that reality is not fixed only to the present moment. The future contains countless outcomes that may or may not become actual. Actuality is simply the version of reality that finally happens.
+
+Possibility vs Actuality explores the hidden relationship between potential and reality, between what could be and what truly is.`,
+  tags: ["potential", "reality"]
+},
+
+{
+  id: "multiverse",
+  category: "METAPHYSICS",
+  title: "The Multiverse Theory",
+  essence: "The idea that many realities may exist.",
+  explanation: `The multiverse theory suggests that our universe may not be the only one. Instead of a single reality, there could be countless universes existing separately, each with different laws, histories, or possibilities.
+
+Imagine reality as an endless ocean filled with bubbles. Each bubble is its own universe. Our universe would simply be one among many. Some universes may look similar to ours, while others could be completely different.
+
+The multiverse idea often connects to choices and possibilities. In one universe, a person may make one decision. In another, they may choose differently. This creates alternate versions of reality.
+
+Some scientific theories also support multiverse ideas. Certain interpretations of quantum physics suggest reality may split into different outcomes. Other cosmological theories suggest new universes could form endlessly.
+
+Even though the multiverse cannot currently be proven directly, it remains a powerful metaphysical idea because it changes how we think about existence itself. Reality may be far larger and stranger than humans can fully observe.
+
+The multiverse theory explores whether our universe is unique or simply one small part of a much greater reality.`,
+  tags: ["multiverse", "reality"]
+},
+
+{
+  id: "afterlife",
+  category: "METAPHYSICS",
+  title: "Death, Immortality & Afterlife",
+  essence: "What happens after existence ends.",
+  explanation: `Death is the ending of physical life, but metaphysics asks whether existence truly ends there. Is consciousness destroyed completely, or does some part of the self continue?
+
+Many cultures and religions believe in an afterlife—a state of existence beyond physical death. Some imagine heaven or hell. Others believe in reincarnation, where the soul returns in another life. Some believe consciousness merges back into the universe itself.
+
+Immortality means existing forever. Humans have always searched for ways to overcome death, whether physically, spiritually, or through legacy and memory. The fear of death often comes from the fear of nonexistence.
+
+This topic also explores what death means philosophically. If consciousness simply disappears, then life may gain meaning because it is temporary. But if existence continues after death, reality may be far deeper than physical life alone.
+
+No one fully knows what happens after death. That uncertainty is exactly why the question remains powerful. Death is both universal and mysterious. Every human life eventually faces it.
+
+Death, immortality, and afterlife explore whether existence has an ending or whether consciousness continues in ways humans still cannot fully understand.`,
+  tags: ["death", "afterlife"]
+},
+
+{
+  id: "chaos",
+  category: "METAPHYSICS",
+  title: "Order, Chaos & Cosmic Meaning",
+  essence: "Whether reality has purpose or randomness.",
+  explanation: `Order means structure, patterns, and balance. Chaos means unpredictability, randomness, and disorder. Metaphysics asks whether the universe is guided by meaning and order or shaped mostly by chaos.
+
+Nature contains both. The movement of planets follows precise patterns, showing order. But storms, accidents, and unexpected events reveal chaos. Human life also mixes structure and uncertainty constantly.
+
+Sometimes chaos creates new forms of order. Forest fires destroy life but also allow new growth. Random events can completely change a person’s future. What seems meaningless at first may later reveal hidden patterns.
+
+This topic also explores whether the universe itself has purpose. Is existence moving toward something meaningful, or is meaning created only by conscious beings like humans? Some believe reality has a cosmic design. Others believe the universe is neutral and humans create meaning themselves.
+
+People naturally search for patterns because consciousness wants understanding. We connect events, create stories, and seek purpose even in difficult experiences.
+
+Order, chaos, and cosmic meaning explore whether existence is fundamentally structured with purpose or whether meaning is something humans build within an uncertain universe.`,
+  tags: ["order", "chaos"]
 },
 {
   id: "existence",
