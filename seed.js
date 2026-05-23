@@ -712,6 +712,195 @@ Are they responsible for their actions?
 Artificial consciousness is not about smart machines—it is about machines that can actually experience being alive.`,
   tags: ["ai", "consciousness"]
 },
+{
+  id: "subconscious",
+  category: "MIND",
+  title: "The Subconscious Mind",
+  essence: "The hidden part of the mind beneath awareness.",
+  explanation: `The subconscious mind contains thoughts, memories, emotions, and patterns that exist below conscious awareness. Even when you are not actively thinking about something, the subconscious continues influencing behavior, feelings, and decisions in the background.
+
+For example, you may suddenly remember a forgotten song after hearing a small part of its melody. The memory was hidden in the subconscious until something triggered it. Habits also often come from the subconscious. You do not consciously think about every step while walking or brushing your teeth because the mind has automated those actions.
+
+Dreams are another example of subconscious activity. Hidden fears, desires, and memories can appear symbolically during sleep. Sometimes people solve problems unconsciously and suddenly discover answers without knowing exactly how.
+
+The subconscious also stores emotional experiences. Past events may continue affecting confidence, fear, attraction, or behavior even when the person is not fully aware of those influences.
+
+Some psychologists compare the mind to an iceberg. Conscious thoughts are the small visible part above water, while the subconscious forms the much larger hidden part beneath the surface.
+
+The subconscious mind explores how unseen mental processes silently shape human behavior, personality, and experience every moment.`,
+  tags: ["subconscious", "awareness"]
+},
+
+{
+  id: "identity",
+  category: "MIND",
+  title: "Personal Identity",
+  essence: "What makes a person remain the same individual.",
+  explanation: `Personal identity is the idea of what makes you “you” over time. Even as your body changes, your thoughts evolve, and your experiences grow, you still feel connected to yourself as one continuous person.
+
+Think about your childhood. Your appearance, beliefs, and personality may be very different now, yet you still recognize that younger version as yourself. This creates an important question: what exactly remains constant through all these changes?
+
+Some people believe memory creates identity. According to this view, you are the same person because you remember your experiences and life history. Others believe identity comes from the brain, consciousness, or even the soul.
+
+The problem becomes deeper when imagining extreme situations. If a person lost every memory completely, would they still remain the same person? If human memories could be copied into another body or machine, would that still be the same identity?
+
+Personal identity also shapes responsibility and relationships. Society treats individuals as continuous persons across time because identity creates accountability, connection, and meaning.
+
+Personal Identity explores the mystery of what truly defines a human self and what allows identity to continue through constant change.`,
+  tags: ["identity", "self"]
+},
+
+{
+  id: "dreams",
+  category: "MIND",
+  title: "Dreams and Reality",
+  essence: "Why dreams can feel real.",
+  explanation: `Dreams are mental experiences that occur during sleep. They can include images, emotions, sounds, stories, and sensations that often feel completely real while they are happening. The mind creates entire worlds even when the body is resting.
+
+In dreams, impossible things may seem normal. A person may fly, speak to the dead, or move through strange places without questioning anything. Only after waking up does the mind recognize the difference between dream and reality.
+
+This creates an important philosophical question: how do humans know they are awake right now? Dreams can imitate reality so convincingly that they reveal how dependent humans are on perception and consciousness.
+
+Dreams also reflect emotions, fears, desires, and memories. Stressful experiences may appear as nightmares, while hopes and wishes may appear symbolically in dreams. Some people even experience lucid dreams where they become aware they are dreaming and gain partial control over the experience.
+
+Scientists study dreams as products of brain activity, while others view dreams as windows into the subconscious mind or deeper psychological truths.
+
+Dreams and Reality explore the fragile boundary between imagination and waking existence, questioning how humans distinguish what is real from what only feels real.`,
+  tags: ["dreams", "reality"]
+},
+
+{
+  id: "thought",
+  category: "MIND",
+  title: "Thought and Imagination",
+  essence: "How the mind creates ideas beyond reality.",
+  explanation: `Thought allows humans to process information, solve problems, and reflect on existence. Imagination allows the mind to create experiences, ideas, and possibilities that do not physically exist in the present moment.
+
+For example, a person can imagine future inventions, fictional worlds, or situations that have never happened. Before buildings, stories, or technologies exist physically, they first exist as thoughts inside the mind.
+
+Imagination is one of the most powerful human abilities because it allows creativity and innovation. Artists imagine paintings before creating them. Scientists imagine theories before testing them. Writers imagine entire worlds using only thought.
+
+Thought also shapes emotions and behavior. Positive thinking can increase confidence, while fearful thinking can create anxiety. Human experience is deeply influenced not only by external events but also by internal mental activity.
+
+However, thought can also become overwhelming. Constant overthinking may create stress, confusion, or distorted perceptions. The mind does not only observe reality—it continuously interprets and reshapes it.
+
+Thought and Imagination explore how the human mind moves beyond immediate reality, creating meaning, creativity, and endless possibilities.`,
+  tags: ["thought", "imagination"]
+},
+
+{
+  id: "emotions",
+  category: "MIND",
+  title: "Emotions and Awareness",
+  essence: "How feelings shape conscious experience.",
+  explanation: `Emotions are mental and physical responses to experiences, thoughts, and situations. Happiness, fear, anger, sadness, and love are not just reactions—they shape how humans experience reality itself.
+
+For example, fear can make ordinary situations feel dangerous. Love can make small moments feel meaningful and powerful. Emotions influence attention, memory, judgment, and decision-making constantly.
+
+Awareness allows people to recognize emotions within themselves. Humans can observe their feelings, reflect on them, and sometimes control how they respond. This self-awareness separates conscious emotional experience from automatic reactions.
+
+Emotions also affect the body. Anxiety may increase heartbeat and tension. Joy may create energy and motivation. Mental and physical experiences are deeply connected through emotion.
+
+Some philosophers and psychologists argue emotions are essential for meaningful human life. Without emotion, knowledge and logic alone would feel empty and directionless. Emotions give value to experiences.
+
+Emotions and Awareness explore how feelings influence consciousness and shape the human understanding of reality, relationships, and meaning.`,
+  tags: ["emotions", "awareness"]
+},
+
+{
+  id: "collective",
+  category: "MIND",
+  title: "Collective Consciousness",
+  essence: "The idea that minds may connect beyond individuals.",
+  explanation: `Collective consciousness refers to shared thoughts, beliefs, emotions, and cultural understanding that exist across groups of people. Human minds are not completely isolated because individuals constantly influence one another through communication, society, and shared experiences.
+
+For example, entire societies can share traditions, moral values, fears, and symbols. Large groups of people may react emotionally to the same events even without direct personal connection. This creates a kind of shared mental atmosphere.
+
+Some thinkers believe collective consciousness exists psychologically through culture and social influence. Others suggest deeper connections between minds may exist beyond normal understanding.
+
+The internet provides a modern example of collective consciousness. Ideas, emotions, and information spread globally almost instantly, shaping public thought on a massive scale.
+
+Collective consciousness also explains how humans inherit knowledge from previous generations. Language, science, art, and philosophy continue growing because minds share and preserve understanding collectively.
+
+Collective Consciousness explores whether human awareness is entirely individual or partly connected through larger systems of shared experience and meaning.`,
+  tags: ["consciousness", "society"]
+},
+
+{
+  id: "memoryself",
+  category: "MIND",
+  title: "Memory and the Self",
+  essence: "How memory creates personal identity.",
+  explanation: `Memory connects past experiences to present awareness, allowing humans to develop a sense of self across time. Without memory, each moment would feel disconnected from every other moment.
+
+For example, you know your name, relationships, and life story because memory preserves those experiences. Memory creates continuity, making it possible to feel like the same person over many years.
+
+However, memory is imperfect. People forget events, change details unconsciously, or create false memories. This raises philosophical questions about identity itself. If memories disappear or become altered, does the self change too?
+
+Emotional memories often become especially powerful. Painful experiences may shape personality and behavior for years, while joyful memories can influence motivation and meaning.
+
+Neurological disorders involving memory loss reveal how deeply identity depends on memory. When memories fade, a person’s connection to their own history can weaken dramatically.
+
+Memory and the Self explore how human identity is built from remembered experiences and how fragile the connection between memory and selfhood can sometimes be.`,
+  tags: ["memory", "self"]
+},
+
+{
+  id: "attention",
+  category: "MIND",
+  title: "Attention and Perception",
+  essence: "How focus shapes reality.",
+  explanation: `Attention is the ability to focus awareness on specific parts of experience. Perception is the process through which the mind interprets sensory information. Together, they determine how humans experience reality.
+
+At any moment, the world contains countless sounds, sights, and sensations. However, humans notice only a small portion because attention selects what becomes important. What you focus on strongly shapes what you experience.
+
+For example, when deeply focused on reading, a person may fail to notice background noise completely. Attention changes perception by filtering reality.
+
+Perception is also influenced by expectations and emotions. Two people can observe the same event but interpret it differently based on prior beliefs and experiences.
+
+Illusions demonstrate this clearly. The mind sometimes fills missing information automatically, creating perceptions that differ from physical reality. This shows perception is not passive observation—it is active interpretation.
+
+Attention and Perception explore how human consciousness does not simply receive reality but continuously shapes and organizes it through focus and interpretation.`,
+  tags: ["attention", "perception"]
+},
+
+{
+  id: "intelligence",
+  category: "MIND",
+  title: "The Nature of Intelligence",
+  essence: "What it truly means to be intelligent.",
+  explanation: `Intelligence is the ability to learn, reason, solve problems, and adapt to new situations. Humans often associate intelligence with knowledge, memory, or logical thinking, but intelligence can exist in many forms.
+
+Some people excel in mathematics and analysis, while others show intelligence through creativity, emotional understanding, communication, or practical problem-solving. Intelligence is not limited to academic ability alone.
+
+Animals also display forms of intelligence. Birds can solve puzzles, dolphins communicate socially, and octopuses adapt creatively to challenges. Artificial intelligence systems can process enormous amounts of information quickly, yet they may still lack human awareness and understanding.
+
+This creates deeper questions about what intelligence truly is. Is intelligence simply information processing, or does true intelligence require consciousness, emotion, and self-awareness?
+
+Human intelligence also has limits. Even highly intelligent individuals can make irrational decisions when emotions, biases, or incomplete information interfere.
+
+The Nature of Intelligence explores whether intelligence is only about thinking power or something deeper connected to awareness, understanding, and consciousness itself.`,
+  tags: ["intelligence", "mind"]
+},
+
+{
+  id: "freewillmind",
+  category: "MIND",
+  title: "Consciousness and Free Will",
+  essence: "Whether conscious beings truly choose freely.",
+  explanation: `Free will is the idea that humans can make genuine choices rather than being completely controlled by biology, environment, or fate. Consciousness appears deeply connected to this experience of choice.
+
+Every day, people feel as though they freely decide what to say, think, or do. You can choose to stand up, speak, or remain silent. This sense of control feels natural and immediate.
+
+However, some scientists and philosophers argue that thoughts and decisions may begin unconsciously before conscious awareness notices them. Brain activity linked to decisions can sometimes appear before a person becomes consciously aware of choosing.
+
+This raises difficult questions. If thoughts arise automatically from brain processes, are humans truly free? Or is consciousness simply observing decisions already formed unconsciously?
+
+Others argue that conscious reflection still matters because humans can examine impulses, resist instincts, and intentionally change behavior over time.
+
+Consciousness and Free Will explore whether humans are genuine authors of their choices or whether freedom itself may partly be an illusion created by the mind.`,
+  tags: ["freewill", "consciousness"]
+},
 
 // -------- Ethics --------
 
