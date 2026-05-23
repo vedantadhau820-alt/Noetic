@@ -1830,6 +1830,250 @@ Finitude reminds us to live it wisely.`,
   tags: ["death", "mortality"]
 },
 {
+  id: "existence_precedes_essence",
+  category: "EXISTENTIALISM",
+  title: "Existence Precedes Essence",
+  essence: "Humans create themselves through choices.",
+  explanation: `Existentialism teaches that humans are not born with a fixed purpose or predefined essence. First, a person exists—and only afterward creates meaning and identity through actions, choices, and experiences.
+
+A knife is made for a specific purpose before it exists physically. Its essence comes first because humans designed it with a function in mind. Existentialists argue humans are different. There is no universal script already defining who you must become.
+
+This idea creates both freedom and pressure. If life does not come with automatic meaning, then each individual becomes responsible for shaping their own existence.
+
+People often search for labels, roles, or systems to define themselves completely. Existentialism challenges this by saying identity is continuously created through lived action rather than fixed permanently.
+
+The teaching also rejects passive living. Humans cannot fully escape responsibility by blaming destiny, society, or nature for every decision.
+
+Existence Precedes Essence teaches that life is not something fully given to you.
+It is something you actively create through how you choose to live.`,
+  tags: ["existence", "identity"]
+},
+
+{
+  id: "burden_of_freedom",
+  category: "EXISTENTIALISM",
+  title: "The Burden of Freedom",
+  essence: "Freedom brings responsibility and anxiety.",
+  explanation: `Existentialism teaches that humans are radically free to choose their actions, beliefs, and direction in life. However, this freedom is not always comforting—it can feel overwhelming and heavy.
+
+Every choice carries responsibility because humans cannot completely escape the consequences of what they decide. Even refusing to choose becomes a choice itself.
+
+Many people desire freedom in theory but feel anxious when faced with limitless possibilities. Without absolute certainty or fixed meaning, individuals must decide how to live on their own.
+
+This creates what existentialists call the burden of freedom. There is no perfect guide guaranteeing every decision is correct. Humans must act despite uncertainty.
+
+Because freedom can feel frightening, people often hide behind social expectations, routines, or external authority to avoid confronting responsibility directly.
+
+Existentialism argues that true maturity begins when a person accepts freedom honestly instead of escaping from it.
+
+The Burden of Freedom teaches that freedom is not only power.
+It is also the weight of responsibility for shaping your own life.`,
+  tags: ["freedom", "responsibility"]
+},
+
+{
+  id: "bad_faith",
+  category: "EXISTENTIALISM",
+  title: "Bad Faith",
+  essence: "Escaping responsibility through self-deception.",
+  explanation: `Bad faith is an existentialist idea describing the way people deceive themselves in order to avoid freedom and responsibility. Instead of living authentically, they hide behind excuses, roles, or social expectations.
+
+For example, a person may say, “I have no choice,” even when choices still exist. Someone may remain trapped in an unhappy life because accepting freedom feels frightening or uncertain.
+
+Bad faith happens when humans pretend they are completely controlled by external systems, identities, or circumstances while ignoring their ability to choose.
+
+Existentialists argue that people often reduce themselves to fixed labels such as job titles, social roles, or public image. In doing so, they avoid confronting the deeper reality of human freedom.
+
+This self-deception creates inner conflict because people sense they are not living honestly with themselves.
+
+Authenticity begins when individuals stop hiding from freedom and acknowledge their role in shaping their own existence.
+
+Bad Faith teaches that humans suffer when they deny their own freedom
+and live according to false versions of themselves.`,
+  tags: ["authenticity", "freedom"]
+},
+
+{
+  id: "absurd_hero",
+  category: "EXISTENTIALISM",
+  title: "The Absurd Hero",
+  essence: "Finding strength in a meaningless universe.",
+  explanation: `The absurd hero is a figure in existentialist thought who continues living fully even while recognizing that the universe may have no clear or guaranteed meaning.
+
+This idea became famous through the image of Sisyphus in Greek mythology. Sisyphus is condemned to push a massive rock uphill forever, only for it to roll back down each time. The task appears meaningless and endless.
+
+Existentialists ask: what should a person do when confronted with a universe that offers no final answers or certainty?
+
+The absurd hero refuses despair and continues anyway. Instead of giving up, they choose to live consciously, passionately, and rebelliously despite the absence of ultimate meaning.
+
+This creates a strange kind of freedom. If existence has no predetermined purpose, then humans become free to create meaning through action and experience themselves.
+
+The absurd hero does not escape reality through illusion or false certainty. They face existence honestly while still affirming life.
+
+The Absurd Hero teaches that dignity and strength can exist even in an uncertain and silent universe.`,
+  tags: ["absurdism", "meaning"]
+},
+
+{
+  id: "nothingness",
+  category: "EXISTENTIALISM",
+  title: "Confronting Nothingness",
+  essence: "Facing emptiness and uncertainty directly.",
+  explanation: `Existentialism often explores the experience of nothingness—the feeling that life may lack permanent meaning, certainty, or fixed purpose.
+
+Humans naturally search for stability and answers. People want to know why they exist, what reality means, and whether life has ultimate direction. Yet existence often remains uncertain and silent.
+
+Confronting nothingness means facing this uncertainty honestly rather than escaping into distractions or false comfort.
+
+This experience can feel frightening because it removes illusions of guaranteed meaning or control. Many people avoid thinking deeply about death, isolation, and uncertainty because these realities create existential anxiety.
+
+However, existentialists believe confronting nothingness can also awaken authenticity. When people stop relying on automatic beliefs or external systems completely, they begin creating meaning consciously for themselves.
+
+Nothingness is not simply emptiness. It is also the open space where freedom, creativity, and self-definition become possible.
+
+Confronting Nothingness teaches that humans grow deeper
+when they face uncertainty directly instead of hiding from it.`,
+  tags: ["nothingness", "existence"]
+},
+
+{
+  id: "existence_choice",
+  category: "EXISTENTIALISM",
+  title: "Existence and Choice",
+  essence: "Choices shape who you become.",
+  explanation: `Existentialism teaches that human life is constantly shaped through choice. Every action, decision, and response contributes to the creation of personal identity.
+
+People often think identity is something fixed, but existentialists argue humans become who they are through repeated choices over time.
+
+Even small choices matter. The way a person treats others, responds to fear, uses time, or faces difficulty slowly shapes character and meaning.
+
+Choice also creates responsibility because actions cannot be separated from consequences. Humans cannot avoid participating in the formation of their own lives.
+
+Many individuals fear making wrong choices because certainty rarely exists. Existentialism accepts this uncertainty and argues that waiting for perfect answers can itself become a form of avoidance.
+
+The philosophy encourages conscious living instead of passive drifting. A meaningful life emerges through intentional action rather than automatic habit.
+
+Existence and Choice teaches that humans are not only observers of life.
+They actively become themselves through the choices they make.`,
+  tags: ["choice", "identity"]
+},
+
+{
+  id: "silence_of_universe",
+  category: "EXISTENTIALISM",
+  title: "The Silence of the Universe",
+  essence: "The universe gives no clear answers.",
+  explanation: `Existentialism often describes the universe as silent because existence does not provide obvious explanations for suffering, purpose, or meaning.
+
+Humans ask deep questions:
+Why are we here?
+What is the purpose of life?
+Why does suffering exist?
+
+Yet the universe itself does not respond with certainty. Nature continues silently without giving clear moral instructions or guaranteed answers.
+
+This silence can feel disturbing because humans naturally desire clarity and reassurance. Many people seek systems, ideologies, or beliefs that promise absolute certainty.
+
+Existentialists argue that the absence of clear answers is part of the human condition. Meaning is not automatically handed to people from outside existence.
+
+However, this silence also creates freedom. Humans are not forced into one universal path. They must engage with life directly and create personal meaning through experience and action.
+
+The Silence of the Universe teaches that existence may not explain itself clearly,
+and humans must learn how to live within that uncertainty.`,
+  tags: ["universe", "meaning"]
+},
+
+{
+  id: "becoming_through_action",
+  category: "EXISTENTIALISM",
+  title: "Becoming Through Action",
+  essence: "Actions define human identity.",
+  explanation: `Existentialism teaches that people become who they are through action rather than through abstract ideas alone. Intentions and dreams matter, but actions reveal the reality of a person’s character.
+
+A person may claim to value courage, kindness, or honesty, but those qualities only become real when expressed through behavior and choices.
+
+Existentialists reject passive identity. Humans are not simply fixed objects with permanent definitions. Identity is constantly shaped through living, deciding, and acting in the world.
+
+This idea creates responsibility because individuals cannot completely separate themselves from their actions. Choices leave marks on both the world and the self.
+
+The philosophy also emphasizes movement and growth. A person is always becoming something through the way they live each day.
+
+Existentialism values authenticity, meaning acting in alignment with consciously chosen values instead of blindly following social pressure or habit.
+
+Becoming Through Action teaches that human identity is not something hidden waiting to be discovered.
+It is something continuously created through lived experience.`,
+  tags: ["action", "identity"]
+},
+
+{
+  id: "fear_of_meaninglessness",
+  category: "EXISTENTIALISM",
+  title: "The Fear of Meaninglessness",
+  essence: "The anxiety that life may have no ultimate purpose.",
+  explanation: `One of the deepest existential fears is the possibility that life may not contain any final or universal meaning. Humans naturally want purpose, direction, and significance, yet existence often appears uncertain and temporary.
+
+This fear becomes especially strong when people confront death, loneliness, suffering, or the vastness of the universe. Everyday routines and distractions sometimes hide this anxiety temporarily, but existential questions often return eventually.
+
+The fear of meaninglessness can create despair, emptiness, or emotional numbness. Some people respond by escaping into constant distraction, rigid belief systems, or blind conformity.
+
+Existentialism does not necessarily solve this fear by providing absolute answers. Instead, it encourages humans to face the uncertainty honestly.
+
+Many existentialists argue that meaning becomes more authentic when humans create it consciously rather than receiving it automatically from external authority.
+
+Relationships, creativity, love, struggle, and personal values can become sources of self-created meaning even in an uncertain universe.
+
+The Fear of Meaninglessness teaches that confronting emptiness directly
+can become the beginning of deeper self-awareness and authentic living.`,
+  tags: ["meaning", "anxiety"]
+},
+
+{
+  id: "individual_vs_society",
+  category: "EXISTENTIALISM",
+  title: "Individual vs Society",
+  essence: "The struggle between authenticity and conformity.",
+  explanation: `Existentialism often explores the tension between the individual and society. Human beings live among social rules, expectations, traditions, and cultural systems that strongly influence identity and behavior.
+
+Society provides structure and belonging, but it can also pressure individuals to conform blindly instead of living authentically.
+
+Many people follow paths chosen mainly by social expectation rather than personal reflection. Fear of judgment, rejection, or isolation often causes individuals to suppress their true thoughts and desires.
+
+Existentialists argue that authentic living requires courage because being true to oneself may conflict with social approval.
+
+This does not mean rejecting society completely. Humans naturally need relationships and community. The challenge is learning how to live honestly without losing individuality entirely.
+
+The conflict becomes especially intense when social systems encourage conformity over freedom, creativity, or independent thought.
+
+Individual vs Society teaches that existential growth often requires balancing belonging with authenticity
+and choosing consciously rather than living only through social pressure.`,
+  tags: ["individual", "society"]
+},
+
+{
+  id: "absolute_truth",
+  category: "EXISTENTIALISM",
+  title: "Living Without Absolute Truth",
+  essence: "Navigating life without complete certainty.",
+  explanation: `Existentialism questions whether humans can ever possess complete and absolute truth about existence. Reality often appears uncertain, complex, and open to interpretation.
+
+Many people seek permanent certainty through religion, ideology, science, or philosophy because uncertainty feels uncomfortable and frightening.
+
+Existentialists argue that human life may always contain ambiguity. People must still act, choose, and live even without guaranteed answers about meaning or reality.
+
+This uncertainty creates both anxiety and freedom. Without absolute truth controlling every aspect of existence, individuals become responsible for shaping values and meaning themselves.
+
+Living without complete certainty requires courage because humans cannot rely fully on fixed systems to remove all doubt.
+
+Existentialism encourages honest engagement with uncertainty rather than pretending perfect certainty exists where it does not.
+
+Living Without Absolute Truth teaches that humans must continue creating meaning and making choices
+even while recognizing the limits of certainty and knowledge.`,
+  tags: ["truth", "uncertainty"]
+},
+
+//Neuroscience 
+   
+{
   id: "attention_and_focus",
   category: "NEUROSCIENCE",
   title: "Attention & Focus",
@@ -4407,7 +4651,225 @@ they may unconsciously help create.`,
   tags: ["belief", "psychology"]
 },
 
+   // Bhagavad Gita 
+
    {
+  id: "detachment",
+  category: "BHAGAVAD_GITA",
+  title: "Detachment Leads to Freedom",
+  essence: "Freedom comes from letting go of unhealthy attachment.",
+  explanation: `The Bhagavad Gita teaches that attachment is one of the main causes of suffering. Humans become emotionally trapped when they cling too tightly to people, outcomes, possessions, or desires.
+
+Detachment does not mean becoming cold or emotionless. It means learning to act, love, and live without depending completely on external things for inner peace.
+
+For example, a person may work very hard toward success. The Gita does not say to stop working. Instead, it teaches to stop becoming mentally destroyed by success or failure. Peace should not depend entirely on outcomes.
+
+Attachment creates fear, anxiety, anger, and disappointment because the mind constantly worries about losing what it desires. Detachment brings stability because inner balance no longer depends on temporary situations.
+
+The Gita compares life to changing seasons. Everything changes—wealth, relationships, emotions, and circumstances. Holding too tightly to temporary things creates suffering.
+
+Detachment in the Gita means remaining deeply involved in life while staying inwardly free.
+True freedom comes when peace no longer depends on what the world gives or takes away.`,
+  tags: ["detachment", "freedom"]
+},
+
+{
+  id: "senses",
+  category: "BHAGAVAD_GITA",
+  title: "Control of the Senses",
+  essence: "Mastering desires creates inner peace.",
+  explanation: `The Bhagavad Gita teaches that uncontrolled senses can pull the mind in many directions and disturb inner peace. Humans constantly chase pleasure, comfort, and stimulation through sight, sound, taste, touch, and desire.
+
+The problem is not the senses themselves. The problem begins when the mind becomes controlled by them instead of guiding them wisely.
+
+For example, uncontrolled desire can create addiction, anger, greed, or endless dissatisfaction. A person may keep wanting more wealth, pleasure, or approval yet never feel truly fulfilled.
+
+The Gita compares the senses to powerful horses pulling a chariot. If the horses are uncontrolled, the chariot crashes. But if guided properly, they move smoothly toward the right destination.
+
+Self-control creates clarity and strength. A disciplined mind is less disturbed by temptation, distraction, or emotional chaos.
+
+The Gita does not teach rejection of life. It teaches balance and mastery. Enjoyment should not become slavery.
+
+Control of the senses means learning to guide desires wisely instead of allowing desires to control the self.`,
+  tags: ["discipline", "senses"]
+},
+
+{
+  id: "self_realization",
+  category: "BHAGAVAD_GITA",
+  title: "True Wisdom Comes from Self-Realization",
+  essence: "Real knowledge begins with knowing the self.",
+  explanation: `The Bhagavad Gita teaches that true wisdom is not simply collecting information or intellectual knowledge. Real wisdom comes from understanding your deeper nature beyond the ego, body, and temporary identity.
+
+Most people identify completely with external things such as name, status, success, appearance, or social role. The Gita says these are temporary layers, not the deepest truth of who you are.
+
+Self-realization means recognizing the inner self—the eternal consciousness that exists beyond changing experiences. This deeper self remains untouched by success, failure, pleasure, or pain.
+
+Without self-realization, humans become trapped in confusion, attachment, fear, and endless desire because they mistake temporary identity for permanent reality.
+
+The Gita teaches that wisdom creates calmness and balance. A wise person remains steady during both happiness and difficulty because their peace comes from inner understanding rather than external conditions.
+
+Meditation, discipline, selfless action, and devotion are all paths toward self-realization in the Gita.
+
+True wisdom begins when a person stops searching only outside themselves
+and starts understanding the deeper nature within.`,
+  tags: ["wisdom", "self"]
+},
+
+{
+  id: "balance",
+  category: "BHAGAVAD_GITA",
+  title: "Balance Is the Path of Life",
+  essence: "Inner harmony comes through moderation and balance.",
+  explanation: `The Bhagavad Gita teaches that balance is essential for peace, clarity, and spiritual growth. Extremes in behavior, emotion, desire, or lifestyle often create suffering and instability.
+
+The Gita advises moderation in many aspects of life—eating, sleeping, working, speaking, and even spiritual practice. Too much or too little of anything can disturb the mind and body.
+
+For example, constant indulgence in pleasure weakens discipline, while extreme self-denial can also create imbalance and suffering. A balanced life supports both physical well-being and inner stability.
+
+Balance also applies emotionally. The Gita teaches remaining steady during success and failure, praise and criticism, pleasure and pain. Life naturally changes constantly, and emotional balance prevents the mind from becoming overwhelmed.
+
+A balanced person is not emotionally numb. Instead, they remain centered even while experiencing life fully.
+
+The Gita views balance as strength, not weakness. Harmony creates clarity, wise judgment, and peace.
+
+Balance Is the Path of Life teaches that true stability comes not from controlling the world,
+but from maintaining inner equilibrium through changing circumstances.`,
+  tags: ["balance", "harmony"]
+},
+
+{
+  id: "ego",
+  category: "BHAGAVAD_GITA",
+  title: "Ego Creates Illusion",
+  essence: "False identity separates humans from truth.",
+  explanation: `The Bhagavad Gita teaches that the ego creates a false sense of identity. Ego is the part of the mind that constantly says “I,” “me,” and “mine,” attaching itself to status, success, appearance, power, and personal desires.
+
+The ego believes the temporary self is the complete self. Because of this illusion, humans become trapped in fear, pride, jealousy, anger, and attachment.
+
+For example, when the ego is praised, it feels powerful. When criticized, it feels wounded. This creates emotional instability because peace depends on external approval.
+
+The Gita teaches that the deeper self is beyond ego. True identity is connected to eternal consciousness, not temporary roles or possessions.
+
+Ego also creates separation. It divides people through pride, selfishness, and comparison. Spiritual growth begins when a person learns humility and recognizes the deeper unity of life.
+
+Destroying ego does not mean losing individuality. It means seeing beyond the illusion that the temporary personality is the ultimate truth.
+
+The Bhagavad Gita teaches that freedom begins when humans stop identifying completely with ego
+and discover the deeper self beyond it.`,
+  tags: ["ego", "illusion"]
+},
+
+{
+  id: "devotion",
+  category: "BHAGAVAD_GITA",
+  title: "Devotion Connects You to the Divine",
+  essence: "Love and surrender create spiritual connection.",
+  explanation: `The Bhagavad Gita teaches that devotion is one of the most powerful paths toward spiritual realization. Devotion means offering the heart, mind, and actions sincerely toward the divine.
+
+In the Gita, devotion is not blind fear or empty ritual. It is a deep inner relationship based on trust, love, humility, and surrender.
+
+A devoted person remembers the divine not only during suffering but throughout daily life. Ordinary actions become meaningful when performed with sincerity and spiritual awareness.
+
+The Gita teaches that devotion purifies the mind because it shifts attention away from ego, selfishness, and constant anxiety. Love creates inner peace and connection.
+
+Devotion also brings strength during difficult times. When life becomes uncertain, surrendering to a higher wisdom helps reduce fear and confusion.
+
+Different people express devotion differently—through prayer, meditation, service, chanting, or silent remembrance. The outer form matters less than the sincerity within.
+
+Devotion Connects You to the Divine teaches that spiritual closeness grows not only through intellect,
+but through love, trust, and wholehearted surrender.`,
+  tags: ["devotion", "divine"]
+},
+
+{
+  id: "anger",
+  category: "BHAGAVAD_GITA",
+  title: "Fear and Anger Cloud Judgment",
+  essence: "Strong emotions disturb wisdom and clarity.",
+  explanation: `The Bhagavad Gita teaches that fear and anger weaken clear thinking and disturb inner peace. When emotions become uncontrolled, the mind loses balance and wisdom.
+
+Fear often comes from attachment and uncertainty. Humans fear losing success, relationships, identity, or control. This fear creates anxiety, hesitation, and confusion.
+
+Anger usually arises when desires are blocked or expectations fail. The Gita explains that uncontrolled anger clouds judgment and leads people toward destructive actions and regret.
+
+A person consumed by anger may say or do things they later deeply regret because emotional intensity temporarily overpowers reason and self-awareness.
+
+The Gita teaches that a calm and disciplined mind sees situations more clearly. Inner peace allows better decisions even during difficulty and conflict.
+
+This does not mean suppressing all emotion. Instead, it means learning not to become controlled by emotional storms.
+
+Fear and Anger Cloud Judgment teaches that wisdom grows when the mind remains steady,
+calm, and balanced even in challenging situations.`,
+  tags: ["anger", "fear"]
+},
+
+{
+  id: "discipline",
+  category: "BHAGAVAD_GITA",
+  title: "Discipline Creates Inner Strength",
+  essence: "Self-mastery builds peace and resilience.",
+  explanation: `The Bhagavad Gita teaches that discipline is necessary for inner growth and lasting peace. Without discipline, the mind becomes distracted by desires, laziness, fear, and emotional instability.
+
+Discipline means guiding thoughts, actions, habits, and desires consciously instead of living only through impulse or temporary emotion.
+
+For example, meditation requires discipline because the mind naturally wanders. Ethical living requires discipline because selfish desires constantly tempt people away from balance and wisdom.
+
+The Gita views discipline not as punishment but as training for inner freedom. A disciplined person becomes stronger mentally, emotionally, and spiritually.
+
+Small daily actions shape character over time. Repeated habits influence the direction of life itself.
+
+Discipline also creates resilience during hardship. A stable and trained mind handles suffering, uncertainty, and difficulty with greater strength.
+
+The Bhagavad Gita teaches that true mastery is not controlling others,
+but learning to control oneself.`,
+  tags: ["discipline", "strength"]
+},
+
+{
+  id: "temporary",
+  category: "BHAGAVAD_GITA",
+  title: "Everything in Life Is Temporary",
+  essence: "Change is part of existence.",
+  explanation: `The Bhagavad Gita teaches that everything in the material world constantly changes. Pleasure, pain, success, failure, youth, wealth, and relationships are all temporary experiences within life.
+
+Humans suffer when they expect temporary things to remain permanent. Attachment to changing conditions creates fear and disappointment because life naturally moves through cycles.
+
+The Gita compares life to changing seasons. Happiness and difficulty both come and go. Neither state lasts forever.
+
+Understanding impermanence helps reduce excessive attachment and emotional extremes. A person who understands change becomes calmer during both success and hardship.
+
+This teaching does not mean life is meaningless. Instead, it encourages wisdom. Appreciating temporary experiences becomes easier when humans stop trying to control everything permanently.
+
+Impermanence also reminds people to focus on deeper truths beyond temporary appearances and external conditions.
+
+Everything in Life Is Temporary teaches that peace grows when humans accept change
+instead of resisting the natural movement of life.`,
+  tags: ["impermanence", "change"]
+},
+
+{
+  id: "surrender",
+  category: "BHAGAVAD_GITA",
+  title: "Surrender to the Divine Will",
+  essence: "Trusting a wisdom greater than the ego.",
+  explanation: `The Bhagavad Gita teaches that surrender is not weakness but deep trust in a higher wisdom beyond the limited ego. Humans often try to control every outcome, yet life remains uncertain and unpredictable.
+
+Surrender means doing your best while accepting that not everything can be controlled personally. It is releasing excessive fear, anxiety, and attachment to outcomes.
+
+In the Gita, surrender involves trusting the divine order of existence. This trust creates inner peace because the mind stops fighting constantly against reality.
+
+Surrender does not mean passivity or giving up responsibility. Arjuna is still told to act, fight, and fulfill his duty. The difference is acting without ego-driven fear and attachment.
+
+The ego wants certainty and control over everything. Surrender allows humility and acceptance of life’s larger flow.
+
+Spiritual surrender also creates emotional freedom. The burden of trying to dominate every result becomes lighter.
+
+Surrender to the Divine Will teaches that peace comes not from controlling all of life,
+but from acting sincerely while trusting something greater than the individual ego.`,
+  tags: ["surrender", "trust"]
+}, 
+{
   id: "karma_yoga",
   category: "BHAGAVAD_GITA",
   title: "Focus On Action, Not Outcome",
@@ -4522,7 +4984,9 @@ but by facing them consciously and truthfully.`,
   tags: ["dharma", "purpose"]
 },
 
-   {
+   //Sanskrit Wisdom
+   
+{
   id: "yad_bhavam_tad_bhavati",
   category: "SANSKRIT_WISDOM",
   title: "Yad Bhavam Tad Bhavati",
@@ -4635,8 +5099,225 @@ What you seek outside yourself
 already exists within you.`,
   tags: ["upanishads", "unity"]
 },
+{
+  id: "anandam_brahmano",
+  category: "SANSKRIT_WISDOM",
+  title: "Anandam Brahmano Vidvan",
+  essence: "Ultimate reality is bliss.",
+  explanation: `Anandam Brahmano Vidvan expresses the idea that the deepest nature of ultimate reality is bliss. In Sanskrit wisdom, true happiness is not seen as temporary pleasure but as a deep inner state connected to spiritual realization.
 
-   {
+Humans usually search for happiness through external things such as success, wealth, entertainment, or approval. These experiences may create temporary excitement, but they eventually fade and leave the mind searching again.
+
+This teaching suggests that lasting fulfillment cannot be fully found outside because the source of true peace already exists within consciousness itself.
+
+The phrase points toward the realization that ultimate reality—Brahman—is not empty or lifeless. It is described as pure existence, awareness, and bliss.
+
+Spiritual wisdom traditions often teach that suffering grows when humans become disconnected from their deeper nature and trapped only in external desires and attachments.
+
+Anandam Brahmano Vidvan teaches that beneath temporary emotions and changing experiences,
+the deepest truth of existence is peace, fullness, and inner bliss.`,
+  tags: ["bliss", "brahman"]
+},
+
+{
+  id: "mano_eva",
+  category: "SANSKRIT_WISDOM",
+  title: "Mano Eva Manushyanam Karanam Bandha Mokshayoh",
+  essence: "The mind is the cause of bondage and liberation.",
+  explanation: `Mano Eva Manushyanam Karanam Bandha Mokshayoh means “The mind alone is the cause of bondage and liberation.” This teaching explains that human suffering and freedom both arise primarily from the condition of the mind.
+
+An uncontrolled mind becomes trapped in fear, anger, greed, attachment, and endless desire. These mental states create suffering even when external conditions appear comfortable.
+
+At the same time, the same mind can become a path toward freedom through awareness, discipline, wisdom, and self-understanding.
+
+For example, two people may face the same difficult situation. One becomes consumed by negativity and despair, while the other remains calm and resilient. The difference often lies in the state of the mind.
+
+This teaching emphasizes inner mastery rather than blaming the outside world completely for suffering.
+
+Meditation, reflection, discipline, and spiritual practice are viewed as ways to purify and strengthen the mind so it becomes a tool for liberation instead of confusion.
+
+Mano Eva Manushyanam Karanam Bandha Mokshayoh teaches that the greatest prison and the greatest freedom
+both exist within the human mind itself.`,
+  tags: ["mind", "liberation"]
+},
+
+{
+  id: "uddhared_atmanatmanam",
+  category: "SANSKRIT_WISDOM",
+  title: "Uddhared Atmanatmanam",
+  essence: "Lift yourself through your own self.",
+  explanation: `Uddhared Atmanatmanam means “Raise yourself by your own self.” This teaching emphasizes personal responsibility, inner effort, and self-transformation.
+
+The phrase teaches that true growth cannot be completely given by others. Teachers, friends, and guidance may help, but ultimately each person must work on their own mind, actions, and awareness.
+
+Humans often wait for external rescue—perfect circumstances, approval, luck, or someone else to change their lives. This teaching reminds people that inner strength and discipline are essential for transformation.
+
+It also reflects the idea that the self can either help or harm itself. Wise thoughts, disciplined habits, and conscious action elevate life, while negativity and self-destructive patterns create suffering.
+
+The teaching encourages self-mastery rather than helplessness. Spiritual growth begins when individuals take responsibility for their inner condition.
+
+Uddhared Atmanatmanam teaches that humans already possess the capacity for growth within themselves.
+The path upward begins through conscious effort and inner awakening.`,
+  tags: ["self", "growth"]
+},
+
+{
+  id: "satyam_vada",
+  category: "SANSKRIT_WISDOM",
+  title: "Satyam Vada Dharmam Chara",
+  essence: "Speak truth and live righteously.",
+  explanation: `Satyam Vada Dharmam Chara means “Speak the truth and follow righteousness.” This teaching combines honesty with ethical living as essential foundations for a meaningful life.
+
+Truthfulness is seen as more than simply avoiding lies. It includes sincerity, integrity, and alignment between words, thoughts, and actions.
+
+Dharmam Chara means living according to dharma—ethical responsibility, moral balance, and right conduct. A truthful life without morality can still become harmful, while morality without honesty becomes unstable.
+
+The teaching reminds humans that actions shape character over time. Repeated dishonesty weakens trust and inner peace, while truthful and ethical behavior creates clarity and strength.
+
+Speaking truth is not always easy. Fear, selfishness, and social pressure often tempt people toward deception or compromise.
+
+This wisdom encourages courage because living truthfully sometimes requires sacrifice and discipline.
+
+Satyam Vada Dharmam Chara teaches that a meaningful life is built not only through success,
+but through honesty, integrity, and righteous action.`,
+  tags: ["truth", "dharma"]
+},
+
+{
+  id: "nayam_atma",
+  category: "SANSKRIT_WISDOM",
+  title: "Nayam Atma Balahinena Labhyah",
+  essence: "The higher self is not attained by the weak.",
+  explanation: `Nayam Atma Balahinena Labhyah means “The higher self is not attained by the weak.” This teaching explains that spiritual realization requires strength, discipline, courage, and inner determination.
+
+Weakness here does not only mean physical weakness. It refers mainly to mental weakness, lack of discipline, fear, laziness, and inability to control desires or distractions.
+
+The path toward wisdom and self-realization is difficult because the mind constantly seeks comfort, pleasure, and distraction. Inner growth requires effort and persistence.
+
+Spiritual strength includes patience during hardship, discipline during temptation, and courage during uncertainty.
+
+The teaching also rejects the idea that enlightenment comes passively without effort. Growth requires conscious practice, reflection, and self-control.
+
+However, strength in this context is not aggression or domination over others. True strength means mastery over oneself.
+
+Nayam Atma Balahinena Labhyah teaches that the highest understanding of life
+is reached through inner strength, discipline, and perseverance.`,
+  tags: ["strength", "self"]
+},
+
+{
+  id: "tyagenaike",
+  category: "SANSKRIT_WISDOM",
+  title: "Tyagenaike Amritatvam Anashuh",
+  essence: "Immortality is attained through renunciation.",
+  explanation: `Tyagenaike Amritatvam Anashuh means “Through renunciation alone, immortality is attained.” The teaching explains that true spiritual freedom comes not through endless accumulation, but through letting go.
+
+Renunciation here does not necessarily mean abandoning all possessions or worldly life. It primarily means releasing attachment, greed, ego, and obsessive desire.
+
+Humans often believe happiness comes from constantly acquiring more—more wealth, status, pleasure, or control. Yet attachment to these temporary things creates anxiety and suffering.
+
+The teaching suggests that freedom appears when the mind no longer depends completely on external possessions or outcomes for peace.
+
+Renunciation creates inner lightness because fear of loss decreases. A detached mind becomes calmer, freer, and less controlled by craving.
+
+The phrase also points toward spiritual immortality—the realization of the eternal self beyond temporary identity and material existence.
+
+Tyagenaike Amritatvam Anashuh teaches that lasting freedom is not gained by holding tighter to life,
+but by learning what to let go of.`,
+  tags: ["renunciation", "freedom"]
+},
+
+{
+  id: "aano_bhadrah",
+  category: "SANSKRIT_WISDOM",
+  title: "Aano Bhadrah Kratavo Yantu Vishwatah",
+  essence: "Let noble thoughts come from every direction.",
+  explanation: `Aano Bhadrah Kratavo Yantu Vishwatah means “May noble thoughts come to us from all directions.” This teaching encourages openness, wisdom, and intellectual humility.
+
+The phrase teaches that truth and wisdom should not be limited by narrow thinking, ego, or rigid attachment to one viewpoint. Valuable ideas can emerge from many cultures, people, and experiences.
+
+This openness does not mean accepting every idea blindly. Instead, it means remaining willing to learn and grow through thoughtful understanding.
+
+The teaching also promotes humility because no single person or tradition fully contains all wisdom. Learning continues throughout life.
+
+Fear and pride often make humans reject unfamiliar perspectives automatically. This wisdom encourages curiosity instead of closed-mindedness.
+
+Spiritually, the phrase reflects confidence that truth does not fear inquiry or deeper understanding.
+
+Aano Bhadrah Kratavo Yantu Vishwatah teaches that wisdom grows when the mind remains open
+to noble ideas from every direction of life.`,
+  tags: ["wisdom", "openness"]
+},
+
+{
+  id: "shraddhavan",
+  category: "SANSKRIT_WISDOM",
+  title: "Shraddhavan Labhate Jnanam",
+  essence: "A sincere seeker gains wisdom.",
+  explanation: `Shraddhavan Labhate Jnanam means “The one with sincere faith gains knowledge.” In Sanskrit wisdom, shraddha does not mean blind belief. It means deep sincerity, trust, dedication, and openness toward truth.
+
+A doubtful or careless mind often struggles to learn deeply because it remains distracted, cynical, or unwilling to commit fully to understanding.
+
+Faith here means trusting the process of learning and growth while remaining thoughtful and aware. It is a balance between openness and wisdom.
+
+For example, a student who approaches learning with discipline and sincerity usually gains deeper understanding than someone who studies only superficially.
+
+The teaching also emphasizes patience. True wisdom often develops slowly through reflection, practice, and experience rather than instant answers.
+
+Spiritually, shraddha allows the mind to move beyond constant confusion and toward deeper realization.
+
+Shraddhavan Labhate Jnanam teaches that wisdom grows most powerfully
+in a mind filled with sincerity, discipline, and genuine seeking.`,
+  tags: ["faith", "knowledge"]
+},
+
+{
+  id: "ahimsa",
+  category: "SANSKRIT_WISDOM",
+  title: "Ahimsa Paramo Dharma",
+  essence: "Nonviolence is the highest dharma.",
+  explanation: `Ahimsa Paramo Dharma means “Nonviolence is the highest duty.” This teaching places compassion and respect for life at the center of ethical and spiritual living.
+
+Ahimsa goes beyond avoiding physical violence. It also includes avoiding harmful speech, cruel thoughts, hatred, and unnecessary harm toward others.
+
+The teaching recognizes that violence often begins first within the mind through anger, fear, ego, or greed. Inner peace therefore becomes connected to outer peace.
+
+Nonviolence does not mean weakness or passivity. It means responding with awareness and compassion instead of hatred and destruction whenever possible.
+
+Many spiritual traditions influenced by Sanskrit wisdom view all life as interconnected. Hurting others ultimately harms the larger harmony of existence.
+
+Ahimsa also encourages empathy. When people recognize the shared experience of suffering and existence, compassion naturally increases.
+
+Ahimsa Paramo Dharma teaches that the highest strength is not domination or aggression,
+but conscious compassion toward all life.`,
+  tags: ["nonviolence", "compassion"]
+},
+
+{
+  id: "vidyaya_amritam",
+  category: "SANSKRIT_WISDOM",
+  title: "Vidyaya Amritam Ashnute",
+  essence: "Through knowledge, one attains immortality.",
+  explanation: `Vidyaya Amritam Ashnute means “Through knowledge, one attains immortality.” This teaching explains that true wisdom leads beyond ignorance, fear, and limited understanding.
+
+The knowledge described here is not only intellectual information. It refers to deeper spiritual understanding about reality, consciousness, and the true nature of the self.
+
+Ignorance causes humans to identify completely with temporary things such as the body, ego, possessions, and external identity. This creates fear, attachment, and suffering.
+
+Wisdom reveals a deeper reality beyond temporary existence. Through self-knowledge and spiritual understanding, a person realizes something eternal within consciousness itself.
+
+Immortality here does not necessarily mean physical immortality. It refers more to realizing the timeless aspect of existence beyond birth and death.
+
+The teaching values learning, reflection, meditation, and inner inquiry because they gradually remove confusion and illusion.
+
+Vidyaya Amritam Ashnute teaches that true knowledge is transformative.
+It frees the mind from ignorance and opens awareness to deeper reality.`,
+  tags: ["knowledge", "immortality"]
+},
+
+//Thought Experiment 
+
+{
   id: "empty_boat",
   category: "THOUGHT_EXPERIMENTS",
   title: "The Empty Boat",
@@ -4661,7 +5342,7 @@ Many things that disturb you
 feel personal only because
 the mind imagines someone steering the boat.`,
   tags: ["ego", "perception"]
-   },
+   }
 
 ];
 window.SEED_VAULT = SEED_VAULT;
