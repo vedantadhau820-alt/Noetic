@@ -1328,6 +1328,257 @@ Validity checks the logic.
 Soundness checks the logic plus reality.`,
   tags: ["arguments", "logic"]
 },
+{
+  id: "naturelogic",
+  category: "LOGIC",
+  title: "The Nature of Logic",
+  essence: "Why reasoning follows rules.",
+  explanation: `Logic is the study of correct reasoning. It helps humans determine whether conclusions follow properly from ideas, evidence, or arguments. Without logic, thinking would become chaotic and inconsistent.
+
+For example, if all humans are mortal and Socrates is human, logic concludes that Socrates must also be mortal. The reasoning follows a structured pattern that makes the conclusion reliable if the premises are true.
+
+Logic exists in everyday life constantly. People use logic while solving problems, making decisions, debating ideas, and understanding relationships between facts.
+
+Different systems of logic exist, including formal logic, symbolic logic, and practical reasoning. Despite their differences, all forms of logic aim to organize thought clearly and avoid contradiction.
+
+Logic does not guarantee truth by itself because reasoning can still begin with false assumptions. However, logic helps ensure that conclusions follow consistently from whatever premises are given.
+
+The Nature of Logic explores why rational thinking depends on structure and how logical systems allow humans to analyze truth, arguments, and understanding more clearly.`,
+  tags: ["logic", "reasoning"]
+},
+
+{
+  id: "premises",
+  category: "LOGIC",
+  title: "Premises and Conclusions",
+  essence: "How arguments are built.",
+  explanation: `An argument in logic is made from premises and a conclusion. Premises are statements that provide support or evidence, while the conclusion is the idea that follows from those premises.
+
+For example:
+
+“All birds have wings.”
+“A sparrow is a bird.”
+Therefore, “A sparrow has wings.”
+
+The first two statements are premises, and the final statement is the conclusion. Logic examines whether the conclusion properly follows from the premises.
+
+Strong arguments depend on clear and reliable premises. If the starting premises are false or weak, the conclusion may also become unreliable even if the reasoning structure is valid.
+
+Premises can come from observation, assumptions, evidence, or accepted truths. Conclusions represent the final outcome of the reasoning process.
+
+Understanding premises and conclusions helps people analyze debates, recognize flawed arguments, and think more critically. Many misunderstandings happen because people confuse assumptions with proven conclusions.
+
+Premises and Conclusions explore how reasoning is constructed and how ideas connect logically from beginning to end.`,
+  tags: ["premises", "arguments"]
+},
+
+{
+  id: "conditions",
+  category: "LOGIC",
+  title: "Necessary vs Sufficient Conditions",
+  essence: "The difference between what is required and what is enough.",
+  explanation: `A necessary condition is something that must exist for another thing to happen. A sufficient condition is something that alone guarantees the result.
+
+For example, oxygen is necessary for fire because fire cannot exist without it. However, oxygen alone is not sufficient because heat and fuel are also required. In contrast, dropping a glass onto hard concrete from a height may be sufficient to break it because the action alone usually guarantees the result.
+
+Humans often confuse these two ideas in reasoning. A person may think one condition automatically guarantees an outcome when it only contributes to it partially.
+
+Necessary and sufficient conditions appear constantly in science, mathematics, law, and everyday thinking. Understanding them helps people analyze causes and relationships more accurately.
+
+This distinction also prevents logical mistakes. Just because something is necessary does not mean it is enough by itself, and just because something is sufficient does not mean it is the only possible cause.
+
+Necessary vs Sufficient Conditions explore how logic separates requirements from guarantees in reasoning and explanation.`,
+  tags: ["conditions", "reasoning"]
+},
+
+{
+  id: "symboliclogic",
+  category: "LOGIC",
+  title: "Symbolic Logic",
+  essence: "Using symbols to represent reasoning.",
+  explanation: `Symbolic logic uses symbols and formal structures instead of ordinary language to represent arguments and reasoning. This helps make logic more precise and easier to analyze.
+
+For example, instead of writing “If it rains, the ground becomes wet,” symbolic logic may represent the statement as:
+
+“If P, then Q.”
+
+Here, P represents rain and Q represents the ground becoming wet.
+
+Symbols allow complex arguments to be broken into clear patterns. This helps identify whether reasoning is logically valid without confusion caused by language.
+
+Mathematics and computer science depend heavily on symbolic logic. Computer programs use logical operations constantly when processing information and making decisions.
+
+Symbolic logic also removes ambiguity. Human language can sometimes be vague or emotional, while symbols follow strict logical rules.
+
+Although symbolic logic may appear abstract at first, it reveals the hidden structure beneath reasoning itself. It transforms thought into patterns that can be tested systematically.
+
+Symbolic Logic explores how symbols and formal systems allow humans to study reasoning with clarity and precision.`,
+  tags: ["symbols", "logic"]
+},
+
+{
+  id: "paradoxes",
+  category: "LOGIC",
+  title: "Paradoxes and Contradictions",
+  essence: "When reasoning creates impossible results.",
+  explanation: `A paradox is a statement or situation that appears self-contradictory or impossible even though it may contain truth. Contradictions occur when two ideas directly oppose each other and cannot both be true at the same time.
+
+For example, the statement “This sentence is false” creates a paradox. If the sentence is true, then it must be false. But if it is false, then it becomes true again.
+
+Paradoxes reveal limits and complexities within reasoning. They challenge assumptions and force deeper analysis of language, truth, and logic.
+
+Contradictions are different because they clearly violate logical consistency. For example, saying “The door is fully open and fully closed at the exact same moment” creates a contradiction.
+
+Some paradoxes arise from language confusion, while others expose genuine problems in understanding reality, infinity, or knowledge. Philosophers and mathematicians study paradoxes carefully because they often reveal hidden weaknesses in systems of thought.
+
+Paradoxes and Contradictions explore how reasoning can sometimes create impossible outcomes and what those problems reveal about logic itself.`,
+  tags: ["paradox", "contradiction"]
+},
+
+{
+  id: "inference",
+  category: "LOGIC",
+  title: "Cause and Logical Inference",
+  essence: "How humans connect events through reasoning.",
+  explanation: `Inference is the process of drawing conclusions from evidence or information. Humans constantly use inference to understand causes, relationships, and patterns in the world.
+
+For example, if you see dark clouds gathering and people carrying umbrellas, you may infer that rain is likely coming. The conclusion is not directly observed yet, but reasoning connects the evidence to a likely outcome.
+
+Cause and effect are deeply connected to logical inference. Humans naturally search for explanations behind events. If touching fire causes pain repeatedly, the mind infers a causal relationship between fire and burning.
+
+However, not every pattern proves causation. Two events happening together does not always mean one caused the other. Logical reasoning helps distinguish genuine causes from coincidence.
+
+Science depends heavily on inference when forming theories from evidence. Detectives, doctors, and everyday decision-making also rely on inference constantly.
+
+Cause and Logical Inference explore how humans move from observations to conclusions and how reasoning attempts to explain relationships between events.`,
+  tags: ["inference", "cause"]
+},
+
+{
+  id: "truthtables",
+  category: "LOGIC",
+  title: "Truth Tables and Propositions",
+  essence: "Testing logical statements systematically.",
+  explanation: `A proposition is a statement that can be either true or false. Truth tables are tools used in logic to test how combinations of propositions behave under different conditions.
+
+For example, consider the statement:
+“If it rains, the ground becomes wet.”
+
+Logic can examine every possible situation:
+- It rains and the ground is wet.
+- It rains and the ground is not wet.
+- It does not rain and the ground is wet.
+- It does not rain and the ground is not wet.
+
+Truth tables organize these possibilities clearly, helping determine whether logical relationships remain consistent.
+
+This method is important in mathematics, philosophy, and computer science because it allows reasoning to be tested systematically rather than emotionally or intuitively.
+
+Truth tables also reveal hidden flaws in arguments. Statements that seem reasonable at first may fail logically when tested across all possibilities.
+
+Truth Tables and Propositions explore how logic evaluates truth through structured analysis of statements and relationships.`,
+  tags: ["truth", "propositions"]
+},
+
+{
+  id: "analogy",
+  category: "LOGIC",
+  title: "Analogy and Reasoning",
+  essence: "Understanding ideas through comparison.",
+  explanation: `An analogy compares one thing to another in order to explain or understand it more clearly. Humans often use analogies because familiar ideas help make complex concepts easier to grasp.
+
+For example, comparing the brain to a computer helps explain memory, processing, and information storage. The comparison is not perfect, but it provides useful understanding.
+
+Analogical reasoning works by identifying similarities between different situations. If two things share important characteristics, conclusions about one may help explain the other.
+
+However, analogies can also become misleading if the similarities are weak or incomplete. A comparison may appear convincing while ignoring important differences.
+
+Science, philosophy, teaching, and everyday communication all depend heavily on analogy. Metaphors, models, and examples are forms of analogical reasoning that help simplify abstract ideas.
+
+Analogy and Reasoning explore how comparison shapes understanding and how humans use familiar patterns to interpret unfamiliar concepts.`,
+  tags: ["analogy", "comparison"]
+},
+
+{
+  id: "probability",
+  category: "LOGIC",
+  title: "Probability and Uncertainty",
+  essence: "Reasoning when certainty is impossible.",
+  explanation: `Probability measures how likely something is to happen. In many situations, humans cannot achieve complete certainty, so reasoning must work with uncertainty instead.
+
+For example, weather forecasts use probability because future conditions cannot be predicted perfectly. Saying there is an 80% chance of rain means rain is highly likely but not guaranteed.
+
+Human decisions constantly involve probability. Choosing investments, trusting people, predicting outcomes, and assessing risks all depend on estimating likelihoods rather than knowing absolute truth.
+
+Probability also reveals limits in human knowledge. Many events are influenced by countless factors, making certainty impossible even with advanced information.
+
+Logic helps people reason more carefully under uncertainty by analyzing evidence and calculating possibilities systematically instead of relying only on emotion or guesswork.
+
+Probability and Uncertainty explore how reasoning functions when humans must make judgments without complete knowledge or perfect certainty.`,
+  tags: ["probability", "uncertainty"]
+},
+
+{
+  id: "criticalthinking",
+  category: "LOGIC",
+  title: "Critical Thinking",
+  essence: "Questioning ideas carefully and rationally.",
+  explanation: `Critical thinking is the ability to analyze information carefully, question assumptions, and evaluate arguments logically instead of accepting ideas blindly.
+
+For example, when hearing a claim online, a critical thinker asks important questions:
+Who made this claim?
+What evidence supports it?
+Could there be bias or missing information?
+
+Critical thinking protects people from manipulation, misinformation, and weak reasoning. It encourages independent thought instead of automatic belief.
+
+This skill requires logic, evidence, skepticism, and open-mindedness together. Critical thinkers avoid jumping to conclusions without careful examination.
+
+Emotions and personal beliefs can sometimes interfere with critical thinking because humans naturally prefer ideas that confirm existing views. Rational analysis helps reduce these biases.
+
+Critical thinking does not mean rejecting everything. Instead, it means examining ideas thoughtfully before deciding what to accept as reasonable or true.
+
+Critical Thinking explores how disciplined reasoning helps humans approach truth more carefully and intelligently.`,
+  tags: ["thinking", "analysis"]
+},
+
+{
+  id: "logiclanguage",
+  category: "LOGIC",
+  title: "Logic and Language",
+  essence: "How words shape reasoning.",
+  explanation: `Language is the primary tool humans use to express ideas and arguments. Logic studies how language influences reasoning and how unclear wording can create confusion or flawed conclusions.
+
+For example, the sentence “I saw the man with the telescope” can have multiple meanings. Did the observer use a telescope, or did the man possess one? Ambiguity in language affects understanding.
+
+Words also carry emotional influence. Certain phrases can persuade people emotionally even when logical evidence is weak. Political speeches, advertisements, and debates often use language strategically to shape thought.
+
+Logical analysis helps separate emotional wording from actual reasoning. Clear definitions and precise language reduce misunderstanding and improve communication.
+
+Philosophers study whether language fully represents reality or only approximates it through symbols and concepts. Human understanding itself may depend heavily on linguistic structure.
+
+Logic and Language explore the relationship between words, meaning, and rational thought, showing how communication shapes reasoning and understanding.`,
+  tags: ["language", "reasoning"]
+},
+
+{
+  id: "formallogic",
+  category: "LOGIC",
+  title: "Formal vs Informal Logic",
+  essence: "The difference between strict systems and everyday reasoning.",
+  explanation: `Formal logic uses strict structures, symbols, and exact rules to evaluate reasoning. Informal logic focuses on arguments found in ordinary language and everyday conversations.
+
+For example, mathematical proofs use formal logic because precision is essential. Everyday debates about politics, ethics, or relationships usually involve informal logic because natural language is more flexible and complex.
+
+Formal logic aims for certainty and consistency through clearly defined systems. Informal logic deals more with persuasion, context, emotion, and practical reasoning.
+
+Both forms are important. Formal logic provides clarity and reliability, while informal logic helps humans navigate real-world situations where perfect precision is often impossible.
+
+Informal reasoning can sometimes contain hidden fallacies or emotional manipulation. Formal reasoning can sometimes become too rigid for complex human experiences.
+
+Formal vs Informal Logic explores how structured systems and everyday thought interact in human reasoning and communication.`,
+  tags: ["formal", "informal"]
+},
 
 // -------- Eastern Philosophy --------
 
@@ -1406,7 +1657,93 @@ Taoism teaches you to stop fighting life and start flowing with it.
 When you move with the Tao, life becomes lighter and calmer.`,
   tags: ["balance", "flow"]
 },
+{
+  id: "confucianism",
+  category: "EASTERN_PHILOSOPHY",
+  title: "Confucianism",
+  essence: "Harmony through ethics and relationships.",
+  explanation: `Confucianism is a philosophy focused on creating harmony in society through morality, respect, discipline, and good relationships. It was developed from the teachings of Confucius, a Chinese philosopher who believed human life becomes peaceful when people act with virtue and responsibility.
 
+Confucianism teaches that society works best when people fulfill their roles properly. Parents should care wisely for children. Children should respect parents. Leaders should govern fairly and morally. Friendship should be based on honesty and trust.
+
+One important idea is Ren, which means humaneness or compassion. It is about treating others with kindness, empathy, and respect. A good person does not only think about personal gain—they care about harmony and the well-being of others.
+
+Another key idea is Li, which means proper behavior, manners, and social order. Confucianism believes rituals, respect, and discipline help maintain balance in society. Even small acts of politeness are seen as important because they shape character and relationships.
+
+Confucianism also values learning and self-improvement. Wisdom is not simply knowledge—it is becoming morally better over time. A person should constantly improve their character through reflection, discipline, and ethical behavior.
+
+Unlike philosophies focused mainly on escaping the world, Confucianism focuses strongly on living responsibly within society. It teaches that inner virtue creates outer harmony.
+
+Confucianism says peace in society begins with the moral growth of individuals.
+When people act with wisdom, respect, and compassion, harmony naturally grows.`,
+  tags: ["harmony", "ethics"]
+},
+
+{
+  id: "sufism",
+  category: "EASTERN_PHILOSOPHY",
+  title: "Sufism",
+  essence: "Inner connection with the divine.",
+  explanation: `Sufism is the mystical and spiritual dimension of Islam focused on direct inner experience of the divine. Instead of only following external rituals, Sufism emphasizes transforming the heart through love, self-awareness, and spiritual practice.
+
+Sufis believe that humans often become distracted by ego, pride, greed, and attachment to the material world. These distractions create separation from inner peace and spiritual truth.
+
+A central idea in Sufism is love. Divine love is seen as the force that connects all existence. Many Sufi poets describe the relationship between humans and the divine as deep longing and union, similar to the way lovers seek each other.
+
+Sufism also teaches self-purification. Through meditation, prayer, remembrance, music, poetry, and discipline, a person slowly removes ego and becomes closer to spiritual truth. This process is sometimes called polishing the heart.
+
+Another important idea is fana, which means dissolving the ego or false self. The goal is not self-destruction but transcending selfish identity and experiencing unity with the divine presence.
+
+Sufism often uses symbolic stories and poetry because spiritual experiences are difficult to explain directly with ordinary language. Famous Sufi poets like Rumi wrote about love, unity, and the search for deeper meaning.
+
+Sufism teaches that truth is not found only through rules or intellect.
+It is discovered through inner transformation, love, and direct spiritual experience.`,
+  tags: ["spirituality", "love"]
+},
+
+{
+  id: "jain_philosophy",
+  category: "EASTERN_PHILOSOPHY",
+  title: "Jain Philosophy",
+  essence: "Nonviolence and self-discipline.",
+  explanation: `Jain philosophy is an ancient Indian philosophy centered on nonviolence, self-control, and spiritual purification. It teaches that every living being—from humans to animals and even tiny organisms—has a soul and deserves respect.
+
+The most important principle in Jain philosophy is Ahimsa, which means nonviolence. This goes beyond avoiding physical harm. It also includes avoiding harmful words, thoughts, and intentions. Jains believe violence creates suffering not only for others but also for oneself.
+
+Another key idea is karma. In Jain philosophy, karma is understood almost like a subtle substance that attaches to the soul through harmful actions, desires, and attachments. The soul becomes spiritually weighed down by negative behavior.
+
+Because of this, Jain philosophy strongly values self-discipline, simplicity, and detachment from excessive desires. Greed, anger, pride, and attachment are seen as obstacles to inner freedom.
+
+Jain philosophy also teaches Anekantavada, which means reality has many sides. No single perspective can fully capture truth. This idea encourages humility, tolerance, and openness toward different viewpoints.
+
+The ultimate goal in Jain philosophy is liberation of the soul from karma and suffering. This is achieved through ethical living, self-control, meditation, and compassion toward all life.
+
+Jain philosophy teaches that true strength comes not from domination or violence,
+but from discipline, compassion, and respect for every living being.`,
+  tags: ["nonviolence", "discipline"]
+},
+
+{
+  id: "zen_philosophy",
+  category: "EASTERN_PHILOSOPHY",
+  title: "Zen Philosophy",
+  essence: "Direct awareness of the present moment.",
+  explanation: `Zen philosophy is a form of Buddhist thought focused on direct experience, simplicity, and full awareness of the present moment. Instead of relying heavily on theories or complicated beliefs, Zen emphasizes experiencing reality directly.
+
+Zen teaches that humans often become trapped in constant thinking, worrying, and attachment to ideas. Because of this mental noise, people lose connection with the present moment and create unnecessary suffering.
+
+A central practice in Zen is meditation, especially silent sitting meditation called zazen. Through stillness and awareness, the mind gradually becomes calmer and clearer.
+
+Zen also values simplicity. Ordinary activities like drinking tea, walking, cleaning, or breathing can become deeply meaningful when done with complete awareness. Zen teaches that enlightenment is not somewhere far away—it exists within ordinary life itself.
+
+Another important aspect of Zen is letting go of rigid concepts and ego. Zen masters often use paradoxical questions or unexpected actions to break habitual thinking patterns and push students beyond intellectual understanding.
+
+Zen does not focus on collecting endless knowledge. Instead, it points toward direct realization through awareness and experience.
+
+Zen philosophy teaches that peace is found not by escaping life,
+but by becoming fully present within it.`,
+  tags: ["awareness", "simplicity"]
+},
 // -------- Philosophy of Life --------
 
 {
