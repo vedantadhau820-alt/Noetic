@@ -266,7 +266,7 @@ Determinism says the opposite. It says everything happens because of past causes
 For example, determinism says you chose tea over coffee because of your habits, past preferences, mood, and brain chemistry—not because you were “free.”
 
 This creates a big question:
-👉 Are we truly choosing, or are we just following a chain of causes?
+Are we truly choosing, or are we just following a chain of causes?
 
 In real life, many people believe both play a role. Your past influences you, but you still have awareness. You may feel anger because of past causes, but you can choose how to respond. That choice matters.
 
@@ -405,6 +405,193 @@ In real life, we use both. When you solve a math problem, you use rationalism. W
 Why does this matter? Because understanding both helps you learn better. You think clearly and test ideas in the real world. True understanding comes from the balance between mind and experience.`,
   tags: ["reason", "experience"]
 },
+{
+  id: "reality",
+  category: "EPISTEMOLOGY",
+  title: "The Nature of Reality",
+  essence: "Understanding what is truly real.",
+  explanation: `Reality is everything that truly exists, whether humans understand it or not. Epistemology asks an important question: how do we know reality as it truly is? Humans experience the world through senses, thoughts, memories, and emotions, but these experiences may not always perfectly reflect reality itself.
+
+For example, a mirage in a desert can make water appear where no water exists. The experience feels real, but the appearance is misleading. This shows that human perception can sometimes distort reality.
+
+Reality may exist independently from human minds. Mountains, stars, and oceans continue existing even when nobody is observing them. However, every human understanding of reality still passes through the mind first. We never experience reality completely directly—we experience our interpretation of it.
+
+Different people can also understand reality differently based on culture, beliefs, emotions, and experiences. One event may appear meaningful to one person and meaningless to another. This creates philosophical questions about whether reality is fully objective or partly shaped by perception.
+
+The nature of reality explores the relationship between the world itself and human understanding of it. It asks whether humans can ever truly know reality exactly as it is or only experience limited versions of it.`,
+  tags: ["reality", "truth"]
+},
+
+{
+  id: "perception",
+  category: "EPISTEMOLOGY",
+  title: "Perception vs Reality",
+  essence: "The difference between what we experience and what is true.",
+  explanation: `Perception is the way humans experience and interpret the world through senses and thoughts. Reality is what truly exists independent of personal interpretation. Epistemology studies whether perception accurately reflects reality or sometimes distorts it.
+
+Imagine placing a straight stick into water. The stick appears bent because of how light moves through water, even though the stick itself remains straight. Your perception changes, but reality does not. This demonstrates how human senses can sometimes mislead us.
+
+Emotions also affect perception. Fear can make harmless situations seem dangerous. Love can make flaws harder to notice. Personal experiences shape how individuals interpret events, people, and ideas.
+
+Technology and illusions reveal this problem clearly. Movies create movement using still images. Virtual reality can create convincing experiences that feel real despite being artificial. Dreams can also feel completely real until waking up.
+
+Perception is not useless—it helps humans survive and navigate the world. However, it may never provide perfect access to reality itself. Humans constantly interpret information rather than experiencing reality in a completely pure form.
+
+Perception vs Reality explores whether humans can truly know the world as it is or whether all knowledge is filtered through imperfect senses and interpretations.`,
+  tags: ["perception", "reality"]
+},
+
+{
+  id: "objective",
+  category: "EPISTEMOLOGY",
+  title: "Objective vs Subjective Truth",
+  essence: "Whether truth exists independently from human opinion.",
+  explanation: `Objective truth is true regardless of what anyone thinks or feels. Subjective truth depends on personal experience, emotions, or perspective. Epistemology explores how these two forms of truth shape human understanding.
+
+For example, the statement “fire produces heat” is objective because it remains true no matter who observes it. In contrast, saying “this song is beautiful” is subjective because beauty depends on personal taste and experience.
+
+Humans constantly move between objective and subjective understanding. Science often searches for objective truths through evidence and observation. Personal experiences, however, are usually subjective because different individuals interpret life differently.
+
+Subjective truth is still meaningful even if it is personal. Fear, happiness, pain, and love may not be measurable in exactly the same way for everyone, but they remain real experiences for individuals.
+
+Conflicts often happen when people confuse subjective beliefs with objective reality. A person may strongly believe something, but belief alone does not automatically make it universally true.
+
+Objective vs Subjective Truth explores whether absolute truth exists independently of humans or whether much of what people call truth is shaped by personal perspective and interpretation.`,
+  tags: ["truth", "perspective"]
+},
+
+{
+  id: "consciousknowledge",
+  category: "EPISTEMOLOGY",
+  title: "Consciousness and Knowledge",
+  essence: "How awareness makes knowledge possible.",
+  explanation: `Knowledge depends on consciousness because humans must first be aware in order to know anything. Consciousness allows people to think, observe, question, remember, and understand reality. Without awareness, knowledge could not exist.
+
+Imagine a camera recording a room. The camera captures images, but it does not understand what it records. Humans are different because they are conscious of experiences. A person not only sees a tree but also recognizes, remembers, and thinks about it.
+
+Consciousness also allows self-reflection. Humans can question their own thoughts and beliefs. You can ask yourself whether something is true, false, or uncertain. This ability creates deeper forms of understanding.
+
+Some philosophers believe consciousness is the foundation of all knowledge because every experience passes through awareness first. Humans never directly access reality without consciousness interpreting it.
+
+This topic also raises difficult questions. Can artificial intelligence truly possess knowledge without consciousness? Can humans fully trust conscious experiences if consciousness itself may be limited or biased?
+
+Consciousness and Knowledge explore how awareness shapes everything humans understand about reality, truth, and existence.`,
+  tags: ["consciousness", "knowledge"]
+},
+
+{
+  id: "certainty",
+  category: "EPISTEMOLOGY",
+  title: "The Problem of Certainty",
+  essence: "Whether humans can know anything with complete certainty.",
+  explanation: `Certainty means absolute confidence that something is true without any doubt. Epistemology asks whether humans can ever achieve complete certainty about reality, knowledge, or existence.
+
+At first, many things seem certain. The sky appears blue. The ground feels solid. Other people seem real. However, deeper questioning reveals that human senses and thoughts can sometimes be mistaken.
+
+Dreams provide a strong example. While dreaming, experiences can feel completely real until waking up. Illusions, memory errors, and false beliefs also show that certainty can be unreliable.
+
+Some philosophers argue that only a few things can be known with certainty. One famous example is the realization that conscious thinking itself proves the existence of the thinker. Even if everything else is doubted, the act of doubting still requires awareness.
+
+Science also deals with uncertainty. Scientific knowledge is based on evidence and testing, but theories can change when new discoveries appear. This means knowledge often remains open to revision rather than becoming permanently certain.
+
+The Problem of Certainty explores the limits of human confidence and whether absolute truth can ever truly be reached.`,
+  tags: ["certainty", "doubt"]
+},
+
+{
+  id: "intuition",
+  category: "EPISTEMOLOGY",
+  title: "Intuition vs Logic",
+  essence: "The conflict between instinct and reasoning.",
+  explanation: `Intuition is immediate understanding without conscious reasoning. Logic is structured thinking based on evidence, analysis, and clear reasoning. Epistemology explores which one humans should trust more when seeking truth.
+
+Sometimes intuition works surprisingly well. A person may instantly sense danger before fully understanding why. Artists and creative thinkers often rely on intuition to make decisions quickly and naturally.
+
+Logic works differently. It breaks problems into steps, examines evidence, and follows rational conclusions. Mathematics and science depend heavily on logical thinking because logic reduces emotional bias and confusion.
+
+However, intuition can sometimes be wrong. Fear, prejudice, and assumptions may create false instincts. Logic can also fail when information is incomplete or when emotions and human experiences become too complex for simple reasoning.
+
+Human life constantly combines both intuition and logic. People use intuition in relationships, creativity, and fast decisions, while logic helps with analysis, planning, and problem-solving.
+
+Intuition vs Logic explores whether truth is discovered more effectively through instinctive understanding or careful rational thought.`,
+  tags: ["intuition", "logic"]
+},
+
+{
+  id: "memory",
+  category: "EPISTEMOLOGY",
+  title: "Memory and Knowledge",
+  essence: "How memory shapes understanding.",
+  explanation: `Memory allows humans to store experiences, information, and understanding over time. Without memory, knowledge would disappear constantly because every moment would feel completely new.
+
+For example, you recognize your family, language, and identity because memory connects past experiences to the present. Knowledge depends heavily on this connection.
+
+However, memory is not perfectly reliable. People can forget events, confuse details, or even create false memories. Two people may remember the same event differently even though both believe they are correct.
+
+Emotions also affect memory. Painful experiences may remain vivid for years, while ordinary moments disappear quickly. Memory is not simply a recording device—it actively reshapes experiences through interpretation and emotion.
+
+This creates important philosophical questions. If memory changes over time, can humans fully trust knowledge based on past experiences? If a person lost all memories, would they still remain the same individual?
+
+Memory and Knowledge explore how human understanding depends on remembering and how fragile that process can sometimes be.`,
+  tags: ["memory", "knowledge"]
+},
+
+{
+  id: "language",
+  category: "EPISTEMOLOGY",
+  title: "Language and Meaning",
+  essence: "How words shape human understanding.",
+  explanation: `Language allows humans to communicate ideas, emotions, and knowledge. Words give shape to thoughts and help people share understanding with others. Epistemology explores whether language truly captures reality or only approximates it.
+
+For example, the word “tree” is not the actual object itself. It is only a symbol humans use to represent a real thing. Different languages use different sounds and symbols for the same object, showing that meaning is partly created through human agreement.
+
+Language can clarify ideas, but it can also create confusion. Words like freedom, justice, or love may mean different things to different people. Misunderstandings often happen because language cannot perfectly express personal experiences.
+
+Some experiences are also difficult to describe fully. Emotions, pain, beauty, and spiritual experiences may feel deeper than words can explain. This suggests language may have limits.
+
+Human thinking itself is closely connected to language. People often think using words internally, meaning language shapes how reality is understood and interpreted.
+
+Language and Meaning explore whether humans truly understand reality itself or only understand the symbols and concepts created to describe it.`,
+  tags: ["language", "meaning"]
+},
+
+{
+  id: "unknown",
+  category: "EPISTEMOLOGY",
+  title: "The Unknown and the Unknowable",
+  essence: "Whether some truths can never be understood.",
+  explanation: `The unknown refers to things humans do not currently understand but may eventually discover. The unknowable refers to things that may remain permanently beyond human understanding no matter how much knowledge advances.
+
+For example, many mysteries once considered unknown—such as lightning or disease—were eventually explained through science and observation. Human knowledge constantly expands into areas once hidden.
+
+However, some questions may be fundamentally unknowable. Humans may never fully understand the true origin of existence, the complete nature of consciousness, or what lies beyond the universe itself.
+
+Human understanding is limited by senses, intelligence, language, and perspective. A fish living underwater cannot fully imagine outer space because its experience is limited. Humans may face similar limitations compared to deeper realities.
+
+This topic also explores humility in knowledge. Real wisdom often involves recognizing how much remains unknown. The more humans learn, the more they discover the vastness of what they still do not understand.
+
+The Unknown and the Unknowable explore whether reality contains mysteries forever beyond human comprehension.`,
+  tags: ["unknown", "mystery"]
+},
+
+{
+  id: "wisdom",
+  category: "EPISTEMOLOGY",
+  title: "Wisdom vs Intelligence",
+  essence: "The difference between knowledge and understanding.",
+  explanation: `Intelligence is the ability to think, learn, solve problems, and process information quickly. Wisdom is the deeper ability to understand life, make good judgments, and apply knowledge meaningfully.
+
+A highly intelligent person may solve complex mathematical problems yet still make poor life decisions. A wise person may not know advanced science but can still understand human nature, emotions, and meaningful living.
+
+Intelligence often focuses on acquiring knowledge. Wisdom focuses on understanding how knowledge should be used. Intelligence asks, “Can this be done?” Wisdom asks, “Should this be done?”
+
+Experience plays a major role in wisdom. People often become wiser through mistakes, suffering, reflection, and personal growth. Wisdom requires more than information—it requires perspective.
+
+Modern society often values intelligence highly because it produces technology, discoveries, and innovation. However, intelligence without wisdom can become dangerous if knowledge is used without ethical understanding.
+
+Wisdom vs Intelligence explores the difference between simply knowing many things and truly understanding life in a deeper and more meaningful way.`,
+  tags: ["wisdom", "intelligence"]
+},
 
 // -------- Philosophy of Mind --------
 
@@ -450,7 +637,7 @@ Your body is physical. It has a brain, hands, heart, and nerves. It can be touch
 Your mind is different. It includes your thoughts, feelings, memories, dreams, and awareness. You cannot touch a thought or weigh a feeling.
 
 So the question is:
-👉 How does a physical body create non-physical experiences?
+How does a physical body create non-physical experiences?
 
 For example, when someone insults you, nothing physically hits you. Yet you feel pain or anger. That pain is real, but it is not a physical object like a cut or bruise. Or think about this: when you decide to raise your hand, a thought causes your body to move. How can something invisible (a thought) control something physical (your arm)?
 
