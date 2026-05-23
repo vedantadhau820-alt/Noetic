@@ -1017,6 +1017,195 @@ Why does virtue ethics matter? Because rules cannot cover every situation. Life 
 Virtue ethics is not about doing good sometimes—it is about becoming good over time.`,
   tags: ["virtue", "character"]
 },
+{
+  id: "justice",
+  category: "ETHICS",
+  title: "Justice and Fairness",
+  essence: "What it means to treat people fairly.",
+  explanation: `Justice is the idea of fairness, balance, and giving people what they deserve. Ethics asks how societies and individuals should treat others in a fair and moral way.
+
+For example, if two people commit the same crime but receive completely different punishments without reason, most people would consider that unjust. Justice tries to create equality, responsibility, and fairness in human interactions.
+
+Fairness also applies beyond laws and punishment. It affects opportunities, resources, rights, and social treatment. People often disagree about what fairness truly means because different situations require different perspectives.
+
+Some believe justice means strict equality where everyone receives the same treatment. Others believe justice means giving people what they need based on circumstances. These differences create ethical debates about wealth, freedom, and human rights.
+
+Justice is deeply connected to trust. Societies function more peacefully when people believe rules and systems are fair. Without justice, fear, anger, and conflict grow.
+
+Justice and Fairness explore how humans should balance equality, responsibility, and morality when dealing with one another.`,
+  tags: ["justice", "fairness"]
+},
+
+{
+  id: "freedom",
+  category: "ETHICS",
+  title: "Freedom and Rights",
+  essence: "The balance between liberty and responsibility.",
+  explanation: `Freedom is the ability to act, think, and live without unnecessary control or restriction. Rights are protections and freedoms believed to belong to individuals simply because they are human.
+
+People value freedom because it allows choice, self-expression, and independence. The freedom to speak, believe, create, and live according to personal values is considered essential in many societies.
+
+However, freedom is rarely absolute. One person’s freedom can sometimes harm another person’s rights or safety. For example, freedom of speech does not always justify causing direct harm or violence. Ethics explores where limits should exist.
+
+Rights also create responsibilities. If people expect their own rights to be respected, they must also respect the rights of others. Freedom without responsibility can lead to chaos or injustice.
+
+Different cultures and philosophies define rights differently. Some focus on individual liberty, while others emphasize social harmony and collective well-being.
+
+Freedom and Rights explore how humans can balance personal liberty with moral responsibility toward others and society.`,
+  tags: ["freedom", "rights"]
+},
+
+{
+  id: "relativism",
+  category: "ETHICS",
+  title: "Moral Relativism",
+  essence: "Whether morality changes between cultures and individuals.",
+  explanation: `Moral relativism is the idea that moral values are not absolute and may depend on culture, society, or personal perspective. What one group considers morally right, another may consider wrong.
+
+For example, customs surrounding clothing, relationships, punishment, or social behavior vary greatly across cultures and historical periods. This suggests morality may partly be shaped by human traditions and environments.
+
+Moral relativism challenges the idea of universal ethical rules. If morality changes across societies, can any action truly be objectively right or wrong for everyone?
+
+However, critics argue that complete relativism creates problems. If all morality is relative, then harmful actions could potentially be justified simply because a society accepts them. This raises questions about human rights and justice.
+
+Some philosophers believe certain moral principles—such as preventing unnecessary suffering—may remain universal even if cultures differ in other areas.
+
+Moral Relativism explores whether ethics comes from objective truths or from human beliefs, traditions, and perspectives that change across time and place.`,
+  tags: ["morality", "culture"]
+},
+
+{
+  id: "power",
+  category: "ETHICS",
+  title: "Ethics of Power",
+  essence: "How power should be used morally.",
+  explanation: `Power is the ability to influence, control, or affect people and situations. Ethics asks whether power is being used responsibly, fairly, and morally.
+
+Power exists in many forms. Governments hold political power. Wealth creates economic power. Knowledge creates intellectual power. Even social influence can shape the behavior and beliefs of others.
+
+Power itself is not automatically good or evil. A leader may use power to protect people and create justice, or use it to manipulate and harm others. The morality of power depends largely on intention and action.
+
+One ethical problem is that power can corrupt. When people gain extreme control without accountability, they may begin prioritizing personal interests over fairness and morality.
+
+Ethics also examines whether unequal power structures are just. Large differences in wealth, influence, or authority can create exploitation and injustice if left unchecked.
+
+The Ethics of Power explores how humans should use influence responsibly and how societies can prevent power from becoming destructive.`,
+  tags: ["power", "responsibility"]
+},
+
+{
+  id: "intentions",
+  category: "ETHICS",
+  title: "Intentions vs Consequences",
+  essence: "Whether morality depends on motives or results.",
+  explanation: `Ethics often asks an important question: is an action moral because of the intention behind it or because of the consequences it creates?
+
+Imagine a person trying to help someone but accidentally causing harm instead. Their intention was good, but the outcome was negative. Now imagine someone doing something helpful only for selfish personal gain. The result may be positive even if the motive is questionable.
+
+Some ethical systems focus strongly on intention. According to this view, morality depends on the inner purpose behind actions. A good heart matters more than perfect results.
+
+Other ethical systems focus more on consequences. If an action creates happiness, safety, or benefit for many people, it may be considered morally right regardless of personal motive.
+
+Real life often contains both intention and consequence together. Humans usually judge morality by considering both what a person meant to do and what actually happened.
+
+Intentions vs Consequences explores whether morality should be measured more by inner motives or by real-world outcomes.`,
+  tags: ["intentions", "consequences"]
+},
+
+{
+  id: "compassion",
+  category: "ETHICS",
+  title: "The Nature of Compassion",
+  essence: "Why humans care about the suffering of others.",
+  explanation: `Compassion is the ability to recognize suffering and feel a desire to reduce or ease it. Ethics studies compassion because it plays a major role in kindness, morality, and human relationships.
+
+When people comfort a grieving friend, help strangers in danger, or protect vulnerable individuals, compassion motivates those actions. Compassion allows humans to emotionally connect with the experiences of others.
+
+Compassion is closely connected to empathy, which is the ability to understand or feel another person’s emotions. However, compassion goes further because it includes the wish to help.
+
+Some philosophers believe compassion is one of the foundations of morality because caring about suffering naturally encourages ethical behavior. Without compassion, morality may become cold, mechanical, or selfish.
+
+However, compassion can also create difficult choices. Helping one person may sometimes unintentionally harm another. Emotional attachment can also create bias in moral judgment.
+
+The Nature of Compassion explores why humans care about others and how empathy influences moral decisions and ethical responsibility.`,
+  tags: ["compassion", "empathy"]
+},
+
+{
+  id: "happiness",
+  category: "ETHICS",
+  title: "Happiness and the Good Life",
+  essence: "What it truly means to live well.",
+  explanation: `Humans naturally seek happiness, fulfillment, and meaning. Ethics asks what kind of life should truly be considered good or successful.
+
+Some people believe happiness comes from pleasure, comfort, and enjoyment. Others believe the good life requires purpose, wisdom, relationships, and moral character rather than temporary pleasure alone.
+
+For example, a person may achieve wealth and luxury yet still feel empty or dissatisfied. Another person with fewer possessions may feel deeply fulfilled through relationships, creativity, or purpose.
+
+Different philosophies define the good life differently. Some emphasize freedom and personal satisfaction. Others focus on virtue, balance, discipline, or service to others.
+
+The search for happiness also creates ethical questions. Should people pursue only personal happiness, or should they also consider the well-being of others? Can true happiness exist without morality?
+
+Happiness and the Good Life explore what humans should value most and what kind of existence leads to genuine fulfillment and meaning.`,
+  tags: ["happiness", "meaning"]
+},
+
+{
+  id: "technology",
+  category: "ETHICS",
+  title: "Ethics and Technology",
+  essence: "How innovation creates moral responsibility.",
+  explanation: `Technology gives humans enormous power to change the world. Ethics asks how this power should be used responsibly and what moral limits should exist around innovation.
+
+For example, medical technology can save lives, communication technology can connect people globally, and artificial intelligence can solve complex problems. However, technology can also create surveillance, addiction, misinformation, and destructive weapons.
+
+Many ethical questions appear when technology advances faster than human wisdom. Just because humans can create something does not automatically mean they should.
+
+Artificial intelligence raises questions about privacy, control, employment, and even consciousness itself. Genetic engineering raises questions about changing human biology. Social media affects mental health, relationships, and public truth.
+
+Technology is not inherently moral or immoral. The ethical problem comes from how humans choose to use it and who controls it.
+
+Ethics and Technology explore how humanity can balance innovation with responsibility, ensuring that progress benefits people without causing unnecessary harm.`,
+  tags: ["technology", "morality"]
+},
+
+{
+  id: "duty",
+  category: "ETHICS",
+  title: "Duty vs Desire",
+  essence: "The conflict between responsibility and personal wants.",
+  explanation: `Humans often face situations where personal desires conflict with moral duties or responsibilities. Ethics explores how people should act when what they want differs from what they believe is right.
+
+For example, a person may want to avoid helping someone because it is inconvenient, yet still feel morally obligated to help. A student may desire entertainment while knowing responsibility requires studying or work.
+
+Desire is connected to emotion, pleasure, and personal interest. Duty is connected to obligation, principle, and responsibility. Human life constantly balances these two forces.
+
+Some ethical systems argue duty should always come first because morality requires discipline and responsibility. Others believe human happiness and natural desires are also important parts of a good life.
+
+The conflict becomes more difficult when duties themselves compete. A person may feel loyalty to family, society, career, and personal dreams all at once.
+
+Duty vs Desire explores whether humans should follow personal wants or moral obligations when the two move in different directions.`,
+  tags: ["duty", "desire"]
+},
+
+{
+  id: "dilemmas",
+  category: "ETHICS",
+  title: "Moral Dilemmas",
+  essence: "When every choice creates ethical conflict.",
+  explanation: `A moral dilemma occurs when a person faces a situation where every available choice has ethical consequences or problems. No option feels completely right or completely free from harm.
+
+For example, telling the truth may hurt someone emotionally, while lying may protect them temporarily but create dishonesty. Saving one group of people may unintentionally place another group in danger.
+
+Moral dilemmas reveal that ethics is often more complicated than simple rules. Real life contains uncertainty, conflicting values, and imperfect outcomes.
+
+These dilemmas force people to examine priorities. Is honesty more important than kindness? Is protecting many people more important than protecting one innocent individual? Different ethical systems may give different answers.
+
+Moral dilemmas also reveal the emotional weight of ethical decisions. People may feel guilt, regret, or doubt even after making thoughtful choices because difficult situations rarely offer perfect solutions.
+
+Moral Dilemmas explore the complexity of human morality and how people navigate situations where every decision carries ethical consequences.`,
+  tags: ["morality", "choices"]
+},
 
 // -------- Logic & Reasoning --------
 
