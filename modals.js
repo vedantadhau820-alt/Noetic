@@ -35,6 +35,9 @@ const readButton =
 const closeButton =
   modal?.querySelector(".modal-close");
 
+const copyButton =
+  modal?.querySelector(".copy-button");
+
 
 /* =========================================
    SAFETY CHECK
@@ -411,6 +414,83 @@ document.addEventListener(
   }
 );
 
+
+/* =========================================
+   COPY KNOWLEDGE
+========================================= */
+
+async function handleCopyKnowledge() {
+
+  if (!currentItemId || !modal) return;
+
+  const category =
+    modalCategory?.textContent?.trim() || "";
+
+  const title =
+    modalTitle?.textContent?.trim() || "";
+
+  const explanation =
+    modalExplanation?.textContent?.trim() || "";
+
+  const textToCopy = [
+    category,
+    title,
+    explanation
+  ]
+    .filter(Boolean)
+    .join("\n\n");
+
+  if (!textToCopy) return;
+
+  try {
+
+    await navigator.clipboard.writeText(
+      textToCopy
+    );
+
+    if (copyButton) {
+
+      copyButton.textContent =
+        "Copied";
+
+      copyButton.classList.add(
+        "copied"
+      );
+
+      setTimeout(() => {
+
+        copyButton.textContent =
+          "Copy";
+
+        copyButton.classList.remove(
+          "copied"
+        );
+
+      }, 1500);
+
+    }
+
+  } catch (error) {
+
+    console.error(
+      "Failed to copy knowledge:",
+      error
+    );
+
+  }
+
+}
+
+/* COPY BUTTON */
+
+if (copyButton) {
+
+  copyButton.addEventListener(
+    "click",
+    handleCopyKnowledge
+  );
+
+}
 
 /* =========================================
    GLOBAL ACCESS
