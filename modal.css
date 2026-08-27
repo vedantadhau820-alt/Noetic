@@ -330,12 +330,12 @@
    COPIED STATE
 ----------------------------------------- */
 
-.copy-button.copied {
+/*.copy-button.copied {
   background: var(--text-primary, #1c1c1e);
   border-color: var(--text-primary, #1c1c1e);
   color: var(--background, #ffffff);
 }
-
+*/
 
 /* -----------------------------------------
    FOCUS
