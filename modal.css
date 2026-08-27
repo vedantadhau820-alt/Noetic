@@ -278,3 +278,70 @@
     background 0.2s ease,
     transform 0.15s ease;
 }
+
+/* =========================================
+   COPY BUTTON
+========================================= */
+
+.copy-button {
+  appearance: none;
+  border: 1px solid var(--border-color, rgba(0, 0, 0, 0.10));
+  background: transparent;
+  color: var(--text-primary, #1c1c1e);
+
+  padding: 10px 16px;
+  min-height: 40px;
+
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.15s ease;
+}
+
+
+/* -----------------------------------------
+   HOVER
+----------------------------------------- */
+
+.copy-button:hover {
+  background: var(--surface-secondary, rgba(0, 0, 0, 0.05));
+}
+
+
+/* -----------------------------------------
+   PRESS
+----------------------------------------- */
+
+.copy-button:active {
+  transform: scale(0.96);
+}
+
+
+/* -----------------------------------------
+   COPIED STATE
+----------------------------------------- */
+
+.copy-button.copied {
+  background: var(--text-primary, #1c1c1e);
+  border-color: var(--text-primary, #1c1c1e);
+  color: var(--background, #ffffff);
+}
+
+
+/* -----------------------------------------
+   FOCUS
+----------------------------------------- */
+
+.copy-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
