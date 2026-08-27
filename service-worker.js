@@ -1,4 +1,4 @@
-const CACHE_NAME = "noetic-cache-v3";
+const CACHE_NAME = "noetic-cache-v4";
 
 const APP_SHELL = [
   "./",
