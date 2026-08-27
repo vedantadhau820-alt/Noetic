@@ -83,42 +83,7 @@ function createKnowledgeCard(item) {
 
   article.append(header, title, essence);
 
-    const copyBtn = document.createElement("button");
-  copyBtn.className = "copy-card-btn";
-  copyBtn.type = "button";
-  copyBtn.textContent = "Copy";
-
-  copyBtn.addEventListener("click", async (e) => {
-
-    e.stopPropagation();
-
-    const textToCopy = [
-      item.category || "",
-      item.title || "",
-      item.essence || ""
-    ]
-      .filter(Boolean)
-      .join("\n\n");
-
-    try {
-
-      await navigator.clipboard.writeText(textToCopy);
-
-      copyBtn.textContent = "Copied";
-
-      setTimeout(() => {
-        copyBtn.textContent = "Copy";
-      }, 1500);
-
-    } catch (error) {
-
-      console.error("Failed to copy knowledge card:", error);
-
-    }
-
-  });
-
-  article.appendChild(copyBtn);
+    
 
   article.addEventListener("click", () => {
 
